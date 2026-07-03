@@ -1,0 +1,3855 @@
+{
+ "rows": {
+  "2025-07-03": {
+   "nse_cm": 96738.82,
+   "nse_fut": 93856.975492101,
+   "nse_optp": 60428788.51463927,
+   "bse_cm": 7335.2447906,
+   "bse_fut": 256.1207252,
+   "bse_optp": 2641265.34283705,
+   "_errors": {
+    "nse_com": "HTTPSConnectionPool(host='nsearchives.nseindia.com', port=443): Read timed out. (read timeout=30)",
+    "mcx": "MCX 2025-07-03: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 92.95,
+   "share_fut": 99.73,
+   "share_optp": 95.81
+  },
+  "2025-07-04": {
+   "nse_cm": 88820.82,
+   "nse_fut": 88148.13977696799,
+   "nse_optp": 10225029.742286345,
+   "bse_cm": 6224.2008468,
+   "bse_fut": 180.2067731,
+   "bse_optp": 5724308.54441415,
+   "_errors": {
+    "nse_com": "HTTPSConnectionPool(host='nsearchives.nseindia.com', port=443): Read timed out. (read timeout=30)",
+    "mcx": "MCX 2025-07-04: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 93.45,
+   "share_fut": 99.8,
+   "share_optp": 64.11
+  },
+  "2025-07-07": {
+   "nse_cm": 76916.2,
+   "nse_fut": 72261.08228164299,
+   "nse_optp": 9066879.308232034,
+   "bse_cm": 5042.1941681,
+   "bse_fut": 147.1879603,
+   "bse_optp": 7791410.1402299,
+   "_errors": {
+    "nse_com": "HTTPSConnectionPool(host='nsearchives.nseindia.com', port=443): Read timed out. (read timeout=30)",
+    "mcx": "MCX 2025-07-07: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 93.85,
+   "share_fut": 99.8,
+   "share_optp": 53.78
+  },
+  "2025-07-08": {
+   "nse_cm": 91044.19,
+   "nse_fut": 87509.541822839,
+   "nse_optp": 9094455.82818031,
+   "bse_cm": 6442.0571279,
+   "bse_fut": 370.912831375,
+   "bse_optp": 46105391.68612695,
+   "_errors": {
+    "nse_com": "HTTPSConnectionPool(host='nsearchives.nseindia.com', port=443): Read timed out. (read timeout=30)",
+    "mcx": "MCX 2025-07-08: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 93.39,
+   "share_fut": 99.58,
+   "share_optp": 16.48
+  },
+  "2025-07-09": {
+   "nse_cm": 95305.69,
+   "nse_fut": 85742.79536140799,
+   "nse_optp": 17279305.813365612,
+   "bse_cm": 6354.5349711,
+   "bse_fut": 124.39737125,
+   "bse_optp": 1576685.32856205,
+   "_errors": {
+    "nse_com": "HTTPSConnectionPool(host='nsearchives.nseindia.com', port=443): Read timed out. (read timeout=30)",
+    "mcx": "MCX 2025-07-09: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 93.75,
+   "share_fut": 99.86,
+   "share_optp": 91.64
+  },
+  "2025-07-10": {
+   "nse_cm": 86650.23,
+   "nse_fut": 87276.131656025,
+   "nse_optp": 47551697.47430366,
+   "bse_cm": 6453.5207079,
+   "bse_fut": 155.97732325,
+   "bse_optp": 2053859.203922925,
+   "_errors": {
+    "nse_com": "HTTPSConnectionPool(host='nsearchives.nseindia.com', port=443): Read timed out. (read timeout=30)",
+    "mcx": "MCX 2025-07-10: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 93.07,
+   "share_fut": 99.82,
+   "share_optp": 95.86
+  },
+  "2025-07-11": {
+   "nse_cm": 97900.73,
+   "nse_fut": 102300.760081296,
+   "nse_optp": 10165056.623133725,
+   "bse_cm": 6231.6096756,
+   "bse_fut": 282.8323131,
+   "bse_optp": 6082451.65924715,
+   "_errors": {
+    "nse_com": "HTTPSConnectionPool(host='nsearchives.nseindia.com', port=443): Read timed out. (read timeout=30)",
+    "mcx": "MCX 2025-07-11: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 94.02,
+   "share_fut": 99.72,
+   "share_optp": 62.56
+  },
+  "2025-07-14": {
+   "nse_cm": 99597.77,
+   "nse_fut": 95718.84869629299,
+   "nse_optp": 11218099.731810484,
+   "bse_cm": 8161.7040044,
+   "bse_fut": 218.4101572,
+   "bse_optp": 10903819.58664945,
+   "_errors": {
+    "nse_com": "HTTPSConnectionPool(host='nsearchives.nseindia.com', port=443): Read timed out. (read timeout=30)",
+    "mcx": "MCX 2025-07-14: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 92.43,
+   "share_fut": 99.77,
+   "share_optp": 50.71
+  },
+  "2025-07-15": {
+   "nse_cm": 96302.03,
+   "nse_fut": 96804.100456998,
+   "nse_optp": 12575259.53690855,
+   "bse_cm": 7012.2578064,
+   "bse_fut": 401.67857295,
+   "bse_optp": 54805984.3987009,
+   "_errors": {
+    "nse_com": "HTTPSConnectionPool(host='nsearchives.nseindia.com', port=443): Read timed out. (read timeout=30)",
+    "mcx": "MCX 2025-07-15: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 93.21,
+   "share_fut": 99.59,
+   "share_optp": 18.66
+  },
+  "2025-07-16": {
+   "nse_cm": 94737.64,
+   "nse_fut": 97468.67304524,
+   "nse_optp": 18726161.04052305,
+   "bse_cm": 6662.5779838,
+   "bse_fut": 135.0902061,
+   "bse_optp": 1872330.1786468,
+   "_errors": {
+    "nse_com": "HTTPSConnectionPool(host='nsearchives.nseindia.com', port=443): Read timed out. (read timeout=30)",
+    "mcx": "MCX 2025-07-16: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 93.43,
+   "share_fut": 99.86,
+   "share_optp": 90.91
+  },
+  "2025-07-17": {
+   "nse_cm": 95271.51,
+   "nse_fut": 100331.091754862,
+   "nse_optp": 42029019.291616134,
+   "bse_cm": 7040.494354,
+   "bse_fut": 164.943985475,
+   "bse_optp": 1983282.7284192,
+   "_errors": {
+    "nse_com": "HTTPSConnectionPool(host='nsearchives.nseindia.com', port=443): Read timed out. (read timeout=30)",
+    "mcx": "MCX 2025-07-17: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 93.12,
+   "share_fut": 99.84,
+   "share_optp": 95.49
+  },
+  "2025-07-18": {
+   "nse_cm": 93115.96,
+   "nse_fut": 111805.532808744,
+   "nse_optp": 10194366.195386421,
+   "bse_cm": 9995.1968349,
+   "bse_fut": 215.4640572,
+   "bse_optp": 5925790.81133055,
+   "_errors": {
+    "nse_com": "HTTPSConnectionPool(host='nsearchives.nseindia.com', port=443): Read timed out. (read timeout=30)",
+    "mcx": "MCX 2025-07-18: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 90.31,
+   "share_fut": 99.81,
+   "share_optp": 63.24
+  },
+  "2025-07-21": {
+   "nse_cm": 91473.41,
+   "nse_fut": 113375.31001993999,
+   "nse_optp": 13084954.628115706,
+   "bse_cm": 6593.8906055,
+   "bse_fut": 264.1708896,
+   "bse_optp": 12804956.25027905,
+   "_errors": {
+    "nse_com": "HTTPSConnectionPool(host='nsearchives.nseindia.com', port=443): Read timed out. (read timeout=30)",
+    "mcx": "MCX 2025-07-21: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 93.28,
+   "share_fut": 99.77,
+   "share_optp": 50.54
+  },
+  "2025-07-22": {
+   "nse_cm": 100573.81,
+   "nse_fut": 103759.486159154,
+   "nse_optp": 11576656.87761646,
+   "bse_cm": 7595.9965552,
+   "bse_fut": 383.2443164,
+   "bse_optp": 54348141.1403591,
+   "_errors": {
+    "nse_com": "HTTPSConnectionPool(host='nsearchives.nseindia.com', port=443): Read timed out. (read timeout=30)",
+    "mcx": "MCX 2025-07-22: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 92.98,
+   "share_fut": 99.63,
+   "share_optp": 17.56
+  },
+  "2025-07-23": {
+   "nse_cm": 93826.24,
+   "nse_fut": 109195.983763599,
+   "nse_optp": 19135489.259247858,
+   "bse_cm": 9601.7347815,
+   "bse_fut": 220.07048275,
+   "bse_optp": 1944705.56165995,
+   "_errors": {
+    "nse_com": "HTTPSConnectionPool(host='nsearchives.nseindia.com', port=443): Read timed out. (read timeout=30)",
+    "mcx": "MCX 2025-07-23: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 90.72,
+   "share_fut": 99.8,
+   "share_optp": 90.77
+  },
+  "2025-07-24": {
+   "nse_cm": 100060.28,
+   "nse_fut": 122510.38462577798,
+   "nse_optp": 50891079.83869755,
+   "bse_cm": 7097.2353279,
+   "bse_fut": 179.85605665,
+   "bse_optp": 2567249.4191118,
+   "_errors": {
+    "nse_com": "HTTPSConnectionPool(host='nsearchives.nseindia.com', port=443): Read timed out. (read timeout=30)",
+    "mcx": "MCX 2025-07-24: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 93.38,
+   "share_fut": 99.85,
+   "share_optp": 95.2
+  },
+  "2025-07-25": {
+   "nse_cm": 96122.81,
+   "nse_fut": 151996.81427910304,
+   "nse_optp": 13017729.056532292,
+   "bse_cm": 7996.6974189,
+   "bse_fut": 265.612888775,
+   "bse_optp": 7449844.77665145,
+   "_errors": {
+    "nse_com": "NSE COM 2025-07-25: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20250725_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-07-25: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 92.32,
+   "share_fut": 99.83,
+   "share_optp": 63.6
+  },
+  "2025-07-28": {
+   "nse_cm": 92169.65,
+   "nse_fut": 325029.289874363,
+   "nse_optp": 15595513.37091141,
+   "bse_cm": 7561.04525,
+   "bse_fut": 293.7260312,
+   "bse_optp": 14829622.28385145,
+   "_errors": {
+    "nse_com": "NSE COM 2025-07-28: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20250728_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-07-28: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 92.42,
+   "share_fut": 99.91,
+   "share_optp": 51.26
+  },
+  "2025-07-29": {
+   "nse_cm": 94794.5,
+   "nse_fut": 345206.16893739003,
+   "nse_optp": 14489999.47109859,
+   "bse_cm": 7015.6300057,
+   "bse_fut": 509.82063395,
+   "bse_optp": 56849696.12401575,
+   "_errors": {
+    "nse_com": "NSE COM 2025-07-29: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20250729_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-07-29: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 93.11,
+   "share_fut": 99.85,
+   "share_optp": 20.31
+  },
+  "2025-07-30": {
+   "nse_cm": 89523.19,
+   "nse_fut": 301446.031782104,
+   "nse_optp": 22765617.598807044,
+   "bse_cm": 6133.2368689,
+   "bse_fut": 120.092229425,
+   "bse_optp": 1948557.02501195,
+   "_errors": {
+    "nse_com": "NSE COM 2025-07-30: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20250730_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-07-30: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 93.59,
+   "share_fut": 99.96,
+   "share_optp": 92.12
+  },
+  "2025-07-31": {
+   "nse_cm": 107992.32,
+   "nse_fut": 313009.647145172,
+   "nse_optp": 75546886.653169,
+   "bse_cm": 7302.1973009,
+   "bse_fut": 224.7314641,
+   "bse_optp": 3023052.9384873,
+   "_errors": {
+    "nse_com": "NSE COM 2025-07-31: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20250731_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-07-31: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 93.67,
+   "share_fut": 99.93,
+   "share_optp": 96.15
+  },
+  "2025-08-01": {
+   "nse_cm": 94819.41,
+   "nse_fut": 105258.22181466699,
+   "nse_optp": 12552417.82439433,
+   "bse_cm": 7812.8284643,
+   "bse_fut": 210.256023475,
+   "bse_optp": 8953956.95463875,
+   "_errors": {
+    "nse_com": "NSE COM 2025-08-01: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20250801_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-08-01: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 92.39,
+   "share_fut": 99.8,
+   "share_optp": 58.37
+  },
+  "2025-08-04": {
+   "nse_cm": 83320.0,
+   "nse_fut": 89616.775551953,
+   "nse_optp": 11502930.21025798,
+   "bse_cm": 6400.7008271,
+   "bse_fut": 231.042320575,
+   "bse_optp": 13434931.71567265,
+   "_errors": {
+    "nse_com": "NSE COM 2025-08-04: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20250804_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-08-04: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 92.87,
+   "share_fut": 99.74,
+   "share_optp": 46.13
+  },
+  "2025-08-05": {
+   "nse_cm": 88655.41,
+   "nse_fut": 84943.001399132,
+   "nse_optp": 10866867.536505975,
+   "bse_cm": 10463.5871516,
+   "bse_fut": 438.516176975,
+   "bse_optp": 56351008.9548812,
+   "_errors": {
+    "nse_com": "NSE COM 2025-08-05: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20250805_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-08-05: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 89.44,
+   "share_fut": 99.49,
+   "share_optp": 16.17
+  },
+  "2025-08-06": {
+   "nse_cm": 89122.97,
+   "nse_fut": 86469.140063864,
+   "nse_optp": 19923258.391499836,
+   "bse_cm": 10375.2785351,
+   "bse_fut": 111.25012315,
+   "bse_optp": 2218169.36923635,
+   "_errors": {
+    "nse_com": "NSE COM 2025-08-06: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20250806_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-08-06: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 89.57,
+   "share_fut": 99.87,
+   "share_optp": 89.98
+  },
+  "2025-08-07": {
+   "nse_cm": 98041.49,
+   "nse_fut": 109064.27246161099,
+   "nse_optp": 61260306.965571314,
+   "bse_cm": 11918.3267317,
+   "bse_fut": 214.2239114,
+   "bse_optp": 3330765.2860641,
+   "_errors": {
+    "nse_com": "NSE COM 2025-08-07: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20250807_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-08-07: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 89.16,
+   "share_fut": 99.8,
+   "share_optp": 94.84
+  },
+  "2025-08-08": {
+   "nse_cm": 100444.68,
+   "nse_fut": 97157.473126779,
+   "nse_optp": 12090060.93777905,
+   "bse_cm": 15524.0260118,
+   "bse_fut": 196.699561925,
+   "bse_optp": 9014606.32842965,
+   "_errors": {
+    "nse_com": "NSE COM 2025-08-08: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20250808_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-08-08: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 86.61,
+   "share_fut": 99.8,
+   "share_optp": 57.29
+  },
+  "2025-08-11": {
+   "nse_cm": 81193.79,
+   "nse_fut": 85129.902093666,
+   "nse_optp": 12521352.85143602,
+   "bse_cm": 11678.5951292,
+   "bse_fut": 312.35782425,
+   "bse_optp": 14369211.70388875,
+   "_errors": {
+    "nse_com": "NSE COM 2025-08-11: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20250811_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-08-11: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 87.43,
+   "share_fut": 99.63,
+   "share_optp": 46.56
+  },
+  "2025-08-12": {
+   "nse_cm": 79108.56,
+   "nse_fut": 86365.545023923,
+   "nse_optp": 16764362.188072106,
+   "bse_cm": 8035.074898,
+   "bse_fut": 687.557046375,
+   "bse_optp": 69533820.8960133,
+   "_errors": {
+    "nse_com": "NSE COM 2025-08-12: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20250812_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-08-12: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 90.78,
+   "share_fut": 99.21,
+   "share_optp": 19.43
+  },
+  "2025-08-13": {
+   "nse_cm": 87454.46,
+   "nse_fut": 94722.864229984,
+   "nse_optp": 22784871.205500618,
+   "bse_cm": 8394.7866311,
+   "bse_fut": 167.401853725,
+   "bse_optp": 2587079.49420125,
+   "_errors": {
+    "nse_com": "NSE COM 2025-08-13: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20250813_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-08-13: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 91.24,
+   "share_fut": 99.82,
+   "share_optp": 89.8
+  },
+  "2025-08-14": {
+   "nse_cm": 83349.66,
+   "nse_fut": 79746.90881848999,
+   "nse_optp": 46444657.12427715,
+   "bse_cm": 7812.7527854,
+   "bse_fut": 95.24945925,
+   "bse_optp": 2481972.1634143,
+   "_errors": {
+    "nse_com": "NSE COM 2025-08-14: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20250814_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-08-14: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 91.43,
+   "share_fut": 99.88,
+   "share_optp": 94.93
+  },
+  "2025-08-15": {
+   "bse_fut": 0.0,
+   "bse_optp": 0.0,
+   "_errors": {
+    "nse_cm": "https://archives.nseindia.com/archives/equities/mkt/MA150825.csv -> HTTP 404",
+    "nse_fo": "https://archives.nseindia.com/content/fo/BhavCopy_NSE_FO_0_0_0_20250815_F_0000.csv.zip -> HTTP 404",
+    "bse_cm": "BSE CM bhavcopy 2025-08-15: zero total",
+    "nse_com": "NSE COM 2025-08-15: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20250815_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-08-15: all strategies failed (HTTP 403)"
+   }
+  },
+  "2025-08-18": {
+   "nse_cm": 106993.56,
+   "nse_fut": 130444.35734619599,
+   "nse_optp": 12664828.721561907,
+   "bse_cm": 8903.4945389,
+   "bse_fut": 235.13805,
+   "bse_optp": 13518824.4190823,
+   "_errors": {
+    "nse_com": "NSE COM 2025-08-18: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20250818_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-08-18: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 92.32,
+   "share_fut": 99.82,
+   "share_optp": 48.37
+  },
+  "2025-08-19": {
+   "nse_cm": 87634.99,
+   "nse_fut": 95848.377573671,
+   "nse_optp": 12050982.146820419,
+   "bse_cm": 7207.9559214,
+   "bse_fut": 219.4857116,
+   "bse_optp": 58187116.78631575,
+   "_errors": {
+    "nse_com": "NSE COM 2025-08-19: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20250819_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-08-19: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 92.4,
+   "share_fut": 99.77,
+   "share_optp": 17.16
+  },
+  "2025-08-20": {
+   "nse_cm": 96170.86,
+   "nse_fut": 106579.80403921801,
+   "nse_optp": 19333563.660236657,
+   "bse_cm": 6901.8336225,
+   "bse_fut": 168.94290435,
+   "bse_optp": 1931610.0067135,
+   "_errors": {
+    "nse_com": "NSE COM 2025-08-20: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20250820_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-08-20: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 93.3,
+   "share_fut": 99.84,
+   "share_optp": 90.92
+  },
+  "2025-08-21": {
+   "nse_cm": 97000.94,
+   "nse_fut": 116805.71553022,
+   "nse_optp": 49212329.56511402,
+   "bse_cm": 16671.3000163,
+   "bse_fut": 177.879071875,
+   "bse_optp": 2391245.89145515,
+   "_errors": {
+    "nse_com": "NSE COM 2025-08-21: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20250821_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-08-21: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 85.33,
+   "share_fut": 99.85,
+   "share_optp": 95.37
+  },
+  "2025-08-22": {
+   "nse_cm": 82241.48,
+   "nse_fut": 286915.80638898205,
+   "nse_optp": 12011260.38071383,
+   "bse_cm": 6723.9622191,
+   "bse_fut": 232.5389767,
+   "bse_optp": 6814138.2598607,
+   "_errors": {
+    "nse_com": "NSE COM 2025-08-22: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20250822_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-08-22: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 92.44,
+   "share_fut": 99.92,
+   "share_optp": 63.8
+  },
+  "2025-08-25": {
+   "nse_cm": 81587.54,
+   "nse_fut": 369480.337893002,
+   "nse_optp": 13585448.321701521,
+   "bse_cm": 7132.7964232,
+   "bse_fut": 237.05645335,
+   "bse_optp": 12157807.51998645,
+   "_errors": {
+    "nse_com": "NSE COM 2025-08-25: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20250825_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-08-25: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 91.96,
+   "share_fut": 99.94,
+   "share_optp": 52.77
+  },
+  "2025-08-26": {
+   "nse_cm": 146510.86,
+   "nse_fut": 363643.12686887,
+   "nse_optp": 17407583.87740922,
+   "bse_cm": 8241.4998845,
+   "bse_fut": 562.748617525,
+   "bse_optp": 54710834.61551325,
+   "_errors": {
+    "nse_com": "NSE COM 2025-08-26: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20250826_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-08-26: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 94.67,
+   "share_fut": 99.85,
+   "share_optp": 24.14
+  },
+  "2025-08-27": {
+   "bse_fut": 0.0,
+   "bse_optp": 0.0,
+   "_errors": {
+    "nse_cm": "https://archives.nseindia.com/archives/equities/mkt/MA270825.csv -> HTTP 404",
+    "nse_fo": "https://archives.nseindia.com/content/fo/BhavCopy_NSE_FO_0_0_0_20250827_F_0000.csv.zip -> HTTP 404",
+    "bse_cm": "BSE CM bhavcopy 2025-08-27: zero total",
+    "nse_com": "NSE COM 2025-08-27: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20250827_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-08-27: all strategies failed (HTTP 403)"
+   }
+  },
+  "2025-08-28": {
+   "nse_cm": 102774.47,
+   "nse_fut": 322738.660916694,
+   "nse_optp": 66038170.7764813,
+   "bse_cm": 7516.2628387,
+   "bse_fut": 183.522372875,
+   "bse_optp": 1733195.29973955,
+   "_errors": {
+    "nse_com": "NSE COM 2025-08-28: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20250828_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-08-28: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 93.19,
+   "share_fut": 99.94,
+   "share_optp": 97.44
+  },
+  "2025-08-29": {
+   "nse_cm": 90936.81,
+   "nse_fut": 88918.10002616001,
+   "nse_optp": 18354428.96943698,
+   "bse_cm": 6550.9570282,
+   "bse_fut": 157.1555646,
+   "bse_optp": 3863248.39067055,
+   "_errors": {
+    "nse_com": "NSE COM 2025-08-29: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20250829_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-08-29: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 93.28,
+   "share_fut": 99.82,
+   "share_optp": 82.61
+  },
+  "2025-09-01": {
+   "nse_cm": 84799.42,
+   "nse_fut": 75619.653858764,
+   "nse_optp": 21222931.586668193,
+   "bse_cm": 6230.14776,
+   "bse_fut": 121.857622925,
+   "bse_optp": 3289452.860805,
+   "_errors": {
+    "nse_com": "NSE COM 2025-09-01: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20250901_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-09-01: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 93.16,
+   "share_fut": 99.84,
+   "share_optp": 86.58
+  },
+  "2025-09-02": {
+   "nse_cm": 93244.72,
+   "nse_fut": 88452.187132377,
+   "nse_optp": 67151302.53750835,
+   "bse_cm": 6895.1087306,
+   "bse_fut": 189.4508757,
+   "bse_optp": 5100190.8083985,
+   "_errors": {
+    "nse_com": "NSE COM 2025-09-02: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20250902_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-09-02: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 93.11,
+   "share_fut": 99.79,
+   "share_optp": 92.94
+  },
+  "2025-09-03": {
+   "nse_cm": 95965.54,
+   "nse_fut": 82212.263288669,
+   "nse_optp": 12011344.535463065,
+   "bse_cm": 7804.4901464,
+   "bse_fut": 224.536314625,
+   "bse_optp": 19876660.6705009,
+   "_errors": {
+    "nse_com": "NSE COM 2025-09-03: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20250903_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-09-03: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 92.48,
+   "share_fut": 99.73,
+   "share_optp": 37.67
+  },
+  "2025-09-04": {
+   "nse_cm": 105477.29,
+   "nse_fut": 102021.74068663901,
+   "nse_optp": 14602536.425485043,
+   "bse_cm": 8507.200966,
+   "bse_fut": 389.209550925,
+   "bse_optp": 72290428.88669275,
+   "_errors": {
+    "nse_com": "NSE COM 2025-09-04: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20250904_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-09-04: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 92.54,
+   "share_fut": 99.62,
+   "share_optp": 16.81
+  },
+  "2025-09-05": {
+   "nse_cm": 81938.01,
+   "nse_fut": 86327.17906914599,
+   "nse_optp": 24096232.79577876,
+   "bse_cm": 7317.333813,
+   "bse_fut": 236.39122095,
+   "bse_optp": 3858699.86803555,
+   "_errors": {
+    "nse_com": "NSE COM 2025-09-05: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20250905_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-09-05: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 91.8,
+   "share_fut": 99.73,
+   "share_optp": 86.2
+  },
+  "2025-09-08": {
+   "nse_cm": 80859.07,
+   "nse_fut": 81571.11719955801,
+   "nse_optp": 26400178.163811658,
+   "bse_cm": 7388.3329863,
+   "bse_fut": 159.2629454,
+   "bse_optp": 3878848.14263515,
+   "_errors": {
+    "nse_com": "NSE COM 2025-09-08: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20250908_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-09-08: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 91.63,
+   "share_fut": 99.81,
+   "share_optp": 87.19
+  },
+  "2025-09-09": {
+   "nse_cm": 79908.68,
+   "nse_fut": 64351.24772971,
+   "nse_optp": 51099831.933636345,
+   "bse_cm": 7068.5924879,
+   "bse_fut": 115.16429865,
+   "bse_optp": 3853472.5673013,
+   "_errors": {
+    "nse_com": "NSE COM 2025-09-09: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20250909_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-09-09: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 91.87,
+   "share_fut": 99.82,
+   "share_optp": 92.99
+  },
+  "2025-09-10": {
+   "nse_cm": 102041.4,
+   "nse_fut": 95931.26153436302,
+   "nse_optp": 10654188.13405662,
+   "bse_cm": 8097.775042,
+   "bse_fut": 204.127300325,
+   "bse_optp": 15713773.48862195,
+   "_errors": {
+    "nse_com": "NSE COM 2025-09-10: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20250910_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-09-10: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 92.65,
+   "share_fut": 99.79,
+   "share_optp": 40.41
+  },
+  "2025-09-11": {
+   "nse_cm": 96204.83,
+   "nse_fut": 78948.518064994,
+   "nse_optp": 8647667.738190893,
+   "bse_cm": 10220.5523628,
+   "bse_fut": 252.989965875,
+   "bse_optp": 52068756.91027077,
+   "_errors": {
+    "nse_com": "NSE COM 2025-09-11: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20250911_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-09-11: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 90.4,
+   "share_fut": 99.68,
+   "share_optp": 14.24
+  },
+  "2025-09-12": {
+   "nse_cm": 92241.52,
+   "nse_fut": 79135.646645239,
+   "nse_optp": 13513938.6749707,
+   "bse_cm": 7329.1080223,
+   "bse_fut": 165.39688215,
+   "bse_optp": 2151495.93194155,
+   "_errors": {
+    "nse_com": "NSE COM 2025-09-12: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20250912_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-09-12: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 92.64,
+   "share_fut": 99.79,
+   "share_optp": 86.27
+  },
+  "2025-09-15": {
+   "nse_cm": 85104.65,
+   "nse_fut": 69367.87038226599,
+   "nse_optp": 18042802.144607082,
+   "bse_cm": 7436.4883982,
+   "bse_fut": 111.7608721,
+   "bse_optp": 2618545.526868875,
+   "_errors": {
+    "nse_com": "NSE COM 2025-09-15: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20250915_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-09-15: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 91.96,
+   "share_fut": 99.84,
+   "share_optp": 87.33
+  },
+  "2025-09-16": {
+   "nse_cm": 91048.46,
+   "nse_fut": 84904.042500885,
+   "nse_optp": 47047582.45029264,
+   "bse_cm": 7679.7097692,
+   "bse_fut": 220.100459325,
+   "bse_optp": 3861510.602248425,
+   "_errors": {
+    "nse_com": "NSE COM 2025-09-16: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20250916_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-09-16: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 92.22,
+   "share_fut": 99.74,
+   "share_optp": 92.41
+  },
+  "2025-09-17": {
+   "nse_cm": 101041.26,
+   "nse_fut": 98023.656049139,
+   "nse_optp": 9246142.973733405,
+   "bse_cm": 8463.8826728,
+   "bse_fut": 229.5357392,
+   "bse_optp": 12481827.7016804,
+   "_errors": {
+    "nse_com": "NSE COM 2025-09-17: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20250917_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-09-17: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 92.27,
+   "share_fut": 99.77,
+   "share_optp": 42.55
+  },
+  "2025-09-18": {
+   "nse_cm": 97994.78,
+   "nse_fut": 105192.912896577,
+   "nse_optp": 11373669.547141511,
+   "bse_cm": 8461.2116734,
+   "bse_fut": 350.786004275,
+   "bse_optp": 58576525.6263973,
+   "_errors": {
+    "nse_com": "NSE COM 2025-09-18: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20250918_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-09-18: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 92.05,
+   "share_fut": 99.67,
+   "share_optp": 16.26
+  },
+  "2025-09-19": {
+   "nse_cm": 138903.11,
+   "nse_fut": 123141.14834761099,
+   "nse_optp": 18715511.604458686,
+   "bse_cm": 9623.1388315,
+   "bse_fut": 237.6690734,
+   "bse_optp": 2900270.5890559,
+   "_errors": {
+    "nse_com": "NSE COM 2025-09-19: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20250919_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-09-19: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 93.52,
+   "share_fut": 99.81,
+   "share_optp": 86.58
+  },
+  "2025-09-22": {
+   "nse_cm": 103101.44,
+   "nse_fut": 128662.65380608398,
+   "nse_optp": 25906590.24823662,
+   "bse_cm": 8555.8213549,
+   "bse_fut": 224.269204725,
+   "bse_optp": 3967930.394360125,
+   "_errors": {
+    "nse_com": "NSE COM 2025-09-22: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20250922_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-09-22: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 92.34,
+   "share_fut": 99.83,
+   "share_optp": 86.72
+  },
+  "2025-09-23": {
+   "nse_cm": 105317.21,
+   "nse_fut": 127941.03517929399,
+   "nse_optp": 62536619.64592714,
+   "bse_cm": 7663.5261211,
+   "bse_fut": 246.0639459,
+   "bse_optp": 5026801.81086745,
+   "_errors": {
+    "nse_com": "NSE COM 2025-09-23: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20250923_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-09-23: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 93.22,
+   "share_fut": 99.81,
+   "share_optp": 92.56
+  },
+  "2025-09-24": {
+   "nse_cm": 94297.85,
+   "nse_fut": 149973.206647147,
+   "nse_optp": 12493209.25487821,
+   "bse_cm": 7804.4129424,
+   "bse_fut": 388.2217922,
+   "bse_optp": 18517055.827298574,
+   "_errors": {
+    "nse_com": "NSE COM 2025-09-24: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20250924_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-09-24: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 92.36,
+   "share_fut": 99.74,
+   "share_optp": 40.29
+  },
+  "2025-09-25": {
+   "nse_cm": 100235.74,
+   "nse_fut": 346180.20620373,
+   "nse_optp": 13009097.983017325,
+   "bse_cm": 7188.565921,
+   "bse_fut": 542.28207825,
+   "bse_optp": 62500622.39572715,
+   "_errors": {
+    "nse_com": "NSE COM 2025-09-25: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20250925_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-09-25: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 93.31,
+   "share_fut": 99.84,
+   "share_optp": 17.23
+  },
+  "2025-09-26": {
+   "nse_cm": 97349.73,
+   "nse_fut": 351545.212411956,
+   "nse_optp": 23346019.53552125,
+   "bse_cm": 7441.2278326,
+   "bse_fut": 243.572160475,
+   "bse_optp": 3198269.83289085,
+   "_errors": {
+    "nse_com": "NSE COM 2025-09-26: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20250926_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-09-26: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 92.9,
+   "share_fut": 99.93,
+   "share_optp": 87.95
+  },
+  "2025-09-29": {
+   "nse_cm": 133255.38,
+   "nse_fut": 359443.040104825,
+   "nse_optp": 34662313.49160673,
+   "bse_cm": 6485.8680236,
+   "bse_fut": 210.4559394,
+   "bse_optp": 4435843.5700263,
+   "_errors": {
+    "nse_com": "NSE COM 2025-09-29: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20250929_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-09-29: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 95.36,
+   "share_fut": 99.94,
+   "share_optp": 88.65
+  },
+  "2025-09-30": {
+   "nse_cm": 102544.59,
+   "nse_fut": 244755.44207802403,
+   "nse_optp": 65413164.08012042,
+   "bse_cm": 6690.1658401,
+   "bse_fut": 147.4599952,
+   "bse_optp": 5014190.0254056,
+   "_errors": {
+    "nse_com": "NSE COM 2025-09-30: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20250930_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-09-30: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 93.88,
+   "share_fut": 99.94,
+   "share_optp": 92.88
+  },
+  "2025-10-01": {
+   "nse_cm": 99744.74,
+   "nse_fut": 105172.632283691,
+   "nse_optp": 12268146.720759295,
+   "bse_cm": 8499.1627011,
+   "bse_fut": 286.6196675,
+   "bse_optp": 66596059.6790261,
+   "_errors": {
+    "nse_com": "NSE COM 2025-10-01: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251001_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-10-01: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 92.15,
+   "share_fut": 99.73,
+   "share_optp": 15.56
+  },
+  "2025-10-02": {
+   "bse_fut": 0.0,
+   "bse_optp": 0.0,
+   "_errors": {
+    "nse_cm": "https://archives.nseindia.com/archives/equities/mkt/MA021025.csv -> HTTP 404",
+    "nse_fo": "https://archives.nseindia.com/content/fo/BhavCopy_NSE_FO_0_0_0_20251002_F_0000.csv.zip -> HTTP 404",
+    "bse_cm": "BSE CM bhavcopy 2025-10-02: zero total",
+    "nse_com": "NSE COM 2025-10-02: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251002_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-10-02: all strategies failed (HTTP 403)"
+   }
+  },
+  "2025-10-03": {
+   "nse_cm": 112827.66,
+   "nse_fut": 92064.726357102,
+   "nse_optp": 19382350.192890916,
+   "bse_cm": 7767.8722202,
+   "bse_fut": 137.32144555,
+   "bse_optp": 3400212.7853608,
+   "_errors": {
+    "nse_com": "NSE COM 2025-10-03: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251003_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-10-03: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 93.56,
+   "share_fut": 99.85,
+   "share_optp": 85.08
+  },
+  "2025-10-06": {
+   "nse_cm": 96871.84,
+   "nse_fut": 100282.006223306,
+   "nse_optp": 28334054.48886011,
+   "bse_cm": 7189.6295422,
+   "bse_fut": 178.3752909,
+   "bse_optp": 4316608.3503432,
+   "_errors": {
+    "nse_com": "NSE COM 2025-10-06: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251006_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-10-06: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 93.09,
+   "share_fut": 99.82,
+   "share_optp": 86.78
+  },
+  "2025-10-07": {
+   "nse_cm": 98573.03,
+   "nse_fut": 95897.845702557,
+   "nse_optp": 66149475.26245274,
+   "bse_cm": 8114.7543182,
+   "bse_fut": 166.30735225,
+   "bse_optp": 6362694.9958958,
+   "_errors": {
+    "nse_com": "NSE COM 2025-10-07: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251007_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-10-07: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 92.39,
+   "share_fut": 99.83,
+   "share_optp": 91.23
+  },
+  "2025-10-08": {
+   "nse_cm": 89602.56,
+   "nse_fut": 95143.731019513,
+   "nse_optp": 15655727.788046569,
+   "bse_cm": 7644.0424245,
+   "bse_fut": 210.080625925,
+   "bse_optp": 25363615.621328324,
+   "_errors": {
+    "nse_com": "NSE COM 2025-10-08: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251008_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-10-08: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 92.14,
+   "share_fut": 99.78,
+   "share_optp": 38.17
+  },
+  "2025-10-09": {
+   "nse_cm": 92463.58,
+   "nse_fut": 92843.495989663,
+   "nse_optp": 13673237.969575921,
+   "bse_cm": 8140.6538241,
+   "bse_fut": 191.6995088,
+   "bse_optp": 73822761.05309983,
+   "_errors": {
+    "nse_com": "NSE COM 2025-10-09: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251009_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-10-09: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 91.91,
+   "share_fut": 99.79,
+   "share_optp": 15.63
+  },
+  "2025-10-10": {
+   "nse_cm": 94005.11,
+   "nse_fut": 102921.28081289,
+   "nse_optp": 19826881.778168663,
+   "bse_cm": 7210.8310381,
+   "bse_fut": 221.443970775,
+   "bse_optp": 3564813.7528484,
+   "_errors": {
+    "nse_com": "NSE COM 2025-10-10: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251010_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-10-10: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 92.88,
+   "share_fut": 99.79,
+   "share_optp": 84.76
+  },
+  "2025-10-13": {
+   "nse_cm": 91723.49,
+   "nse_fut": 89925.09543724099,
+   "nse_optp": 26716463.05872625,
+   "bse_cm": 7101.0553944,
+   "bse_fut": 129.423397025,
+   "bse_optp": 4341759.21693925,
+   "_errors": {
+    "nse_com": "NSE COM 2025-10-13: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251013_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-10-13: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 92.81,
+   "share_fut": 99.86,
+   "share_optp": 86.02
+  },
+  "2025-10-14": {
+   "nse_cm": 109664.78,
+   "nse_fut": 107812.280747411,
+   "nse_optp": 69109857.58287038,
+   "bse_cm": 8826.166638,
+   "bse_fut": 184.62936385,
+   "bse_optp": 5842685.293004225,
+   "_errors": {
+    "nse_com": "NSE COM 2025-10-14: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251014_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-10-14: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 92.55,
+   "share_fut": 99.83,
+   "share_optp": 92.2
+  },
+  "2025-10-15": {
+   "nse_cm": 100716.49,
+   "nse_fut": 107101.888623266,
+   "nse_optp": 12831350.094446275,
+   "bse_cm": 6699.0611243,
+   "bse_fut": 247.874009075,
+   "bse_optp": 18584389.7393696,
+   "_errors": {
+    "nse_com": "NSE COM 2025-10-15: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251015_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-10-15: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 93.76,
+   "share_fut": 99.77,
+   "share_optp": 40.84
+  },
+  "2025-10-16": {
+   "nse_cm": 111717.03,
+   "nse_fut": 131772.67136335498,
+   "nse_optp": 14204647.96989297,
+   "bse_cm": 10791.2890788,
+   "bse_fut": 314.566300525,
+   "bse_optp": 64596266.48683535,
+   "_errors": {
+    "nse_com": "NSE COM 2025-10-16: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251016_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-10-16: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 91.19,
+   "share_fut": 99.76,
+   "share_optp": 18.03
+  },
+  "2025-10-17": {
+   "nse_cm": 111763.18,
+   "nse_fut": 150411.30843783703,
+   "nse_optp": 32187591.47889101,
+   "bse_cm": 7426.0915802,
+   "bse_fut": 355.578093225,
+   "bse_optp": 5118383.4115313,
+   "_errors": {
+    "nse_com": "NSE COM 2025-10-17: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251017_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-10-17: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 93.77,
+   "share_fut": 99.76,
+   "share_optp": 86.28
+  },
+  "2025-10-20": {
+   "nse_cm": 100097.49,
+   "nse_fut": 145739.96536941399,
+   "nse_optp": 64850669.59903625,
+   "bse_cm": 6931.548084,
+   "bse_fut": 241.85503845,
+   "bse_optp": 5319110.9354129,
+   "_errors": {
+    "nse_com": "NSE COM 2025-10-20: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251020_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-10-20: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 93.52,
+   "share_fut": 99.83,
+   "share_optp": 92.42
+  },
+  "2025-10-21": {
+   "nse_cm": 19714.12,
+   "nse_fut": 23005.5223204,
+   "nse_optp": 2706537.50681448,
+   "bse_cm": 2538.3185263,
+   "bse_fut": 72.6753527,
+   "bse_optp": 2781114.1665311,
+   "_errors": {
+    "nse_com": "NSE COM 2025-10-21: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251021_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-10-21: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 88.59,
+   "share_fut": 99.69,
+   "share_optp": 49.32
+  },
+  "2025-10-22": {
+   "bse_fut": 0.0,
+   "bse_optp": 0.0,
+   "_errors": {
+    "nse_cm": "https://archives.nseindia.com/archives/equities/mkt/MA221025.csv -> HTTP 404",
+    "nse_fo": "https://archives.nseindia.com/content/fo/BhavCopy_NSE_FO_0_0_0_20251022_F_0000.csv.zip -> HTTP 404",
+    "bse_cm": "BSE CM bhavcopy 2025-10-22: zero total",
+    "nse_com": "NSE COM 2025-10-22: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251022_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-10-22: all strategies failed (HTTP 403)"
+   }
+  },
+  "2025-10-23": {
+   "nse_cm": 116842.34,
+   "nse_fut": 381479.989865419,
+   "nse_optp": 15820026.86287685,
+   "bse_cm": 9194.3627923,
+   "bse_fut": 569.154146,
+   "bse_optp": 74560529.81123585,
+   "_errors": {
+    "nse_com": "NSE COM 2025-10-23: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251023_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-10-23: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 92.71,
+   "share_fut": 99.85,
+   "share_optp": 17.5
+  },
+  "2025-10-24": {
+   "nse_cm": 89132.4,
+   "nse_fut": 410222.32308368897,
+   "nse_optp": 27453874.43009655,
+   "bse_cm": 6834.1239822,
+   "bse_fut": 298.001321,
+   "bse_optp": 3610987.7096265,
+   "_errors": {
+    "nse_com": "NSE COM 2025-10-24: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251024_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-10-24: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 92.88,
+   "share_fut": 99.93,
+   "share_optp": 88.38
+  },
+  "2025-10-27": {
+   "nse_cm": 96754.8,
+   "nse_fut": 401180.659593071,
+   "nse_optp": 30420968.611309357,
+   "bse_cm": 7389.8940793,
+   "bse_fut": 248.996567,
+   "bse_optp": 3452455.82698725,
+   "_errors": {
+    "nse_com": "NSE COM 2025-10-27: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251027_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-10-27: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 92.9,
+   "share_fut": 99.94,
+   "share_optp": 89.81
+  },
+  "2025-10-28": {
+   "nse_cm": 116153.19,
+   "nse_fut": 322659.960070772,
+   "nse_optp": 80658315.9301927,
+   "bse_cm": 8212.2457587,
+   "bse_fut": 222.64293185,
+   "bse_optp": 4415011.7469198,
+   "_errors": {
+    "nse_com": "NSE COM 2025-10-28: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251028_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-10-28: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 93.4,
+   "share_fut": 99.93,
+   "share_optp": 94.81
+  },
+  "2025-10-29": {
+   "nse_cm": 112298.42,
+   "nse_fut": 120762.66469115201,
+   "nse_optp": 10904594.80158119,
+   "bse_cm": 8521.0336082,
+   "bse_fut": 367.9309591,
+   "bse_optp": 16487856.76807195,
+   "_errors": {
+    "nse_com": "NSE COM 2025-10-29: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251029_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-10-29: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 92.95,
+   "share_fut": 99.7,
+   "share_optp": 39.81
+  },
+  "2025-10-30": {
+   "nse_cm": 102485.84,
+   "nse_fut": 105578.60244715701,
+   "nse_optp": 11614306.707739566,
+   "bse_cm": 8338.2992096,
+   "bse_fut": 650.13558765,
+   "bse_optp": 68109355.09226045,
+   "_errors": {
+    "nse_com": "NSE COM 2025-10-30: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251030_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-10-30: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 92.48,
+   "share_fut": 99.39,
+   "share_optp": 14.57
+  },
+  "2025-10-31": {
+   "nse_cm": 110386.57,
+   "nse_fut": 116863.060128197,
+   "nse_optp": 21074008.85395195,
+   "bse_cm": 7539.8493193,
+   "bse_fut": 304.8954285,
+   "bse_optp": 3478447.108935725,
+   "_errors": {
+    "nse_com": "NSE COM 2025-10-31: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251031_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-10-31: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 93.61,
+   "share_fut": 99.74,
+   "share_optp": 85.83
+  },
+  "2025-11-03": {
+   "nse_cm": 99211.02,
+   "nse_fut": 101115.102826952,
+   "nse_optp": 25861217.53235608,
+   "bse_cm": 7517.5114935,
+   "bse_fut": 174.91537595,
+   "bse_optp": 4196853.1545815,
+   "_errors": {
+    "nse_com": "NSE COM 2025-11-03: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251103_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-11-03: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 92.96,
+   "share_fut": 99.83,
+   "share_optp": 86.04
+  },
+  "2025-11-04": {
+   "nse_cm": 103983.71,
+   "nse_fut": 105400.88839776,
+   "nse_optp": 55061199.29639051,
+   "bse_cm": 6880.9711271,
+   "bse_fut": 174.0273878,
+   "bse_optp": 5139470.5140778,
+   "_errors": {
+    "nse_com": "NSE COM 2025-11-04: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251104_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-11-04: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 93.79,
+   "share_fut": 99.84,
+   "share_optp": 91.46
+  },
+  "2025-11-05": {
+   "bse_fut": 0.0,
+   "bse_optp": 0.0,
+   "_errors": {
+    "nse_cm": "https://archives.nseindia.com/archives/equities/mkt/MA051125.csv -> HTTP 404",
+    "nse_fo": "https://archives.nseindia.com/content/fo/BhavCopy_NSE_FO_0_0_0_20251105_F_0000.csv.zip -> HTTP 404",
+    "bse_cm": "BSE CM bhavcopy 2025-11-05: zero total",
+    "nse_com": "NSE COM 2025-11-05: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251105_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-11-05: all strategies failed (HTTP 403)"
+   }
+  },
+  "2025-11-06": {
+   "nse_cm": 114454.44,
+   "nse_fut": 112270.64494575601,
+   "nse_optp": 11947945.489910385,
+   "bse_cm": 9578.8438035,
+   "bse_fut": 369.8228349,
+   "bse_optp": 74932590.37481748,
+   "_errors": {
+    "nse_com": "NSE COM 2025-11-06: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251106_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-11-06: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 92.28,
+   "share_fut": 99.67,
+   "share_optp": 13.75
+  },
+  "2025-11-07": {
+   "nse_cm": 118390.89,
+   "nse_fut": 127279.264899129,
+   "nse_optp": 23418518.529304285,
+   "bse_cm": 8091.3217885,
+   "bse_fut": 299.65368685,
+   "bse_optp": 3733112.54575995,
+   "_errors": {
+    "nse_com": "NSE COM 2025-11-07: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251107_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-11-07: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 93.6,
+   "share_fut": 99.77,
+   "share_optp": 86.25
+  },
+  "2025-11-10": {
+   "nse_cm": 101317.69,
+   "nse_fut": 90561.2533046,
+   "nse_optp": 24535951.038509462,
+   "bse_cm": 8144.447278,
+   "bse_fut": 191.0968571,
+   "bse_optp": 3396996.87140375,
+   "_errors": {
+    "nse_com": "NSE COM 2025-11-10: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251110_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-11-10: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 92.56,
+   "share_fut": 99.79,
+   "share_optp": 87.84
+  },
+  "2025-11-11": {
+   "nse_cm": 104375.46,
+   "nse_fut": 112687.44282069897,
+   "nse_optp": 66095682.66664946,
+   "bse_cm": 7190.7116232,
+   "bse_fut": 301.26694315,
+   "bse_optp": 4923345.124228,
+   "_errors": {
+    "nse_com": "NSE COM 2025-11-11: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251111_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-11-11: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 93.55,
+   "share_fut": 99.73,
+   "share_optp": 93.07
+  },
+  "2025-11-12": {
+   "nse_cm": 115992.45,
+   "nse_fut": 121799.547860319,
+   "nse_optp": 9947300.018113606,
+   "bse_cm": 7934.8647963,
+   "bse_fut": 313.17812205,
+   "bse_optp": 16342431.2931752,
+   "_errors": {
+    "nse_com": "NSE COM 2025-11-12: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251112_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-11-12: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 93.6,
+   "share_fut": 99.74,
+   "share_optp": 37.84
+  },
+  "2025-11-13": {
+   "nse_cm": 110637.5,
+   "nse_fut": 116842.62687218198,
+   "nse_optp": 11928545.166114593,
+   "bse_cm": 9916.5658724,
+   "bse_fut": 414.20054645,
+   "bse_optp": 82144112.0102287,
+   "_errors": {
+    "nse_com": "NSE COM 2025-11-13: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251113_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-11-13: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 91.77,
+   "share_fut": 99.65,
+   "share_optp": 12.68
+  },
+  "2025-11-14": {
+   "nse_cm": 112397.08,
+   "nse_fut": 118403.510764056,
+   "nse_optp": 24726665.581476424,
+   "bse_cm": 8843.3960521,
+   "bse_fut": 308.1412281,
+   "bse_optp": 3738594.9144663,
+   "_errors": {
+    "nse_com": "NSE COM 2025-11-14: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251114_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-11-14: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 92.71,
+   "share_fut": 99.74,
+   "share_optp": 86.87
+  },
+  "2025-11-17": {
+   "nse_cm": 99600.19,
+   "nse_fut": 103188.544298916,
+   "nse_optp": 23511813.235760156,
+   "bse_cm": 7981.6061062,
+   "bse_fut": 161.4890604,
+   "bse_optp": 3181718.37501615,
+   "_errors": {
+    "nse_com": "NSE COM 2025-11-17: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251117_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-11-17: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 92.58,
+   "share_fut": 99.84,
+   "share_optp": 88.08
+  },
+  "2025-11-18": {
+   "nse_cm": 117064.74,
+   "nse_fut": 113658.41869968601,
+   "nse_optp": 56744972.314379126,
+   "bse_cm": 14193.1691784,
+   "bse_fut": 170.45819845,
+   "bse_optp": 4214383.0407584,
+   "_errors": {
+    "nse_com": "NSE COM 2025-11-18: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251118_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-11-18: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 89.19,
+   "share_fut": 99.85,
+   "share_optp": 93.09
+  },
+  "2025-11-19": {
+   "nse_cm": 98010.09,
+   "nse_fut": 133666.856948394,
+   "nse_optp": 11513650.891395228,
+   "bse_cm": 7150.3714851,
+   "bse_fut": 235.27143305,
+   "bse_optp": 15895762.545873625,
+   "_errors": {
+    "nse_com": "NSE COM 2025-11-19: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251119_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-11-19: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 93.2,
+   "share_fut": 99.82,
+   "share_optp": 42.01
+  },
+  "2025-11-20": {
+   "nse_cm": 96628.32,
+   "nse_fut": 335631.07058582903,
+   "nse_optp": 11646309.770572811,
+   "bse_cm": 8897.3713758,
+   "bse_fut": 481.6703432,
+   "bse_optp": 64555170.1538013,
+   "_errors": {
+    "nse_com": "NSE COM 2025-11-20: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251120_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-11-20: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 91.57,
+   "share_fut": 99.86,
+   "share_optp": 15.28
+  },
+  "2025-11-21": {
+   "nse_cm": 90836.23,
+   "nse_fut": 399483.9208595871,
+   "nse_optp": 21099509.96881864,
+   "bse_cm": 8991.7059886,
+   "bse_fut": 293.42147145,
+   "bse_optp": 2806588.746193325,
+   "_errors": {
+    "nse_com": "NSE COM 2025-11-21: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251121_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-11-21: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 90.99,
+   "share_fut": 99.93,
+   "share_optp": 88.26
+  },
+  "2025-11-24": {
+   "nse_cm": 154230.67,
+   "nse_fut": 390271.771779497,
+   "nse_optp": 27408076.348815214,
+   "bse_cm": 6806.7134988,
+   "bse_fut": 187.8232894,
+   "bse_optp": 3203575.899300725,
+   "_errors": {
+    "nse_com": "NSE COM 2025-11-24: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251124_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-11-24: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 95.77,
+   "share_fut": 99.95,
+   "share_optp": 89.53
+  },
+  "2025-11-25": {
+   "nse_cm": 87713.53,
+   "nse_fut": 278336.530480844,
+   "nse_optp": 68789896.77222578,
+   "bse_cm": 6570.5127814,
+   "bse_fut": 525.3587294,
+   "bse_optp": 4271799.6143862,
+   "_errors": {
+    "nse_com": "NSE COM 2025-11-25: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251125_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-11-25: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 93.03,
+   "share_fut": 99.81,
+   "share_optp": 94.15
+  },
+  "2025-11-26": {
+   "nse_cm": 94725.02,
+   "nse_fut": 101227.87678144399,
+   "nse_optp": 10765544.275910174,
+   "bse_cm": 6806.6226192,
+   "bse_fut": 484.88237805,
+   "bse_optp": 17499905.439143926,
+   "_errors": {
+    "nse_com": "NSE COM 2025-11-26: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251126_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-11-26: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 93.3,
+   "share_fut": 99.52,
+   "share_optp": 38.09
+  },
+  "2025-11-27": {
+   "nse_cm": 84815.42,
+   "nse_fut": 88986.66667278399,
+   "nse_optp": 12398288.291237079,
+   "bse_cm": 9944.6184885,
+   "bse_fut": 587.42505205,
+   "bse_optp": 79218607.2847697,
+   "_errors": {
+    "nse_com": "NSE COM 2025-11-27: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251127_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-11-27: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 89.51,
+   "share_fut": 99.34,
+   "share_optp": 13.53
+  },
+  "2025-11-28": {
+   "nse_cm": 82568.35,
+   "nse_fut": 67913.98144478998,
+   "nse_optp": 16420913.461268844,
+   "bse_cm": 6181.3389961,
+   "bse_fut": 139.27742155,
+   "bse_optp": 2994581.097594855,
+   "_errors": {
+    "nse_com": "NSE COM 2025-11-28: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251128_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-11-28: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 93.04,
+   "share_fut": 99.8,
+   "share_optp": 84.58
+  },
+  "2025-12-01": {
+   "nse_cm": 85216.3,
+   "nse_fut": 82564.604410583,
+   "nse_optp": 27497562.4272616,
+   "bse_cm": 6242.1493437,
+   "bse_fut": 202.22335165,
+   "bse_optp": 4343155.52121645,
+   "_errors": {
+    "nse_com": "NSE COM 2025-12-01: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251201_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-12-01: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 93.17,
+   "share_fut": 99.76,
+   "share_optp": 86.36
+  },
+  "2025-12-02": {
+   "nse_cm": 93813.57,
+   "nse_fut": 83340.586725259,
+   "nse_optp": 56750817.02457504,
+   "bse_cm": 5894.3039113,
+   "bse_fut": 207.985565475,
+   "bse_optp": 4462125.99538205,
+   "_errors": {
+    "nse_com": "NSE COM 2025-12-02: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251202_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-12-02: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 94.09,
+   "share_fut": 99.75,
+   "share_optp": 92.71
+  },
+  "2025-12-03": {
+   "nse_cm": 93381.69,
+   "nse_fut": 100895.50167720401,
+   "nse_optp": 10642403.770417832,
+   "bse_cm": 6821.2010082,
+   "bse_fut": 228.33977385,
+   "bse_optp": 19956069.248654276,
+   "_errors": {
+    "nse_com": "NSE COM 2025-12-03: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251203_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-12-03: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 93.19,
+   "share_fut": 99.77,
+   "share_optp": 34.78
+  },
+  "2025-12-04": {
+   "nse_cm": 88337.0,
+   "nse_fut": 83647.0677827,
+   "nse_optp": 11179605.236938335,
+   "bse_cm": 7713.8423231,
+   "bse_fut": 337.4256727,
+   "bse_optp": 80556758.93402272,
+   "_errors": {
+    "nse_com": "NSE COM 2025-12-04: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251204_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-12-04: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 91.97,
+   "share_fut": 99.6,
+   "share_optp": 12.19
+  },
+  "2025-12-05": {
+   "nse_cm": 91780.56,
+   "nse_fut": 104953.71074921,
+   "nse_optp": 22471994.56232619,
+   "bse_cm": 5925.5578151,
+   "bse_fut": 247.990119525,
+   "bse_optp": 4194443.4819084,
+   "_errors": {
+    "nse_com": "NSE COM 2025-12-05: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251205_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-12-05: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 93.94,
+   "share_fut": 99.76,
+   "share_optp": 84.27
+  },
+  "2025-12-08": {
+   "nse_cm": 96755.79,
+   "nse_fut": 113772.738699633,
+   "nse_optp": 31952685.542787045,
+   "bse_cm": 6989.1384392,
+   "bse_fut": 186.5310262,
+   "bse_optp": 4845823.74708955,
+   "_errors": {
+    "nse_com": "NSE COM 2025-12-08: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251208_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-12-08: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 93.26,
+   "share_fut": 99.84,
+   "share_optp": 86.83
+  },
+  "2025-12-09": {
+   "nse_cm": 106148.28,
+   "nse_fut": 106212.44980521602,
+   "nse_optp": 72398276.90510146,
+   "bse_cm": 7864.9568071,
+   "bse_fut": 233.5245416,
+   "bse_optp": 6178130.349134025,
+   "_errors": {
+    "nse_com": "NSE COM 2025-12-09: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251209_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-12-09: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 93.1,
+   "share_fut": 99.78,
+   "share_optp": 92.14
+  },
+  "2025-12-10": {
+   "nse_cm": 95826.74,
+   "nse_fut": 90283.880620208,
+   "nse_optp": 13689564.647049816,
+   "bse_cm": 6596.5774354,
+   "bse_fut": 253.00837605,
+   "bse_optp": 23291176.310560275,
+   "_errors": {
+    "nse_com": "NSE COM 2025-12-10: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251210_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-12-10: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 93.56,
+   "share_fut": 99.72,
+   "share_optp": 37.02
+  },
+  "2025-12-11": {
+   "nse_cm": 79300.78,
+   "nse_fut": 91059.515351835,
+   "nse_optp": 14219539.45098629,
+   "bse_cm": 7253.848429,
+   "bse_fut": 372.80512655,
+   "bse_optp": 80287560.624378,
+   "_errors": {
+    "nse_com": "NSE COM 2025-12-11: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251211_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-12-11: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 91.62,
+   "share_fut": 99.59,
+   "share_optp": 15.05
+  },
+  "2025-12-12": {
+   "nse_cm": 86390.02,
+   "nse_fut": 90867.975831328,
+   "nse_optp": 20368840.09069444,
+   "bse_cm": 7620.5743539,
+   "bse_fut": 199.5436445,
+   "bse_optp": 3810411.846223,
+   "_errors": {
+    "nse_com": "NSE COM 2025-12-12: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251212_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-12-12: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 91.89,
+   "share_fut": 99.78,
+   "share_optp": 84.24
+  },
+  "2025-12-15": {
+   "nse_cm": 79972.97,
+   "nse_fut": 81944.582036271,
+   "nse_optp": 26802378.903357957,
+   "bse_cm": 6166.4835368,
+   "bse_fut": 171.139914075,
+   "bse_optp": 4224393.93134725,
+   "_errors": {
+    "nse_com": "NSE COM 2025-12-15: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251215_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-12-15: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 92.84,
+   "share_fut": 99.79,
+   "share_optp": 86.38
+  },
+  "2025-12-16": {
+   "nse_cm": 83984.54,
+   "nse_fut": 93439.09266760999,
+   "nse_optp": 52557236.20433481,
+   "bse_cm": 5685.2001543,
+   "bse_fut": 158.01975655,
+   "bse_optp": 4660910.304779625,
+   "_errors": {
+    "nse_com": "NSE COM 2025-12-16: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251216_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-12-16: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 93.66,
+   "share_fut": 99.83,
+   "share_optp": 91.85
+  },
+  "2025-12-17": {
+   "nse_cm": 85179.75,
+   "nse_fut": 83561.512905224,
+   "nse_optp": 10260948.32926458,
+   "bse_cm": 6840.0640907,
+   "bse_fut": 164.06173885,
+   "bse_optp": 18890207.1910701,
+   "_errors": {
+    "nse_com": "NSE COM 2025-12-17: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251217_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-12-17: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 92.57,
+   "share_fut": 99.8,
+   "share_optp": 35.2
+  },
+  "2025-12-18": {
+   "nse_cm": 87865.32,
+   "nse_fut": 108886.170938819,
+   "nse_optp": 12125892.05637645,
+   "bse_cm": 7723.6457422,
+   "bse_fut": 308.0467336,
+   "bse_optp": 74178186.65121087,
+   "_errors": {
+    "nse_com": "NSE COM 2025-12-18: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251218_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-12-18: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 91.92,
+   "share_fut": 99.72,
+   "share_optp": 14.05
+  },
+  "2025-12-19": {
+   "nse_cm": 124141.41,
+   "nse_fut": 120206.43789893301,
+   "nse_optp": 17582253.3380181,
+   "bse_cm": 7843.3507386,
+   "bse_fut": 171.52834365,
+   "bse_optp": 3639364.3963776045,
+   "_errors": {
+    "nse_com": "NSE COM 2025-12-19: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251219_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-12-19: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 94.06,
+   "share_fut": 99.86,
+   "share_optp": 82.85
+  },
+  "2025-12-22": {
+   "nse_cm": 97458.45,
+   "nse_fut": 134107.144894673,
+   "nse_optp": 17554233.98486143,
+   "bse_cm": 6487.6718253,
+   "bse_fut": 163.4087179,
+   "bse_optp": 3696304.9962217,
+   "_errors": {
+    "nse_com": "NSE COM 2025-12-22: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251222_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-12-22: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 93.76,
+   "share_fut": 99.88,
+   "share_optp": 82.61
+  },
+  "2025-12-23": {
+   "nse_cm": 89155.76,
+   "nse_fut": 179758.34658911702,
+   "nse_optp": 50065666.75463707,
+   "bse_cm": 6427.4678309,
+   "bse_fut": 221.183589175,
+   "bse_optp": 6210226.3288953,
+   "_errors": {
+    "nse_com": "NSE COM 2025-12-23: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251223_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-12-23: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 93.28,
+   "share_fut": 99.88,
+   "share_optp": 88.96
+  },
+  "2025-12-24": {
+   "nse_cm": 86241.02,
+   "nse_fut": 288371.40902965097,
+   "nse_optp": 10115883.813151654,
+   "bse_cm": 8328.3503459,
+   "bse_fut": 534.01063325,
+   "bse_optp": 60996238.48172863,
+   "_errors": {
+    "nse_com": "NSE COM 2025-12-24: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251224_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-12-24: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 91.19,
+   "share_fut": 99.82,
+   "share_optp": 14.23
+  },
+  "2025-12-25": {
+   "bse_fut": 0.0,
+   "bse_optp": 0.0,
+   "_errors": {
+    "nse_cm": "https://archives.nseindia.com/archives/equities/mkt/MA251225.csv -> HTTP 404",
+    "nse_fo": "https://archives.nseindia.com/content/fo/BhavCopy_NSE_FO_0_0_0_20251225_F_0000.csv.zip -> HTTP 404",
+    "bse_cm": "BSE CM bhavcopy 2025-12-25: zero total",
+    "nse_com": "NSE COM 2025-12-25: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251225_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-12-25: all strategies failed (HTTP 403)"
+   }
+  },
+  "2025-12-26": {
+   "nse_cm": 81553.79,
+   "nse_fut": 328612.63549981604,
+   "nse_optp": 14780821.217365809,
+   "bse_cm": 6171.9968888,
+   "bse_fut": 103.7179841,
+   "bse_optp": 2688286.7768602,
+   "_errors": {
+    "nse_com": "NSE COM 2025-12-26: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251226_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-12-26: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 92.96,
+   "share_fut": 99.97,
+   "share_optp": 84.61
+  },
+  "2025-12-29": {
+   "nse_cm": 103927.9,
+   "nse_fut": 314209.625236555,
+   "nse_optp": 24202878.934543584,
+   "bse_cm": 9712.5250978,
+   "bse_fut": 144.37215375,
+   "bse_optp": 3883643.5027172,
+   "_errors": {
+    "nse_com": "NSE COM 2025-12-29: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251229_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-12-29: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 91.45,
+   "share_fut": 99.95,
+   "share_optp": 86.17
+  },
+  "2025-12-30": {
+   "nse_cm": 141795.39,
+   "nse_fut": 308546.76439697307,
+   "nse_optp": 66034414.04250756,
+   "bse_cm": 6826.6530928,
+   "bse_fut": 154.741797025,
+   "bse_optp": 4962369.61620775,
+   "_errors": {
+    "nse_com": "NSE COM 2025-12-30: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251230_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-12-30: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 95.41,
+   "share_fut": 99.95,
+   "share_optp": 93.01
+  },
+  "2025-12-31": {
+   "nse_cm": 100695.76,
+   "nse_fut": 101306.25362666,
+   "nse_optp": 10791066.86129857,
+   "bse_cm": 8291.6406577,
+   "bse_fut": 258.76943895,
+   "bse_optp": 21488167.54208065,
+   "_errors": {
+    "nse_com": "NSE COM 2025-12-31: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251231_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2025-12-31: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 92.39,
+   "share_fut": 99.75,
+   "share_optp": 33.43
+  },
+  "2026-01-01": {
+   "nse_cm": 80232.39,
+   "nse_fut": 68141.221558635,
+   "nse_optp": 8875494.522254085,
+   "bse_cm": 6237.2251652,
+   "bse_fut": 144.6171968,
+   "bse_optp": 72021085.81277135,
+   "_errors": {
+    "nse_com": "NSE COM 2026-01-01: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260101_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-01-01: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 92.79,
+   "share_fut": 99.79,
+   "share_optp": 10.97
+  },
+  "2026-01-02": {
+   "nse_cm": 102438.51,
+   "nse_fut": 104818.160992315,
+   "nse_optp": 16231388.54050593,
+   "bse_cm": 8126.185525,
+   "bse_fut": 143.5047048,
+   "bse_optp": 3308799.0469239,
+   "_errors": {
+    "nse_com": "NSE COM 2026-01-02: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260102_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-01-02: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 92.65,
+   "share_fut": 99.86,
+   "share_optp": 83.07
+  },
+  "2026-01-05": {
+   "nse_cm": 104602.45,
+   "nse_fut": 111462.18160327998,
+   "nse_optp": 30262495.368406437,
+   "bse_cm": 8150.2721151,
+   "bse_fut": 167.6240071,
+   "bse_optp": 6073669.4837632,
+   "_errors": {
+    "nse_com": "NSE COM 2026-01-05: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260105_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-01-05: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 92.77,
+   "share_fut": 99.85,
+   "share_optp": 83.28
+  },
+  "2026-01-06": {
+   "nse_cm": 109454.06,
+   "nse_fut": 113312.113377875,
+   "nse_optp": 58201646.43817253,
+   "bse_cm": 7827.0316647,
+   "bse_fut": 178.39854375,
+   "bse_optp": 6604141.9324272,
+   "_errors": {
+    "nse_com": "NSE COM 2026-01-06: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260106_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-01-06: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 93.33,
+   "share_fut": 99.84,
+   "share_optp": 89.81
+  },
+  "2026-01-07": {
+   "nse_cm": 106463.18,
+   "nse_fut": 108850.93074319001,
+   "nse_optp": 12417525.403970039,
+   "bse_cm": 9166.2503404,
+   "bse_fut": 201.60561765,
+   "bse_optp": 24336574.43512655,
+   "_errors": {
+    "nse_com": "NSE COM 2026-01-07: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260107_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-01-07: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 92.07,
+   "share_fut": 99.82,
+   "share_optp": 33.79
+  },
+  "2026-01-08": {
+   "nse_cm": 108954.13,
+   "nse_fut": 131536.13859235,
+   "nse_optp": 14751888.270694919,
+   "bse_cm": 10162.0891022,
+   "bse_fut": 356.3886921,
+   "bse_optp": 79891639.13816167,
+   "_errors": {
+    "nse_com": "NSE COM 2026-01-08: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260108_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-01-08: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 91.47,
+   "share_fut": 99.73,
+   "share_optp": 15.59
+  },
+  "2026-01-09": {
+   "nse_cm": 106746.84,
+   "nse_fut": 126456.00723281498,
+   "nse_optp": 25521425.29277906,
+   "bse_cm": 7953.6621477,
+   "bse_fut": 243.7014028,
+   "bse_optp": 5162718.1094311,
+   "_errors": {
+    "nse_com": "NSE COM 2026-01-09: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260109_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-01-09: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 93.07,
+   "share_fut": 99.81,
+   "share_optp": 83.17
+  },
+  "2026-01-12": {
+   "nse_cm": 103691.69,
+   "nse_fut": 123970.27966562002,
+   "nse_optp": 40021798.01672294,
+   "bse_cm": 8012.8841132,
+   "bse_fut": 281.28285435,
+   "bse_optp": 6598990.0917015,
+   "_errors": {
+    "nse_com": "NSE COM 2026-01-12: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260112_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-01-12: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 92.83,
+   "share_fut": 99.77,
+   "share_optp": 85.85
+  },
+  "2026-01-13": {
+   "nse_cm": 101636.97,
+   "nse_fut": 110879.2334528,
+   "nse_optp": 80399534.02039108,
+   "bse_cm": 7531.6261277,
+   "bse_fut": 348.33111615,
+   "bse_optp": 10619040.106897175,
+   "_errors": {
+    "nse_com": "NSE COM 2026-01-13: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260113_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-01-13: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 93.1,
+   "share_fut": 99.69,
+   "share_optp": 88.33
+  },
+  "2026-01-14": {
+   "nse_cm": 109538.1,
+   "nse_fut": 111963.111240595,
+   "nse_optp": 12481029.533377668,
+   "bse_cm": 8913.726703,
+   "bse_fut": 366.9137085,
+   "bse_optp": 91026286.57198866,
+   "_errors": {
+    "nse_com": "NSE COM 2026-01-14: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260114_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-01-14: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 92.47,
+   "share_fut": 99.67,
+   "share_optp": 12.06
+  },
+  "2026-01-15": {
+   "bse_fut": 0.0,
+   "bse_optp": 0.0,
+   "_errors": {
+    "nse_cm": "https://archives.nseindia.com/archives/equities/mkt/MA150126.csv -> HTTP 404",
+    "nse_fo": "https://archives.nseindia.com/content/fo/BhavCopy_NSE_FO_0_0_0_20260115_F_0000.csv.zip -> HTTP 404",
+    "bse_cm": "BSE CM bhavcopy 2026-01-15: zero total",
+    "nse_com": "NSE COM 2026-01-15: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260115_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-01-15: all strategies failed (HTTP 403)"
+   }
+  },
+  "2026-01-16": {
+   "nse_cm": 125067.43,
+   "nse_fut": 145621.58683883998,
+   "nse_optp": 26844817.68125931,
+   "bse_cm": 9177.331534,
+   "bse_fut": 236.96816585,
+   "bse_optp": 4904521.12737675,
+   "_errors": {
+    "nse_com": "NSE COM 2026-01-16: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260116_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-01-16: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 93.16,
+   "share_fut": 99.84,
+   "share_optp": 84.55
+  },
+  "2026-01-19": {
+   "nse_cm": 111002.74,
+   "nse_fut": 141240.995090655,
+   "nse_optp": 33028700.016475182,
+   "bse_cm": 7898.2359,
+   "bse_fut": 205.84957595,
+   "bse_optp": 5195958.9036639,
+   "_errors": {
+    "nse_com": "NSE COM 2026-01-19: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260119_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-01-19: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 93.36,
+   "share_fut": 99.85,
+   "share_optp": 86.41
+  },
+  "2026-01-20": {
+   "nse_cm": 125153.83,
+   "nse_fut": 174914.68748015497,
+   "nse_optp": 68453923.19321153,
+   "bse_cm": 9443.2795708,
+   "bse_fut": 239.32530515,
+   "bse_optp": 6033910.401740125,
+   "_errors": {
+    "nse_com": "NSE COM 2026-01-20: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260120_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-01-20: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 92.98,
+   "share_fut": 99.86,
+   "share_optp": 91.9
+  },
+  "2026-01-21": {
+   "nse_cm": 134135.9,
+   "nse_fut": 373248.75645062997,
+   "nse_optp": 20091040.192896258,
+   "bse_cm": 9489.2025862,
+   "bse_fut": 493.5538819,
+   "bse_optp": 32271375.4336933,
+   "_errors": {
+    "nse_com": "NSE COM 2026-01-21: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260121_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-01-21: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 93.39,
+   "share_fut": 99.87,
+   "share_optp": 38.37
+  },
+  "2026-01-22": {
+   "nse_cm": 129532.89,
+   "nse_fut": 439851.8881801,
+   "nse_optp": 17803819.330170367,
+   "bse_cm": 9485.5843706,
+   "bse_fut": 485.101615,
+   "bse_optp": 92987918.28160384,
+   "_errors": {
+    "nse_com": "NSE COM 2026-01-22: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260122_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-01-22: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 93.18,
+   "share_fut": 99.89,
+   "share_optp": 16.07
+  },
+  "2026-01-23": {
+   "nse_cm": 119314.12,
+   "nse_fut": 433354.37069374503,
+   "nse_optp": 29471452.21820015,
+   "bse_cm": 8652.6156816,
+   "bse_fut": 309.60826025,
+   "bse_optp": 4490755.716600375,
+   "_errors": {
+    "nse_com": "NSE COM 2026-01-23: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260123_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-01-23: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 93.24,
+   "share_fut": 99.93,
+   "share_optp": 86.78
+  },
+  "2026-01-26": {
+   "bse_fut": 0.0,
+   "bse_optp": 0.0,
+   "_errors": {
+    "nse_cm": "https://archives.nseindia.com/archives/equities/mkt/MA260126.csv -> HTTP 404",
+    "nse_fo": "https://archives.nseindia.com/content/fo/BhavCopy_NSE_FO_0_0_0_20260126_F_0000.csv.zip -> HTTP 404",
+    "bse_cm": "BSE CM bhavcopy 2026-01-26: zero total",
+    "nse_com": "NSE COM 2026-01-26: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260126_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-01-26: all strategies failed (HTTP 403)"
+   }
+  },
+  "2026-01-27": {
+   "nse_cm": 146643.67,
+   "nse_fut": 388543.05565006,
+   "nse_optp": 82214260.57222055,
+   "bse_cm": 11128.2049562,
+   "bse_fut": 429.762545,
+   "bse_optp": 5957804.29851145,
+   "_errors": {
+    "nse_com": "NSE COM 2026-01-27: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260127_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-01-27: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 92.95,
+   "share_fut": 99.89,
+   "share_optp": 93.24
+  },
+  "2026-01-28": {
+   "nse_cm": 139330.51,
+   "nse_fut": 131735.071510705,
+   "nse_optp": 8789200.552874524,
+   "bse_cm": 10509.5442658,
+   "bse_fut": 508.34455125,
+   "bse_optp": 26410450.4801602,
+   "_errors": {
+    "nse_com": "NSE COM 2026-01-28: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260128_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-01-28: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 92.99,
+   "share_fut": 99.62,
+   "share_optp": 24.97
+  },
+  "2026-01-29": {
+   "nse_cm": 154577.42,
+   "nse_fut": 140699.456000895,
+   "nse_optp": 8420367.996296374,
+   "bse_cm": 11669.6776063,
+   "bse_fut": 864.0101361,
+   "bse_optp": 86436545.29240885,
+   "_errors": {
+    "nse_com": "NSE COM 2026-01-29: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260129_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-01-29: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 92.98,
+   "share_fut": 99.39,
+   "share_optp": 8.88
+  },
+  "2026-01-30": {
+   "nse_cm": 172680.25,
+   "nse_fut": 132449.68929526498,
+   "nse_optp": 13617785.230930425,
+   "bse_cm": 11523.7824597,
+   "bse_fut": 286.2718427,
+   "bse_optp": 2831786.55238255,
+   "_errors": {
+    "nse_com": "NSE COM 2026-01-30: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260130_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-01-30: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 93.74,
+   "share_fut": 99.78,
+   "share_optp": 82.79
+  },
+  "2026-02-02": {
+   "nse_cm": 129022.57,
+   "nse_fut": 145849.374995625,
+   "nse_optp": 36634311.53511326,
+   "bse_cm": 8168.8902635,
+   "bse_fut": 303.365619275,
+   "bse_optp": 5144378.29035065,
+   "_errors": {
+    "nse_com": "NSE COM 2026-02-02: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260202_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-02-02: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 94.05,
+   "share_fut": 99.79,
+   "share_optp": 87.69
+  },
+  "2026-02-03": {
+   "nse_cm": 174055.95,
+   "nse_fut": 219684.705856835,
+   "nse_optp": 70639050.72046997,
+   "bse_cm": 11841.1764801,
+   "bse_fut": 578.1824035,
+   "bse_optp": 6377840.69831095,
+   "_errors": {
+    "nse_com": "NSE COM 2026-02-03: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260203_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-02-03: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 93.63,
+   "share_fut": 99.74,
+   "share_optp": 91.72
+  },
+  "2026-02-04": {
+   "nse_cm": 135526.9,
+   "nse_fut": 128316.5909738,
+   "nse_optp": 10313907.477346316,
+   "bse_cm": 10435.0423929,
+   "bse_fut": 277.2310534,
+   "bse_optp": 21871974.49794685,
+   "_errors": {
+    "nse_com": "NSE COM 2026-02-04: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260204_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-02-04: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 92.85,
+   "share_fut": 99.78,
+   "share_optp": 32.04
+  },
+  "2026-02-05": {
+   "nse_cm": 114315.54,
+   "nse_fut": 100985.265228695,
+   "nse_optp": 9380339.22063122,
+   "bse_cm": 8581.8198971,
+   "bse_fut": 333.6474548,
+   "bse_optp": 76874888.95459735,
+   "_errors": {
+    "nse_com": "NSE COM 2026-02-05: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260205_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-02-05: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 93.02,
+   "share_fut": 99.67,
+   "share_optp": 10.88
+  },
+  "2026-02-06": {
+   "nse_cm": 108655.63,
+   "nse_fut": 107540.22741208,
+   "nse_optp": 21541415.048504066,
+   "bse_cm": 7514.0043639,
+   "bse_fut": 193.3313382,
+   "bse_optp": 3782532.00263745,
+   "_errors": {
+    "nse_com": "NSE COM 2026-02-06: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260206_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-02-06: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 93.53,
+   "share_fut": 99.82,
+   "share_optp": 85.06
+  },
+  "2026-02-09": {
+   "nse_cm": 114972.5,
+   "nse_fut": 108401.635622025,
+   "nse_optp": 22223550.240314383,
+   "bse_cm": 8382.8667253,
+   "bse_fut": 217.55183675,
+   "bse_optp": 3307103.12479165,
+   "_errors": {
+    "nse_com": "NSE COM 2026-02-09: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260209_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-02-09: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 93.2,
+   "share_fut": 99.8,
+   "share_optp": 87.05
+  },
+  "2026-02-10": {
+   "nse_cm": 118063.85,
+   "nse_fut": 101380.728301205,
+   "nse_optp": 59839893.20036541,
+   "bse_cm": 9187.3930518,
+   "bse_fut": 178.3122112,
+   "bse_optp": 4234309.4776457,
+   "_errors": {
+    "nse_com": "NSE COM 2026-02-10: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260210_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-02-10: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 92.78,
+   "share_fut": 99.82,
+   "share_optp": 93.39
+  },
+  "2026-02-11": {
+   "nse_cm": 112625.73,
+   "nse_fut": 109481.14571348,
+   "nse_optp": 9778229.363933694,
+   "bse_cm": 9358.5266947,
+   "bse_fut": 149.6042515,
+   "bse_optp": 18231472.82532765,
+   "_errors": {
+    "nse_com": "NSE COM 2026-02-11: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260211_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-02-11: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 92.33,
+   "share_fut": 99.86,
+   "share_optp": 34.91
+  },
+  "2026-02-12": {
+   "nse_cm": 119233.39,
+   "nse_fut": 114995.379726125,
+   "nse_optp": 9748189.336763075,
+   "bse_cm": 10468.6592773,
+   "bse_fut": 254.0987184,
+   "bse_optp": 76138279.22589426,
+   "_errors": {
+    "nse_com": "NSE COM 2026-02-12: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260212_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-02-12: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 91.93,
+   "share_fut": 99.78,
+   "share_optp": 11.35
+  },
+  "2026-02-13": {
+   "nse_cm": 123599.44,
+   "nse_fut": 129500.69063929499,
+   "nse_optp": 18673776.25506209,
+   "bse_cm": 9424.4786063,
+   "bse_fut": 274.9613822,
+   "bse_optp": 3213372.2370922,
+   "_errors": {
+    "nse_com": "NSE COM 2026-02-13: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260213_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-02-13: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 92.92,
+   "share_fut": 99.79,
+   "share_optp": 85.32
+  },
+  "2026-02-16": {
+   "nse_cm": 89436.36,
+   "nse_fut": 102771.89263551001,
+   "nse_optp": 27159108.090013444,
+   "bse_cm": 7505.8665211,
+   "bse_fut": 217.8026897,
+   "bse_optp": 3768389.8645805,
+   "_errors": {
+    "nse_com": "NSE COM 2026-02-16: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260216_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-02-16: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 92.26,
+   "share_fut": 99.79,
+   "share_optp": 87.82
+  },
+  "2026-02-17": {
+   "nse_cm": 95690.63,
+   "nse_fut": 121204.88666883501,
+   "nse_optp": 71282418.03307302,
+   "bse_cm": 6866.8878585,
+   "bse_fut": 186.3499501,
+   "bse_optp": 4780689.2520275,
+   "_errors": {
+    "nse_com": "NSE COM 2026-02-17: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260217_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-02-17: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 93.3,
+   "share_fut": 99.85,
+   "share_optp": 93.71
+  },
+  "2026-02-18": {
+   "nse_cm": 92768.41,
+   "nse_fut": 159331.916657385,
+   "nse_optp": 11664416.25484658,
+   "bse_cm": 7022.7326139,
+   "bse_fut": 230.41471595,
+   "bse_optp": 20256508.363976974,
+   "_errors": {
+    "nse_com": "NSE COM 2026-02-18: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260218_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-02-18: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 92.96,
+   "share_fut": 99.86,
+   "share_optp": 36.54
+  },
+  "2026-02-19": {
+   "nse_cm": 93811.52,
+   "nse_fut": 358585.99040057,
+   "nse_optp": 14195545.511041187,
+   "bse_cm": 7645.2561767,
+   "bse_fut": 470.0715004,
+   "bse_optp": 86852466.263243,
+   "_errors": {
+    "nse_com": "NSE COM 2026-02-19: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260219_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-02-19: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 92.46,
+   "share_fut": 99.87,
+   "share_optp": 14.05
+  },
+  "2026-02-20": {
+   "nse_cm": 92643.79,
+   "nse_fut": 392480.719721495,
+   "nse_optp": 24137101.00693207,
+   "bse_cm": 7562.2078445,
+   "bse_fut": 375.2235689,
+   "bse_optp": 3934473.79281065,
+   "_errors": {
+    "nse_com": "NSE COM 2026-02-20: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260220_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-02-20: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 92.45,
+   "share_fut": 99.9,
+   "share_optp": 85.98
+  },
+  "2026-02-23": {
+   "nse_cm": 101052.48,
+   "nse_fut": 376064.128692175,
+   "nse_optp": 30849307.844969396,
+   "bse_cm": 7379.4606439,
+   "bse_fut": 260.7157493,
+   "bse_optp": 3606871.573113575,
+   "_errors": {
+    "nse_com": "NSE COM 2026-02-23: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260223_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-02-23: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 93.19,
+   "share_fut": 99.93,
+   "share_optp": 89.53
+  },
+  "2026-02-24": {
+   "nse_cm": 113004.6,
+   "nse_fut": 298769.43497860496,
+   "nse_optp": 78633521.67435323,
+   "bse_cm": 7307.0204631,
+   "bse_fut": 472.76836525,
+   "bse_optp": 4758215.176467325,
+   "_errors": {
+    "nse_com": "NSE COM 2026-02-24: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260224_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-02-24: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 93.93,
+   "share_fut": 99.84,
+   "share_optp": 94.29
+  },
+  "2026-02-25": {
+   "nse_cm": 108503.78,
+   "nse_fut": 109193.779526215,
+   "nse_optp": 12098463.341351785,
+   "bse_cm": 10464.4717992,
+   "bse_fut": 582.8177166,
+   "bse_optp": 23445944.078161526,
+   "_errors": {
+    "nse_com": "NSE COM 2026-02-25: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260225_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-02-25: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 91.2,
+   "share_fut": 99.47,
+   "share_optp": 34.04
+  },
+  "2026-02-26": {
+   "nse_cm": 108665.76,
+   "nse_fut": 97230.37391313502,
+   "nse_optp": 12245000.206016906,
+   "bse_cm": 10029.7422279,
+   "bse_fut": 807.6355697,
+   "bse_optp": 89221797.25537573,
+   "_errors": {
+    "nse_com": "NSE COM 2026-02-26: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260226_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-02-26: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 91.55,
+   "share_fut": 99.18,
+   "share_optp": 12.07
+  },
+  "2026-02-27": {
+   "nse_cm": 144962.74,
+   "nse_fut": 111472.948329075,
+   "nse_optp": 23315924.746583182,
+   "bse_cm": 8002.4362758,
+   "bse_fut": 352.82394395,
+   "bse_optp": 3374120.94422625,
+   "_errors": {
+    "nse_com": "NSE COM 2026-02-27: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260227_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-02-27: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 94.77,
+   "share_fut": 99.68,
+   "share_optp": 87.36
+  },
+  "2026-03-02": {
+   "nse_cm": 135372.72,
+   "nse_fut": 135715.365505925,
+   "nse_optp": 76864584.61582653,
+   "bse_cm": 11505.6852082,
+   "bse_fut": 514.95625345,
+   "bse_optp": 5025430.20898425,
+   "_errors": {
+    "nse_com": "NSE COM 2026-03-02: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260302_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-03-02: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 92.17,
+   "share_fut": 99.62,
+   "share_optp": 93.86
+  },
+  "2026-03-03": {
+   "bse_fut": 0.0,
+   "bse_optp": 0.0,
+   "_errors": {
+    "nse_cm": "https://archives.nseindia.com/archives/equities/mkt/MA030326.csv -> HTTP 404",
+    "nse_fo": "https://archives.nseindia.com/content/fo/BhavCopy_NSE_FO_0_0_0_20260303_F_0000.csv.zip -> HTTP 404",
+    "bse_cm": "BSE CM bhavcopy 2026-03-03: zero total",
+    "nse_com": "NSE COM 2026-03-03: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260303_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-03-03: all strategies failed (HTTP 403)"
+   }
+  },
+  "2026-03-04": {
+   "nse_cm": 140954.35,
+   "nse_fut": 144978.761933465,
+   "nse_optp": 9452674.40516692,
+   "bse_cm": 10418.9377634,
+   "bse_fut": 638.4852872,
+   "bse_optp": 17656686.189541675,
+   "_errors": {
+    "nse_com": "NSE COM 2026-03-04: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260304_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-03-04: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 93.12,
+   "share_fut": 99.56,
+   "share_optp": 34.87
+  },
+  "2026-03-05": {
+   "nse_cm": 124022.64,
+   "nse_fut": 132739.16943861998,
+   "nse_optp": 10795604.785772154,
+   "bse_cm": 9258.0988314,
+   "bse_fut": 686.0164855,
+   "bse_optp": 99648986.10231927,
+   "_errors": {
+    "nse_com": "NSE COM 2026-03-05: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260305_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-03-05: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 93.05,
+   "share_fut": 99.49,
+   "share_optp": 9.77
+  },
+  "2026-03-06": {
+   "nse_cm": 110554.19,
+   "nse_fut": 112352.118706105,
+   "nse_optp": 15199374.282003641,
+   "bse_cm": 8028.3992625,
+   "bse_fut": 323.339937175,
+   "bse_optp": 2353771.706496925,
+   "_errors": {
+    "nse_com": "NSE COM 2026-03-06: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260306_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-03-06: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 93.23,
+   "share_fut": 99.71,
+   "share_optp": 86.59
+  },
+  "2026-03-09": {
+   "nse_cm": 116595.57,
+   "nse_fut": 151276.77934816002,
+   "nse_optp": 20377568.785766095,
+   "bse_cm": 9658.54238,
+   "bse_fut": 523.3714213,
+   "bse_optp": 2461220.6877113,
+   "_errors": {
+    "nse_com": "NSE COM 2026-03-09: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260309_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-03-09: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 92.35,
+   "share_fut": 99.66,
+   "share_optp": 89.22
+  },
+  "2026-03-10": {
+   "nse_cm": 114279.83,
+   "nse_fut": 116333.05348331001,
+   "nse_optp": 69577241.02188058,
+   "bse_cm": 7631.2592296,
+   "bse_fut": 311.10475455,
+   "bse_optp": 3558886.52826015,
+   "_errors": {
+    "nse_com": "NSE COM 2026-03-10: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260310_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-03-10: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 93.74,
+   "share_fut": 99.73,
+   "share_optp": 95.13
+  },
+  "2026-03-11": {
+   "nse_cm": 110325.31,
+   "nse_fut": 116725.89967595,
+   "nse_optp": 8651981.70447195,
+   "bse_cm": 7544.7783538,
+   "bse_fut": 531.332230675,
+   "bse_optp": 18049274.28816205,
+   "_errors": {
+    "nse_com": "NSE COM 2026-03-11: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260311_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-03-11: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 93.6,
+   "share_fut": 99.55,
+   "share_optp": 32.4
+  },
+  "2026-03-12": {
+   "nse_cm": 123891.41,
+   "nse_fut": 125743.032924935,
+   "nse_optp": 8580524.33403755,
+   "bse_cm": 8906.1671363,
+   "bse_fut": 620.07256345,
+   "bse_optp": 86052859.45520376,
+   "_errors": {
+    "nse_com": "NSE COM 2026-03-12: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260312_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-03-12: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 93.29,
+   "share_fut": 99.51,
+   "share_optp": 9.07
+  },
+  "2026-03-13": {
+   "nse_cm": 121547.53,
+   "nse_fut": 145068.18542753998,
+   "nse_optp": 15237095.618451491,
+   "bse_cm": 8802.4612478,
+   "bse_fut": 566.759933325,
+   "bse_optp": 1897038.197970975,
+   "_errors": {
+    "nse_com": "NSE COM 2026-03-13: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260313_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-03-13: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 93.25,
+   "share_fut": 99.61,
+   "share_optp": 88.93
+  },
+  "2026-03-16": {
+   "nse_cm": 124924.28,
+   "nse_fut": 137194.51727116,
+   "nse_optp": 27387806.180190425,
+   "bse_cm": 7819.1028459,
+   "bse_fut": 594.752201075,
+   "bse_optp": 3316491.04003165,
+   "_errors": {
+    "nse_com": "NSE COM 2026-03-16: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260316_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-03-16: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 94.11,
+   "share_fut": 99.57,
+   "share_optp": 89.2
+  },
+  "2026-03-17": {
+   "nse_cm": 107083.39,
+   "nse_fut": 108711.51932856,
+   "nse_optp": 77362154.97426203,
+   "bse_cm": 8423.776745,
+   "bse_fut": 446.11181195,
+   "bse_optp": 4505085.395558,
+   "_errors": {
+    "nse_com": "NSE COM 2026-03-17: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260317_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-03-17: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 92.71,
+   "share_fut": 99.59,
+   "share_optp": 94.5
+  },
+  "2026-03-18": {
+   "nse_cm": 107541.69,
+   "nse_fut": 115854.15928544,
+   "nse_optp": 9261361.74017364,
+   "bse_cm": 8020.5814011,
+   "bse_fut": 519.03218505,
+   "bse_optp": 17959225.29080325,
+   "_errors": {
+    "nse_com": "NSE COM 2026-03-18: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260318_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-03-18: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 93.06,
+   "share_fut": 99.55,
+   "share_optp": 34.02
+  },
+  "2026-03-19": {
+   "nse_cm": 112093.07,
+   "nse_fut": 146591.30881821,
+   "nse_optp": 9460737.244197644,
+   "bse_cm": 8198.2767696,
+   "bse_fut": 896.6191267,
+   "bse_optp": 76540874.6791467,
+   "_errors": {
+    "nse_com": "NSE COM 2026-03-19: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260319_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-03-19: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 93.18,
+   "share_fut": 99.39,
+   "share_optp": 11.0
+  },
+  "2026-03-20": {
+   "nse_cm": 140228.16,
+   "nse_fut": 141176.57544483998,
+   "nse_optp": 15312393.85824318,
+   "bse_cm": 8048.3948469,
+   "bse_fut": 528.89993125,
+   "bse_optp": 2406660.003316,
+   "_errors": {
+    "nse_com": "NSE COM 2026-03-20: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260320_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-03-20: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 94.57,
+   "share_fut": 99.63,
+   "share_optp": 86.42
+  },
+  "2026-03-23": {
+   "nse_cm": 130437.72,
+   "nse_fut": 158048.800442165,
+   "nse_optp": 18608044.657904208,
+   "bse_cm": 10048.3782903,
+   "bse_fut": 597.4885345,
+   "bse_optp": 2507615.5406467,
+   "_errors": {
+    "nse_com": "NSE COM 2026-03-23: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260323_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-03-23: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 92.85,
+   "share_fut": 99.62,
+   "share_optp": 88.12
+  },
+  "2026-03-24": {
+   "nse_cm": 128067.97,
+   "nse_fut": 366215.45899349503,
+   "nse_optp": 70507611.10492341,
+   "bse_cm": 10640.3239302,
+   "bse_fut": 804.51175645,
+   "bse_optp": 6190609.2174395,
+   "_errors": {
+    "nse_com": "NSE COM 2026-03-24: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260324_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-03-24: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 92.33,
+   "share_fut": 99.78,
+   "share_optp": 91.93
+  },
+  "2026-03-25": {
+   "nse_cm": 126314.43,
+   "nse_fut": 410911.79903939005,
+   "nse_optp": 7777917.248764765,
+   "bse_cm": 12181.0165503,
+   "bse_fut": 1324.14538995,
+   "bse_optp": 73657415.177829,
+   "_errors": {
+    "nse_com": "NSE COM 2026-03-25: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260325_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-03-25: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 91.2,
+   "share_fut": 99.68,
+   "share_optp": 9.55
+  },
+  "2026-03-26": {
+   "bse_fut": 0.0,
+   "bse_optp": 0.0,
+   "_errors": {
+    "nse_cm": "https://archives.nseindia.com/archives/equities/mkt/MA260326.csv -> HTTP 404",
+    "nse_fo": "https://archives.nseindia.com/content/fo/BhavCopy_NSE_FO_0_0_0_20260326_F_0000.csv.zip -> HTTP 404",
+    "bse_cm": "BSE CM bhavcopy 2026-03-26: zero total",
+    "nse_com": "NSE COM 2026-03-26: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260326_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-03-26: all strategies failed (HTTP 403)"
+   }
+  },
+  "2026-03-27": {
+   "nse_cm": 157107.82,
+   "nse_fut": 410362.00742,
+   "nse_optp": 14519864.212177048,
+   "bse_cm": 12496.5143082,
+   "bse_fut": 1874.0837785,
+   "bse_optp": 1297523.18292485,
+   "_errors": {
+    "nse_com": "NSE COM 2026-03-27: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260327_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-03-27: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 92.63,
+   "share_fut": 99.55,
+   "share_optp": 91.8
+  },
+  "2026-03-30": {
+   "nse_cm": 146863.59,
+   "nse_fut": 320186.51602050994,
+   "nse_optp": 65263195.082492724,
+   "bse_cm": 10503.0594681,
+   "bse_fut": 2470.30562455,
+   "bse_optp": 2375865.3056567,
+   "_errors": {
+    "nse_com": "NSE COM 2026-03-30: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260330_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-03-30: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 93.33,
+   "share_fut": 99.23,
+   "share_optp": 96.49
+  },
+  "2026-03-31": {
+   "bse_fut": 0.0,
+   "bse_optp": 0.0,
+   "_errors": {
+    "nse_cm": "https://archives.nseindia.com/archives/equities/mkt/MA310326.csv -> HTTP 404",
+    "nse_fo": "https://archives.nseindia.com/content/fo/BhavCopy_NSE_FO_0_0_0_20260331_F_0000.csv.zip -> HTTP 404",
+    "bse_cm": "BSE CM bhavcopy 2026-03-31: zero total",
+    "nse_com": "NSE COM 2026-03-31: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260331_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-03-31: all strategies failed (HTTP 403)"
+   }
+  },
+  "2026-04-01": {
+   "nse_cm": 127242.24,
+   "nse_fut": 118958.54423339499,
+   "nse_optp": 7011509.342797521,
+   "bse_cm": 8939.5250959,
+   "bse_fut": 999.2030512,
+   "bse_optp": 15386265.1531488,
+   "_errors": {
+    "nse_com": "NSE COM 2026-04-01: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260401_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-04-01: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 93.44,
+   "share_fut": 99.17,
+   "share_optp": 31.3
+  },
+  "2026-04-02": {
+   "nse_cm": 117090.06,
+   "nse_fut": 110271.432113045,
+   "nse_optp": 7457331.269838216,
+   "bse_cm": 8541.2724828,
+   "bse_fut": 1594.6522786,
+   "bse_optp": 87288918.1945962,
+   "_errors": {
+    "nse_com": "NSE COM 2026-04-02: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260402_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-04-02: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 93.2,
+   "share_fut": 98.57,
+   "share_optp": 7.87
+  },
+  "2026-04-03": {
+   "bse_fut": 0.0,
+   "bse_optp": 0.0,
+   "_errors": {
+    "nse_cm": "https://archives.nseindia.com/archives/equities/mkt/MA030426.csv -> HTTP 404",
+    "nse_fo": "https://archives.nseindia.com/content/fo/BhavCopy_NSE_FO_0_0_0_20260403_F_0000.csv.zip -> HTTP 404",
+    "bse_cm": "BSE CM bhavcopy 2026-04-03: zero total",
+    "nse_com": "NSE COM 2026-04-03: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260403_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-04-03: all strategies failed (HTTP 403)"
+   }
+  },
+  "2026-04-06": {
+   "nse_cm": 116115.39,
+   "nse_fut": 100943.00565864,
+   "nse_optp": 19634304.787038483,
+   "bse_cm": 8507.3858627,
+   "bse_fut": 352.24489725,
+   "bse_optp": 3092454.29782605,
+   "_errors": {
+    "nse_com": "NSE COM 2026-04-06: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260406_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-04-06: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 93.17,
+   "share_fut": 99.65,
+   "share_optp": 86.39
+  },
+  "2026-04-07": {
+   "nse_cm": 110461.9,
+   "nse_fut": 92136.545539945,
+   "nse_optp": 64618481.38485497,
+   "bse_cm": 6474.5070265,
+   "bse_fut": 314.3579674,
+   "bse_optp": 3120225.6444716,
+   "_errors": {
+    "nse_com": "NSE COM 2026-04-07: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260407_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-04-07: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 94.46,
+   "share_fut": 99.66,
+   "share_optp": 95.39
+  },
+  "2026-04-08": {
+   "nse_cm": 165926.19,
+   "nse_fut": 145534.54318059,
+   "nse_optp": 8377633.744203084,
+   "bse_cm": 12222.8169557,
+   "bse_fut": 722.74697235,
+   "bse_optp": 16511522.8156001,
+   "_errors": {
+    "nse_com": "NSE COM 2026-04-08: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260408_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-04-08: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 93.14,
+   "share_fut": 99.51,
+   "share_optp": 33.66
+  },
+  "2026-04-09": {
+   "nse_cm": 133363.65,
+   "nse_fut": 101006.97687372501,
+   "nse_optp": 8283545.06392225,
+   "bse_cm": 10333.6167882,
+   "bse_fut": 514.4577761,
+   "bse_optp": 85887496.9026042,
+   "_errors": {
+    "nse_com": "NSE COM 2026-04-09: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260409_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-04-09: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 92.81,
+   "share_fut": 99.49,
+   "share_optp": 8.8
+  },
+  "2026-04-10": {
+   "nse_cm": 131731.07,
+   "nse_fut": 102569.52860626,
+   "nse_optp": 15341531.514439635,
+   "bse_cm": 8812.5811628,
+   "bse_fut": 269.69209745,
+   "bse_optp": 1981862.03548185,
+   "_errors": {
+    "nse_com": "NSE COM 2026-04-10: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260410_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-04-10: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 93.73,
+   "share_fut": 99.74,
+   "share_optp": 88.56
+  },
+  "2026-04-13": {
+   "nse_cm": 129987.55,
+   "nse_fut": 99639.041710055,
+   "nse_optp": 58886713.16965244,
+   "bse_cm": 9178.3698659,
+   "bse_fut": 378.39422085,
+   "bse_optp": 2986019.48862445,
+   "_errors": {
+    "nse_com": "NSE COM 2026-04-13: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260413_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-04-13: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 93.4,
+   "share_fut": 99.62,
+   "share_optp": 95.17
+  },
+  "2026-04-14": {
+   "bse_fut": 0.0,
+   "bse_optp": 0.0,
+   "_errors": {
+    "nse_cm": "https://archives.nseindia.com/archives/equities/mkt/MA140426.csv -> HTTP 404",
+    "nse_fo": "https://archives.nseindia.com/content/fo/BhavCopy_NSE_FO_0_0_0_20260414_F_0000.csv.zip -> HTTP 404",
+    "bse_cm": "BSE CM bhavcopy 2026-04-14: zero total",
+    "nse_com": "NSE COM 2026-04-14: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260414_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-04-14: all strategies failed (HTTP 403)"
+   }
+  },
+  "2026-04-15": {
+   "nse_cm": 145330.45,
+   "nse_fut": 109210.150339635,
+   "nse_optp": 6815232.599924375,
+   "bse_cm": 9536.6058733,
+   "bse_fut": 375.5025544,
+   "bse_optp": 15540232.08993545,
+   "_errors": {
+    "nse_com": "NSE COM 2026-04-15: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260415_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-04-15: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 93.84,
+   "share_fut": 99.66,
+   "share_optp": 30.49
+  },
+  "2026-04-16": {
+   "nse_cm": 152709.34,
+   "nse_fut": 114238.05052933501,
+   "nse_optp": 7973402.606029966,
+   "bse_cm": 11433.7259395,
+   "bse_fut": 659.3012745,
+   "bse_optp": 84970435.8741841,
+   "_errors": {
+    "nse_com": "NSE COM 2026-04-16: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260416_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-04-16: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 93.03,
+   "share_fut": 99.43,
+   "share_optp": 8.58
+  },
+  "2026-04-17": {
+   "nse_cm": 151704.89,
+   "nse_fut": 111776.40030962002,
+   "nse_optp": 12051435.67208387,
+   "bse_cm": 10101.130389,
+   "bse_fut": 227.278522375,
+   "bse_optp": 1946751.60972695,
+   "_errors": {
+    "nse_com": "NSE COM 2026-04-17: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260417_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-04-17: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 93.76,
+   "share_fut": 99.8,
+   "share_optp": 86.09
+  },
+  "2026-04-20": {
+   "nse_cm": 129979.03,
+   "nse_fut": 113627.64985420501,
+   "nse_optp": 19983869.446320042,
+   "bse_cm": 7970.0491711,
+   "bse_fut": 249.8418506,
+   "bse_optp": 2820267.1144399,
+   "_errors": {
+    "nse_com": "NSE COM 2026-04-20: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260420_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-04-20: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 94.22,
+   "share_fut": 99.78,
+   "share_optp": 87.63
+  },
+  "2026-04-21": {
+   "nse_cm": 127825.49,
+   "nse_fut": 119487.30034149499,
+   "nse_optp": 55742662.250522085,
+   "bse_cm": 7813.2203876,
+   "bse_fut": 289.28306355,
+   "bse_optp": 2870022.79491405,
+   "_errors": {
+    "nse_com": "NSE COM 2026-04-21: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260421_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-04-21: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 94.24,
+   "share_fut": 99.76,
+   "share_optp": 95.1
+  },
+  "2026-04-22": {
+   "nse_cm": 137113.19,
+   "nse_fut": 156209.23434697997,
+   "nse_optp": 6951226.476106884,
+   "bse_cm": 9851.6886245,
+   "bse_fut": 351.344758125,
+   "bse_optp": 14403795.492049774,
+   "_errors": {
+    "nse_com": "NSE COM 2026-04-22: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260422_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-04-22: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 93.3,
+   "share_fut": 99.78,
+   "share_optp": 32.55
+  },
+  "2026-04-23": {
+   "nse_cm": 135481.36,
+   "nse_fut": 344791.956588575,
+   "nse_optp": 7525565.4800690655,
+   "bse_cm": 10867.855487,
+   "bse_fut": 707.48783605,
+   "bse_optp": 78224974.7530778,
+   "_errors": {
+    "nse_com": "NSE COM 2026-04-23: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260423_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-04-23: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 92.57,
+   "share_fut": 99.8,
+   "share_optp": 8.78
+  },
+  "2026-04-24": {
+   "nse_cm": 130943.28,
+   "nse_fut": 370049.23426804,
+   "nse_optp": 14055323.3844652,
+   "bse_cm": 9235.771442,
+   "bse_fut": 322.787802175,
+   "bse_optp": 1990832.579153725,
+   "_errors": {
+    "nse_com": "NSE COM 2026-04-24: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260424_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-04-24: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 93.41,
+   "share_fut": 99.91,
+   "share_optp": 87.59
+  },
+  "2026-04-27": {
+   "nse_cm": 131255.64,
+   "nse_fut": 357399.881379315,
+   "nse_optp": 22875694.104951177,
+   "bse_cm": 8993.0940508,
+   "bse_fut": 267.50727665,
+   "bse_optp": 2351393.09249165,
+   "_errors": {
+    "nse_com": "NSE COM 2026-04-27: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260427_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-04-27: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 93.59,
+   "share_fut": 99.93,
+   "share_optp": 90.68
+  },
+  "2026-04-28": {
+   "nse_cm": 138087.33,
+   "nse_fut": 260611.88794095,
+   "nse_optp": 70622551.78320572,
+   "bse_cm": 8053.921558,
+   "bse_fut": 246.468143225,
+   "bse_optp": 3500349.44919155,
+   "_errors": {
+    "nse_com": "NSE COM 2026-04-28: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260428_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-04-28: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 94.49,
+   "share_fut": 99.91,
+   "share_optp": 95.28
+  },
+  "2026-04-29": {
+   "nse_cm": 139280.09,
+   "nse_fut": 106847.41055731,
+   "nse_optp": 7949683.288803645,
+   "bse_cm": 9148.6072831,
+   "bse_fut": 448.2733447,
+   "bse_optp": 18025829.0468891,
+   "_errors": {
+    "nse_com": "NSE COM 2026-04-29: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260429_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-04-29: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 93.84,
+   "share_fut": 99.58,
+   "share_optp": 30.6
+  },
+  "2026-04-30": {
+   "nse_cm": 142553.51,
+   "nse_fut": 110120.20185352002,
+   "nse_optp": 8516835.40874988,
+   "bse_cm": 10445.8889417,
+   "bse_fut": 1091.28360995,
+   "bse_optp": 94863602.0242378,
+   "_errors": {
+    "nse_com": "NSE COM 2026-04-30: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260430_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-04-30: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 93.17,
+   "share_fut": 99.02,
+   "share_optp": 8.24
+  },
+  "2026-05-01": {
+   "bse_fut": 0.0,
+   "bse_optp": 0.0,
+   "_errors": {
+    "nse_cm": "https://archives.nseindia.com/archives/equities/mkt/MA010526.csv -> HTTP 404",
+    "nse_fo": "https://archives.nseindia.com/content/fo/BhavCopy_NSE_FO_0_0_0_20260501_F_0000.csv.zip -> HTTP 404",
+    "bse_cm": "BSE CM bhavcopy 2026-05-01: zero total",
+    "nse_com": "NSE COM 2026-05-01: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260501_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-05-01: all strategies failed (HTTP 403)"
+   }
+  },
+  "2026-05-04": {
+   "nse_cm": 136831.09,
+   "nse_fut": 107853.381867875,
+   "nse_optp": 28059150.081528332,
+   "bse_cm": 17077.7276367,
+   "bse_fut": 282.50233555,
+   "bse_optp": 3736324.85919305,
+   "_errors": {
+    "nse_com": "NSE COM 2026-05-04: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260504_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-05-04: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 88.9,
+   "share_fut": 99.74,
+   "share_optp": 88.25
+  },
+  "2026-05-05": {
+   "nse_cm": 128629.18,
+   "nse_fut": 88510.49933854,
+   "nse_optp": 69938275.25499646,
+   "bse_cm": 8255.2777937,
+   "bse_fut": 247.1026568,
+   "bse_optp": 4128345.88819965,
+   "_errors": {
+    "nse_com": "NSE COM 2026-05-05: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260505_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-05-05: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 93.97,
+   "share_fut": 99.72,
+   "share_optp": 94.43
+  },
+  "2026-05-06": {
+   "nse_cm": 151681.61,
+   "nse_fut": 130283.64085456499,
+   "nse_optp": 10604602.091998192,
+   "bse_cm": 11283.5274163,
+   "bse_fut": 507.4539451,
+   "bse_optp": 24155190.88460895,
+   "_errors": {
+    "nse_com": "NSE COM 2026-05-06: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260506_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-05-06: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 93.08,
+   "share_fut": 99.61,
+   "share_optp": 30.51
+  },
+  "2026-05-07": {
+   "nse_cm": 153598.59,
+   "nse_fut": 106090.99466229501,
+   "nse_optp": 8909085.717816079,
+   "bse_cm": 11775.2944035,
+   "bse_fut": 635.37284745,
+   "bse_optp": 90877951.5756175,
+   "_errors": {
+    "nse_com": "NSE COM 2026-05-07: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260507_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-05-07: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 92.88,
+   "share_fut": 99.4,
+   "share_optp": 8.93
+  },
+  "2026-05-08": {
+   "nse_cm": 147669.21,
+   "nse_fut": 103411.66171221,
+   "nse_optp": 13886420.97876186,
+   "bse_cm": 9962.7826724,
+   "bse_fut": 217.22413525,
+   "bse_optp": 2379200.28915175,
+   "_errors": {
+    "nse_com": "NSE COM 2026-05-08: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260508_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-05-08: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 93.68,
+   "share_fut": 99.79,
+   "share_optp": 85.37
+  },
+  "2026-05-11": {
+   "nse_cm": 138987.18,
+   "nse_fut": 103194.133285025,
+   "nse_optp": 22559563.386678755,
+   "bse_cm": 11272.8156045,
+   "bse_fut": 291.9314715,
+   "bse_optp": 3043809.31335365,
+   "_errors": {
+    "nse_com": "NSE COM 2026-05-11: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260511_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-05-11: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 92.5,
+   "share_fut": 99.72,
+   "share_optp": 88.11
+  },
+  "2026-05-12": {
+   "nse_cm": 144731.74,
+   "nse_fut": 104395.44698730501,
+   "nse_optp": 63672721.72808376,
+   "bse_cm": 10259.1518737,
+   "bse_fut": 439.15098065,
+   "bse_optp": 4143830.404822625,
+   "_errors": {
+    "nse_com": "NSE COM 2026-05-12: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260512_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-05-12: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 93.38,
+   "share_fut": 99.58,
+   "share_optp": 93.89
+  },
+  "2026-05-13": {
+   "nse_cm": 138604.95,
+   "nse_fut": 109611.30267776501,
+   "nse_optp": 8861967.34655455,
+   "bse_cm": 9885.4862336,
+   "bse_fut": 383.73004275,
+   "bse_optp": 22126876.1908302,
+   "_errors": {
+    "nse_com": "NSE COM 2026-05-13: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260513_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-05-13: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 93.34,
+   "share_fut": 99.65,
+   "share_optp": 28.6
+  },
+  "2026-05-14": {
+   "nse_cm": 143017.67,
+   "nse_fut": 116836.16959556499,
+   "nse_optp": 8971202.116444655,
+   "bse_cm": 12362.1424758,
+   "bse_fut": 529.97117265,
+   "bse_optp": 88944380.75430608,
+   "_errors": {
+    "nse_com": "NSE COM 2026-05-14: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260514_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-05-14: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 92.04,
+   "share_fut": 99.55,
+   "share_optp": 9.16
+  },
+  "2026-05-15": {
+   "nse_cm": 133227.25,
+   "nse_fut": 104792.066678915,
+   "nse_optp": 16159196.866039965,
+   "bse_cm": 9823.3537473,
+   "bse_fut": 218.5035722,
+   "bse_optp": 2490867.558339,
+   "_errors": {
+    "nse_com": "NSE COM 2026-05-15: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260515_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-05-15: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 93.13,
+   "share_fut": 99.79,
+   "share_optp": 86.64
+  },
+  "2026-05-18": {
+   "nse_cm": 123450.3,
+   "nse_fut": 110094.424744975,
+   "nse_optp": 26466857.4821658,
+   "bse_cm": 8734.8453232,
+   "bse_fut": 300.3177905,
+   "bse_optp": 3577651.990709175,
+   "_errors": {
+    "nse_com": "NSE COM 2026-05-18: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260518_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-05-18: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 93.39,
+   "share_fut": 99.73,
+   "share_optp": 88.09
+  },
+  "2026-05-19": {
+   "nse_cm": 131116.02,
+   "nse_fut": 106479.17089427498,
+   "nse_optp": 65415367.74828101,
+   "bse_cm": 8324.7605371,
+   "bse_fut": 238.5745385,
+   "bse_optp": 3996150.610006925,
+   "_errors": {
+    "nse_com": "NSE COM 2026-05-19: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260519_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-05-19: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 94.03,
+   "share_fut": 99.78,
+   "share_optp": 94.24
+  },
+  "2026-05-20": {
+   "nse_cm": 114524.98,
+   "nse_fut": 151244.8775957,
+   "nse_optp": 8396777.905190555,
+   "bse_cm": 9112.4060488,
+   "bse_fut": 291.26459105,
+   "bse_optp": 18238124.51403955,
+   "_errors": {
+    "nse_com": "NSE COM 2026-05-20: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260520_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-05-20: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 92.63,
+   "share_fut": 99.81,
+   "share_optp": 31.53
+  },
+  "2026-05-21": {
+   "nse_cm": 121251.1,
+   "nse_fut": 344732.37609865,
+   "nse_optp": 9183926.886786172,
+   "bse_cm": 10102.5894766,
+   "bse_fut": 457.6717584,
+   "bse_optp": 80755890.22295007,
+   "_errors": {
+    "nse_com": "NSE COM 2026-05-21: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260521_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-05-21: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 92.31,
+   "share_fut": 99.87,
+   "share_optp": 10.21
+  },
+  "2026-05-22": {
+   "nse_cm": 113338.48,
+   "nse_fut": 378223.42367976,
+   "nse_optp": 14155080.795312915,
+   "bse_cm": 10139.3339748,
+   "bse_fut": 347.591930975,
+   "bse_optp": 2318890.413453725,
+   "_errors": {
+    "nse_com": "NSE COM 2026-05-22: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260522_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-05-22: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 91.79,
+   "share_fut": 99.91,
+   "share_optp": 85.92
+  },
+  "2026-05-25": {
+   "nse_cm": 119581.17,
+   "nse_fut": 345119.70119176497,
+   "nse_optp": 19912292.689007826,
+   "bse_cm": 8761.5907416,
+   "bse_fut": 410.27491775,
+   "bse_optp": 3053320.48675555,
+   "_errors": {
+    "nse_com": "NSE COM 2026-05-25: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260525_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-05-25: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 93.17,
+   "share_fut": 99.88,
+   "share_optp": 86.7
+  },
+  "2026-05-26": {
+   "nse_cm": 127513.37,
+   "nse_fut": 234234.66085792,
+   "nse_optp": 65622755.99809212,
+   "bse_cm": 9474.7230989,
+   "bse_fut": 388.323746175,
+   "bse_optp": 4974943.91139205,
+   "_errors": {
+    "nse_com": "NSE COM 2026-05-26: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260526_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-05-26: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 93.08,
+   "share_fut": 99.83,
+   "share_optp": 92.95
+  },
+  "2026-05-27": {
+   "nse_cm": 135899.66,
+   "nse_fut": 89471.94772971,
+   "nse_optp": 6832492.16372925,
+   "bse_cm": 11947.9717395,
+   "bse_fut": 723.270064,
+   "bse_optp": 70116153.1269754,
+   "_errors": {
+    "nse_com": "NSE COM 2026-05-27: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260527_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-05-27: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 91.92,
+   "share_fut": 99.2,
+   "share_optp": 8.88
+  },
+  "2026-05-28": {
+   "bse_fut": 0.0,
+   "bse_optp": 0.0,
+   "_errors": {
+    "nse_cm": "https://archives.nseindia.com/archives/equities/mkt/MA280526.csv -> HTTP 404",
+    "nse_fo": "https://archives.nseindia.com/content/fo/BhavCopy_NSE_FO_0_0_0_20260528_F_0000.csv.zip -> HTTP 404",
+    "bse_cm": "BSE CM bhavcopy 2026-05-28: zero total",
+    "nse_com": "NSE COM 2026-05-28: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260528_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-05-28: all strategies failed (HTTP 403)"
+   }
+  },
+  "2026-05-29": {
+   "nse_cm": 287452.34,
+   "nse_fut": 162484.575920865,
+   "nse_optp": 16560490.214055382,
+   "bse_cm": 12770.7969034,
+   "bse_fut": 527.158041325,
+   "bse_optp": 2975707.9927107,
+   "_errors": {
+    "nse_com": "NSE COM 2026-05-29: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260529_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-05-29: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 95.75,
+   "share_fut": 99.68,
+   "share_optp": 84.77
+  },
+  "2026-06-01": {
+   "nse_cm": 132672.24,
+   "nse_fut": 88827.055834625,
+   "nse_optp": 24713500.295486234,
+   "bse_cm": 8873.9513167,
+   "bse_fut": 348.611535525,
+   "bse_optp": 3402634.77921375,
+   "_errors": {
+    "nse_com": "NSE COM 2026-06-01: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260601_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-06-01: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 93.73,
+   "share_fut": 99.61,
+   "share_optp": 87.9
+  },
+  "2026-06-02": {
+   "nse_cm": 143327.01,
+   "nse_fut": 102840.99220185001,
+   "nse_optp": 78119787.4237612,
+   "bse_cm": 8827.2657938,
+   "bse_fut": 300.368421575,
+   "bse_optp": 5107922.201223575,
+   "_errors": {
+    "nse_com": "NSE COM 2026-06-02: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260602_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-06-02: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 94.2,
+   "share_fut": 99.71,
+   "share_optp": 93.86
+  },
+  "2026-06-03": {
+   "nse_cm": 135352.0,
+   "nse_fut": 109963.835946255,
+   "nse_optp": 10543598.094041765,
+   "bse_cm": 8558.7264277,
+   "bse_fut": 584.738360825,
+   "bse_optp": 25476440.731316026,
+   "_errors": {
+    "nse_com": "NSE COM 2026-06-03: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260603_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-06-03: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 94.05,
+   "share_fut": 99.47,
+   "share_optp": 29.27
+  },
+  "2026-06-04": {
+   "nse_cm": 128983.62,
+   "nse_fut": 77287.64507215,
+   "nse_optp": 8466741.055847479,
+   "bse_cm": 9459.7208467,
+   "bse_fut": 615.20204675,
+   "bse_optp": 84119610.23551388,
+   "_errors": {
+    "nse_com": "NSE COM 2026-06-04: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260604_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-06-04: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 93.17,
+   "share_fut": 99.21,
+   "share_optp": 9.14
+  },
+  "2026-06-05": {
+   "nse_cm": 128870.62,
+   "nse_fut": 94021.10108563,
+   "nse_optp": 18831898.472144164,
+   "bse_cm": 9914.161959,
+   "bse_fut": 273.770156,
+   "bse_optp": 3049304.8798861,
+   "_errors": {
+    "nse_com": "NSE COM 2026-06-05: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260605_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-06-05: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 92.86,
+   "share_fut": 99.71,
+   "share_optp": 86.06
+  },
+  "2026-06-08": {
+   "nse_cm": 109230.2,
+   "nse_fut": 76018.258504935,
+   "nse_optp": 21411203.29463872,
+   "bse_cm": 9054.5353911,
+   "bse_fut": 192.03135395,
+   "bse_optp": 2784554.92740715,
+   "_errors": {
+    "nse_com": "NSE COM 2026-06-08: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260608_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-06-08: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 92.35,
+   "share_fut": 99.75,
+   "share_optp": 88.49
+  },
+  "2026-06-09": {
+   "nse_cm": 123202.8,
+   "nse_fut": 81737.25958785,
+   "nse_optp": 62861080.29266689,
+   "bse_cm": 8183.8754071,
+   "bse_fut": 186.992753075,
+   "bse_optp": 4019755.834662775,
+   "_errors": {
+    "nse_com": "NSE COM 2026-06-09: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260609_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-06-09: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 93.77,
+   "share_fut": 99.77,
+   "share_optp": 93.99
+  },
+  "2026-06-10": {
+   "nse_cm": 119714.14,
+   "nse_fut": 83831.749801035,
+   "nse_optp": 8096464.651951766,
+   "bse_cm": 8413.0952934,
+   "bse_fut": 221.06003415,
+   "bse_optp": 16891408.734991577,
+   "_errors": {
+    "nse_com": "NSE COM 2026-06-10: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260610_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-06-10: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 93.43,
+   "share_fut": 99.74,
+   "share_optp": 32.4
+  },
+  "2026-06-11": {
+   "nse_cm": 112502.22,
+   "nse_fut": 72166.56703592,
+   "nse_optp": 8365649.368664291,
+   "bse_cm": 9067.5996691,
+   "bse_fut": 367.511944475,
+   "bse_optp": 82370906.9709904,
+   "_errors": {
+    "nse_com": "NSE COM 2026-06-11: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260611_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-06-11: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 92.54,
+   "share_fut": 99.49,
+   "share_optp": 9.22
+  },
+  "2026-06-12": {
+   "nse_cm": 118837.67,
+   "nse_fut": 105539.80897479501,
+   "nse_optp": 18646097.313488908,
+   "bse_cm": 9046.4562385,
+   "bse_fut": 488.45238955,
+   "bse_optp": 3154376.596444825,
+   "_errors": {
+    "nse_com": "NSE COM 2026-06-12: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260612_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-06-12: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 92.93,
+   "share_fut": 99.54,
+   "share_optp": 85.53
+  },
+  "2026-06-15": {
+   "nse_cm": 138642.27,
+   "nse_fut": 104722.76907206,
+   "nse_optp": 24340176.575109545,
+   "bse_cm": 10587.059297,
+   "bse_fut": 350.780877225,
+   "bse_optp": 3644314.8278458,
+   "_errors": {
+    "nse_com": "NSE COM 2026-06-15: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260615_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-06-15: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 92.91,
+   "share_fut": 99.67,
+   "share_optp": 86.98
+  },
+  "2026-06-16": {
+   "nse_cm": 119619.41,
+   "nse_fut": 73514.937053545,
+   "nse_optp": 55184032.22361739,
+   "bse_cm": 12762.0913091,
+   "bse_fut": 187.75687255,
+   "bse_optp": 3761371.310915925,
+   "_errors": {
+    "nse_com": "NSE COM 2026-06-16: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260616_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-06-16: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 90.36,
+   "share_fut": 99.75,
+   "share_optp": 93.62
+  },
+  "2026-06-17": {
+   "nse_cm": 133368.61,
+   "nse_fut": 85483.42375935,
+   "nse_optp": 6885078.635139716,
+   "bse_cm": 10129.8781773,
+   "bse_fut": 278.75886295,
+   "bse_optp": 14181329.7295262,
+   "_errors": {
+    "nse_com": "NSE COM 2026-06-17: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260617_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-06-17: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 92.94,
+   "share_fut": 99.67,
+   "share_optp": 32.68
+  },
+  "2026-06-18": {
+   "nse_cm": 133872.05,
+   "nse_fut": 89402.15875221,
+   "nse_optp": 8286329.92677345,
+   "bse_cm": 11460.1707164,
+   "bse_fut": 432.04209395,
+   "bse_optp": 74331936.37582578,
+   "_errors": {
+    "nse_com": "NSE COM 2026-06-18: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260618_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-06-18: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 92.11,
+   "share_fut": 99.52,
+   "share_optp": 10.03
+  },
+  "2026-06-19": {
+   "nse_cm": 159981.95,
+   "nse_fut": 113140.08159918,
+   "nse_optp": 15338151.055722518,
+   "bse_cm": 10879.0248569,
+   "bse_fut": 318.421055625,
+   "bse_optp": 2305200.852864425,
+   "_errors": {
+    "nse_com": "NSE COM 2026-06-19: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260619_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-06-19: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 93.63,
+   "share_fut": 99.72,
+   "share_optp": 86.93
+  },
+  "2026-06-22": {
+   "nse_cm": 118948.0,
+   "nse_fut": 92221.480190265,
+   "nse_optp": 16420685.294292856,
+   "bse_cm": 9561.0647771,
+   "bse_fut": 177.944308375,
+   "bse_optp": 2367729.510763875,
+   "_errors": {
+    "nse_com": "NSE COM 2026-06-22: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260622_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-06-22: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 92.56,
+   "share_fut": 99.81,
+   "share_optp": 87.4
+  },
+  "2026-06-23": {
+   "nse_cm": 131784.41,
+   "nse_fut": 142059.64106638,
+   "nse_optp": 70764019.4974928,
+   "bse_cm": 9983.6174811,
+   "bse_fut": 317.6354981,
+   "bse_optp": 5364137.82327955,
+   "_errors": {
+    "nse_com": "NSE COM 2026-06-23: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260623_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-06-23: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 92.96,
+   "share_fut": 99.78,
+   "share_optp": 92.95
+  },
+  "2026-06-24": {
+   "nse_cm": 122776.22,
+   "nse_fut": 367953.898203215,
+   "nse_optp": 10337344.235658629,
+   "bse_cm": 11802.0950657,
+   "bse_fut": 481.330188475,
+   "bse_optp": 20202253.403046723,
+   "_errors": {
+    "nse_com": "NSE COM 2026-06-24: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260624_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-06-24: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 91.23,
+   "share_fut": 99.87,
+   "share_optp": 33.85
+  },
+  "2026-06-25": {
+   "nse_cm": 136051.69,
+   "nse_fut": 418841.69544969004,
+   "nse_optp": 10757819.904436575,
+   "bse_cm": 11942.7559517,
+   "bse_fut": 1062.9011689,
+   "bse_optp": 85992586.45798606,
+   "_errors": {
+    "nse_com": "NSE COM 2026-06-25: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260625_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-06-25: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 91.93,
+   "share_fut": 99.75,
+   "share_optp": 11.12
+  },
+  "2026-06-26": {
+   "bse_fut": 0.0,
+   "bse_optp": 0.0,
+   "_errors": {
+    "nse_cm": "https://archives.nseindia.com/archives/equities/mkt/MA260626.csv -> HTTP 404",
+    "nse_fo": "https://archives.nseindia.com/content/fo/BhavCopy_NSE_FO_0_0_0_20260626_F_0000.csv.zip -> HTTP 404",
+    "bse_cm": "BSE CM bhavcopy 2026-06-26: zero total",
+    "nse_com": "NSE COM 2026-06-26: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260626_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-06-26: all strategies failed (HTTP 403)"
+   }
+  },
+  "2026-06-29": {
+   "nse_cm": 183491.87,
+   "nse_fut": 403505.02977049,
+   "nse_optp": 27293735.272239517,
+   "bse_cm": 10049.7067113,
+   "bse_fut": 224.248430375,
+   "bse_optp": 3153289.328763125,
+   "_errors": {
+    "nse_com": "NSE COM 2026-06-29: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260629_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-06-29: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 94.81,
+   "share_fut": 99.94,
+   "share_optp": 89.64
+  },
+  "2026-06-30": {
+   "nse_cm": 140407.22,
+   "nse_fut": 259160.994634725,
+   "nse_optp": 74771204.1747011,
+   "bse_cm": 10973.3225463,
+   "bse_fut": 171.431892225,
+   "bse_optp": 4033997.519586025,
+   "_errors": {
+    "nse_com": "NSE COM 2026-06-30: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260630_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-06-30: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 92.75,
+   "share_fut": 99.93,
+   "share_optp": 94.88
+  },
+  "2026-07-01": {
+   "nse_cm": 119242.61,
+   "nse_fut": 77874.032497585,
+   "nse_optp": 7669952.088390559,
+   "bse_cm": 9941.3051947,
+   "bse_fut": 229.0668879,
+   "bse_optp": 18798606.2975441,
+   "_errors": {
+    "nse_com": "NSE COM 2026-07-01: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260701_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-07-01: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 92.3,
+   "share_fut": 99.71,
+   "share_optp": 28.98
+  },
+  "2026-07-02": {
+   "nse_cm": 122377.81,
+   "nse_fut": 81690.46151588998,
+   "nse_optp": 8214263.823140191,
+   "bse_cm": 11203.188957,
+   "bse_fut": 308.1315649,
+   "bse_optp": 74892942.24330522,
+   "_errors": {
+    "nse_com": "NSE COM 2026-07-02: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260702_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-07-02: all strategies failed (HTTP 403)"
+   },
+   "share_cm": 91.61,
+   "share_fut": 99.62,
+   "share_optp": 9.88
+  }
+ }
+}

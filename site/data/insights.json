@@ -1,0 +1,327 @@
+{
+ "generated_utc": "2026-07-03T18:27:21Z",
+ "insights": [
+  {
+   "segment": "optp",
+   "label": "Options premium",
+   "type": "level",
+   "severity": "high",
+   "text": "NSE options premium share at 9.88% (-19.10pp DoD, -23.97pp WoW) vs BSE",
+   "date": "2026-07-02",
+   "news": [
+    {
+     "title": "Share/Stock Market News - Latest NSE, BSE, Business News, Stock/Share Tips, Sensex Nifty, Commodity, Global Market News & Analysis - LinkedIn",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPeFFKYU44dmNpYlVHUnQ1czBLSUladEZZOXFiYndKWkg2S1NuWm8zaU9FbEI3VGNxLWxCUVIzYXlWSjhqVkpTc1RBbW40TjZxV0dMbVVFZEdKV1duSGtwNUR0ZFk4dklZbE5DdTZMTUlwQWZacWV5RU1YeUlVYjN4WTd1b1MyVmNBVTg1aTBYUG1PWUVyM2pQMXhIdGhmOGFWdml2eThDbEh4c01JeDdKeXZsb3VPUQ?oc=5",
+     "source": "Google News",
+     "date": "Mon, 29 Jun 2026 04:02:27 GMT"
+    },
+    {
+     "title": "Stock market closed: NSE, BSE shut for Muharram today - Moneycontrol.com",
+     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPel9zTXVVN182UGFkMjJJUDExYTQ5STlHNEV3V2RjSS1vek9vaFFNNWdGd1RXQ1k2Q05XZGpCLUVWd3VrV2x2THpuaW5kak5EN0dzR1N0bEdFRTR3Ukt1TEpaYlVmVkpXWVJOT2ViMDd4dE1oQXRyM0UtWVg4eDNrNm5Mb3RsTGR3el80V3p0X3lyQUV1V210MWVSdFVCTEJPRVU0QmRybjlJZzJfbjRSRWd6YnRBSmlTUjE2ekdBRUd1VVBHYkHSAcsBQVVfeXFMTllpa2lHZXhMOWlSaUhqb1dkcTZMRV9ELXNiaGRHWnktdkFVUmxTbGlVVlFhSGM3TlMxUGpHM0MtdTV3NlBROU9ub2h5VTh6bzRkWnI3THN2OExfQVZFcThqcmhDM01TOW1ZQ3prSm5xelA4RTh0OGFYUDNaNE5XVmhOMm1QbXdERUwtN3V4ZFFyTV96T0o2QURIWHhxMmVsOGtlQXVBeG0wNzBKU3JfY0lKem9PQ3NEUzlYY3hsNWdLWkszelJCMmViVVk?oc=5",
+     "source": "Google News",
+     "date": "Fri, 26 Jun 2026 00:50:45 GMT"
+    },
+    {
+     "title": "NSE IPO filing highlights dominance over BSE despite fewer listings - MSN",
+     "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNS1pSaWFUaVhFb3R1azdnSlg3SzVieUhUcFNRNXpRRE11NS04WHFNOEtRckF5c1JBY2JiUDQ4VmtWdDhNR004aHBmeHlCMlNxMi1BbVNaSWJiZllZUlZ5MXNRaXRWQ0E5YVAxZFpuUnc2REZLNGlEMzFBOG9sdzN0bHpXVWRqUzUtdzlfUEJDeG1jU2xhSU9CaDlaRUxHVzNweVAyQm1ua1hRamg3NFRLY1pBd2tOOEpEZXZwYm5WaDdzLTJpYmpmVDFhQkZzTHJoT3phdWU2TG5TZ0tPalpjWFNIQlJqX3BPXzRCY1FNWVNOOHl4OWd6OWZ5VW9WZXM?oc=5",
+     "source": "Google News",
+     "date": "Mon, 22 Jun 2026 07:00:00 GMT"
+    }
+   ]
+  },
+  {
+   "segment": "optp",
+   "label": "Options premium",
+   "type": "mom",
+   "severity": "high",
+   "text": "NSE options premium share moved -41.84pp MoM (2026-06: 56.34% -> 2026-07: 14.50%)",
+   "date": "2026-07",
+   "news": [
+    {
+     "title": "Share/Stock Market News - Latest NSE, BSE, Business News, Stock/Share Tips, Sensex Nifty, Commodity, Global Market News & Analysis - LinkedIn",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPeFFKYU44dmNpYlVHUnQ1czBLSUladEZZOXFiYndKWkg2S1NuWm8zaU9FbEI3VGNxLWxCUVIzYXlWSjhqVkpTc1RBbW40TjZxV0dMbVVFZEdKV1duSGtwNUR0ZFk4dklZbE5DdTZMTUlwQWZacWV5RU1YeUlVYjN4WTd1b1MyVmNBVTg1aTBYUG1PWUVyM2pQMXhIdGhmOGFWdml2eThDbEh4c01JeDdKeXZsb3VPUQ?oc=5",
+     "source": "Google News",
+     "date": "Mon, 29 Jun 2026 04:02:27 GMT"
+    },
+    {
+     "title": "Stock market closed: NSE, BSE shut for Muharram today - Moneycontrol.com",
+     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPel9zTXVVN182UGFkMjJJUDExYTQ5STlHNEV3V2RjSS1vek9vaFFNNWdGd1RXQ1k2Q05XZGpCLUVWd3VrV2x2THpuaW5kak5EN0dzR1N0bEdFRTR3Ukt1TEpaYlVmVkpXWVJOT2ViMDd4dE1oQXRyM0UtWVg4eDNrNm5Mb3RsTGR3el80V3p0X3lyQUV1V210MWVSdFVCTEJPRVU0QmRybjlJZzJfbjRSRWd6YnRBSmlTUjE2ekdBRUd1VVBHYkHSAcsBQVVfeXFMTllpa2lHZXhMOWlSaUhqb1dkcTZMRV9ELXNiaGRHWnktdkFVUmxTbGlVVlFhSGM3TlMxUGpHM0MtdTV3NlBROU9ub2h5VTh6bzRkWnI3THN2OExfQVZFcThqcmhDM01TOW1ZQ3prSm5xelA4RTh0OGFYUDNaNE5XVmhOMm1QbXdERUwtN3V4ZFFyTV96T0o2QURIWHhxMmVsOGtlQXVBeG0wNzBKU3JfY0lKem9PQ3NEUzlYY3hsNWdLWkszelJCMmViVVk?oc=5",
+     "source": "Google News",
+     "date": "Fri, 26 Jun 2026 00:50:45 GMT"
+    },
+    {
+     "title": "NSE IPO filing highlights dominance over BSE despite fewer listings - MSN",
+     "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNS1pSaWFUaVhFb3R1azdnSlg3SzVieUhUcFNRNXpRRE11NS04WHFNOEtRckF5c1JBY2JiUDQ4VmtWdDhNR004aHBmeHlCMlNxMi1BbVNaSWJiZllZUlZ5MXNRaXRWQ0E5YVAxZFpuUnc2REZLNGlEMzFBOG9sdzN0bHpXVWRqUzUtdzlfUEJDeG1jU2xhSU9CaDlaRUxHVzNweVAyQm1ua1hRamg3NFRLY1pBd2tOOEpEZXZwYm5WaDdzLTJpYmpmVDFhQkZzTHJoT3phdWU2TG5TZ0tPalpjWFNIQlJqX3BPXzRCY1FNWVNOOHl4OWd6OWZ5VW9WZXM?oc=5",
+     "source": "Google News",
+     "date": "Mon, 22 Jun 2026 07:00:00 GMT"
+    }
+   ]
+  },
+  {
+   "segment": "cm",
+   "label": "Cash market",
+   "type": "level",
+   "severity": "normal",
+   "text": "NSE cash market share at 91.61% (-0.69pp DoD, +0.38pp WoW) vs BSE",
+   "date": "2026-07-02",
+   "news": [
+    {
+     "title": "Share/Stock Market News - Latest NSE, BSE, Business News, Stock/Share Tips, Sensex Nifty, Commodity, Global Market News & Analysis - LinkedIn",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPeFFKYU44dmNpYlVHUnQ1czBLSUladEZZOXFiYndKWkg2S1NuWm8zaU9FbEI3VGNxLWxCUVIzYXlWSjhqVkpTc1RBbW40TjZxV0dMbVVFZEdKV1duSGtwNUR0ZFk4dklZbE5DdTZMTUlwQWZacWV5RU1YeUlVYjN4WTd1b1MyVmNBVTg1aTBYUG1PWUVyM2pQMXhIdGhmOGFWdml2eThDbEh4c01JeDdKeXZsb3VPUQ?oc=5",
+     "source": "Google News",
+     "date": "Mon, 29 Jun 2026 04:02:27 GMT"
+    },
+    {
+     "title": "Stock market closed: NSE, BSE shut for Muharram today - Moneycontrol.com",
+     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPel9zTXVVN182UGFkMjJJUDExYTQ5STlHNEV3V2RjSS1vek9vaFFNNWdGd1RXQ1k2Q05XZGpCLUVWd3VrV2x2THpuaW5kak5EN0dzR1N0bEdFRTR3Ukt1TEpaYlVmVkpXWVJOT2ViMDd4dE1oQXRyM0UtWVg4eDNrNm5Mb3RsTGR3el80V3p0X3lyQUV1V210MWVSdFVCTEJPRVU0QmRybjlJZzJfbjRSRWd6YnRBSmlTUjE2ekdBRUd1VVBHYkHSAcsBQVVfeXFMTllpa2lHZXhMOWlSaUhqb1dkcTZMRV9ELXNiaGRHWnktdkFVUmxTbGlVVlFhSGM3TlMxUGpHM0MtdTV3NlBROU9ub2h5VTh6bzRkWnI3THN2OExfQVZFcThqcmhDM01TOW1ZQ3prSm5xelA4RTh0OGFYUDNaNE5XVmhOMm1QbXdERUwtN3V4ZFFyTV96T0o2QURIWHhxMmVsOGtlQXVBeG0wNzBKU3JfY0lKem9PQ3NEUzlYY3hsNWdLWkszelJCMmViVVk?oc=5",
+     "source": "Google News",
+     "date": "Fri, 26 Jun 2026 00:50:45 GMT"
+    },
+    {
+     "title": "NSE IPO filing highlights dominance over BSE despite fewer listings - MSN",
+     "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNS1pSaWFUaVhFb3R1azdnSlg3SzVieUhUcFNRNXpRRE11NS04WHFNOEtRckF5c1JBY2JiUDQ4VmtWdDhNR004aHBmeHlCMlNxMi1BbVNaSWJiZllZUlZ5MXNRaXRWQ0E5YVAxZFpuUnc2REZLNGlEMzFBOG9sdzN0bHpXVWRqUzUtdzlfUEJDeG1jU2xhSU9CaDlaRUxHVzNweVAyQm1ua1hRamg3NFRLY1pBd2tOOEpEZXZwYm5WaDdzLTJpYmpmVDFhQkZzTHJoT3phdWU2TG5TZ0tPalpjWFNIQlJqX3BPXzRCY1FNWVNOOHl4OWd6OWZ5VW9WZXM?oc=5",
+     "source": "Google News",
+     "date": "Mon, 22 Jun 2026 07:00:00 GMT"
+    }
+   ]
+  },
+  {
+   "segment": "cm",
+   "label": "Cash market",
+   "type": "mom",
+   "severity": "normal",
+   "text": "NSE cash market share moved -1.02pp MoM (2026-06: 92.97% -> 2026-07: 91.95%)",
+   "date": "2026-07",
+   "news": [
+    {
+     "title": "Share/Stock Market News - Latest NSE, BSE, Business News, Stock/Share Tips, Sensex Nifty, Commodity, Global Market News & Analysis - LinkedIn",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPeFFKYU44dmNpYlVHUnQ1czBLSUladEZZOXFiYndKWkg2S1NuWm8zaU9FbEI3VGNxLWxCUVIzYXlWSjhqVkpTc1RBbW40TjZxV0dMbVVFZEdKV1duSGtwNUR0ZFk4dklZbE5DdTZMTUlwQWZacWV5RU1YeUlVYjN4WTd1b1MyVmNBVTg1aTBYUG1PWUVyM2pQMXhIdGhmOGFWdml2eThDbEh4c01JeDdKeXZsb3VPUQ?oc=5",
+     "source": "Google News",
+     "date": "Mon, 29 Jun 2026 04:02:27 GMT"
+    },
+    {
+     "title": "Stock market closed: NSE, BSE shut for Muharram today - Moneycontrol.com",
+     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPel9zTXVVN182UGFkMjJJUDExYTQ5STlHNEV3V2RjSS1vek9vaFFNNWdGd1RXQ1k2Q05XZGpCLUVWd3VrV2x2THpuaW5kak5EN0dzR1N0bEdFRTR3Ukt1TEpaYlVmVkpXWVJOT2ViMDd4dE1oQXRyM0UtWVg4eDNrNm5Mb3RsTGR3el80V3p0X3lyQUV1V210MWVSdFVCTEJPRVU0QmRybjlJZzJfbjRSRWd6YnRBSmlTUjE2ekdBRUd1VVBHYkHSAcsBQVVfeXFMTllpa2lHZXhMOWlSaUhqb1dkcTZMRV9ELXNiaGRHWnktdkFVUmxTbGlVVlFhSGM3TlMxUGpHM0MtdTV3NlBROU9ub2h5VTh6bzRkWnI3THN2OExfQVZFcThqcmhDM01TOW1ZQ3prSm5xelA4RTh0OGFYUDNaNE5XVmhOMm1QbXdERUwtN3V4ZFFyTV96T0o2QURIWHhxMmVsOGtlQXVBeG0wNzBKU3JfY0lKem9PQ3NEUzlYY3hsNWdLWkszelJCMmViVVk?oc=5",
+     "source": "Google News",
+     "date": "Fri, 26 Jun 2026 00:50:45 GMT"
+    },
+    {
+     "title": "NSE IPO filing highlights dominance over BSE despite fewer listings - MSN",
+     "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNS1pSaWFUaVhFb3R1azdnSlg3SzVieUhUcFNRNXpRRE11NS04WHFNOEtRckF5c1JBY2JiUDQ4VmtWdDhNR004aHBmeHlCMlNxMi1BbVNaSWJiZllZUlZ5MXNRaXRWQ0E5YVAxZFpuUnc2REZLNGlEMzFBOG9sdzN0bHpXVWRqUzUtdzlfUEJDeG1jU2xhSU9CaDlaRUxHVzNweVAyQm1ua1hRamg3NFRLY1pBd2tOOEpEZXZwYm5WaDdzLTJpYmpmVDFhQkZzTHJoT3phdWU2TG5TZ0tPalpjWFNIQlJqX3BPXzRCY1FNWVNOOHl4OWd6OWZ5VW9WZXM?oc=5",
+     "source": "Google News",
+     "date": "Mon, 22 Jun 2026 07:00:00 GMT"
+    }
+   ]
+  },
+  {
+   "segment": "fut",
+   "label": "Equity futures",
+   "type": "level",
+   "severity": "normal",
+   "text": "NSE equity futures share at 99.62% (-0.09pp DoD, -0.25pp WoW) vs BSE",
+   "date": "2026-07-02",
+   "news": [
+    {
+     "title": "Share/Stock Market News - Latest NSE, BSE, Business News, Stock/Share Tips, Sensex Nifty, Commodity, Global Market News & Analysis - LinkedIn",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPeFFKYU44dmNpYlVHUnQ1czBLSUladEZZOXFiYndKWkg2S1NuWm8zaU9FbEI3VGNxLWxCUVIzYXlWSjhqVkpTc1RBbW40TjZxV0dMbVVFZEdKV1duSGtwNUR0ZFk4dklZbE5DdTZMTUlwQWZacWV5RU1YeUlVYjN4WTd1b1MyVmNBVTg1aTBYUG1PWUVyM2pQMXhIdGhmOGFWdml2eThDbEh4c01JeDdKeXZsb3VPUQ?oc=5",
+     "source": "Google News",
+     "date": "Mon, 29 Jun 2026 04:02:27 GMT"
+    },
+    {
+     "title": "Stock market closed: NSE, BSE shut for Muharram today - Moneycontrol.com",
+     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPel9zTXVVN182UGFkMjJJUDExYTQ5STlHNEV3V2RjSS1vek9vaFFNNWdGd1RXQ1k2Q05XZGpCLUVWd3VrV2x2THpuaW5kak5EN0dzR1N0bEdFRTR3Ukt1TEpaYlVmVkpXWVJOT2ViMDd4dE1oQXRyM0UtWVg4eDNrNm5Mb3RsTGR3el80V3p0X3lyQUV1V210MWVSdFVCTEJPRVU0QmRybjlJZzJfbjRSRWd6YnRBSmlTUjE2ekdBRUd1VVBHYkHSAcsBQVVfeXFMTllpa2lHZXhMOWlSaUhqb1dkcTZMRV9ELXNiaGRHWnktdkFVUmxTbGlVVlFhSGM3TlMxUGpHM0MtdTV3NlBROU9ub2h5VTh6bzRkWnI3THN2OExfQVZFcThqcmhDM01TOW1ZQ3prSm5xelA4RTh0OGFYUDNaNE5XVmhOMm1QbXdERUwtN3V4ZFFyTV96T0o2QURIWHhxMmVsOGtlQXVBeG0wNzBKU3JfY0lKem9PQ3NEUzlYY3hsNWdLWkszelJCMmViVVk?oc=5",
+     "source": "Google News",
+     "date": "Fri, 26 Jun 2026 00:50:45 GMT"
+    },
+    {
+     "title": "NSE IPO filing highlights dominance over BSE despite fewer listings - MSN",
+     "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNS1pSaWFUaVhFb3R1azdnSlg3SzVieUhUcFNRNXpRRE11NS04WHFNOEtRckF5c1JBY2JiUDQ4VmtWdDhNR004aHBmeHlCMlNxMi1BbVNaSWJiZllZUlZ5MXNRaXRWQ0E5YVAxZFpuUnc2REZLNGlEMzFBOG9sdzN0bHpXVWRqUzUtdzlfUEJDeG1jU2xhSU9CaDlaRUxHVzNweVAyQm1ua1hRamg3NFRLY1pBd2tOOEpEZXZwYm5WaDdzLTJpYmpmVDFhQkZzTHJoT3phdWU2TG5TZ0tPalpjWFNIQlJqX3BPXzRCY1FNWVNOOHl4OWd6OWZ5VW9WZXM?oc=5",
+     "source": "Google News",
+     "date": "Mon, 22 Jun 2026 07:00:00 GMT"
+    }
+   ]
+  }
+ ],
+ "news_pool": [
+  {
+   "title": "Share/Stock Market News - Latest NSE, BSE, Business News, Stock/Share Tips, Sensex Nifty, Commodity, Global Market News & Analysis - LinkedIn",
+   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPeFFKYU44dmNpYlVHUnQ1czBLSUladEZZOXFiYndKWkg2S1NuWm8zaU9FbEI3VGNxLWxCUVIzYXlWSjhqVkpTc1RBbW40TjZxV0dMbVVFZEdKV1duSGtwNUR0ZFk4dklZbE5DdTZMTUlwQWZacWV5RU1YeUlVYjN4WTd1b1MyVmNBVTg1aTBYUG1PWUVyM2pQMXhIdGhmOGFWdml2eThDbEh4c01JeDdKeXZsb3VPUQ?oc=5",
+   "source": "Google News",
+   "date": "Mon, 29 Jun 2026 04:02:27 GMT"
+  },
+  {
+   "title": "Stock market closed: NSE, BSE shut for Muharram today - Moneycontrol.com",
+   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPel9zTXVVN182UGFkMjJJUDExYTQ5STlHNEV3V2RjSS1vek9vaFFNNWdGd1RXQ1k2Q05XZGpCLUVWd3VrV2x2THpuaW5kak5EN0dzR1N0bEdFRTR3Ukt1TEpaYlVmVkpXWVJOT2ViMDd4dE1oQXRyM0UtWVg4eDNrNm5Mb3RsTGR3el80V3p0X3lyQUV1V210MWVSdFVCTEJPRVU0QmRybjlJZzJfbjRSRWd6YnRBSmlTUjE2ekdBRUd1VVBHYkHSAcsBQVVfeXFMTllpa2lHZXhMOWlSaUhqb1dkcTZMRV9ELXNiaGRHWnktdkFVUmxTbGlVVlFhSGM3TlMxUGpHM0MtdTV3NlBROU9ub2h5VTh6bzRkWnI3THN2OExfQVZFcThqcmhDM01TOW1ZQ3prSm5xelA4RTh0OGFYUDNaNE5XVmhOMm1QbXdERUwtN3V4ZFFyTV96T0o2QURIWHhxMmVsOGtlQXVBeG0wNzBKU3JfY0lKem9PQ3NEUzlYY3hsNWdLWkszelJCMmViVVk?oc=5",
+   "source": "Google News",
+   "date": "Fri, 26 Jun 2026 00:50:45 GMT"
+  },
+  {
+   "title": "NSE IPO filing highlights dominance over BSE despite fewer listings - MSN",
+   "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNS1pSaWFUaVhFb3R1azdnSlg3SzVieUhUcFNRNXpRRE11NS04WHFNOEtRckF5c1JBY2JiUDQ4VmtWdDhNR004aHBmeHlCMlNxMi1BbVNaSWJiZllZUlZ5MXNRaXRWQ0E5YVAxZFpuUnc2REZLNGlEMzFBOG9sdzN0bHpXVWRqUzUtdzlfUEJDeG1jU2xhSU9CaDlaRUxHVzNweVAyQm1ua1hRamg3NFRLY1pBd2tOOEpEZXZwYm5WaDdzLTJpYmpmVDFhQkZzTHJoT3phdWU2TG5TZ0tPalpjWFNIQlJqX3BPXzRCY1FNWVNOOHl4OWd6OWZ5VW9WZXM?oc=5",
+   "source": "Google News",
+   "date": "Mon, 22 Jun 2026 07:00:00 GMT"
+  },
+  {
+   "title": "Canara Bank Share Price Today, Canara Bank Stock Price Live NSE/BSE Updates - The Economic Times",
+   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1vN1ltcXJpMGJtU0Y2UlMwc1dTaVpfbkVNaTZGcUY1WmR6R1JsZUl6VWtOem9BVFhKT0FwMFBhUnFBdnA0bzdhUG95ZElaa2ZtcGMtX1B2aFZVTjZaazcwLWkwS0dBVkFPVW0xN19PeHY1RTd5cVdaeklEVVQyS1E?oc=5",
+   "source": "Google News",
+   "date": "Tue, 30 Jun 2026 21:59:00 GMT"
+  },
+  {
+   "title": "Stock Market Holiday Alert: NSE, BSE To Remain Closed For 3 Days Next Week; Check Full List and Key Dates - NDTV Profit",
+   "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOUXE5S2ZxeUlEbGhadlprajdhS25QWkZ5LXQ5ZFBDdmNJeUthVm5YYjZGRmZOS0NKNk9LemxYVF9ORklQX2VWbEp1NU1oZm5FU1lSclpzUU1FY0Z6YV9mN0VFdXBKT2o4ckc2ZGRUQ2czX1htek9NdUh3ZjhNVmZiRHlSY202eVczcGRCUkMyZ2sxZlZJRGg1dGZYWGZJYWlPemRBQkcwenlMaTNseWRTUldsTl9tT0V6emxuVURrcUU0bUZrTjI5ZnB2SmpwZGc5MjZtODVtbDcyN2paNlBj0gHnAUFVX3lxTE9wb01pU0pPdFdpdDI1b3MwSHhNZG8yTk9CWThqTFZHN3ctLTNxajctNlQ3TFpvUkhkS3NubGdvcjRfUjdBc1lJQkNrc0o3eC1TaXk5M3lNamVjT01reGYtUUxZVWFacWdaY1c3TmYxRnFOZmpSMFgxUjJWRXVVVTkybW1oRXVsVVJYdEM2NnJOUlhDcFFmZHJxNEQ4MGRoVVNaQm5raC1iZ19iR3hNZllJaTBFdGgzNXVYejZqdnlWLWxIZ2YtcXJsMUJyckxSejdSM2lGZEJPQTJuSDE0REtEYTZST2Q1QQ?oc=5",
+   "source": "Google News",
+   "date": "Sat, 20 Jun 2026 07:00:00 GMT"
+  },
+  {
+   "title": "Should you buy BSE shares ahead of the NSE IPO? - livemint.com",
+   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQVVROM1RFV1pBVHhOel8xb3JHSk1xZ19IdldMOHZsNjIxZU1BU3VWVzN2dnhxWk9Oa2d1M0R2UU9YZC1vT0NOdDNIS2taNkYzMkNWLTVDRUVJUnNaakVSSEJaZ2tsb1FWazdKbFVhWDdCX2JyU1daMEdMWjQ2eFZ3WFR4U2xZUjNLMWpHZWxqd1JqMTExZExtZjd4U2ZSRHI4WjE5cDAtQmN2T1ZlWU5RRWRVa0NzRmfSAbwBQVVfeXFMTkQ5dF9kQ1ZhNFNMZF9FUDZwNjBpUGlxYXQtOFFjLVhSOUpvN2NfYjBBSkxlR3NmaW9ZMVA1T19WR1NBNmJMXzN2LURMSDBlS0lVZ3ljZmJCN01RVjhHU1BoNzhVS3libzV0VGtGRk01bm0zT0h0Q2t0dnVHNDhtOHIwZ0ZySUdOSDdsUzBPaWFaNEpqTndUWW5jRE9Xb3FJR1U1WmtGSU4yNVp5a0hJdU0wYXpGN3NIUUF2NkE?oc=5",
+   "source": "Google News",
+   "date": "Mon, 22 Jun 2026 07:00:00 GMT"
+  },
+  {
+   "title": "Stock Market Holiday: NSE, BSE to remain shut on Friday for Muharram. Check upcoming market holidays - The Economic Times",
+   "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNc0xfR0JYeGlHeHNEaG9ybXRpZm9RXzVGSnIyME9Fb1lJUTV2TDNVRVpEbFBTdUhMbE95TDlyZ05TR2p4NFAwUEYxZXFMZ21aOVZjMXBpSGtlR0QzVTh3NnZDNXc3YkdzWnNRRXpQRHo0UWROMzVLS001ZVRSWnJGelpVbHpkc3VJN0dFM0toTlR6ZVcxa2dndlZleE1LNkZkMllXOTJzaHpsQVNTMm83bHFjUy1kNEdwbUtRSHJDNXVZMzNYS2FmMk9iUFFFQzQzRVQwbU1fZGMwNV9pUmxGODktb3NnSDUtcm5Yc1d3T0RPdlBuQTdQSkZQZ3Z3Tlhi0gGGAkFVX3lxTE9UQmg1MGJBOGt0c2ZKZVBYZVdQVHNfcGpPcXdRMGhHaG1OcTNiLXdILUNXV09oOGdyVEdTX0htX0NIeWRDbk5BQm5QcWxIMU5ZVTJsUXp3azVDTFlDYnRuSndwblRINTFkeHpxMGJWZWw1aXRaZW10c2c5OTJFN3RyWk9Ca0pRUGJaSk1GdU1tb0JMa3E5NjJ1S1VoSUhwQWgxMFJCQkZUREFZa1dsVmM0clZ4TnJmSzVCNVZKdl8yT0FYMmUwZnRXU1NaeE5LaUdOTmFna2ZLd2Z5YWpXSjlIN3pzTVRMVURfcnRmd2YxaG11ZmE3TjhISC1lcnZmOG5kMjZQbnc?oc=5",
+   "source": "Google News",
+   "date": "Wed, 24 Jun 2026 07:00:00 GMT"
+  },
+  {
+   "title": "Stock market holiday today: Why NSE, BSE are closed on Friday, 26 June - Business Today",
+   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOdHhfUjd4VGRmNVNuVGZKenMxdm9ITDk5N1Zqd1ZGZEdpbkh4aF9KSi1kQXZrdEhpd1FpWl9NN0pBdERUcTRXRHc0Q0NfVURyQWN4V3JMYUtYM1ZIY3ZadHVYYTlNMTc3blgzSE8wOGxGZVpLdkFYNUFHMkkxdXV4SHFZT1pkaGZteU9WNTU3bjJUTWRIN2xwRmhoY3dhX0lISnduQTBIV21rdUFLeEkwVzdSbVZhd2w1R204dFJxS2taYUh0N2NzSTFtNFU3bVJH0gHWAUFVX3lxTFAzSGsxd3J2RUJwQXM0eXdYR25hN0FDZHhmWDlJMDh0QWpucmU4cGtLY3RjUnNPMWJwTjN3ZkJHR2R1b2xseXZrRm04RTVxUmE3TlRQRHh2bERMbnV2ai1HZTZBRlBWLXJ3XzlMNC1sVUczSTQ1d1pwZEdrQkl4Q3JLYjJ3RVhidm5XTkw5a3NVNFdEdmF5MTZlZWtFM3VBdEpYenRDZXpXRFZVcElrU3BQeXpLdXF6eS1fYUVabUtIV2RSTHl3NEpOc2RxNUpvaVNXM0puN2c?oc=5",
+   "source": "Google News",
+   "date": "Fri, 26 Jun 2026 03:21:42 GMT"
+  },
+  {
+   "title": "Indian stock market holiday: Are NSE, BSE closed on June 26? find out here - Business Standard",
+   "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOUDJWMkpIRFhJNmY2OXVfU3BZdm50eVl1aG1paW9Hb0xjbUN4X2hBN3Z6amNuNy1zanNiaXM4QVJ2cldxZjdFQTJTUUxMUlQ3bkZfdDZjQUotUWRXeV9xNmM0aVc3WmRZWkFQbWQ3WHhwU2RSd1EydGVRVzM5OHNhNmNzQUVOWDZBaWdQZEQyLWlqZlUyc1h0VzdNaU50M2ZWSkRqM2tmbTlBRDF3WVdJMTZfRmtoNmkwcEFkcjJfOVRnSDlOc2tJUHZBSUtnX1lDQzFNa2t6MGVjTEdkbXlicFhnMmVhVEVscEJB0gHwAUFVX3lxTFBnRE5jT1BBckd4UUpIcTNqeEViQlpIOEhmb2RfQjNTWmVkbEdSRzlPQ1ktM0RIQ3NTNnkxUWxHTHB6NGU2X2FkS1poMUVaTHdKRGE1dXh0NmJxdXRwc0k3M0VQYnlPOG9TVUgzYXloMk5FTlRhSjNIemxzVDREV1Y1YktRTnNWTjdfQ21XN0h0NnY3czc1cndyQWkyOWdsRFNidzNodktWZjRMNHNZTW1iQjZ0eGU0VmN4UWdHV2dHN2JXajlGWlJfZkhlcjBSUnVrUzlIZFM1c1dYWHZvUE1lNUduQkN4WUxtR1BuMk1jdw?oc=5",
+   "source": "Google News",
+   "date": "Thu, 25 Jun 2026 03:54:20 GMT"
+  },
+  {
+   "title": "NSE Vs BSE: Can India's Biggest Exchange Repeat BSE's Wealth-Creation Story? - outlookbusiness.com",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPQ1lBZnNzNzVSbUREUC12dzJfZjVlOG14cUhGSVRCcnE5UDFBNlhib2xJekJ0Q3hVV3Vyc0ZXaUJkNEViVDdNYXhSd3lwUFdMNXdDN1dDSHo4cUNBNjZiR0tUaERCUXB5YW4wWG5SMGVza0wyWTlRYU5jQlgtRXgzUWtEcnlRdkpjemJTOEI0b08zUjlZc3kzYUZLLWNORHVJemVpNmRtbHdaWFZoaloyZDN30gG_AUFVX3lxTE9jX1JoWFhjbWpmdkEyZnU3X0xZV1JzSjdiVHJsZmZZcDVtaWtOTnU2ajR4OGk1Q1E0Sm1yUHB4U01RcHptYWZCd1BUd2cyRGpSdlQ3dmtuU3k3UkNFUnk1dEZfN1lNNXExcHRvQXFqcmR1OW5JX2hyWDg4TkFwOWdJUGRmT1BPMlRDeTZQWXVlTzVvS0diMnpPcFZDM19IZzV6MUdiQVFCQjNackk1TGZqalhYQnV5dm9ncWN5TWRr?oc=5",
+   "source": "Google News",
+   "date": "Thu, 25 Jun 2026 10:43:34 GMT"
+  },
+  {
+   "title": "CSM Technologies share price: Stock lists at par with IPO issue price on NSE, BSE - Upstox",
+   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPZS1TRkRXMEN5U2pub3c4NUxNT1hDWEpUNU95RDZ4TEs3MEFnaDBhdVZPbkZzX0I2MklJRGc4UkpELU9BZU5IMTFNeU5FRjhHYmR4MkhuVDJlaldVVDhFWW8zRlM3UUdUTVNjZkgwRkQ4dWxoWUwtU3A2WlZIQzB2Y1VMaWQ2Nzd3RmcwcE9PSkpWRTFrUkJHSy1aX1phUm83OUw2S09paF9tbGU0ZXJuMXpXR0QxZ3VUZ3gxTVJocFlfRGsxOHc?oc=5",
+   "source": "Google News",
+   "date": "Thu, 02 Jul 2026 04:18:22 GMT"
+  },
+  {
+   "title": "CSM Technologies Shares List Flat On NSE, BSE - Outlook Money",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxObWpmRG0yckFzT3dkODZPcE5Yem1nUElOaEdFWm9YLWpoUk55VjVxSGYzZVA1MWg1ZWsta0tRRGFLWFhIUzVkbjZJaVFRbUtFM1hSYjhsOFJiSzNCNjBZbXBkRzc3N3pLX0NGbmczOVlwODNyNTRKVFJKanRSSUlKNWRBVG1vUWvSAZQBQVVfeXFMT3MweTEtcUkzLVVqT29PWDl3WlFtei1tYkx5WWVEelZzMEVFc1dnQngzVHN4R2NOQ3A1WWlvSjZEX0dhMFZQT0llVUNGRW1xckE3VlNlbkk1cENiX0swb0h4TTBGQnpVeHBaRU14VS1SRXRzSzFKa2pfZjBQdVFwYmNHV3dGcWw0N0IyWWlHQlNuQWhwYg?oc=5",
+   "source": "Google News",
+   "date": "Thu, 02 Jul 2026 04:51:25 GMT"
+  },
+  {
+   "title": "Analysts split on BSE upside as NSE IPO nears - MSN",
+   "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPQXlGY3ZCVmJ1amlSSUVPcjlPTWI2THc3d3RXNTFuLWZ2bkFTZ3k0WEFrXzVrRnl2YzMyT0hlOTdLMkhxZ0toZ2VtRFBhUk56N1pMWlJ1cnpRRGdkRlRPRENqTVBiS1dqVkJ3RkczalJYUGVVTzhvRWhkRWw3dlRySENqQU0xQ0t3eDZHN0VvUG5QUlItSmNlMzVDdVNIbExoU01ZQllNN29zQjJyWEJCaXpLdHVEb1VwdWdRUGxIWDNHV1A5YXd5cTZEaTE5U3Z3UGpabGtrdmxiazNMWUZDNWRB?oc=5",
+   "source": "Google News",
+   "date": "Mon, 22 Jun 2026 07:00:00 GMT"
+  },
+  {
+   "title": "IPO-bound NSE set to be the change in exchange game - The Economic Times",
+   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPRG5iX1B1UGUxNC1xYlM5bWJtVU0yQjNHdGRNVEcxd3R6RC1ETy1PZnJGYlFDT0FmRkxCMTRkZl8tNUtBbHRWWHpTNkgzWWI3YTRXS3lYMzdfOHBmVVFsMjRqY3pWQkVEeC1uNVhid2ZhUlhtakxXYnE3SzNuaXZuS3RiaWNWQy1ReE1TZVJYU0RhOUJHcC1fWlp5dmxidzNYQkdHNjI2aEZSVDlVdlZkR1ZtcHZpWWR2eFJNOTBiOVHSAcYBQVVfeXFMTVVqYUxTSmZQdHZJNnAtYmVhQ3FfX2hQWU1IYUJrRkQxUkVpcTlLZEhpVFpJYW5ibzR4TFBYN2JkSG9MMXR6dmtSV0Fxc05yaGdjNXpaYTVyd1ZvbnpHN3BxczEwR0NZMWtMZ0NLUDVicmpFQl9meTB5N2RXRWlhS0FveXJvdEU2WlJqYTdOTDRTTUtQYjBRRHJaQUtBVTdibU4yQ1BzczdMZnlFaGJSZUV5cHFYdTJvcjlWdWJXYlZtWkFZWXpR?oc=5",
+   "source": "Google News",
+   "date": "Sun, 28 Jun 2026 04:12:33 GMT"
+  },
+  {
+   "title": "Reliance Infra Share Price Today, Reliance Infra Stock Price Live NSE/BSE Updates - The Economic Times",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPTkF4eHZEMHd5ZzZjSmdjdWZKQlFHSjRDZVBCMHJJUUtZYjNCYW80RmdRWkJlRkQ5dGVBQ3Z1Q2pzYWpRWGdBLXE4djhaQWN4VnlOZk0weHR0TkxrNWNqTEhXYTI1eEtId3hMbmloaC1aTk5sZWRla0ZxSV9IMU9wSDlYbHRqT0VSR2pVUHJRbnJJQjJkZmc?oc=5",
+   "source": "Google News",
+   "date": "Tue, 30 Jun 2026 20:09:00 GMT"
+  },
+  {
+   "title": "Stock Market Holiday 2026: Are NSE, BSE closed on June 26 for Muharram? Check market closing dates list - The Economic Times",
+   "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxPelROQ3dZbWEwblJFOEZISlhjSkpjeHF2eUxLLTBOaTZDdm5pbzlUWDRlc2Z5MW5IS1ktWXh1TW5PN213emp6RTJOOE1pNmNTWlZ4ZkQxanhGYzdmVkZ0S215S0ZTdjljQUY3eGRrZnQ4UDVFNkNrNzI2blVCaG9ybGxNeWg4Y0VlMDgwbmxCclR2cjhqSkRQcWJnYk5XTmtjdmQtQnlLaVNseGR0Wm5jMTZFNGdSRWxJZUFzSVhBaF9VblpaT2xjVDhtSWtDY1V4YUJKYjF3ZVp1WFVzdHdkWHFhVXBkZk5JRkViUVo3M0hxQzZpMzFwSWpiNThXdGdWUTFRYW1EaTBrbTdTdWxpQdIBlgJBVV95cUxQR0ZPeENYRGJJOVNJS01rd25VQVB5Wi1GMnJLU1FzS0oxbGVPU0lIdV85RThROTYwZW54aDJUdWN0Q0NIUmRpVnd4SUV3cVpiNUNncmZBSU9ZT3FnWktHQVN3U0pSNzJIZU56UWlCcHpURy05SVFKLUstY0lwaDVQWFZuZGVUYW5ReHdUaUhXWDJWQkFTNDF4elAzNmFLQkNpQUxDSWh3RGpmREc1ekZBNmx1aEJ3RnlfYkxiN01yWXdnUVNPYnlxSmRyREZISzd0dVRIRzNCakYxV0R0TEdwbXZVZU0tSE0tRXJGVHNHVFBpVEhzYlV4THhZOE9jTTM1OXJCZmUtaGR3YnRSN3dtWXJOTG1udw?oc=5",
+   "source": "Google News",
+   "date": "Thu, 25 Jun 2026 07:00:00 GMT"
+  },
+  {
+   "title": "Tata Motors CV Share Price Today, Tata Motors CV Stock Price Live NSE/BSE Updates - The Economic Times",
+   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOMWsxRzctdmdUb1RiN21uNHRnc2l4TkJsUEt3Qk4tQXhDd2wwUGhBbVZUalA3bWxFNF9Mc1lfMTc1VFdQUVl2V1RxRHFjMndESVYyMW1zVUJrLTQydTF5Q1drS3VNM3NYNGJ1Z1VsMWFJOHpENVZOUGN2dFpCZWhxeGpQTzA2dWJZ?oc=5",
+   "source": "Google News",
+   "date": "Mon, 29 Jun 2026 21:59:00 GMT"
+  },
+  {
+   "title": "Stock Market Holiday 2026: Is BSE, NSE open or closed today for Muharram? - The Economic Times",
+   "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOM19UMGh3M2dBa0VnUFpaQlFtbS12VDVvaTN0aTlQMm1WTGJ3bElNZjJDUDVRWHlKUXl3NXhoV0VHaWF2S1JpYnlKSng1OW50VTE5REVzcDZTWDVHdkNuX1pRNW44cndwSnA0R2pMcDk0dEdvcGktb3hudVl5SlZ3NUJ2cW9KYVdqNkI4RXIzTkU4UDdQMXI4S2VFU0pVekRqT0VVS1BIUzd0WkN4V2FoUUJZMXphY1pBdVpPSzJEUXdFYWxRNXdCYVBxZTRRaGZhMGRobEtMTFhUTVNF0gHiAUFVX3lxTFB2S0VoOENMbF9hWWJpeGotajN3cEhQTkFyUUhwR1ZMc0g1Ui01YnlIUDdPVzlMNVB5WkxVeTJTT0xJbS13bWtsYl90VVFkNTA2eXo1Q0I5b3dLSk9KNDViSU9xU1N5SW9ncFJVWjhVZENKenJBc3VOUmhpc0xTbGFWWl9HSVhQZ2xsSFVGVUxoQVNXLUJ3T25kSDM5eUJFbmtVOUJsY0hyUlRjUWt5NmdoRkVJeklhekY2R2QzZTF3QS1oMUc1Z2VkNE1qSWwxYWtxY18wV1hkeXVpeFFzRzc0cGc?oc=5",
+   "source": "Google News",
+   "date": "Fri, 26 Jun 2026 01:30:00 GMT"
+  },
+  {
+   "title": "Apollo Tyres Share Price Today, Apollo Tyres Stock Price Live NSE/BSE Updates - The Economic Times",
+   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPcWlZdzZTM2JIRE1vUkJtbnBaRFdlaG84a0NsdHJJcW5LdUgzZ0xGU29VdkZSRENvWFVUWC1id3dRWUZ2QXh0Zncwb1JPRDA4RXowLUFBYWlQb0xHZXR2b1k3Qm03YjJ4ZWhJNHYtNlZxczh6MTl3eXRTd3lVWHpFTFZ2SQ?oc=5",
+   "source": "Google News",
+   "date": "Mon, 29 Jun 2026 21:55:00 GMT"
+  },
+  {
+   "title": "Stock Market Holiday: BSE, NSE closed on June 26 sets up extended weekend for Dalal Street - The Economic Times",
+   "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOdjBFOHJibEYtdXI3UDNnTjRMV2dqc1h0QnpEV01ZNUJWcnlORWRmWlduZFhoVEdzWmRMMWtwcFlheWpESGtwejRGQXNHV1VkV2M4RFVDR1N0aWxkSHZtaFM3MkVsNlMyazNyb0lsdFh3SGtyMjZ4VmlkajJlZWd5VVhQaWw1U0JkallUQXJqc2tlTG5fMkpLYUhDYjcxMUJqSWtvVXc4c1hhVkwwQndMTHpuSGRXUXZtTllWdnN1OHJ5ZXhUV09wN3Q3OTUta2EtR2huVGZmbUVraGFsYlRQNExYNU81SE11Q01zWlZQZGZYSERv0gH6AUFVX3lxTFBjZ0tUUVROMUlKaVJBMExLQlFORFZTblc5cGlCa3ZDSFo4V3FKYUgzVlpYN1hCREhHMHpyNzFLbVZaWFRGR3kzekhMV2hOSlhOTEM5ZkRNdkJIeVZYd0Fxb1dudWJURW1HMGZHaDJLUlU1RXVOR2RRT0ZqOERwWi1Qc2Zia1JoZlF0UWtXYzRZa0R4d25CUWdTUU9WNlJ1LXByd3NaTWVFcGkxVEVieWYtV2dWQjk4MnRUdDZraDhQQXJ3QUE1b3gxLWo2YWQ3WEk5V0NrSE5jdzdmcnM4elZZYm9hX09CZDgtaFFjalVnQV9kR1BSZGFoR3c?oc=5",
+   "source": "Google News",
+   "date": "Sat, 20 Jun 2026 07:00:00 GMT"
+  },
+  {
+   "title": "BSE index options market share falls in June, Groww MTF book grows: Jefferies - Business Today",
+   "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNVFgzRjVFZGJVY3lGcl82QzlHY2ZpTG5TeWhwYVNPakpVZHE0Ujl5Mk9Rd0hsbmVCMkNsU0NScUVnMXROaElYOW9sdXF6Vl9DRlRVS0d0cjZoZERfbWVDeDRubzNPM19QN2tYSWc0ajhHZXRxdUtPX2QtVEVyOHp1bUwzY3BicGtDNG9Rb0NLbGgwVHlhQ0ZId1FjdWVuXzFjelNXWTdWbnFjNjlTdGNTZVRvYWNMbjZMckp0cXJsa0M2ZnlXOGNJOFQ5enBOOW1DZ2tqUWM3akwzUkdyMnlUY9IB4AFBVV95cUxNVFgzRjVFZGJVY3lGcl82QzlHY2ZpTG5TeWhwYVNPakpVZHE0Ujl5Mk9Rd0hsbmVCMkNsU0NScUVnMXROaElYOW9sdXF6Vl9DRlRVS0d0cjZoZERfbWVDeDRubzNPM19QN2tYSWc0ajhHZXRxdUtPX2QtVEVyOHp1bUwzY3BicGtDNG9Rb0NLbGgwVHlhQ0ZId1FjdWVuXzFjelNXWTdWbnFjNjlTdGNTZVRvYWNMbjZMckp0cXJsa0M2ZnlXOGNJOFQ5enBOOW1DZ2tqUWM3akwzUkdyMnlUYw?oc=5",
+   "source": "Google News",
+   "date": "Fri, 03 Jul 2026 06:45:39 GMT"
+  },
+  {
+   "title": "Powerica Ltd. Share Price Today - Powerica Ltd. Stock Price Live NSE/BSE - CNBC TV18",
+   "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBDVk1kdGU2eElVcTV1dkpaQWNaUXFpVENacFd5ZHdsOGR3X191MnVVZFNDejVybTUtTXcyVUk0Q1dCdEg5alYtakZOaHZCMTlIWmllbnU3ZnVLNnduSTJXeF90SkFXYldUbnpaOXlyZm9CT0ZtZXNsNWhnOA?oc=5",
+   "source": "Google News",
+   "date": "Fri, 03 Jul 2026 03:35:00 GMT"
+  },
+  {
+   "title": "Flat listing: CSM Tech shares list at IPO price of Rs 113 on BSE, NSE - Moneycontrol.com",
+   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOM3VSUjBfVlowZl81eTZRNHA1enVHSlpzcFdKdXJCNW5TMFFKeTE3NDVqSWtSbXlyNnh6ZEdJbXVpYWloMUNMemdhYk1wZW1kQ2x2emt4V19ObENlaVdxREhRLXRJSnlzM2s3S19IOHlPcHZOa1pHZmlMbUYxNmdIQVhXeDBKZzRNdnJtR0lxTXlFQmZjN0M0d0NucjRCVGpZR1BzTGF2aUttTnYwVlVzYm5IVjVPQkY5UmfSAb8BQVVfeXFMTkZXcHZucXlJaXBxbUllaUFqX3pRcm9jOUFWeUYyVUJlVjFlcmwxbzE5TlVYdjZLS1p4LVBSQUtzY1B1LVRoV05aTEpqMC1McUNQZlBqYldXUDNtQjNXVDd6SDFYMXplN2ZkRWctWFlCV0VTZXpXajRsY2xCdVhFS0xfclM0OVNYUlZtQ29IS1V3dUo4RzZRRFF2OWh3TzlJNmdza21OSDctVUd0WHY5b2VBaXNFd3QtamVCQXZlRm8?oc=5",
+   "source": "Google News",
+   "date": "Thu, 02 Jul 2026 04:27:11 GMT"
+  },
+  {
+   "title": "Allcargo Global starts trading on NSE, BSE after demerger from Allcargo Logistics - Fortune India",
+   "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOVXJqMjBFUDZTZExkR0M5WW1JeERmenN2V0VZTk9QY2tJdW1UdmU2RzJjckFOSnFvX0IySllDWE5mM1RycmdIbFJua3EzZFIyNXQtTkh6NTVrNHFhRWJ5U29wMGxyMXltRnJISXpxd2Ffb1J6dHZBSnJlRjViWUFsTzFNZW81ODdxeVAxdHJBU1ZXRXdVSGZScEpaM0RRVURISDl4UmdtN3QtS3cxenJrV2JKVkE0V0xkQ1FYbWJ2NnR1VWFUUVJjbndn0gHXAUFVX3lxTFBrdy1fRlJPcWRtOFdhQTFrQXdEYmQ0QzlNVUt3cjl6NkRoWDdCbWxSOHFHSE15MTVOYUdqakJsYnE1dUJCd1RVVlVabFJEYTluU0NYYkl0WFlNdHFxUG0tTXVOWmx3UEpEZFUxa2trbng0LXgzUDBlRWtzTzQyYnp5UWRQWktaaG5uR3FVNnFCNW5fSTRaVi1RaHpqX2xkWUUwSGo0UzBqLWFyT0dlbEUtSHhiYUdSUmpSOU1iUURscHVfTG5qMmdmTG15dzVTUTVWdnMxdms0?oc=5",
+   "source": "Google News",
+   "date": "Fri, 03 Jul 2026 07:37:30 GMT"
+  },
+  {
+   "title": "BSE Ltd Share Price Today,, BSE Share Price NSE, BSE - Business Today",
+   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5YVmdpdy1OaEVKZkFkM015bVZ1U0ZHdFo0aUN3U2E4Q1J3MURmdlhFODFXLXlHSGcxSnkxM0hQbGxTTjJTanJ1SGk1cWV0UDR3SDdhUm5jVTVqb29wS3ZBYU5JNm1ENVo2Zm5zNU9vcl9hbXdH?oc=5",
+   "source": "Google News",
+   "date": "Wed, 01 Jul 2026 07:00:00 GMT"
+  },
+  {
+   "title": "Bharat Coking Coal IPO Listing Date: 4 key things retail investors should know before it debuts on NSE, BSE - Upstox",
+   "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQMlM1ZWRWMGRob1MwT2lwV1R6bzRqODh4OFVTMmdGSmRUaUhBNnMzSzBxek5fUzRhcFhaZWwtY2pILWNPSTRROUJNRFRYZTlXY1htbmk4QmZjRzhubDZQaU5Kd1hfcmdXTVZhV1lPZDV6VmE0SHE3TUQzdThaZkQtVnBGQlpOMG9YX2Y1SktubUNiVElqUTFHX054aWVsS1BOWXVqN0xUUFFIZ2hpWER6NzByUTl4QlppUTRGS2dCVzNPRzY2X3FuVU1QOTQ4VE5mOGdOeGdtYzZTaEhwZy1VSEd5MTJVaHd3RkFCa0NWWkFhdw?oc=5",
+   "source": "Google News",
+   "date": "Wed, 01 Jul 2026 07:00:00 GMT"
+  },
+  {
+   "title": "Advit Jewels IPO allotment finalised: Check status online on NSE, BSE, Bigshare Services; listing date, time revealed - Upstox",
+   "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQTVM4VEpCVm1idFN5OTZMS3VEek1fMXc0VDRKMlJrYmtnQmY3dlgzZVpMTUFsdkdnaG9UODRYNkUzTUJtaUhrSE9TenR3YlNVOW9DSnpPVWJLb25MUmxoMWhyX0FSNGtqUkRkWUJUeE1SZXJ5VjI2WnA0WmNYSDloTzlmc05wWTRNa2tWYXY5cXZPbWFTSTdRNDR1c05CTWcycWZZN0xaUHBWR2FSMlZpNnY2YTBfX1NBREZtRUNhbmxYbzBDS2g1dkNkMGNreXp3Z1A4OFJBT2VOSkVCLVhQRmdrWmN1Z0dPREhzLXBCaw?oc=5",
+   "source": "Google News",
+   "date": "Mon, 29 Jun 2026 02:20:40 GMT"
+  },
+  {
+   "title": "INFOSYS LIMITED Share Price Today - Live INFY Stock Price for NSE/BSE - Upstox",
+   "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5BbEJTdmZNbE5BN0ZRWWZpd2tZZnRCZWV0MFdhYW5nQ2NSSTgzUlI4TjVPaU5BV1FxQkpYUnFWa05Fb09uMkxlNDhUWVpvV2JLWGIxUmh3SUFKSzEwUHZpX1IyTVM?oc=5",
+   "source": "Google News",
+   "date": "Fri, 03 Jul 2026 02:40:48 GMT"
+  },
+  {
+   "title": "Amir Chand Jagdish Kumar IPO allotment finalised: How to check status online on KFin Technologies, NSE, BSE; listing date, time revealed - Upstox",
+   "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPYnltcnBtRUtUakpJME9lTzlFNkZ0Mnh0UjNRMzhlV19NQy1IZkZxUzg4VklfMUZGdTh4N1pvZVRqOHFqTzZVVjFpQ1o1LUt5NTd6YjZQTEgxQ3U3cTFWYThZSlY0eERSeEFaWjNwc0x3anI3UnlKanh0WXIxUGxMNzlnOVg5UmlqQmM1ZjBtajlJMTRldjA5MDA1MmVBaUFxczRaSV9HZzJ2UGVFOXR1b2I4SEVzZW9pcGJ5czFPSkE2SG01VGNVanJkVTduS3dfcVUwX3NkQlZDRDYxcGt4eFNWQnU5Vl9vLS1nRUt5YTVZRVE2R2RRaHFkTW9UcUlNYU9WUm1CbDk2N0pRWEE?oc=5",
+   "source": "Google News",
+   "date": "Wed, 01 Jul 2026 07:00:00 GMT"
+  },
+  {
+   "title": "Century Texttiles Share Price Today, Century Texttiles Stock Price Live NSE/BSE Updates - The Economic Times",
+   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNYVkzNFQyZzFQUWhrVGtlZXRsOXU1XzREMnhvYlIzWTVmNzYxd1hsamppdGRBVC1vN2d2ZHloeG1ua212Y3Y5TXRHekM3djhyNkc2Nk5pR1FDY3BLTDlUVkVsZC13TjEySUEtS2RpTnQtc3Nja2FicXlUVTV2N3NON3hwU2FaekNWUjRrQVI3eVotYWpjUjRF?oc=5",
+   "source": "Google News",
+   "date": "Tue, 30 Jun 2026 07:00:00 GMT"
+  }
+ ]
+}
