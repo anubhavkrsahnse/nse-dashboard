@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NSE Market Share Command Center</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<style>
+:root{
+  --bg:#0b1020;--panel:#121a33;--panel2:#182246;--text:#e8ecf8;
+  --muted:#93a0c4;--accent:#4f8ef7;--good:#2ecc8f;--bad:#ff5c7a;
+  --warn:#f5b942;--border:#243059;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;background:var(--bg);color:var(--text);padding:24px}
+header{display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:8px;margin-bottom:20px}
+h1{font-size:22px;font-weight:700}
+h1 span{color:var(--accent)}
+#freshness{color:var(--muted);font-size:13px}
+.grid{display:grid;gap:16px}
+.kpis{grid-template-columns:repeat(auto-fit,minmax(210px,1fr))}
+.card{background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:16px}
+.kpi .seg{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
+.kpi .val{font-size:32px;font-weight:700;margin:6px 0 2px}
+.kpi .delta{font-size:13px}
+.kpi .rival{font-size:12px;color:var(--muted)}
+.up{color:var(--good)}.down{color:var(--bad)}
+.charts{grid-template-columns:1fr 1fr;margin-top:16px}
+.card h2{font-size:14px;color:var(--muted);font-weight:600;margin-bottom:10px;text-transform:uppercase;letter-spacing:.05em}
+.chartbox{position:relative;height:280px}
+#insights .item{border-left:3px solid var(--accent);padding:10px 12px;margin-bottom:10px;background:var(--panel2);border-radius:0 8px 8px 0}
+#insights .item.high{border-left-color:var(--warn)}
+#insights .item .txt{font-size:14px;line-height:1.45}
+#insights .item .dt{font-size:11px;color:var(--muted);margin-top:2px}
+#insights .news a{display:block;font-size:12px;color:var(--accent);text-decoration:none;margin-top:4px}
+#insights .news a:hover{text-decoration:underline}
+#quality{font-size:12px;color:var(--muted);margin-top:18px}
+#quality .err{color:var(--warn)}
+.tabs{display:flex;gap:8px;margin-bottom:10px}
+.tabs button{background:var(--panel2);color:var(--muted);border:1px solid var(--border);border-radius:8px;padding:5px 12px;font-size:12px;cursor:pointer}
+.tabs button.active{color:var(--text);border-color:var(--accent)}
+@media(max-width:900px){.charts{grid-template-columns:1fr}}
+.empty{color:var(--muted);font-size:14px;padding:30px;text-align:center}
+</style>
+</head>
+<body>
+<header>
+  <h1><span>NSE</span> Market Share Command Center <span style="font-size:13px;color:var(--muted);font-weight:400">CM &middot; F&amp;O &middot; Commodity &middot; vs BSE / MCX</span></h1>
+  <div id="freshness">loading&hellip;</div>
+</header>
+
+<div class="grid kpis" id="kpis"></div>
+
+<div class="grid charts">
+  <div class="card">
+    <h2>NSE share % — monthly trend</h2>
+    <div class="chartbox"><canvas id="chMonthly"></canvas></div>
+  </div>
+  <div class="card">
+    <h2>NSE share % — last 30 sessions</h2>
+    <div class="chartbox"><canvas id="chDaily"></canvas></div>
+  </div>
+  <div class="card">
+    <div class="tabs" id="turnTabs"></div>
+    <h2>Turnover ₹ crore — NSE vs rival</h2>
+    <div class="chartbox"><canvas id="chTurnover"></canvas></div>
+  </div>
+  <div class="card" id="insightsCard">
+    <h2>Insights &amp; news validation</h2>
+    <div id="insights"><div class="empty">No insights yet — run the data pipeline.</div></div>
+  </div>
+</div>
+
+<div id="quality"></div>
+
+<script>
+const SEGS={cm:{label:"Cash Market",rival:"BSE",color:"#4f8ef7",nse:"nse_cm",riv:"bse_cm"},
+fut:{label:"Equity Futures",rival:"BSE",color:"#2ecc8f",nse:"nse_fut",riv:"bse_fut"},
+optp:{label:"Options Premium",rival:"BSE",color:"#f5b942",nse:"nse_optp",riv:"bse_optp"},
+com:{label:"Commodity",rival:"MCX",color:"#ff5c7a",nse:"nse_com",riv:"mcx_com"}};
+
+const fmtIN=n=>n==null?"—":n.toLocaleString("en-IN",{maximumFractionDigits:0});
+Chart.defaults.color="#93a0c4";Chart.defaults.borderColor="#243059";
+
+async function j(u){try{const r=await fetch(u+"?t="+Date.now());if(!r.ok)return null;return await r.json()}catch(e){return null}}
+
+(async()=>{
+const [daily,monthly,ins,meta]=await Promise.all([j("data/daily.json"),j("data/monthly.json"),j("data/insights.json"),j("data/meta.json")]);
+if(meta){document.getElementById("freshness").textContent=
+ `Last trading day: ${meta.last_trading_day||"—"} · Updated: ${meta.updated_utc||"—"}`;
+ if(meta.sample_data){document.body.insertAdjacentHTML("afterbegin",
+  '<div style="background:#f5b942;color:#0b1020;padding:8px 16px;border-radius:8px;margin-bottom:16px;font-size:13px;font-weight:600">⚠ Showing synthetic preview data — run the GitHub Actions backfill (README step 4) to load real exchange data.</div>')}}
+const rows=daily?daily.rows:{};
+const days=Object.keys(rows).sort();
+
+// KPI cards
+const kpiEl=document.getElementById("kpis");
+for(const [k,cfg] of Object.entries(SEGS)){
+  const s=days.map(d=>[d,rows[d]["share_"+k]]).filter(x=>x[1]!=null);
+  const latest=s.length?s[s.length-1][1]:null;
+  const prev=s.length>1?s[s.length-2][1]:null;
+  const delta=latest!=null&&prev!=null?latest-prev:null;
+  const cls=delta==null?"":(delta>=0?"up":"down");
+  const arrow=delta==null?"":(delta>=0?"▲":"▼");
+  kpiEl.insertAdjacentHTML("beforeend",`<div class="card kpi">
+    <div class="seg">${cfg.label}</div>
+    <div class="val" style="color:${cfg.color}">${latest==null?"—":latest.toFixed(2)+"%"}</div>
+    <div class="delta ${cls}">${delta==null?"no prior session":arrow+" "+Math.abs(delta).toFixed(2)+"pp vs prev session"}</div>
+    <div class="rival">NSE share vs ${cfg.rival}</div></div>`);
+}
+
+// Monthly share trend
+if(monthly&&Object.keys(monthly).length){
+  const mos=Object.keys(monthly).sort();
+  new Chart(chMonthly,{type:"line",data:{labels:mos,datasets:Object.entries(SEGS).map(([k,c])=>({
+    label:c.label,data:mos.map(m=>monthly[m]["share_"+k]??null),borderColor:c.color,
+    backgroundColor:c.color,tension:.25,spanGaps:true,pointRadius:2}))},
+    options:{maintainAspectRatio:false,scales:{y:{title:{display:true,text:"NSE share %"}}},
+    plugins:{legend:{labels:{boxWidth:12}}}}});
+}
+
+// Daily share trend (last 30 sessions)
+const last30=days.slice(-30);
+if(last30.length){
+  new Chart(chDaily,{type:"line",data:{labels:last30.map(d=>d.slice(5)),datasets:Object.entries(SEGS).map(([k,c])=>({
+    label:c.label,data:last30.map(d=>rows[d]["share_"+k]??null),borderColor:c.color,
+    backgroundColor:c.color,tension:.25,spanGaps:true,pointRadius:2}))},
+    options:{maintainAspectRatio:false,scales:{y:{title:{display:true,text:"NSE share %"}}},
+    plugins:{legend:{labels:{boxWidth:12}}}}});
+}
+
+// Turnover chart with segment tabs
+let turnChart=null;
+function renderTurnover(seg){
+  const cfg=SEGS[seg];
+  const mos=monthly?Object.keys(monthly).sort():[];
+  if(turnChart)turnChart.destroy();
+  turnChart=new Chart(chTurnover,{type:"bar",data:{labels:mos,datasets:[
+    {label:"NSE",data:mos.map(m=>monthly[m][cfg.nse]??null),backgroundColor:cfg.color},
+    {label:cfg.rival,data:mos.map(m=>monthly[m][cfg.riv]??null),backgroundColor:"#3a4a80"}]},
+    options:{maintainAspectRatio:false,scales:{x:{stacked:true},y:{stacked:true,
+      ticks:{callback:v=>fmtIN(v)}}},plugins:{tooltip:{callbacks:{label:c=>c.dataset.label+": ₹"+fmtIN(c.raw)+" cr"}},
+      legend:{labels:{boxWidth:12}}}}});
+  document.querySelectorAll("#turnTabs button").forEach(b=>b.classList.toggle("active",b.dataset.seg===seg));
+}
+const tabs=document.getElementById("turnTabs");
+for(const [k,c] of Object.entries(SEGS)){
+  tabs.insertAdjacentHTML("beforeend",`<button data-seg="${k}">${c.label}</button>`);
+}
+tabs.addEventListener("click",e=>{if(e.target.dataset.seg)renderTurnover(e.target.dataset.seg)});
+if(monthly&&Object.keys(monthly).length)renderTurnover("cm");
+
+// Insights
+if(ins&&ins.insights&&ins.insights.length){
+  const el=document.getElementById("insights");el.innerHTML="";
+  for(const i of ins.insights.slice(0,10)){
+    const news=(i.news||[]).map(n=>`<a href="${n.link}" target="_blank" rel="noopener">📰 ${n.title} <span style="color:var(--muted)">(${n.source})</span></a>`).join("");
+    el.insertAdjacentHTML("beforeend",`<div class="item ${i.severity}">
+      <div class="txt">${i.text}</div><div class="dt">${i.date} · ${i.label}</div>
+      <div class="news">${news||'<span style="font-size:11px;color:var(--muted)">no directly matching headlines in last 14 days</span>'}</div></div>`);
+  }
+}
+
+// Data quality footer
+if(meta){
+  const errs=meta.recent_fetch_errors||{};
+  const bad=Object.entries(errs).filter(([,v])=>Object.keys(v).length);
+  document.getElementById("quality").innerHTML=
+    "Data: official exchange EOD files (NSE archives, BSE bhavcopy, MCX). "+
+    (bad.length?`<span class="err">⚠ fetch issues on ${bad.length} recent day(s): ${bad.map(([d,v])=>d+" ["+Object.keys(v).join(", ")+"]").join("; ")}</span>`
+    :"All sources fetched cleanly on recent runs.");
+}
+})();
+</script>
+</body>
+</html>
