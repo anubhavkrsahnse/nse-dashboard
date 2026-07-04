@@ -36,11 +36,26 @@ DATA = ROOT / "site" / "data"
 
 SHARE_DEFS = {
     # share_key: (nse_metric, competitor_metric, label)
-    "cm": ("nse_cm", "bse_cm", "Cash market (vs BSE)"),
-    "fut": ("nse_fut", "bse_fut", "Equity futures (vs BSE)"),
-    "optp": ("nse_optp", "bse_optp", "Options premium (vs BSE)"),
-    "com": ("nse_com", "mcx_com", "Commodity derivatives (vs MCX)"),
+    "cm": ("nse_cm", "bse_cm", "Cash Market (vs BSE)"),
+    "stk_fut": ("nse_stk_fut", "bse_stk_fut", "Stock Futures (vs BSE)"),
+    "idx_fut": ("nse_idx_fut", "bse_idx_fut", "Index Futures (vs BSE)"),
+    "fut": ("nse_fut", "bse_fut", "Total Futures (vs BSE)"),
+    "stk_optp": ("nse_stk_optp", "bse_stk_optp", "Stock Options (vs BSE)"),
+    "idx_optp": ("nse_idx_optp", "bse_idx_optp", "Index Options (vs BSE)"),
+    "optp": ("nse_optp", "bse_optp", "Total Options (vs BSE)"),
+    "fo": ("nse_fo", "bse_fo", "Total F&O (vs BSE)"),
+    "com": ("nse_com", "mcx_com", "Commodity Derivatives (vs MCX)"),
 }
+
+
+def derive_totals(m: dict) -> None:
+    """Add derived F&O totals (nse_fo / bse_fo = futures notional +
+    options premium) so Total F&O share can be computed."""
+    for side in ("nse", "bse"):
+        fut = m.get(f"{side}_fut")
+        optp = m.get(f"{side}_optp")
+        if fut is not None and optp is not None:
+            m[f"{side}_fo"] = round(fut + optp, 2)
 
 
 def load(name: str, default):
@@ -74,11 +89,17 @@ def run_dates(dates: list[date]) -> None:
     rows = daily["rows"]
     quality: dict = {}
 
+    # prune bad legacy rows (holiday rows that stored only zeros)
+    for k in [k for k, m in rows.items()
+              if m.get("nse_cm") is None and m.get("nse_fut") is None]:
+        del rows[k]
+
     for d in dates:
         key = d.isoformat()
         existing = rows.get(key, {})
-        # skip days that are already complete
-        if existing and not existing.get("_errors"):
+        # skip days that are already complete (incl. contract-level data)
+        if existing and not existing.get("_errors") \
+                and "cx_nse" in existing and "cx_mcx" in existing:
             continue
         metrics, errors = fetch_day(d)
         if not metrics:
@@ -89,6 +110,7 @@ def run_dates(dates: list[date]) -> None:
         row.pop("_errors", None)
         if errors:
             row["_errors"] = errors
+        derive_totals(row)
         row.update(compute_shares(row))
         rows[key] = row
         quality[key] = errors
@@ -124,7 +146,13 @@ def aggregate_monthly(rows: dict) -> dict:
                 continue
             if isinstance(v, (int, float)):
                 agg[k] = agg.get(k, 0.0) + v
+            elif isinstance(v, dict):  # contract-level (cx_nse / cx_mcx)
+                sub = agg.setdefault(k, {})
+                for g, gv in v.items():
+                    if isinstance(gv, (int, float)):
+                        sub[g] = round(sub.get(g, 0.0) + gv, 2)
     for mo, agg in months.items():
+        derive_totals(agg)
         agg.update(compute_shares(agg))
         for k in list(agg):
             if isinstance(agg[k], float):
