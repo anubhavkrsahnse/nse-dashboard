@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Commodity Contracts Matrix — NSE vs MCX</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<style>
+:root{--bg:#060a14;--panel:#0d1426;--panel2:#131c38;--text:#dfffe9;--muted:#7d92b8;
+--nse:#22e58a;--mcx:#4f8ef7;--warn:#f5b942;--bad:#ff5c7a;--border:#1d2a52}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'SF Mono','Cascadia Code',Consolas,monospace;background:var(--bg);color:var(--text);padding:24px;
+background-image:radial-gradient(circle at 20% 0%,rgba(34,229,138,.05),transparent 40%)}
+header{display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:8px;margin-bottom:18px}
+h1{font-size:19px;letter-spacing:.03em}
+h1 .n{color:var(--nse)} h1 .m{color:var(--mcx)}
+a.back{color:var(--muted);font-size:12px;text-decoration:none}
+a.back:hover{color:var(--text)}
+#fresh{color:var(--muted);font-size:12px}
+.tabs{display:flex;gap:8px;margin-bottom:16px;flex-wrap:wrap}
+.tabs button{background:var(--panel2);color:var(--muted);border:1px solid var(--border);border-radius:6px;
+padding:8px 18px;font-family:inherit;font-size:13px;cursor:pointer;letter-spacing:.04em}
+.tabs button.active{color:var(--nse);border-color:var(--nse);box-shadow:0 0 12px rgba(34,229,138,.25)}
+.grid{display:grid;gap:14px}
+.kpis{grid-template-columns:repeat(auto-fit,minmax(180px,1fr))}
+.card{background:var(--panel);border:1px solid var(--border);border-radius:10px;padding:14px}
+.kpi .lbl{font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:.1em}
+.kpi .val{font-size:26px;margin:6px 0 2px}
+.kpi .sub{font-size:11px;color:var(--muted)}
+.up{color:var(--nse)} .down{color:var(--bad)}
+.charts{grid-template-columns:1fr 1fr;margin-top:14px}
+.card h2{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.1em;margin-bottom:10px}
+.chartbox{position:relative;height:260px}
+table{width:100%;border-collapse:collapse;font-size:12px;margin-top:4px}
+th,td{padding:6px 8px;text-align:right;border-bottom:1px solid var(--border)}
+th{color:var(--muted);font-weight:400;text-transform:uppercase;font-size:10px;letter-spacing:.08em}
+td:first-child,th:first-child{text-align:left}
+.shareCell{color:var(--nse)}
+.note{font-size:11px;color:var(--muted);margin-top:14px;line-height:1.6}
+@media(max-width:900px){.charts{grid-template-columns:1fr}}
+.empty{color:var(--muted);padding:40px;text-align:center;font-size:13px}
+</style>
+</head>
+<body>
+<header>
+  <div>
+    <h1><span class="n">NSE</span> × <span class="m">MCX</span> · COMMODITY CONTRACTS MATRIX</h1>
+    <a class="back" href="index.html">← back to market share command center</a>
+  </div>
+  <div id="fresh">loading…</div>
+</header>
+
+<div class="tabs" id="tabs"></div>
+<div class="grid kpis" id="kpis"></div>
+<div class="grid charts">
+  <div class="card"><h2 id="hShare">NSE share % — trend</h2><div class="chartbox"><canvas id="chShare"></canvas></div></div>
+  <div class="card"><h2>Turnover ₹ crore — NSE vs MCX</h2><div class="chartbox"><canvas id="chTurn"></canvas></div></div>
+</div>
+<div class="card" style="margin-top:14px">
+  <h2>Session matrix — last 15 trading days</h2>
+  <div id="tblWrap"><div class="empty">no contract-level data yet — it arrives with the next pipeline run</div></div>
+</div>
+<div class="note" id="note"></div>
+
+<script>
+const GROUPS={
+ crude:{label:"CRUDE OIL",nseNote:"NSE: CRUDEOIL (100 bbl) + CRUDEOILM (10 bbl) + BRCRUDEOIL",mcxNote:"MCX: CRUDEOIL + CRUDEOILM futures & options"},
+ electricity:{label:"ELECTRICITY",nseNote:"NSE: ELECMBL monthly baseload (50 MWh)",mcxNote:"MCX: electricity futures suite"},
+ gold10g:{label:"GOLD 10g",nseNote:"NSE: GOLD10G (10 grams)",mcxNote:"MCX retail gold: GOLDPETAL (1g) + GOLDGUINEA (8g)"},
+ natgas:{label:"NATURAL GAS",nseNote:"NSE: NATURALGAS (1250 mmBtu) + NATGASMINI (250 mmBtu)",mcxNote:"MCX: NATURALGAS + NATGASMINI"}};
+const fmt=n=>n==null?"—":n.toLocaleString("en-IN",{maximumFractionDigits:n<100?2:0});
+Chart.defaults.color="#7d92b8";Chart.defaults.borderColor="#1d2a52";
+Chart.defaults.font.family="'SF Mono',Consolas,monospace";
+let rows={},days=[],cur="crude",chS=null,chT=null;
+
+async function j(u){try{const r=await fetch(u+"?t="+Date.now());return r.ok?await r.json():null}catch(e){return null}}
+
+function seriesFor(g){
+  return days.map(d=>{
+    const m=rows[d]||{};
+    const n=(m.cx_nse||{})[g], x=(m.cx_mcx||{})[g];
+    const share=(n!=null&&x!=null&&n+x>0)?100*n/(n+x):null;
+    return {d, n:n??null, x:x??null, share};
+  }).filter(r=>r.n!=null||r.x!=null);
+}
+
+function render(g){
+  cur=g;
+  document.querySelectorAll('#tabs button').forEach(b=>b.classList.toggle('active',b.dataset.g===g));
+  const cfg=GROUPS[g], s=seriesFor(g), last=s[s.length-1], prev=s[s.length-2];
+  const kEl=document.getElementById('kpis'); kEl.innerHTML="";
+  const dod=(last&&prev&&last.share!=null&&prev.share!=null)?last.share-prev.share:null;
+  const cards=[
+   ["NSE TURNOVER",last&&last.n!=null?("₹"+fmt(last.n)+" cr"):"—",cfg.nseNote,"var(--nse)"],
+   ["MCX TURNOVER",last&&last.x!=null?("₹"+fmt(last.x)+" cr"):"—",cfg.mcxNote,"var(--mcx)"],
+   ["NSE SHARE",last&&last.share!=null?last.share.toFixed(2)+"%":"—","of combined "+cfg.label.toLowerCase()+" turnover","var(--text)"],
+   ["Δ SESSION",dod!=null?((dod>=0?"▲ +":"▼ ")+dod.toFixed(2)+"pp"):"—","share change vs previous session",dod==null?"var(--muted)":(dod>=0?"var(--nse)":"var(--bad)")]];
+  for(const [l,v,sub,c] of cards)
+    kEl.insertAdjacentHTML('beforeend',`<div class="card kpi"><div class="lbl">${l}</div><div class="val" style="color:${c}">${v}</div><div class="sub">${sub}</div></div>`);
+
+  const labels=s.map(r=>r.d.slice(5));
+  if(chS)chS.destroy(); if(chT)chT.destroy();
+  document.getElementById('hShare').textContent=`NSE ${cfg.label} share % — trend`;
+  chS=new Chart(chShare,{type:'line',data:{labels,datasets:[{label:'NSE share %',data:s.map(r=>r.share),
+   borderColor:'#22e58a',backgroundColor:'rgba(34,229,138,.15)',fill:true,tension:.25,spanGaps:true,pointRadius:0}]},
+   options:{maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{y:{title:{display:true,text:'%'}}}}});
+  chT=new Chart(chTurn,{type:'bar',data:{labels,datasets:[
+   {label:'NSE',data:s.map(r=>r.n),backgroundColor:'#22e58a'},
+   {label:'MCX',data:s.map(r=>r.x),backgroundColor:'#4f8ef7'}]},
+   options:{maintainAspectRatio:false,scales:{x:{stacked:true},y:{stacked:true,ticks:{callback:v=>fmt(v)}}},
+   plugins:{tooltip:{callbacks:{label:c=>c.dataset.label+": ₹"+fmt(c.raw)+" cr"}},legend:{labels:{boxWidth:10}}}}});
+
+  const t=s.slice(-15).reverse();
+  document.getElementById('tblWrap').innerHTML = t.length ? `<table><thead><tr>
+   <th>date</th><th>NSE ₹cr</th><th>MCX ₹cr</th><th>NSE share</th><th>Δ share</th></tr></thead><tbody>`+
+   t.map((r,i)=>{const p=t[i+1];const d=(p&&r.share!=null&&p.share!=null)?r.share-p.share:null;
+    return `<tr><td>${r.d}</td><td>${fmt(r.n)}</td><td>${fmt(r.x)}</td>
+    <td class="shareCell">${r.share!=null?r.share.toFixed(2)+"%":"—"}</td>
+    <td class="${d==null?'':(d>=0?'up':'down')}">${d==null?"—":(d>=0?"+":"")+d.toFixed(2)+"pp"}</td></tr>`}).join('')+
+   `</tbody></table>` : '<div class="empty">no contract-level data yet — it arrives with the next pipeline run</div>';
+  document.getElementById('note').innerHTML=`${cfg.nseNote} · ${cfg.mcxNote} · Turnover = notional (futures) + premium (options), from official daily bhavcopies. Contracts with different lot denominations are compared on ₹ value, not lots.`;
+}
+
+(async()=>{
+ const daily=await j('data/daily.json'), meta=await j('data/meta.json');
+ rows=daily?daily.rows:{}; days=Object.keys(rows).sort();
+ if(meta)document.getElementById('fresh').textContent=`last trading day: ${meta.last_trading_day||"—"} · updated: ${meta.updated_utc||"—"}`;
+ const tEl=document.getElementById('tabs');
+ for(const [g,c] of Object.entries(GROUPS))
+  tEl.insertAdjacentHTML('beforeend',`<button data-g="${g}">${c.label}</button>`);
+ tEl.addEventListener('click',e=>{if(e.target.dataset.g)render(e.target.dataset.g)});
+ render('crude');
+})();
+</script>
+</body>
+</html>
