@@ -3,173 +3,236 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>NSE Market Share Command Center</title>
+<title>NSE brAIn agent · Business Research AI Network</title>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <style>
-:root{
-  --bg:#0b1020;--panel:#121a33;--panel2:#182246;--text:#e8ecf8;
-  --muted:#93a0c4;--accent:#4f8ef7;--good:#2ecc8f;--bad:#ff5c7a;
-  --warn:#f5b942;--border:#243059;
-}
+:root{--bg:#070b16;--panel:#0e1730;--panel2:#152048;--text:#eaf0ff;--muted:#8394bd;
+--nse:#22e58a;--rival:#4f8ef7;--warn:#f5b942;--bad:#ff5c7a;--border:#1e2a52}
 *{box-sizing:border-box;margin:0;padding:0}
-body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;background:var(--bg);color:var(--text);padding:24px}
-header{display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:8px;margin-bottom:20px}
-h1{font-size:22px;font-weight:700}
-h1 span{color:var(--accent)}
-#freshness{color:var(--muted);font-size:13px}
-.grid{display:grid;gap:16px}
-.kpis{grid-template-columns:repeat(auto-fit,minmax(210px,1fr))}
-.card{background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:16px}
-.kpi .seg{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
-.kpi .val{font-size:32px;font-weight:700;margin:6px 0 2px}
-.kpi .delta{font-size:13px}
-.kpi .rival{font-size:12px;color:var(--muted)}
-.up{color:var(--good)}.down{color:var(--bad)}
-.charts{grid-template-columns:1fr 1fr;margin-top:16px}
-.card h2{font-size:14px;color:var(--muted);font-weight:600;margin-bottom:10px;text-transform:uppercase;letter-spacing:.05em}
-.chartbox{position:relative;height:280px}
-#insights .item{border-left:3px solid var(--accent);padding:10px 12px;margin-bottom:10px;background:var(--panel2);border-radius:0 8px 8px 0}
-#insights .item.high{border-left-color:var(--warn)}
-#insights .item .txt{font-size:14px;line-height:1.45}
-#insights .item .dt{font-size:11px;color:var(--muted);margin-top:2px}
-#insights .news a{display:block;font-size:12px;color:var(--accent);text-decoration:none;margin-top:4px}
-#insights .news a:hover{text-decoration:underline}
-#quality{font-size:12px;color:var(--muted);margin-top:18px}
-#quality .err{color:var(--warn)}
-.tabs{display:flex;gap:8px;margin-bottom:10px}
-.tabs button{background:var(--panel2);color:var(--muted);border:1px solid var(--border);border-radius:8px;padding:5px 12px;font-size:12px;cursor:pointer}
-.tabs button.active{color:var(--text);border-color:var(--accent)}
-@media(max-width:900px){.charts{grid-template-columns:1fr}}
-.empty{color:var(--muted);font-size:14px;padding:30px;text-align:center}
+html{scroll-snap-type:y mandatory;scroll-behavior:smooth;overflow-y:scroll;height:100%}
+body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;background:var(--bg);color:var(--text)}
+/* fixed control bar */
+header{position:fixed;top:0;left:0;right:0;z-index:50;background:rgba(7,11,22,.92);
+backdrop-filter:blur(8px);border-bottom:1px solid var(--border);
+display:flex;align-items:center;gap:14px;flex-wrap:wrap;padding:10px 20px}
+.brand{font-size:16px;font-weight:700;letter-spacing:.02em}
+.brand .ai{color:var(--nse)} .brand .sub{color:var(--muted);font-weight:400;font-size:11px;letter-spacing:.05em}
+.seg-ctl{display:flex;gap:4px;margin-left:auto;flex-wrap:wrap}
+.seg-ctl .grp{display:flex;background:var(--panel);border:1px solid var(--border);border-radius:8px;overflow:hidden}
+.seg-ctl button{background:transparent;color:var(--muted);border:0;padding:6px 11px;font-size:12px;cursor:pointer;font-family:inherit}
+.seg-ctl button.on{background:var(--panel2);color:var(--text)}
+#fresh{font-size:11px;color:var(--muted);width:100%;order:9}
+/* pages */
+main{scroll-snap-type:y mandatory}
+section{min-height:100vh;scroll-snap-align:start;padding:86px 24px 30px;display:flex;flex-direction:column;justify-content:center;max-width:1200px;margin:0 auto}
+.page-tag{font-size:11px;color:var(--muted);letter-spacing:.18em;text-transform:uppercase;margin-bottom:6px}
+h2{font-size:26px;margin-bottom:2px} h2 .r{color:var(--muted);font-size:15px;font-weight:400}
+.hero{display:grid;grid-template-columns:340px 1fr;gap:26px;align-items:center}
+@media(max-width:820px){.hero{grid-template-columns:1fr}}
+.bignum{font-size:64px;font-weight:800;line-height:1}
+.delta{font-size:15px;margin-top:8px} .up{color:var(--nse)} .down{color:var(--bad)}
+.metricval{font-size:14px;color:var(--muted);margin-top:10px}
+.actionable{margin-top:16px;padding:12px 14px;border-left:3px solid var(--nse);background:var(--panel2);border-radius:0 8px 8px 0;font-size:13.5px;line-height:1.5}
+.actionable b{color:var(--nse)}
+.chartbox{position:relative;height:300px;background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:14px}
+/* overview */
+.kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin:16px 0 22px}
+@media(max-width:820px){.kpis{grid-template-columns:1fr 1fr}}
+.card{background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:14px}
+.kpi .lbl{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
+.kpi .v{font-size:30px;font-weight:700;margin:6px 0 2px}
+.kpi .d{font-size:12px}
+.insights{display:grid;gap:10px}
+.ins{background:var(--panel);border:1px solid var(--border);border-left:3px solid var(--rival);border-radius:0 10px 10px 0;padding:11px 14px}
+.ins.high{border-left-color:var(--warn)}
+.ins .h{font-size:13.5px;font-weight:600}
+.ins .im{font-size:12.5px;color:var(--text);margin-top:3px}
+.ins .re{font-size:12px;color:var(--muted);margin-top:3px}
+.ins .ac{font-size:12.5px;margin-top:5px}.ins .ac b{color:var(--nse)}
+.ins .nw a{font-size:11.5px;color:var(--rival);text-decoration:none;display:inline-block;margin-top:4px;margin-right:10px}
+.hint{position:fixed;bottom:14px;left:50%;transform:translateX(-50%);z-index:40;color:var(--muted);font-size:11px;background:rgba(14,23,48,.85);border:1px solid var(--border);border-radius:20px;padding:5px 14px}
+a.mx{color:var(--nse);text-decoration:none;font-size:13px;border:1px solid var(--nse);border-radius:8px;padding:8px 14px;display:inline-block;margin-top:14px}
+.dot{position:fixed;right:14px;top:50%;transform:translateY(-50%);z-index:40;display:flex;flex-direction:column;gap:8px}
+.dot a{width:8px;height:8px;border-radius:50%;background:var(--border);display:block}
+.dot a.on{background:var(--nse)}
+.empty{color:var(--muted);padding:20px 0}
 </style>
 </head>
 <body>
 <header>
-  <h1><span>NSE</span> Market Share Command Center <span style="font-size:13px;color:var(--muted);font-weight:400">CM &middot; F&amp;O &middot; Commodity &middot; vs BSE / MCX</span></h1>
-  <div id="freshness">loading&hellip;</div>
+  <div class="brand"><span class="ai">NSE brAIn</span> agent <span class="sub">· Business Research AI Network</span></div>
+  <div class="seg-ctl">
+    <div class="grp" id="periodCtl">
+      <button data-p="D" class="on">Daily</button><button data-p="W">Weekly</button>
+      <button data-p="M">Monthly</button><button data-p="Y">Yearly</button>
+    </div>
+    <div class="grp" id="metricCtl">
+      <button data-m="turnover" class="on">Turnover</button>
+      <button data-m="adt">ADT</button>
+      <button data-m="premium">Premium</button>
+    </div>
+  </div>
+  <div id="fresh">loading…</div>
 </header>
 
-<div class="grid kpis" id="kpis"></div>
-
-<div class="grid charts">
-  <div class="card">
-    <h2>NSE share % — monthly trend</h2>
-    <div class="chartbox"><canvas id="chMonthly"></canvas></div>
-  </div>
-  <div class="card">
-    <h2>NSE share % — last 30 sessions</h2>
-    <div class="chartbox"><canvas id="chDaily"></canvas></div>
-  </div>
-  <div class="card">
-    <div class="tabs" id="turnTabs"></div>
-    <h2>Turnover ₹ crore — NSE vs rival</h2>
-    <div class="chartbox"><canvas id="chTurnover"></canvas></div>
-  </div>
-  <div class="card" id="insightsCard">
-    <h2>Insights &amp; news validation</h2>
-    <div id="insights"><div class="empty">No insights yet — run the data pipeline.</div></div>
-  </div>
-</div>
-
-<div id="quality"></div>
+<main id="main"></main>
+<div class="dot" id="dots"></div>
+<div class="hint">scroll ↓ to page through segments · toggle period &amp; metric above</div>
 
 <script>
-const SEGS={cm:{label:"Cash Market",rival:"BSE",color:"#4f8ef7",nse:"nse_cm",riv:"bse_cm"},
-fut:{label:"Equity Futures",rival:"BSE",color:"#2ecc8f",nse:"nse_fut",riv:"bse_fut"},
-optp:{label:"Options Premium",rival:"BSE",color:"#f5b942",nse:"nse_optp",riv:"bse_optp"},
-com:{label:"Commodity",rival:"MCX",color:"#ff5c7a",nse:"nse_com",riv:"mcx_com"}};
+const SEGS=[
+ {k:"cm",label:"Cash Market",rival:"BSE",nse:"nse_cm",riv:"bse_cm",opt:false},
+ {k:"stk_fut",label:"Stock Futures",rival:"BSE",nse:"nse_stk_fut",riv:"bse_stk_fut",opt:false},
+ {k:"idx_fut",label:"Index Futures",rival:"BSE",nse:"nse_idx_fut",riv:"bse_idx_fut",opt:false},
+ {k:"fut",label:"Total Futures",rival:"BSE",nse:"nse_fut",riv:"bse_fut",opt:false},
+ {k:"stk_optp",label:"Stock Options",rival:"BSE",nse:"nse_stk_optp",riv:"bse_stk_optp",opt:true},
+ {k:"idx_optp",label:"Index Options",rival:"BSE",nse:"nse_idx_optp",riv:"bse_idx_optp",opt:true},
+ {k:"optp",label:"Total Options",rival:"BSE",nse:"nse_optp",riv:"bse_optp",opt:true},
+ {k:"fo",label:"Total F&O",rival:"BSE",nse:"nse_fo",riv:"bse_fo",opt:true},
+];
+const OVERVIEW=["cm","fut","optp","fo"];
+const fmt=n=>n==null?"—":n.toLocaleString("en-IN",{maximumFractionDigits:n<100?2:0});
+Chart.defaults.color="#8394bd";Chart.defaults.borderColor="#1e2a52";Chart.defaults.font.family="'Segoe UI',sans-serif";
 
-const fmtIN=n=>n==null?"—":n.toLocaleString("en-IN",{maximumFractionDigits:0});
-Chart.defaults.color="#93a0c4";Chart.defaults.borderColor="#243059";
+let ROWS={},DAYS=[],INS=null,META=null,PERIOD="D",METRIC="turnover";
+const charts={};
 
-async function j(u){try{const r=await fetch(u+"?t="+Date.now());if(!r.ok)return null;return await r.json()}catch(e){return null}}
+async function j(u){try{const r=await fetch(u+"?t="+Date.now());return r.ok?await r.json():null}catch(e){return null}}
+
+function bucketKey(d){ // d = 'YYYY-MM-DD'
+ if(PERIOD==="D")return d;
+ if(PERIOD==="M")return d.slice(0,7);
+ if(PERIOD==="Y")return d.slice(0,4);
+ // weekly: ISO-ish week label YYYY-Www (Monday-based)
+ const dt=new Date(d+"T00:00:00Z");const day=(dt.getUTCDay()+6)%7;dt.setUTCDate(dt.getUTCDate()-day);
+ return dt.toISOString().slice(0,10);
+}
+function aggregate(){
+ const buckets={};
+ for(const d of DAYS){const m=ROWS[d];const bk=bucketKey(d);
+  const b=buckets[bk]||(buckets[bk]={days:0,sum:{}});b.days++;
+  for(const [key,val] of Object.entries(m)){if(typeof val==="number"&&!key.startsWith("share_"))b.sum[key]=(b.sum[key]||0)+val;}}
+ return Object.keys(buckets).sort().map(bk=>({label:bk,...buckets[bk]}));
+}
+function segValue(sum,seg){ // ₹cr value for the current metric
+ const t=sum[seg.nse]; if(t==null)return null;
+ if(METRIC==="turnover")return t;
+ if(METRIC==="premium")return seg.opt?t:t; // options already premium; futures/cm notional
+ return null; // adt handled with days
+}
+function share(sum,seg){const n=sum[seg.nse],r=sum[seg.riv];return(n!=null&&r!=null&&n+r>0)?100*n/(n+r):null;}
+
+function seriesFor(seg,buckets){
+ return buckets.map(b=>({x:b.label,share:share(b.sum,seg),
+   nse:b.sum[seg.nse]??null,riv:b.sum[seg.riv]??null,days:b.days}));
+}
+function metricValue(pt){
+ if(pt.nse==null)return null;
+ if(METRIC==="adt")return pt.nse/pt.days;
+ return pt.nse; // turnover / premium
+}
+const metricLabel=()=>METRIC==="adt"?"ADT ₹cr/day":METRIC==="premium"?"Premium turnover ₹cr":"Turnover ₹cr";
+
+function render(){
+ const buckets=aggregate();
+ const main=document.getElementById("main");main.innerHTML="";
+ const dots=document.getElementById("dots");dots.innerHTML="";
+ Object.values(charts).forEach(c=>{try{c.destroy()}catch(e){}});
+ const lastB=buckets[buckets.length-1];
+ const periodName={D:"trading day",W:"week",M:"month",Y:"year"}[PERIOD];
+
+ // ---- Overview page
+ const ov=document.createElement("section");ov.id="p_overview";
+ ov.innerHTML=`<div class="page-tag">Overview · latest ${periodName}: ${lastB?lastB.label:"—"}</div>
+  <h2>NSE competitive position <span class="r">— share % vs BSE / MCX</span></h2>
+  <div class="kpis" id="kpis"></div>
+  <div class="page-tag">AI insights · impact · reason · action</div>
+  <div class="insights" id="insights"></div>`;
+ main.appendChild(ov);
+ const kEl=ov.querySelector("#kpis");
+ for(const sk of OVERVIEW){const seg=SEGS.find(s=>s.k===sk);const ser=seriesFor(seg,buckets);
+  const last=ser[ser.length-1],prev=ser[ser.length-2];
+  const dv=(last&&prev&&last.share!=null&&prev.share!=null)?last.share-prev.share:null;
+  const cls=dv==null?"":(dv>=0?"up":"down");const val=last?metricValue(last):null;
+  kEl.insertAdjacentHTML("beforeend",`<div class="card kpi">
+   <div class="lbl">${seg.label}</div>
+   <div class="v" style="color:var(--nse)">${last&&last.share!=null?last.share.toFixed(2)+"%":"—"}</div>
+   <div class="d ${cls}">${dv==null?"—":(dv>=0?"▲ +":"▼ ")+Math.abs(dv).toFixed(2)+"pp vs prev "+periodName}</div>
+   <div class="metricval" style="font-size:11px">${metricLabel()}: ${fmt(val)}</div></div>`);}
+ renderInsights(ov.querySelector("#insights"));
+
+ // ---- per-segment pages
+ SEGS.forEach((seg,i)=>{
+  const ser=seriesFor(seg,buckets);const last=ser[ser.length-1],prev=ser[ser.length-2];
+  const dv=(last&&prev&&last.share!=null&&prev.share!=null)?last.share-prev.share:null;
+  const val=last?metricValue(last):null;
+  const ins=INS&&INS.insights?INS.insights.find(x=>x.segment===seg.k):null;
+  const sec=document.createElement("section");sec.id="p_"+seg.k;
+  sec.innerHTML=`<div class="page-tag">Segment ${i+1}/8 · ${periodName} view</div>
+   <h2>${seg.label} <span class="r">— NSE share vs ${seg.rival}</span></h2>
+   <div class="hero">
+    <div>
+      <div class="bignum" style="color:var(--nse)">${last&&last.share!=null?last.share.toFixed(2)+"%":"—"}</div>
+      <div class="delta ${dv==null?"":(dv>=0?"up":"down")}">${dv==null?"no prior "+periodName:(dv>=0?"▲ +":"▼ ")+Math.abs(dv).toFixed(2)+"pp vs prev "+periodName}</div>
+      <div class="metricval">${metricLabel()}: <b style="color:var(--text)">${fmt(val)}</b> · ${seg.rival}: ${fmt(last?last.riv:null)} ₹cr</div>
+      <div class="actionable"><b>Action ›</b> ${ins?ins.actionable:"—"}</div>
+    </div>
+    <div class="chartbox"><canvas id="c_${seg.k}"></canvas></div>
+   </div>`;
+  main.appendChild(sec);
+  const ctx=sec.querySelector("#c_"+seg.k);
+  charts[seg.k]=new Chart(ctx,{type:"line",data:{labels:ser.map(p=>p.x),
+    datasets:[{label:"NSE share %",data:ser.map(p=>p.share),borderColor:"#22e58a",
+     backgroundColor:"rgba(34,229,138,.14)",fill:true,tension:.25,spanGaps:true,pointRadius:0}]},
+    options:{maintainAspectRatio:false,plugins:{legend:{display:false}},
+     scales:{y:{title:{display:true,text:"NSE share %"}}}}});
+ });
+
+ // ---- commodities page
+ const cx=document.createElement("section");cx.id="p_com";
+ const comIns=INS&&INS.insights?INS.insights.find(x=>x.segment==="com"):null;
+ cx.innerHTML=`<div class="page-tag">Segment · Commodities vs MCX</div>
+  <h2>Commodity Derivatives <span class="r">— crude · natural gas · gold 10g · electricity</span></h2>
+  <div class="actionable" style="max-width:640px"><b>Action ›</b> ${comIns?comIns.actionable:"Build depth in 1–2 contracts rather than spreading thin."}</div>
+  <a class="mx" href="matrix.html">Open the full contract matrix →</a>`;
+ main.appendChild(cx);
+
+ // ---- nav dots + snap observer
+ const pages=[...main.querySelectorAll("section")];
+ pages.forEach(p=>{const a=document.createElement("a");a.href="#"+p.id;dots.appendChild(a);});
+ const dotEls=[...dots.querySelectorAll("a")];
+ const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){
+   const idx=pages.indexOf(e.target);dotEls.forEach((d,i)=>d.classList.toggle("on",i===idx));}}),{threshold:.5});
+ pages.forEach(p=>io.observe(p));
+}
+
+function renderInsights(el){
+ if(!INS||!INS.insights||!INS.insights.length){el.innerHTML='<div class="empty">Insights arrive with the next pipeline run.</div>';return;}
+ el.innerHTML="";
+ for(const i of INS.insights.slice(0,6)){
+  const nw=(i.news||[]).map(n=>`<a href="${n.link}" target="_blank" rel="noopener">📰 ${n.title}</a>`).join("");
+  el.insertAdjacentHTML("beforeend",`<div class="ins ${i.severity}">
+   <div class="h">${i.headline}</div>
+   <div class="im">${i.impact}</div>
+   <div class="re">Why: ${i.reason}</div>
+   <div class="ac"><b>Action ›</b> ${i.actionable}</div>
+   <div class="nw">${nw}</div></div>`);
+ }
+}
+
+document.getElementById("periodCtl").addEventListener("click",e=>{
+ if(!e.target.dataset.p)return;PERIOD=e.target.dataset.p;
+ [...e.currentTarget.children].forEach(b=>b.classList.toggle("on",b===e.target));render();});
+document.getElementById("metricCtl").addEventListener("click",e=>{
+ if(!e.target.dataset.m)return;METRIC=e.target.dataset.m;
+ [...e.currentTarget.children].forEach(b=>b.classList.toggle("on",b===e.target));render();});
 
 (async()=>{
-const [daily,monthly,ins,meta]=await Promise.all([j("data/daily.json"),j("data/monthly.json"),j("data/insights.json"),j("data/meta.json")]);
-if(meta){document.getElementById("freshness").textContent=
- `Last trading day: ${meta.last_trading_day||"—"} · Updated: ${meta.updated_utc||"—"}`;
- if(meta.sample_data){document.body.insertAdjacentHTML("afterbegin",
-  '<div style="background:#f5b942;color:#0b1020;padding:8px 16px;border-radius:8px;margin-bottom:16px;font-size:13px;font-weight:600">⚠ Showing synthetic preview data — run the GitHub Actions backfill (README step 4) to load real exchange data.</div>')}}
-const rows=daily?daily.rows:{};
-const days=Object.keys(rows).sort();
-
-// KPI cards
-const kpiEl=document.getElementById("kpis");
-for(const [k,cfg] of Object.entries(SEGS)){
-  const s=days.map(d=>[d,rows[d]["share_"+k]]).filter(x=>x[1]!=null);
-  const latest=s.length?s[s.length-1][1]:null;
-  const prev=s.length>1?s[s.length-2][1]:null;
-  const delta=latest!=null&&prev!=null?latest-prev:null;
-  const cls=delta==null?"":(delta>=0?"up":"down");
-  const arrow=delta==null?"":(delta>=0?"▲":"▼");
-  kpiEl.insertAdjacentHTML("beforeend",`<div class="card kpi">
-    <div class="seg">${cfg.label}</div>
-    <div class="val" style="color:${cfg.color}">${latest==null?"—":latest.toFixed(2)+"%"}</div>
-    <div class="delta ${cls}">${delta==null?"no prior session":arrow+" "+Math.abs(delta).toFixed(2)+"pp vs prev session"}</div>
-    <div class="rival">NSE share vs ${cfg.rival}</div></div>`);
-}
-
-// Monthly share trend
-if(monthly&&Object.keys(monthly).length){
-  const mos=Object.keys(monthly).sort();
-  new Chart(chMonthly,{type:"line",data:{labels:mos,datasets:Object.entries(SEGS).map(([k,c])=>({
-    label:c.label,data:mos.map(m=>monthly[m]["share_"+k]??null),borderColor:c.color,
-    backgroundColor:c.color,tension:.25,spanGaps:true,pointRadius:2}))},
-    options:{maintainAspectRatio:false,scales:{y:{title:{display:true,text:"NSE share %"}}},
-    plugins:{legend:{labels:{boxWidth:12}}}}});
-}
-
-// Daily share trend (last 30 sessions)
-const last30=days.slice(-30);
-if(last30.length){
-  new Chart(chDaily,{type:"line",data:{labels:last30.map(d=>d.slice(5)),datasets:Object.entries(SEGS).map(([k,c])=>({
-    label:c.label,data:last30.map(d=>rows[d]["share_"+k]??null),borderColor:c.color,
-    backgroundColor:c.color,tension:.25,spanGaps:true,pointRadius:2}))},
-    options:{maintainAspectRatio:false,scales:{y:{title:{display:true,text:"NSE share %"}}},
-    plugins:{legend:{labels:{boxWidth:12}}}}});
-}
-
-// Turnover chart with segment tabs
-let turnChart=null;
-function renderTurnover(seg){
-  const cfg=SEGS[seg];
-  const mos=monthly?Object.keys(monthly).sort():[];
-  if(turnChart)turnChart.destroy();
-  turnChart=new Chart(chTurnover,{type:"bar",data:{labels:mos,datasets:[
-    {label:"NSE",data:mos.map(m=>monthly[m][cfg.nse]??null),backgroundColor:cfg.color},
-    {label:cfg.rival,data:mos.map(m=>monthly[m][cfg.riv]??null),backgroundColor:"#3a4a80"}]},
-    options:{maintainAspectRatio:false,scales:{x:{stacked:true},y:{stacked:true,
-      ticks:{callback:v=>fmtIN(v)}}},plugins:{tooltip:{callbacks:{label:c=>c.dataset.label+": ₹"+fmtIN(c.raw)+" cr"}},
-      legend:{labels:{boxWidth:12}}}}});
-  document.querySelectorAll("#turnTabs button").forEach(b=>b.classList.toggle("active",b.dataset.seg===seg));
-}
-const tabs=document.getElementById("turnTabs");
-for(const [k,c] of Object.entries(SEGS)){
-  tabs.insertAdjacentHTML("beforeend",`<button data-seg="${k}">${c.label}</button>`);
-}
-tabs.addEventListener("click",e=>{if(e.target.dataset.seg)renderTurnover(e.target.dataset.seg)});
-if(monthly&&Object.keys(monthly).length)renderTurnover("cm");
-
-// Insights
-if(ins&&ins.insights&&ins.insights.length){
-  const el=document.getElementById("insights");el.innerHTML="";
-  for(const i of ins.insights.slice(0,10)){
-    const news=(i.news||[]).map(n=>`<a href="${n.link}" target="_blank" rel="noopener">📰 ${n.title} <span style="color:var(--muted)">(${n.source})</span></a>`).join("");
-    el.insertAdjacentHTML("beforeend",`<div class="item ${i.severity}">
-      <div class="txt">${i.text}</div><div class="dt">${i.date} · ${i.label}</div>
-      <div class="news">${news||'<span style="font-size:11px;color:var(--muted)">no directly matching headlines in last 14 days</span>'}</div></div>`);
-  }
-}
-
-// Data quality footer
-if(meta){
-  const errs=meta.recent_fetch_errors||{};
-  const bad=Object.entries(errs).filter(([,v])=>Object.keys(v).length);
-  document.getElementById("quality").innerHTML=
-    "Data: official exchange EOD files (NSE archives, BSE bhavcopy, MCX). "+
-    (bad.length?`<span class="err">⚠ fetch issues on ${bad.length} recent day(s): ${bad.map(([d,v])=>d+" ["+Object.keys(v).join(", ")+"]").join("; ")}</span>`
-    :"All sources fetched cleanly on recent runs.");
-}
+ const daily=await j("data/daily.json");INS=await j("data/insights.json");META=await j("data/meta.json");
+ ROWS=daily?daily.rows:{};DAYS=Object.keys(ROWS).sort();
+ if(META){document.getElementById("fresh").textContent=
+   `latest trading day: ${META.last_trading_day||"—"} · updated ${META.updated_utc||"—"}`+(META.sample_data?" · ⚠ synthetic preview data":"");}
+ render();
 })();
 </script>
 </body>
