@@ -42,6 +42,15 @@ h2{font-size:26px;margin-bottom:2px} h2 .r{color:var(--muted);font-size:15px;fon
 .kpi .lbl{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
 .kpi .v{font-size:30px;font-weight:700;margin:6px 0 2px}
 .kpi .d{font-size:12px}
+.card.kpi{cursor:pointer;transition:transform .15s,border-color .15s,box-shadow .15s}
+.card.kpi:hover{transform:translateY(-3px);border-color:var(--nse);box-shadow:0 6px 20px rgba(34,229,138,.15)}
+.card.kpi .go{font-size:10px;color:var(--nse);opacity:0;transition:opacity .15s;margin-top:6px}
+.card.kpi:hover .go{opacity:1}
+.chartbox{transition:border-color .15s} .chartbox:hover{border-color:var(--rival)}
+.circ{display:grid;gap:8px;max-height:62vh;overflow-y:auto}
+.circ a{display:block;background:var(--panel);border:1px solid var(--border);border-left:3px solid var(--warn);border-radius:0 8px 8px 0;padding:10px 13px;text-decoration:none;color:var(--text);font-size:13px;transition:border-color .15s,transform .1s}
+.circ a:hover{border-left-color:var(--nse);transform:translateX(3px)}
+.circ a .src{font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;margin-top:3px}
 .insights{display:grid;gap:10px}
 .ins{background:var(--panel);border:1px solid var(--border);border-left:3px solid var(--rival);border-radius:0 10px 10px 0;padding:11px 14px}
 .ins.high{border-left-color:var(--warn)}
@@ -77,7 +86,7 @@ a.mx{color:var(--nse);text-decoration:none;font-size:13px;border:1px solid var(-
 
 <main id="main"></main>
 <div class="dot" id="dots"></div>
-<div class="hint">scroll ↓ to page through segments · toggle period &amp; metric above</div>
+<div class="hint">scroll ↓ or ↑/↓ to page • click a card to jump · toggle period &amp; metric</div>
 
 <script>
 const SEGS=[
@@ -154,11 +163,14 @@ function render(){
   const last=ser[ser.length-1],prev=ser[ser.length-2];
   const dv=(last&&prev&&last.share!=null&&prev.share!=null)?last.share-prev.share:null;
   const cls=dv==null?"":(dv>=0?"up":"down");const val=last?metricValue(last):null;
-  kEl.insertAdjacentHTML("beforeend",`<div class="card kpi">
+  kEl.insertAdjacentHTML("beforeend",`<div class="card kpi" data-seg="${sk}" title="Open ${seg.label}">
    <div class="lbl">${seg.label}</div>
    <div class="v" style="color:var(--nse)">${last&&last.share!=null?last.share.toFixed(2)+"%":"—"}</div>
    <div class="d ${cls}">${dv==null?"—":(dv>=0?"▲ +":"▼ ")+Math.abs(dv).toFixed(2)+"pp vs prev "+periodName}</div>
-   <div class="metricval" style="font-size:11px">${metricLabel()}: ${fmt(val)}</div></div>`);}
+   <div class="metricval" style="font-size:11px">${metricLabel()}: ${fmt(val)}</div>
+   <div class="go">open segment →</div></div>`);}
+ kEl.addEventListener("click",e=>{const c=e.target.closest(".kpi");
+   if(c&&c.dataset.seg)document.getElementById("p_"+c.dataset.seg)?.scrollIntoView({behavior:"smooth"});});
  renderInsights(ov.querySelector("#insights"));
 
  // ---- per-segment pages
@@ -184,7 +196,7 @@ function render(){
   charts[seg.k]=new Chart(ctx,{type:"line",data:{labels:ser.map(p=>p.x),
     datasets:[{label:"NSE share %",data:ser.map(p=>p.share),borderColor:"#22e58a",
      backgroundColor:"rgba(34,229,138,.14)",fill:true,tension:.25,spanGaps:true,pointRadius:0}]},
-    options:{maintainAspectRatio:false,plugins:{legend:{display:false}},
+    options:{maintainAspectRatio:false,interaction:{mode:"index",intersect:false},plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>"NSE share: "+(c.raw==null?"—":c.raw.toFixed(2)+"%")}}},
      scales:{y:{title:{display:true,text:"NSE share %"}}}}});
  });
 
@@ -196,6 +208,19 @@ function render(){
   <div class="actionable" style="max-width:640px"><b>Action ›</b> ${comIns?comIns.actionable:"Build depth in 1–2 contracts rather than spreading thin."}</div>
   <a class="mx" href="matrix.html">Open the full contract matrix →</a>`;
  main.appendChild(cx);
+
+ // ---- circulars page
+ const cc=document.createElement("section");cc.id="p_circulars";
+ const circs=(INS&&INS.circulars)?INS.circulars:[];
+ cc.innerHTML=`<div class="page-tag">Regulatory · circulars &amp; notices</div>
+  <h2>Circulars &amp; Regulatory Updates <span class="r">— NSE · BSE · sebi</span></h2>
+  <div class="circ" id="circList"></div>`;
+ main.appendChild(cc);
+ const cl=cc.querySelector("#circList");
+ if(circs.length){
+   for(const c of circs.slice(0,40))
+     cl.insertAdjacentHTML("beforeend",`<a href="${c.link}" target="_blank" rel="noopener">${c.title}<div class="src">${c.source}${c.date?" · "+c.date.replace(/\s\d{2}:\d{2}:\d{2}.*/,""):""}</div></a>`);
+ } else { cl.innerHTML='<div class="empty">Circulars arrive with the next pipeline run.</div>'; }
 
  // ---- nav dots + snap observer
  const pages=[...main.querySelectorAll("section")];
@@ -226,6 +251,17 @@ document.getElementById("periodCtl").addEventListener("click",e=>{
 document.getElementById("metricCtl").addEventListener("click",e=>{
  if(!e.target.dataset.m)return;METRIC=e.target.dataset.m;
  [...e.currentTarget.children].forEach(b=>b.classList.toggle("on",b===e.target));render();});
+
+// keyboard paging between screens (↑/↓ · PageUp/PageDown)
+document.addEventListener("keydown",e=>{
+ if(!["ArrowDown","ArrowUp","PageDown","PageUp"].includes(e.key))return;
+ const pages=[...document.querySelectorAll("main section")];
+ const mid=window.innerHeight/2;
+ let cur=pages.findIndex(p=>{const r=p.getBoundingClientRect();return r.top<=mid&&r.bottom>=mid;});
+ if(cur<0)cur=0;
+ const next=(e.key==="ArrowDown"||e.key==="PageDown")?cur+1:cur-1;
+ if(next>=0&&next<pages.length){e.preventDefault();pages[next].scrollIntoView({behavior:"smooth"});}
+});
 
 (async()=>{
  const daily=await j("data/daily.json");INS=await j("data/insights.json");META=await j("data/meta.json");
