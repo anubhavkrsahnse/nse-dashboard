@@ -95,6 +95,50 @@ NEWS_FEEDS = [
      "https://economictimes.indiatimes.com/markets/rssfeeds/1977021501.cms"),
 ]
 
+# Regulatory circulars / notices. These queries surface official NSE / BSE /
+# SEBI circulars and exchange notices. Reachable from any runner (Google News
+# RSS), so they work from GitHub Actions unlike the geo-blocked NSE APIs.
+CIRCULAR_FEEDS = [
+    ("NSE circulars",
+     "https://news.google.com/rss/search?q=NSE+circular+OR+notice+when:21d&hl=en-IN&gl=IN&ceid=IN:en"),
+    ("BSE circulars",
+     "https://news.google.com/rss/search?q=BSE+circular+OR+notice+when:21d&hl=en-IN&gl=IN&ceid=IN:en"),
+    ("SEBI circulars",
+     "https://news.google.com/rss/search?q=SEBI+circular+markets+when:21d&hl=en-IN&gl=IN&ceid=IN:en"),
+]
+
+
+def _fetch_feed(url: str, src: str) -> list[dict]:
+    out = []
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": UA})
+        with urllib.request.urlopen(req, timeout=20) as r:
+            tree = ET.fromstring(r.read())
+        for it in tree.iter("item"):
+            title = (it.findtext("title") or "").strip()
+            link = (it.findtext("link") or "").strip()
+            pub = (it.findtext("pubDate") or "").strip()
+            if title and link:
+                out.append({"title": title, "link": link,
+                            "source": src, "date": pub})
+    except Exception:  # noqa: BLE001
+        pass
+    return out
+
+
+def fetch_circulars() -> list[dict]:
+    """Latest exchange / regulator circulars and notices, deduped."""
+    items = []
+    for src, url in CIRCULAR_FEEDS:
+        items += _fetch_feed(url, src)
+    seen, out = set(), []
+    for it in items:
+        k = it["title"].lower()[:80]
+        if k not in seen:
+            seen.add(k)
+            out.append(it)
+    return out[:40]
+
 
 def _fetch_news() -> list[dict]:
     items: list[dict] = []
@@ -218,4 +262,5 @@ def build_insights(daily_rows: dict, monthly: dict) -> dict:
         "generated_utc": datetime.utcnow().isoformat(timespec="seconds") + "Z",
         "insights": insights,
         "news_pool": news[:30],
+        "circulars": fetch_circulars(),
     }
