@@ -77,28 +77,33 @@ def fetch_nse_cm(d: date) -> dict:
 # ------------------------------------------------------------- UDIFF F&O ----
 
 def _sum_udiff(csv_text: str) -> dict:
-    """Sum turnover from a SEBI UDIFF-format bhavcopy.
-    Futures rows: FinInstrmTp in (STF, IDF) -> notional value.
-    Options rows: FinInstrmTp in (STO, IDO) -> TtlTrfVal is premium value.
-    UDIFF TtlTrfVal is in absolute rupees -> convert to crore."""
-    fut = opt = 0.0
-    reader = csv.DictReader(io.StringIO(csv_text))
-    for row in reader:
+    """Sum turnover from a SEBI UDIFF-format bhavcopy, split stock vs index.
+    STF/IDF = stock/index futures (notional).
+    STO/IDO = stock/index options (TtlTrfVal = premium).
+    UDIFF TtlTrfVal is in absolute rupees -> crore.
+    Also captures NbOfCtrcts * ... not needed; ADT is derived downstream."""
+    sf = idf = so = ido = 0.0
+    for row in csv.DictReader(io.StringIO(csv_text)):
         try:
             v = float(row.get("TtlTrfVal") or 0)
         except ValueError:
             continue
         t = (row.get("FinInstrmTp") or "").strip()
-        if t in ("STF", "IDF"):
-            fut += v
-        elif t in ("STO", "IDO"):
-            opt += v
-    return {"fut": fut / 1e7, "optp": opt / 1e7}  # rupees -> crore
+        if t == "STF":
+            sf += v
+        elif t == "IDF":
+            idf += v
+        elif t == "STO":
+            so += v
+        elif t == "IDO":
+            ido += v
+    c = 1e7
+    return {"stk_fut": sf / c, "idx_fut": idf / c,
+            "stk_optp": so / c, "idx_optp": ido / c}
 
 
 def fetch_nse_fo(d: date) -> dict:
-    """NSE F&O daily futures notional + options premium via UDIFF bhavcopy
-    on the archives server."""
+    """NSE F&O split by stock/index futures & options premium via UDIFF."""
     url = (f"https://nsearchives.nseindia.com/content/fo/"
            f"BhavCopy_NSE_FO_0_0_0_{d:%Y%m%d}_F_0000.csv.zip")
     try:
@@ -107,9 +112,11 @@ def fetch_nse_fo(d: date) -> dict:
         url = url.replace("nsearchives", "archives")
         r = _get(url, "https://www.nseindia.com/")
     with zipfile.ZipFile(io.BytesIO(r.content)) as z:
-        name = z.namelist()[0]
-        res = _sum_udiff(z.read(name).decode("utf-8", "replace"))
-    return {"nse_fut": res["fut"], "nse_optp": res["optp"]}
+        s = _sum_udiff(z.read(z.namelist()[0]).decode("utf-8", "replace"))
+    sf, idf, so, ido = (s["stk_fut"], s["idx_fut"],
+                        s["stk_optp"], s["idx_optp"])
+    return {"nse_stk_fut": sf, "nse_idx_fut": idf, "nse_fut": sf + idf,
+            "nse_stk_optp": so, "nse_idx_optp": ido, "nse_optp": so + ido}
 
 
 def fetch_bse_cm(d: date) -> dict:
@@ -133,14 +140,40 @@ def fetch_bse_fo(d: date) -> dict:
     url = (f"https://www.bseindia.com/download/Bhavcopy/Derivative/"
            f"BhavCopy_BSE_FO_0_0_0_{d:%Y%m%d}_F_0000.CSV")
     r = _get(url, "https://www.bseindia.com/")
-    res = _sum_udiff(r.text)
-    return {"bse_fut": res["fut"], "bse_optp": res["optp"]}
+    s = _sum_udiff(r.text)
+    sf, idf, so, ido = (s["stk_fut"], s["idx_fut"],
+                        s["stk_optp"], s["idx_optp"])
+    if sf + idf + so + ido <= 0:
+        raise FetchError(f"BSE FO bhavcopy {d}: zero total (holiday?)")
+    return {"bse_stk_fut": sf, "bse_idx_fut": idf, "bse_fut": sf + idf,
+            "bse_stk_optp": so, "bse_idx_optp": ido, "bse_optp": so + ido}
+
+
 # ------------------------------------------------------------- Commodity ----
 
+# Contract groups for the NSE-vs-MCX commodity matrix.
+# Symbols are matched by prefix after stripping whitespace.
+CONTRACT_GROUPS = {
+    "crude":       {"nse": ["CRUDEOIL", "BRCRUDEOIL"], "mcx": ["CRUDEOIL"]},
+    "electricity": {"nse": ["ELEC"], "mcx": ["ELEC"]},
+    "gold10g":     {"nse": ["GOLD10G"], "mcx": ["GOLDPETAL", "GOLDGUINEA"]},
+    "natgas":      {"nse": ["NATURALGAS", "NATGAS"], "mcx": ["NATURALGAS", "NATGAS"]},
+}
+
+
+def _group_of(symbol: str, side: str) -> str | None:
+    sym = (symbol or "").strip().upper()
+    for grp, cfg in CONTRACT_GROUPS.items():
+        if any(sym.startswith(p) for p in cfg[side]):
+            return grp
+    return None
+
+
 def fetch_nse_com(d: date) -> dict:
-    """NSE commodity derivatives via UDIFF bhavcopy (small segment)."""
+    """NSE commodity derivatives via UDIFF bhavcopy (file prefix is
+    BhavCopy_NSE_CO_..., verified via the daily-reports API)."""
     url = (f"https://nsearchives.nseindia.com/content/com/"
-           f"BhavCopy_NSE_COM_0_0_0_{d:%Y%m%d}_F_0000.csv.zip")
+           f"BhavCopy_NSE_CO_0_0_0_{d:%Y%m%d}_F_0000.csv.zip")
     try:
         r = _get(url, "https://www.nseindia.com/")
         with zipfile.ZipFile(io.BytesIO(r.content)) as z:
@@ -148,57 +181,60 @@ def fetch_nse_com(d: date) -> dict:
     except (FetchError, zipfile.BadZipFile) as e:
         raise FetchError(f"NSE COM {d}: {e}")
     total = 0.0
+    groups: dict = {}
     for row in csv.DictReader(io.StringIO(text)):
         try:
-            total += float(row.get("TtlTrfVal") or 0)
+            v = float(row.get("TtlTrfVal") or 0)
         except ValueError:
             continue
-    return {"nse_com": total / 1e7}
-
-
-MCX_STRATEGIES = [
-    # (url, is_post, payload)  - tried in order until one works
-    ("https://www.mcxindia.com/backpage.aspx/GetDateWiseBhavCopy", True,
-     lambda d: {"Date": d.strftime("%m/%d/%Y"), "InstrumentName": "ALL"}),
-    ("https://www.mcxindia.com/backpage.aspx/GetBhavCopyDateWise", True,
-     lambda d: {"Date": d.strftime("%m/%d/%Y"), "InstrumentName": "ALL"}),
-]
+        total += v
+        g = _group_of(row.get("TckrSymb", ""), "nse")
+        if g:
+            groups[g] = groups.get(g, 0.0) + v
+    return {"nse_com": total / 1e7,
+            "cx_nse": {k: round(v / 1e7, 2) for k, v in groups.items()}}
 
 
 def fetch_mcx(d: date) -> dict:
-    """MCX total traded value. MCX web-methods return rows with a 'Value'
-    field in Rs. lakh. Tries known endpoints in order."""
+    """MCX daily bhavcopy via the market-data JSON endpoint (endpoint and
+    response shape verified in-browser). 'Value' is in Rs. lakh."""
     referer = "https://www.mcxindia.com/market-data/bhavcopy"
-    last_err = None
-    for url, is_post, payload in MCX_STRATEGIES:
+    s = _session(referer)
+    s.headers["Accept"] = "application/json, text/javascript, */*; q=0.01"
+    s.headers["X-Requested-With"] = "XMLHttpRequest"
+    s.get(referer, timeout=30)  # warm Akamai cookies
+    r = s.get("https://www.mcxindia.com/market-data/bhavcopy/"
+              "GetDateWiseBhavCopy",
+              params={"InstrumentName": "ALL",
+                      "fromDate": d.strftime("%d/%m/%Y")},
+              timeout=60)
+    if r.status_code != 200:
+        raise FetchError(f"MCX {d}: HTTP {r.status_code}")
+    try:
+        data = r.json()
+    except ValueError:
+        raise FetchError(f"MCX {d}: non-JSON response (WAF block?)")
+    rows = data.get("d") or data.get("Data") or data
+    if isinstance(rows, dict):
+        rows = rows.get("Data") or []
+    if not rows:
+        raise FetchError(f"MCX {d}: empty rows (holiday?)")
+    total_lakh = 0.0
+    groups: dict = {}
+    for row in rows:
         try:
-            s = _session(referer)
-            s.headers["Content-Type"] = "application/json; charset=UTF-8"
-            s.headers["X-Requested-With"] = "XMLHttpRequest"
-            # MCX requires a warm cookie from the page first
-            s.get(referer, timeout=30)
-            r = s.post(url, json=payload(d), timeout=30)
-            if r.status_code != 200:
-                raise FetchError(f"HTTP {r.status_code}")
-            data = r.json().get("d")
-            if isinstance(data, str):
-                data = json.loads(data)
-            rows = data.get("Data") if isinstance(data, dict) else data
-            if not rows:
-                raise FetchError("empty rows")
-            total_lakh = 0.0
-            for row in rows:
-                for key in ("Value", "ValueInLacs", "TradedValue"):
-                    if key in row and row[key] not in (None, ""):
-                        total_lakh += float(row[key])
-                        break
-            if total_lakh <= 0:
-                raise FetchError("zero total")
-            return {"mcx_com": total_lakh * CRORE_PER_LAKH}
-        except Exception as e:  # noqa: BLE001 - try next strategy
-            last_err = e
+            v = float(row.get("Value") or 0)
+        except (ValueError, TypeError):
             continue
-    raise FetchError(f"MCX {d}: all strategies failed ({last_err})")
+        total_lakh += v
+        g = _group_of(row.get("Symbol", ""), "mcx")
+        if g:
+            groups[g] = groups.get(g, 0.0) + v
+    if total_lakh <= 0:
+        raise FetchError(f"MCX {d}: zero total")
+    return {"mcx_com": round(total_lakh * CRORE_PER_LAKH, 2),
+            "cx_mcx": {k: round(v * CRORE_PER_LAKH, 2)
+                       for k, v in groups.items()}}
 
 
 # ------------------------------------------------------- Debt (monthly) -----
