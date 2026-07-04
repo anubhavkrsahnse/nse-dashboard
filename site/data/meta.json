@@ -1,1104 +1,904 @@
 {
- "updated_utc": "2026-07-03T18:27:21Z",
- "last_trading_day": "2026-07-02",
+ "updated_utc": "2026-07-04T16:44:25Z",
+ "last_trading_day": "2026-07-03",
  "recent_fetch_errors": {
+  "2025-05-30": {
+   "mcx": "MCX 2025-05-30: HTTP 403"
+  },
+  "2025-06-02": {
+   "mcx": "MCX 2025-06-02: HTTP 403"
+  },
+  "2025-06-03": {
+   "mcx": "MCX 2025-06-03: HTTP 403"
+  },
+  "2025-06-04": {
+   "mcx": "MCX 2025-06-04: HTTP 403"
+  },
+  "2025-06-05": {
+   "mcx": "MCX 2025-06-05: HTTP 403"
+  },
+  "2025-06-06": {
+   "mcx": "MCX 2025-06-06: HTTP 403"
+  },
+  "2025-06-09": {
+   "mcx": "MCX 2025-06-09: HTTP 403"
+  },
+  "2025-06-10": {
+   "mcx": "MCX 2025-06-10: HTTP 403"
+  },
+  "2025-06-11": {
+   "mcx": "MCX 2025-06-11: HTTP 403"
+  },
+  "2025-06-12": {
+   "mcx": "MCX 2025-06-12: HTTP 403"
+  },
+  "2025-06-13": {
+   "mcx": "MCX 2025-06-13: HTTP 403"
+  },
+  "2025-06-16": {
+   "mcx": "MCX 2025-06-16: HTTP 403"
+  },
+  "2025-06-17": {
+   "mcx": "MCX 2025-06-17: HTTP 403"
+  },
+  "2025-06-18": {
+   "mcx": "MCX 2025-06-18: HTTP 403"
+  },
+  "2025-06-19": {
+   "mcx": "MCX 2025-06-19: HTTP 403"
+  },
+  "2025-06-20": {
+   "mcx": "MCX 2025-06-20: HTTP 403"
+  },
+  "2025-06-23": {
+   "mcx": "MCX 2025-06-23: HTTP 403"
+  },
+  "2025-06-24": {
+   "mcx": "MCX 2025-06-24: HTTP 403"
+  },
+  "2025-06-25": {
+   "mcx": "MCX 2025-06-25: HTTP 403"
+  },
+  "2025-06-26": {
+   "mcx": "MCX 2025-06-26: HTTP 403"
+  },
+  "2025-06-27": {
+   "mcx": "MCX 2025-06-27: HTTP 403"
+  },
+  "2025-06-30": {
+   "mcx": "MCX 2025-06-30: HTTP 403"
+  },
+  "2025-07-01": {
+   "mcx": "MCX 2025-07-01: HTTP 403"
+  },
+  "2025-07-02": {
+   "mcx": "MCX 2025-07-02: HTTP 403"
+  },
   "2025-07-03": {
-   "nse_com": "HTTPSConnectionPool(host='nsearchives.nseindia.com', port=443): Read timed out. (read timeout=30)",
-   "mcx": "MCX 2025-07-03: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-07-03: HTTP 403"
   },
   "2025-07-04": {
-   "nse_com": "HTTPSConnectionPool(host='nsearchives.nseindia.com', port=443): Read timed out. (read timeout=30)",
-   "mcx": "MCX 2025-07-04: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-07-04: HTTP 403"
   },
   "2025-07-07": {
-   "nse_com": "HTTPSConnectionPool(host='nsearchives.nseindia.com', port=443): Read timed out. (read timeout=30)",
-   "mcx": "MCX 2025-07-07: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-07-07: HTTP 403"
   },
   "2025-07-08": {
-   "nse_com": "HTTPSConnectionPool(host='nsearchives.nseindia.com', port=443): Read timed out. (read timeout=30)",
-   "mcx": "MCX 2025-07-08: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-07-08: HTTP 403"
   },
   "2025-07-09": {
-   "nse_com": "HTTPSConnectionPool(host='nsearchives.nseindia.com', port=443): Read timed out. (read timeout=30)",
-   "mcx": "MCX 2025-07-09: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-07-09: HTTP 403"
   },
   "2025-07-10": {
-   "nse_com": "HTTPSConnectionPool(host='nsearchives.nseindia.com', port=443): Read timed out. (read timeout=30)",
-   "mcx": "MCX 2025-07-10: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-07-10: HTTP 403"
   },
   "2025-07-11": {
-   "nse_com": "HTTPSConnectionPool(host='nsearchives.nseindia.com', port=443): Read timed out. (read timeout=30)",
-   "mcx": "MCX 2025-07-11: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-07-11: HTTP 403"
   },
   "2025-07-14": {
-   "nse_com": "HTTPSConnectionPool(host='nsearchives.nseindia.com', port=443): Read timed out. (read timeout=30)",
-   "mcx": "MCX 2025-07-14: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-07-14: HTTP 403"
   },
   "2025-07-15": {
-   "nse_com": "HTTPSConnectionPool(host='nsearchives.nseindia.com', port=443): Read timed out. (read timeout=30)",
-   "mcx": "MCX 2025-07-15: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-07-15: HTTP 403"
   },
   "2025-07-16": {
-   "nse_com": "HTTPSConnectionPool(host='nsearchives.nseindia.com', port=443): Read timed out. (read timeout=30)",
-   "mcx": "MCX 2025-07-16: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-07-16: HTTP 403"
   },
   "2025-07-17": {
-   "nse_com": "HTTPSConnectionPool(host='nsearchives.nseindia.com', port=443): Read timed out. (read timeout=30)",
-   "mcx": "MCX 2025-07-17: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-07-17: HTTP 403"
   },
   "2025-07-18": {
-   "nse_com": "HTTPSConnectionPool(host='nsearchives.nseindia.com', port=443): Read timed out. (read timeout=30)",
-   "mcx": "MCX 2025-07-18: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-07-18: HTTP 403"
   },
   "2025-07-21": {
-   "nse_com": "HTTPSConnectionPool(host='nsearchives.nseindia.com', port=443): Read timed out. (read timeout=30)",
-   "mcx": "MCX 2025-07-21: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-07-21: HTTP 403"
   },
   "2025-07-22": {
-   "nse_com": "HTTPSConnectionPool(host='nsearchives.nseindia.com', port=443): Read timed out. (read timeout=30)",
-   "mcx": "MCX 2025-07-22: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-07-22: HTTP 403"
   },
   "2025-07-23": {
-   "nse_com": "HTTPSConnectionPool(host='nsearchives.nseindia.com', port=443): Read timed out. (read timeout=30)",
-   "mcx": "MCX 2025-07-23: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-07-23: HTTP 403"
   },
   "2025-07-24": {
-   "nse_com": "HTTPSConnectionPool(host='nsearchives.nseindia.com', port=443): Read timed out. (read timeout=30)",
-   "mcx": "MCX 2025-07-24: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-07-24: HTTP 403"
   },
   "2025-07-25": {
-   "nse_com": "NSE COM 2025-07-25: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20250725_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-07-25: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-07-25: HTTP 403"
   },
   "2025-07-28": {
-   "nse_com": "NSE COM 2025-07-28: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20250728_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-07-28: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-07-28: HTTP 403"
   },
   "2025-07-29": {
-   "nse_com": "NSE COM 2025-07-29: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20250729_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-07-29: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-07-29: HTTP 403"
   },
   "2025-07-30": {
-   "nse_com": "NSE COM 2025-07-30: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20250730_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-07-30: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-07-30: HTTP 403"
   },
   "2025-07-31": {
-   "nse_com": "NSE COM 2025-07-31: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20250731_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-07-31: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-07-31: HTTP 403"
   },
   "2025-08-01": {
-   "nse_com": "NSE COM 2025-08-01: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20250801_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-08-01: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-08-01: HTTP 403"
   },
   "2025-08-04": {
-   "nse_com": "NSE COM 2025-08-04: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20250804_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-08-04: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-08-04: HTTP 403"
   },
   "2025-08-05": {
-   "nse_com": "NSE COM 2025-08-05: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20250805_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-08-05: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-08-05: HTTP 403"
   },
   "2025-08-06": {
-   "nse_com": "NSE COM 2025-08-06: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20250806_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-08-06: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-08-06: HTTP 403"
   },
   "2025-08-07": {
-   "nse_com": "NSE COM 2025-08-07: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20250807_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-08-07: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-08-07: HTTP 403"
   },
   "2025-08-08": {
-   "nse_com": "NSE COM 2025-08-08: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20250808_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-08-08: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-08-08: HTTP 403"
   },
   "2025-08-11": {
-   "nse_com": "NSE COM 2025-08-11: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20250811_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-08-11: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-08-11: HTTP 403"
   },
   "2025-08-12": {
-   "nse_com": "NSE COM 2025-08-12: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20250812_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-08-12: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-08-12: HTTP 403"
   },
   "2025-08-13": {
-   "nse_com": "NSE COM 2025-08-13: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20250813_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-08-13: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-08-13: HTTP 403"
   },
   "2025-08-14": {
-   "nse_com": "NSE COM 2025-08-14: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20250814_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-08-14: all strategies failed (HTTP 403)"
-  },
-  "2025-08-15": {
-   "nse_cm": "https://archives.nseindia.com/archives/equities/mkt/MA150825.csv -> HTTP 404",
-   "nse_fo": "https://archives.nseindia.com/content/fo/BhavCopy_NSE_FO_0_0_0_20250815_F_0000.csv.zip -> HTTP 404",
-   "bse_cm": "BSE CM bhavcopy 2025-08-15: zero total",
-   "nse_com": "NSE COM 2025-08-15: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20250815_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-08-15: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-08-14: HTTP 403"
   },
   "2025-08-18": {
-   "nse_com": "NSE COM 2025-08-18: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20250818_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-08-18: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-08-18: HTTP 403"
   },
   "2025-08-19": {
-   "nse_com": "NSE COM 2025-08-19: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20250819_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-08-19: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-08-19: HTTP 403"
   },
   "2025-08-20": {
-   "nse_com": "NSE COM 2025-08-20: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20250820_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-08-20: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-08-20: HTTP 403"
   },
   "2025-08-21": {
-   "nse_com": "NSE COM 2025-08-21: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20250821_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-08-21: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-08-21: HTTP 403"
   },
   "2025-08-22": {
-   "nse_com": "NSE COM 2025-08-22: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20250822_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-08-22: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-08-22: HTTP 403"
   },
   "2025-08-25": {
-   "nse_com": "NSE COM 2025-08-25: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20250825_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-08-25: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-08-25: HTTP 403"
   },
   "2025-08-26": {
-   "nse_com": "NSE COM 2025-08-26: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20250826_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-08-26: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-08-26: HTTP 403"
   },
   "2025-08-27": {
    "nse_cm": "https://archives.nseindia.com/archives/equities/mkt/MA270825.csv -> HTTP 404",
    "nse_fo": "https://archives.nseindia.com/content/fo/BhavCopy_NSE_FO_0_0_0_20250827_F_0000.csv.zip -> HTTP 404",
    "bse_cm": "BSE CM bhavcopy 2025-08-27: zero total",
-   "nse_com": "NSE COM 2025-08-27: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20250827_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-08-27: all strategies failed (HTTP 403)"
+   "bse_fo": "BSE FO bhavcopy 2025-08-27: zero total (holiday?)",
+   "mcx": "MCX 2025-08-27: HTTP 403"
   },
   "2025-08-28": {
-   "nse_com": "NSE COM 2025-08-28: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20250828_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-08-28: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-08-28: HTTP 403"
   },
   "2025-08-29": {
-   "nse_com": "NSE COM 2025-08-29: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20250829_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-08-29: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-08-29: HTTP 403"
   },
   "2025-09-01": {
-   "nse_com": "NSE COM 2025-09-01: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20250901_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-09-01: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-09-01: HTTP 403"
   },
   "2025-09-02": {
-   "nse_com": "NSE COM 2025-09-02: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20250902_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-09-02: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-09-02: HTTP 403"
   },
   "2025-09-03": {
-   "nse_com": "NSE COM 2025-09-03: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20250903_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-09-03: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-09-03: HTTP 403"
   },
   "2025-09-04": {
-   "nse_com": "NSE COM 2025-09-04: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20250904_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-09-04: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-09-04: HTTP 403"
   },
   "2025-09-05": {
-   "nse_com": "NSE COM 2025-09-05: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20250905_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-09-05: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-09-05: HTTP 403"
   },
   "2025-09-08": {
-   "nse_com": "NSE COM 2025-09-08: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20250908_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-09-08: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-09-08: HTTP 403"
   },
   "2025-09-09": {
-   "nse_com": "NSE COM 2025-09-09: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20250909_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-09-09: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-09-09: HTTP 403"
   },
   "2025-09-10": {
-   "nse_com": "NSE COM 2025-09-10: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20250910_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-09-10: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-09-10: HTTP 403"
   },
   "2025-09-11": {
-   "nse_com": "NSE COM 2025-09-11: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20250911_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-09-11: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-09-11: HTTP 403"
   },
   "2025-09-12": {
-   "nse_com": "NSE COM 2025-09-12: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20250912_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-09-12: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-09-12: HTTP 403"
   },
   "2025-09-15": {
-   "nse_com": "NSE COM 2025-09-15: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20250915_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-09-15: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-09-15: HTTP 403"
   },
   "2025-09-16": {
-   "nse_com": "NSE COM 2025-09-16: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20250916_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-09-16: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-09-16: HTTP 403"
   },
   "2025-09-17": {
-   "nse_com": "NSE COM 2025-09-17: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20250917_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-09-17: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-09-17: HTTP 403"
   },
   "2025-09-18": {
-   "nse_com": "NSE COM 2025-09-18: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20250918_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-09-18: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-09-18: HTTP 403"
   },
   "2025-09-19": {
-   "nse_com": "NSE COM 2025-09-19: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20250919_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-09-19: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-09-19: HTTP 403"
   },
   "2025-09-22": {
-   "nse_com": "NSE COM 2025-09-22: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20250922_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-09-22: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-09-22: HTTP 403"
   },
   "2025-09-23": {
-   "nse_com": "NSE COM 2025-09-23: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20250923_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-09-23: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-09-23: HTTP 403"
   },
   "2025-09-24": {
-   "nse_com": "NSE COM 2025-09-24: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20250924_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-09-24: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-09-24: HTTP 403"
   },
   "2025-09-25": {
-   "nse_com": "NSE COM 2025-09-25: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20250925_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-09-25: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-09-25: HTTP 403"
   },
   "2025-09-26": {
-   "nse_com": "NSE COM 2025-09-26: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20250926_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-09-26: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-09-26: HTTP 403"
   },
   "2025-09-29": {
-   "nse_com": "NSE COM 2025-09-29: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20250929_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-09-29: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-09-29: HTTP 403"
   },
   "2025-09-30": {
-   "nse_com": "NSE COM 2025-09-30: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20250930_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-09-30: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-09-30: HTTP 403"
   },
   "2025-10-01": {
-   "nse_com": "NSE COM 2025-10-01: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251001_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-10-01: all strategies failed (HTTP 403)"
-  },
-  "2025-10-02": {
-   "nse_cm": "https://archives.nseindia.com/archives/equities/mkt/MA021025.csv -> HTTP 404",
-   "nse_fo": "https://archives.nseindia.com/content/fo/BhavCopy_NSE_FO_0_0_0_20251002_F_0000.csv.zip -> HTTP 404",
-   "bse_cm": "BSE CM bhavcopy 2025-10-02: zero total",
-   "nse_com": "NSE COM 2025-10-02: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251002_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-10-02: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-10-01: HTTP 403"
   },
   "2025-10-03": {
-   "nse_com": "NSE COM 2025-10-03: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251003_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-10-03: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-10-03: HTTP 403"
   },
   "2025-10-06": {
-   "nse_com": "NSE COM 2025-10-06: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251006_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-10-06: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-10-06: HTTP 403"
   },
   "2025-10-07": {
-   "nse_com": "NSE COM 2025-10-07: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251007_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-10-07: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-10-07: HTTP 403"
   },
   "2025-10-08": {
-   "nse_com": "NSE COM 2025-10-08: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251008_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-10-08: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-10-08: HTTP 403"
   },
   "2025-10-09": {
-   "nse_com": "NSE COM 2025-10-09: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251009_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-10-09: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-10-09: HTTP 403"
   },
   "2025-10-10": {
-   "nse_com": "NSE COM 2025-10-10: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251010_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-10-10: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-10-10: HTTP 403"
   },
   "2025-10-13": {
-   "nse_com": "NSE COM 2025-10-13: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251013_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-10-13: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-10-13: HTTP 403"
   },
   "2025-10-14": {
-   "nse_com": "NSE COM 2025-10-14: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251014_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-10-14: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-10-14: HTTP 403"
   },
   "2025-10-15": {
-   "nse_com": "NSE COM 2025-10-15: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251015_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-10-15: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-10-15: HTTP 403"
   },
   "2025-10-16": {
-   "nse_com": "NSE COM 2025-10-16: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251016_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-10-16: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-10-16: HTTP 403"
   },
   "2025-10-17": {
-   "nse_com": "NSE COM 2025-10-17: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251017_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-10-17: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-10-17: HTTP 403"
   },
   "2025-10-20": {
-   "nse_com": "NSE COM 2025-10-20: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251020_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-10-20: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-10-20: HTTP 403"
   },
   "2025-10-21": {
-   "nse_com": "NSE COM 2025-10-21: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251021_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-10-21: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-10-21: HTTP 403"
   },
   "2025-10-22": {
    "nse_cm": "https://archives.nseindia.com/archives/equities/mkt/MA221025.csv -> HTTP 404",
    "nse_fo": "https://archives.nseindia.com/content/fo/BhavCopy_NSE_FO_0_0_0_20251022_F_0000.csv.zip -> HTTP 404",
    "bse_cm": "BSE CM bhavcopy 2025-10-22: zero total",
-   "nse_com": "NSE COM 2025-10-22: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251022_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-10-22: all strategies failed (HTTP 403)"
+   "bse_fo": "BSE FO bhavcopy 2025-10-22: zero total (holiday?)",
+   "mcx": "MCX 2025-10-22: HTTP 403"
   },
   "2025-10-23": {
-   "nse_com": "NSE COM 2025-10-23: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251023_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-10-23: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-10-23: HTTP 403"
   },
   "2025-10-24": {
-   "nse_com": "NSE COM 2025-10-24: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251024_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-10-24: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-10-24: HTTP 403"
   },
   "2025-10-27": {
-   "nse_com": "NSE COM 2025-10-27: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251027_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-10-27: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-10-27: HTTP 403"
   },
   "2025-10-28": {
-   "nse_com": "NSE COM 2025-10-28: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251028_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-10-28: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-10-28: HTTP 403"
   },
   "2025-10-29": {
-   "nse_com": "NSE COM 2025-10-29: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251029_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-10-29: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-10-29: HTTP 403"
   },
   "2025-10-30": {
-   "nse_com": "NSE COM 2025-10-30: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251030_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-10-30: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-10-30: HTTP 403"
   },
   "2025-10-31": {
-   "nse_com": "NSE COM 2025-10-31: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251031_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-10-31: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-10-31: HTTP 403"
   },
   "2025-11-03": {
-   "nse_com": "NSE COM 2025-11-03: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251103_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-11-03: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-11-03: HTTP 403"
   },
   "2025-11-04": {
-   "nse_com": "NSE COM 2025-11-04: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251104_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-11-04: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-11-04: HTTP 403"
   },
   "2025-11-05": {
    "nse_cm": "https://archives.nseindia.com/archives/equities/mkt/MA051125.csv -> HTTP 404",
    "nse_fo": "https://archives.nseindia.com/content/fo/BhavCopy_NSE_FO_0_0_0_20251105_F_0000.csv.zip -> HTTP 404",
    "bse_cm": "BSE CM bhavcopy 2025-11-05: zero total",
-   "nse_com": "NSE COM 2025-11-05: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251105_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-11-05: all strategies failed (HTTP 403)"
+   "bse_fo": "BSE FO bhavcopy 2025-11-05: zero total (holiday?)",
+   "mcx": "MCX 2025-11-05: HTTP 403"
   },
   "2025-11-06": {
-   "nse_com": "NSE COM 2025-11-06: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251106_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-11-06: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-11-06: HTTP 403"
   },
   "2025-11-07": {
-   "nse_com": "NSE COM 2025-11-07: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251107_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-11-07: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-11-07: HTTP 403"
   },
   "2025-11-10": {
-   "nse_com": "NSE COM 2025-11-10: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251110_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-11-10: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-11-10: HTTP 403"
   },
   "2025-11-11": {
-   "nse_com": "NSE COM 2025-11-11: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251111_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-11-11: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-11-11: HTTP 403"
   },
   "2025-11-12": {
-   "nse_com": "NSE COM 2025-11-12: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251112_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-11-12: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-11-12: HTTP 403"
   },
   "2025-11-13": {
-   "nse_com": "NSE COM 2025-11-13: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251113_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-11-13: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-11-13: HTTP 403"
   },
   "2025-11-14": {
-   "nse_com": "NSE COM 2025-11-14: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251114_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-11-14: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-11-14: HTTP 403"
   },
   "2025-11-17": {
-   "nse_com": "NSE COM 2025-11-17: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251117_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-11-17: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-11-17: HTTP 403"
   },
   "2025-11-18": {
-   "nse_com": "NSE COM 2025-11-18: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251118_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-11-18: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-11-18: HTTP 403"
   },
   "2025-11-19": {
-   "nse_com": "NSE COM 2025-11-19: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251119_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-11-19: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-11-19: HTTP 403"
   },
   "2025-11-20": {
-   "nse_com": "NSE COM 2025-11-20: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251120_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-11-20: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-11-20: HTTP 403"
   },
   "2025-11-21": {
-   "nse_com": "NSE COM 2025-11-21: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251121_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-11-21: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-11-21: HTTP 403"
   },
   "2025-11-24": {
-   "nse_com": "NSE COM 2025-11-24: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251124_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-11-24: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-11-24: HTTP 403"
   },
   "2025-11-25": {
-   "nse_com": "NSE COM 2025-11-25: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251125_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-11-25: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-11-25: HTTP 403"
   },
   "2025-11-26": {
-   "nse_com": "NSE COM 2025-11-26: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251126_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-11-26: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-11-26: HTTP 403"
   },
   "2025-11-27": {
-   "nse_com": "NSE COM 2025-11-27: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251127_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-11-27: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-11-27: HTTP 403"
   },
   "2025-11-28": {
-   "nse_com": "NSE COM 2025-11-28: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251128_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-11-28: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-11-28: HTTP 403"
   },
   "2025-12-01": {
-   "nse_com": "NSE COM 2025-12-01: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251201_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-12-01: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-12-01: HTTP 403"
   },
   "2025-12-02": {
-   "nse_com": "NSE COM 2025-12-02: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251202_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-12-02: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-12-02: HTTP 403"
   },
   "2025-12-03": {
-   "nse_com": "NSE COM 2025-12-03: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251203_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-12-03: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-12-03: HTTP 403"
   },
   "2025-12-04": {
-   "nse_com": "NSE COM 2025-12-04: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251204_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-12-04: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-12-04: HTTP 403"
   },
   "2025-12-05": {
-   "nse_com": "NSE COM 2025-12-05: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251205_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-12-05: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-12-05: HTTP 403"
   },
   "2025-12-08": {
-   "nse_com": "NSE COM 2025-12-08: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251208_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-12-08: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-12-08: HTTP 403"
   },
   "2025-12-09": {
-   "nse_com": "NSE COM 2025-12-09: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251209_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-12-09: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-12-09: HTTP 403"
   },
   "2025-12-10": {
-   "nse_com": "NSE COM 2025-12-10: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251210_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-12-10: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-12-10: HTTP 403"
   },
   "2025-12-11": {
-   "nse_com": "NSE COM 2025-12-11: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251211_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-12-11: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-12-11: HTTP 403"
   },
   "2025-12-12": {
-   "nse_com": "NSE COM 2025-12-12: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251212_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-12-12: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-12-12: HTTP 403"
   },
   "2025-12-15": {
-   "nse_com": "NSE COM 2025-12-15: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251215_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-12-15: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-12-15: HTTP 403"
   },
   "2025-12-16": {
-   "nse_com": "NSE COM 2025-12-16: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251216_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-12-16: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-12-16: HTTP 403"
   },
   "2025-12-17": {
-   "nse_com": "NSE COM 2025-12-17: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251217_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-12-17: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-12-17: HTTP 403"
   },
   "2025-12-18": {
-   "nse_com": "NSE COM 2025-12-18: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251218_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-12-18: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-12-18: HTTP 403"
   },
   "2025-12-19": {
-   "nse_com": "NSE COM 2025-12-19: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251219_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-12-19: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-12-19: HTTP 403"
   },
   "2025-12-22": {
-   "nse_com": "NSE COM 2025-12-22: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251222_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-12-22: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-12-22: HTTP 403"
   },
   "2025-12-23": {
-   "nse_com": "NSE COM 2025-12-23: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251223_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-12-23: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-12-23: HTTP 403"
   },
   "2025-12-24": {
-   "nse_com": "NSE COM 2025-12-24: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251224_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-12-24: all strategies failed (HTTP 403)"
-  },
-  "2025-12-25": {
-   "nse_cm": "https://archives.nseindia.com/archives/equities/mkt/MA251225.csv -> HTTP 404",
-   "nse_fo": "https://archives.nseindia.com/content/fo/BhavCopy_NSE_FO_0_0_0_20251225_F_0000.csv.zip -> HTTP 404",
-   "bse_cm": "BSE CM bhavcopy 2025-12-25: zero total",
-   "nse_com": "NSE COM 2025-12-25: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251225_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-12-25: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-12-24: HTTP 403"
   },
   "2025-12-26": {
-   "nse_com": "NSE COM 2025-12-26: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251226_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-12-26: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-12-26: HTTP 403"
   },
   "2025-12-29": {
-   "nse_com": "NSE COM 2025-12-29: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251229_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-12-29: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-12-29: HTTP 403"
   },
   "2025-12-30": {
-   "nse_com": "NSE COM 2025-12-30: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251230_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-12-30: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-12-30: HTTP 403"
   },
   "2025-12-31": {
-   "nse_com": "NSE COM 2025-12-31: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20251231_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2025-12-31: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2025-12-31: HTTP 403"
   },
   "2026-01-01": {
-   "nse_com": "NSE COM 2026-01-01: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260101_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-01-01: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-01-01: HTTP 403"
   },
   "2026-01-02": {
-   "nse_com": "NSE COM 2026-01-02: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260102_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-01-02: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-01-02: HTTP 403"
   },
   "2026-01-05": {
-   "nse_com": "NSE COM 2026-01-05: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260105_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-01-05: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-01-05: HTTP 403"
   },
   "2026-01-06": {
-   "nse_com": "NSE COM 2026-01-06: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260106_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-01-06: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-01-06: HTTP 403"
   },
   "2026-01-07": {
-   "nse_com": "NSE COM 2026-01-07: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260107_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-01-07: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-01-07: HTTP 403"
   },
   "2026-01-08": {
-   "nse_com": "NSE COM 2026-01-08: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260108_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-01-08: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-01-08: HTTP 403"
   },
   "2026-01-09": {
-   "nse_com": "NSE COM 2026-01-09: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260109_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-01-09: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-01-09: HTTP 403"
   },
   "2026-01-12": {
-   "nse_com": "NSE COM 2026-01-12: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260112_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-01-12: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-01-12: HTTP 403"
   },
   "2026-01-13": {
-   "nse_com": "NSE COM 2026-01-13: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260113_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-01-13: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-01-13: HTTP 403"
   },
   "2026-01-14": {
-   "nse_com": "NSE COM 2026-01-14: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260114_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-01-14: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-01-14: HTTP 403"
   },
   "2026-01-15": {
    "nse_cm": "https://archives.nseindia.com/archives/equities/mkt/MA150126.csv -> HTTP 404",
    "nse_fo": "https://archives.nseindia.com/content/fo/BhavCopy_NSE_FO_0_0_0_20260115_F_0000.csv.zip -> HTTP 404",
    "bse_cm": "BSE CM bhavcopy 2026-01-15: zero total",
-   "nse_com": "NSE COM 2026-01-15: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260115_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-01-15: all strategies failed (HTTP 403)"
+   "bse_fo": "BSE FO bhavcopy 2026-01-15: zero total (holiday?)",
+   "mcx": "MCX 2026-01-15: HTTP 403"
   },
   "2026-01-16": {
-   "nse_com": "NSE COM 2026-01-16: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260116_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-01-16: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-01-16: HTTP 403"
   },
   "2026-01-19": {
-   "nse_com": "NSE COM 2026-01-19: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260119_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-01-19: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-01-19: HTTP 403"
   },
   "2026-01-20": {
-   "nse_com": "NSE COM 2026-01-20: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260120_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-01-20: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-01-20: HTTP 403"
   },
   "2026-01-21": {
-   "nse_com": "NSE COM 2026-01-21: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260121_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-01-21: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-01-21: HTTP 403"
   },
   "2026-01-22": {
-   "nse_com": "NSE COM 2026-01-22: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260122_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-01-22: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-01-22: HTTP 403"
   },
   "2026-01-23": {
-   "nse_com": "NSE COM 2026-01-23: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260123_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-01-23: all strategies failed (HTTP 403)"
-  },
-  "2026-01-26": {
-   "nse_cm": "https://archives.nseindia.com/archives/equities/mkt/MA260126.csv -> HTTP 404",
-   "nse_fo": "https://archives.nseindia.com/content/fo/BhavCopy_NSE_FO_0_0_0_20260126_F_0000.csv.zip -> HTTP 404",
-   "bse_cm": "BSE CM bhavcopy 2026-01-26: zero total",
-   "nse_com": "NSE COM 2026-01-26: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260126_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-01-26: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-01-23: HTTP 403"
   },
   "2026-01-27": {
-   "nse_com": "NSE COM 2026-01-27: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260127_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-01-27: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-01-27: HTTP 403"
   },
   "2026-01-28": {
-   "nse_com": "NSE COM 2026-01-28: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260128_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-01-28: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-01-28: HTTP 403"
   },
   "2026-01-29": {
-   "nse_com": "NSE COM 2026-01-29: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260129_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-01-29: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-01-29: HTTP 403"
   },
   "2026-01-30": {
-   "nse_com": "NSE COM 2026-01-30: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260130_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-01-30: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-01-30: HTTP 403"
   },
   "2026-02-02": {
-   "nse_com": "NSE COM 2026-02-02: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260202_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-02-02: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-02-02: HTTP 403"
   },
   "2026-02-03": {
-   "nse_com": "NSE COM 2026-02-03: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260203_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-02-03: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-02-03: HTTP 403"
   },
   "2026-02-04": {
-   "nse_com": "NSE COM 2026-02-04: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260204_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-02-04: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-02-04: HTTP 403"
   },
   "2026-02-05": {
-   "nse_com": "NSE COM 2026-02-05: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260205_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-02-05: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-02-05: HTTP 403"
   },
   "2026-02-06": {
-   "nse_com": "NSE COM 2026-02-06: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260206_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-02-06: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-02-06: HTTP 403"
   },
   "2026-02-09": {
-   "nse_com": "NSE COM 2026-02-09: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260209_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-02-09: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-02-09: HTTP 403"
   },
   "2026-02-10": {
-   "nse_com": "NSE COM 2026-02-10: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260210_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-02-10: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-02-10: HTTP 403"
   },
   "2026-02-11": {
-   "nse_com": "NSE COM 2026-02-11: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260211_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-02-11: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-02-11: HTTP 403"
   },
   "2026-02-12": {
-   "nse_com": "NSE COM 2026-02-12: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260212_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-02-12: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-02-12: HTTP 403"
   },
   "2026-02-13": {
-   "nse_com": "NSE COM 2026-02-13: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260213_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-02-13: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-02-13: HTTP 403"
   },
   "2026-02-16": {
-   "nse_com": "NSE COM 2026-02-16: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260216_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-02-16: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-02-16: HTTP 403"
   },
   "2026-02-17": {
-   "nse_com": "NSE COM 2026-02-17: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260217_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-02-17: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-02-17: HTTP 403"
   },
   "2026-02-18": {
-   "nse_com": "NSE COM 2026-02-18: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260218_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-02-18: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-02-18: HTTP 403"
   },
   "2026-02-19": {
-   "nse_com": "NSE COM 2026-02-19: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260219_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-02-19: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-02-19: HTTP 403"
   },
   "2026-02-20": {
-   "nse_com": "NSE COM 2026-02-20: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260220_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-02-20: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-02-20: HTTP 403"
   },
   "2026-02-23": {
-   "nse_com": "NSE COM 2026-02-23: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260223_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-02-23: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-02-23: HTTP 403"
   },
   "2026-02-24": {
-   "nse_com": "NSE COM 2026-02-24: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260224_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-02-24: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-02-24: HTTP 403"
   },
   "2026-02-25": {
-   "nse_com": "NSE COM 2026-02-25: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260225_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-02-25: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-02-25: HTTP 403"
   },
   "2026-02-26": {
-   "nse_com": "NSE COM 2026-02-26: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260226_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-02-26: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-02-26: HTTP 403"
   },
   "2026-02-27": {
-   "nse_com": "NSE COM 2026-02-27: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260227_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-02-27: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-02-27: HTTP 403"
   },
   "2026-03-02": {
-   "nse_com": "NSE COM 2026-03-02: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260302_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-03-02: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-03-02: HTTP 403"
   },
   "2026-03-03": {
    "nse_cm": "https://archives.nseindia.com/archives/equities/mkt/MA030326.csv -> HTTP 404",
    "nse_fo": "https://archives.nseindia.com/content/fo/BhavCopy_NSE_FO_0_0_0_20260303_F_0000.csv.zip -> HTTP 404",
    "bse_cm": "BSE CM bhavcopy 2026-03-03: zero total",
-   "nse_com": "NSE COM 2026-03-03: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260303_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-03-03: all strategies failed (HTTP 403)"
+   "bse_fo": "BSE FO bhavcopy 2026-03-03: zero total (holiday?)",
+   "mcx": "MCX 2026-03-03: HTTP 403"
   },
   "2026-03-04": {
-   "nse_com": "NSE COM 2026-03-04: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260304_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-03-04: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-03-04: HTTP 403"
   },
   "2026-03-05": {
-   "nse_com": "NSE COM 2026-03-05: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260305_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-03-05: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-03-05: HTTP 403"
   },
   "2026-03-06": {
-   "nse_com": "NSE COM 2026-03-06: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260306_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-03-06: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-03-06: HTTP 403"
   },
   "2026-03-09": {
-   "nse_com": "NSE COM 2026-03-09: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260309_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-03-09: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-03-09: HTTP 403"
   },
   "2026-03-10": {
-   "nse_com": "NSE COM 2026-03-10: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260310_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-03-10: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-03-10: HTTP 403"
   },
   "2026-03-11": {
-   "nse_com": "NSE COM 2026-03-11: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260311_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-03-11: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-03-11: HTTP 403"
   },
   "2026-03-12": {
-   "nse_com": "NSE COM 2026-03-12: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260312_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-03-12: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-03-12: HTTP 403"
   },
   "2026-03-13": {
-   "nse_com": "NSE COM 2026-03-13: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260313_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-03-13: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-03-13: HTTP 403"
   },
   "2026-03-16": {
-   "nse_com": "NSE COM 2026-03-16: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260316_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-03-16: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-03-16: HTTP 403"
   },
   "2026-03-17": {
-   "nse_com": "NSE COM 2026-03-17: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260317_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-03-17: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-03-17: HTTP 403"
   },
   "2026-03-18": {
-   "nse_com": "NSE COM 2026-03-18: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260318_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-03-18: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-03-18: HTTP 403"
   },
   "2026-03-19": {
-   "nse_com": "NSE COM 2026-03-19: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260319_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-03-19: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-03-19: HTTP 403"
   },
   "2026-03-20": {
-   "nse_com": "NSE COM 2026-03-20: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260320_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-03-20: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-03-20: HTTP 403"
   },
   "2026-03-23": {
-   "nse_com": "NSE COM 2026-03-23: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260323_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-03-23: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-03-23: HTTP 403"
   },
   "2026-03-24": {
-   "nse_com": "NSE COM 2026-03-24: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260324_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-03-24: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-03-24: HTTP 403"
   },
   "2026-03-25": {
-   "nse_com": "NSE COM 2026-03-25: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260325_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-03-25: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-03-25: HTTP 403"
   },
   "2026-03-26": {
    "nse_cm": "https://archives.nseindia.com/archives/equities/mkt/MA260326.csv -> HTTP 404",
    "nse_fo": "https://archives.nseindia.com/content/fo/BhavCopy_NSE_FO_0_0_0_20260326_F_0000.csv.zip -> HTTP 404",
    "bse_cm": "BSE CM bhavcopy 2026-03-26: zero total",
-   "nse_com": "NSE COM 2026-03-26: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260326_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-03-26: all strategies failed (HTTP 403)"
+   "bse_fo": "BSE FO bhavcopy 2026-03-26: zero total (holiday?)",
+   "mcx": "MCX 2026-03-26: HTTP 403"
   },
   "2026-03-27": {
-   "nse_com": "NSE COM 2026-03-27: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260327_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-03-27: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-03-27: HTTP 403"
   },
   "2026-03-30": {
-   "nse_com": "NSE COM 2026-03-30: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260330_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-03-30: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-03-30: HTTP 403"
   },
   "2026-03-31": {
    "nse_cm": "https://archives.nseindia.com/archives/equities/mkt/MA310326.csv -> HTTP 404",
    "nse_fo": "https://archives.nseindia.com/content/fo/BhavCopy_NSE_FO_0_0_0_20260331_F_0000.csv.zip -> HTTP 404",
    "bse_cm": "BSE CM bhavcopy 2026-03-31: zero total",
-   "nse_com": "NSE COM 2026-03-31: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260331_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-03-31: all strategies failed (HTTP 403)"
+   "bse_fo": "BSE FO bhavcopy 2026-03-31: zero total (holiday?)",
+   "mcx": "MCX 2026-03-31: HTTP 403"
   },
   "2026-04-01": {
-   "nse_com": "NSE COM 2026-04-01: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260401_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-04-01: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-04-01: HTTP 403"
   },
   "2026-04-02": {
-   "nse_com": "NSE COM 2026-04-02: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260402_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-04-02: all strategies failed (HTTP 403)"
-  },
-  "2026-04-03": {
-   "nse_cm": "https://archives.nseindia.com/archives/equities/mkt/MA030426.csv -> HTTP 404",
-   "nse_fo": "https://archives.nseindia.com/content/fo/BhavCopy_NSE_FO_0_0_0_20260403_F_0000.csv.zip -> HTTP 404",
-   "bse_cm": "BSE CM bhavcopy 2026-04-03: zero total",
-   "nse_com": "NSE COM 2026-04-03: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260403_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-04-03: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-04-02: HTTP 403"
   },
   "2026-04-06": {
-   "nse_com": "NSE COM 2026-04-06: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260406_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-04-06: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-04-06: HTTP 403"
   },
   "2026-04-07": {
-   "nse_com": "NSE COM 2026-04-07: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260407_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-04-07: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-04-07: HTTP 403"
   },
   "2026-04-08": {
-   "nse_com": "NSE COM 2026-04-08: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260408_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-04-08: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-04-08: HTTP 403"
   },
   "2026-04-09": {
-   "nse_com": "NSE COM 2026-04-09: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260409_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-04-09: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-04-09: HTTP 403"
   },
   "2026-04-10": {
-   "nse_com": "NSE COM 2026-04-10: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260410_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-04-10: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-04-10: HTTP 403"
   },
   "2026-04-13": {
-   "nse_com": "NSE COM 2026-04-13: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260413_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-04-13: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-04-13: HTTP 403"
   },
   "2026-04-14": {
    "nse_cm": "https://archives.nseindia.com/archives/equities/mkt/MA140426.csv -> HTTP 404",
    "nse_fo": "https://archives.nseindia.com/content/fo/BhavCopy_NSE_FO_0_0_0_20260414_F_0000.csv.zip -> HTTP 404",
    "bse_cm": "BSE CM bhavcopy 2026-04-14: zero total",
-   "nse_com": "NSE COM 2026-04-14: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260414_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-04-14: all strategies failed (HTTP 403)"
+   "bse_fo": "BSE FO bhavcopy 2026-04-14: zero total (holiday?)",
+   "mcx": "MCX 2026-04-14: HTTP 403"
   },
   "2026-04-15": {
-   "nse_com": "NSE COM 2026-04-15: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260415_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-04-15: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-04-15: HTTP 403"
   },
   "2026-04-16": {
-   "nse_com": "NSE COM 2026-04-16: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260416_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-04-16: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-04-16: HTTP 403"
   },
   "2026-04-17": {
-   "nse_com": "NSE COM 2026-04-17: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260417_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-04-17: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-04-17: HTTP 403"
   },
   "2026-04-20": {
-   "nse_com": "NSE COM 2026-04-20: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260420_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-04-20: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-04-20: HTTP 403"
   },
   "2026-04-21": {
-   "nse_com": "NSE COM 2026-04-21: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260421_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-04-21: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-04-21: HTTP 403"
   },
   "2026-04-22": {
-   "nse_com": "NSE COM 2026-04-22: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260422_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-04-22: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-04-22: HTTP 403"
   },
   "2026-04-23": {
-   "nse_com": "NSE COM 2026-04-23: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260423_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-04-23: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-04-23: HTTP 403"
   },
   "2026-04-24": {
-   "nse_com": "NSE COM 2026-04-24: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260424_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-04-24: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-04-24: HTTP 403"
   },
   "2026-04-27": {
-   "nse_com": "NSE COM 2026-04-27: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260427_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-04-27: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-04-27: HTTP 403"
   },
   "2026-04-28": {
-   "nse_com": "NSE COM 2026-04-28: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260428_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-04-28: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-04-28: HTTP 403"
   },
   "2026-04-29": {
-   "nse_com": "NSE COM 2026-04-29: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260429_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-04-29: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-04-29: HTTP 403"
   },
   "2026-04-30": {
-   "nse_com": "NSE COM 2026-04-30: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260430_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-04-30: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-04-30: HTTP 403"
   },
   "2026-05-01": {
    "nse_cm": "https://archives.nseindia.com/archives/equities/mkt/MA010526.csv -> HTTP 404",
    "nse_fo": "https://archives.nseindia.com/content/fo/BhavCopy_NSE_FO_0_0_0_20260501_F_0000.csv.zip -> HTTP 404",
    "bse_cm": "BSE CM bhavcopy 2026-05-01: zero total",
-   "nse_com": "NSE COM 2026-05-01: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260501_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-05-01: all strategies failed (HTTP 403)"
+   "bse_fo": "BSE FO bhavcopy 2026-05-01: zero total (holiday?)",
+   "mcx": "MCX 2026-05-01: HTTP 403"
   },
   "2026-05-04": {
-   "nse_com": "NSE COM 2026-05-04: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260504_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-05-04: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-05-04: HTTP 403"
   },
   "2026-05-05": {
-   "nse_com": "NSE COM 2026-05-05: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260505_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-05-05: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-05-05: HTTP 403"
   },
   "2026-05-06": {
-   "nse_com": "NSE COM 2026-05-06: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260506_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-05-06: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-05-06: HTTP 403"
   },
   "2026-05-07": {
-   "nse_com": "NSE COM 2026-05-07: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260507_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-05-07: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-05-07: HTTP 403"
   },
   "2026-05-08": {
-   "nse_com": "NSE COM 2026-05-08: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260508_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-05-08: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-05-08: HTTP 403"
   },
   "2026-05-11": {
-   "nse_com": "NSE COM 2026-05-11: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260511_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-05-11: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-05-11: HTTP 403"
   },
   "2026-05-12": {
-   "nse_com": "NSE COM 2026-05-12: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260512_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-05-12: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-05-12: HTTP 403"
   },
   "2026-05-13": {
-   "nse_com": "NSE COM 2026-05-13: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260513_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-05-13: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-05-13: HTTP 403"
   },
   "2026-05-14": {
-   "nse_com": "NSE COM 2026-05-14: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260514_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-05-14: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-05-14: HTTP 403"
   },
   "2026-05-15": {
-   "nse_com": "NSE COM 2026-05-15: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260515_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-05-15: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-05-15: HTTP 403"
   },
   "2026-05-18": {
-   "nse_com": "NSE COM 2026-05-18: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260518_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-05-18: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-05-18: HTTP 403"
   },
   "2026-05-19": {
-   "nse_com": "NSE COM 2026-05-19: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260519_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-05-19: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-05-19: HTTP 403"
   },
   "2026-05-20": {
-   "nse_com": "NSE COM 2026-05-20: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260520_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-05-20: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-05-20: HTTP 403"
   },
   "2026-05-21": {
-   "nse_com": "NSE COM 2026-05-21: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260521_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-05-21: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-05-21: HTTP 403"
   },
   "2026-05-22": {
-   "nse_com": "NSE COM 2026-05-22: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260522_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-05-22: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-05-22: HTTP 403"
   },
   "2026-05-25": {
-   "nse_com": "NSE COM 2026-05-25: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260525_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-05-25: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-05-25: HTTP 403"
   },
   "2026-05-26": {
-   "nse_com": "NSE COM 2026-05-26: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260526_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-05-26: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-05-26: HTTP 403"
   },
   "2026-05-27": {
-   "nse_com": "NSE COM 2026-05-27: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260527_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-05-27: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-05-27: HTTP 403"
   },
   "2026-05-28": {
    "nse_cm": "https://archives.nseindia.com/archives/equities/mkt/MA280526.csv -> HTTP 404",
    "nse_fo": "https://archives.nseindia.com/content/fo/BhavCopy_NSE_FO_0_0_0_20260528_F_0000.csv.zip -> HTTP 404",
    "bse_cm": "BSE CM bhavcopy 2026-05-28: zero total",
-   "nse_com": "NSE COM 2026-05-28: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260528_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-05-28: all strategies failed (HTTP 403)"
+   "bse_fo": "BSE FO bhavcopy 2026-05-28: zero total (holiday?)",
+   "mcx": "MCX 2026-05-28: HTTP 403"
   },
   "2026-05-29": {
-   "nse_com": "NSE COM 2026-05-29: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260529_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-05-29: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-05-29: HTTP 403"
   },
   "2026-06-01": {
-   "nse_com": "NSE COM 2026-06-01: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260601_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-06-01: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-06-01: HTTP 403"
   },
   "2026-06-02": {
-   "nse_com": "NSE COM 2026-06-02: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260602_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-06-02: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-06-02: HTTP 403"
   },
   "2026-06-03": {
-   "nse_com": "NSE COM 2026-06-03: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260603_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-06-03: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-06-03: HTTP 403"
   },
   "2026-06-04": {
-   "nse_com": "NSE COM 2026-06-04: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260604_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-06-04: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-06-04: HTTP 403"
   },
   "2026-06-05": {
-   "nse_com": "NSE COM 2026-06-05: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260605_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-06-05: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-06-05: HTTP 403"
   },
   "2026-06-08": {
-   "nse_com": "NSE COM 2026-06-08: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260608_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-06-08: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-06-08: HTTP 403"
   },
   "2026-06-09": {
-   "nse_com": "NSE COM 2026-06-09: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260609_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-06-09: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-06-09: HTTP 403"
   },
   "2026-06-10": {
-   "nse_com": "NSE COM 2026-06-10: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260610_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-06-10: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-06-10: HTTP 403"
   },
   "2026-06-11": {
-   "nse_com": "NSE COM 2026-06-11: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260611_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-06-11: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-06-11: HTTP 403"
   },
   "2026-06-12": {
-   "nse_com": "NSE COM 2026-06-12: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260612_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-06-12: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-06-12: HTTP 403"
   },
   "2026-06-15": {
-   "nse_com": "NSE COM 2026-06-15: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260615_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-06-15: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-06-15: HTTP 403"
   },
   "2026-06-16": {
-   "nse_com": "NSE COM 2026-06-16: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260616_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-06-16: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-06-16: HTTP 403"
   },
   "2026-06-17": {
-   "nse_com": "NSE COM 2026-06-17: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260617_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-06-17: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-06-17: HTTP 403"
   },
   "2026-06-18": {
-   "nse_com": "NSE COM 2026-06-18: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260618_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-06-18: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-06-18: HTTP 403"
   },
   "2026-06-19": {
-   "nse_com": "NSE COM 2026-06-19: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260619_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-06-19: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-06-19: HTTP 403"
   },
   "2026-06-22": {
-   "nse_com": "NSE COM 2026-06-22: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260622_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-06-22: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-06-22: HTTP 403"
   },
   "2026-06-23": {
-   "nse_com": "NSE COM 2026-06-23: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260623_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-06-23: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-06-23: HTTP 403"
   },
   "2026-06-24": {
-   "nse_com": "NSE COM 2026-06-24: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260624_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-06-24: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-06-24: HTTP 403"
   },
   "2026-06-25": {
-   "nse_com": "NSE COM 2026-06-25: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260625_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-06-25: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-06-25: HTTP 403"
   },
   "2026-06-26": {
    "nse_cm": "https://archives.nseindia.com/archives/equities/mkt/MA260626.csv -> HTTP 404",
    "nse_fo": "https://archives.nseindia.com/content/fo/BhavCopy_NSE_FO_0_0_0_20260626_F_0000.csv.zip -> HTTP 404",
    "bse_cm": "BSE CM bhavcopy 2026-06-26: zero total",
-   "nse_com": "NSE COM 2026-06-26: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260626_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-06-26: all strategies failed (HTTP 403)"
+   "bse_fo": "BSE FO bhavcopy 2026-06-26: zero total (holiday?)",
+   "mcx": "MCX 2026-06-26: HTTP 403"
   },
   "2026-06-29": {
-   "nse_com": "NSE COM 2026-06-29: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260629_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-06-29: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-06-29: HTTP 403"
   },
   "2026-06-30": {
-   "nse_com": "NSE COM 2026-06-30: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260630_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-06-30: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-06-30: HTTP 403"
   },
   "2026-07-01": {
-   "nse_com": "NSE COM 2026-07-01: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260701_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-07-01: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-07-01: HTTP 403"
   },
   "2026-07-02": {
-   "nse_com": "NSE COM 2026-07-02: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_COM_0_0_0_20260702_F_0000.csv.zip -> HTTP 404",
-   "mcx": "MCX 2026-07-02: all strategies failed (HTTP 403)"
+   "mcx": "MCX 2026-07-02: HTTP 403"
+  },
+  "2026-07-03": {
+   "mcx": "MCX 2026-07-03: HTTP 403"
   }
  },
  "segments": {
-  "cm": "Cash market (vs BSE)",
-  "fut": "Equity futures (vs BSE)",
-  "optp": "Options premium (vs BSE)",
-  "com": "Commodity derivatives (vs MCX)"
+  "cm": "Cash Market (vs BSE)",
+  "stk_fut": "Stock Futures (vs BSE)",
+  "idx_fut": "Index Futures (vs BSE)",
+  "fut": "Total Futures (vs BSE)",
+  "stk_optp": "Stock Options (vs BSE)",
+  "idx_optp": "Index Options (vs BSE)",
+  "optp": "Total Options (vs BSE)",
+  "fo": "Total F&O (vs BSE)",
+  "com": "Commodity Derivatives (vs MCX)"
  }
 }
