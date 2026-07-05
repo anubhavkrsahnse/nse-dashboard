@@ -72,7 +72,7 @@ a.mx{color:var(--nse);text-decoration:none;font-size:13px;border:1px solid var(-
   <div class="brand"><span class="ai">NSE brAIn</span> agent <span class="sub">· Business Research AI Network</span></div>
   <div class="seg-ctl">
     <div class="grp" id="periodCtl">
-      <button data-p="D" class="on">Daily</button><button data-p="W">Weekly</button>
+      <button data-p="D">Daily</button><button data-p="W" class="on">Weekly</button>
       <button data-p="M">Monthly</button><button data-p="Y">Yearly</button>
     </div>
     <div class="grp" id="metricCtl">
@@ -103,7 +103,7 @@ const OVERVIEW=["cm","fut","optp","fo"];
 const fmt=n=>n==null?"—":n.toLocaleString("en-IN",{maximumFractionDigits:n<100?2:0});
 Chart.defaults.color="#8394bd";Chart.defaults.borderColor="#1e2a52";Chart.defaults.font.family="'Segoe UI',sans-serif";
 
-let ROWS={},DAYS=[],INS=null,META=null,PERIOD="D",METRIC="turnover";
+let ROWS={},DAYS=[],INS=null,META=null,PERIOD="W",METRIC="turnover";
 const charts={};
 
 async function j(u){try{const r=await fetch(u+"?t="+Date.now());return r.ok?await r.json():null}catch(e){return null}}
