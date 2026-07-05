@@ -431,5 +431,12 @@
    "redemption_cr": 4377.01
   }
  ],
- "nmf_note": "NSE NMF II: no public turnover API found on www.nseindia.com (404 on historicalOR mfss/mf/nmf)."
+ "nmf_note": "NSE NMF II: no public turnover API found on www.nseindia.com (404 on historicalOR mfss/mf/nmf).",
+ "nmf_last_public": {
+  "fy": "FY2016-17",
+  "nse_cr": 16563,
+  "bse_cr": 75000,
+  "nse_share_pct": 18.1,
+  "source": "Last public NSE-vs-BSE platform split (cafemutual/Morningstar FY17 reports). NSE has not published NMF II monthly turnover since; AMFI and SEBI bulletins do not carry the split."
+ }
 }
