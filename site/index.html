@@ -294,25 +294,36 @@ function render(){
   const lm=sm[sm.length-1],pm=sm[sm.length-2];
   const mom=(lm&&pm)?100*(lm.value_cr/pm.value_cr-1):null;
   const subPct=lm?100*lm.subscription_cr/(lm.subscription_cr+lm.redemption_cr):null;
-  const momSeries=sm.map((x,i2)=>i2?100*(x.value_cr/sm[i2-1].value_cr-1):null);
-  const lp=dp.nmf_last_public;
+  const nmfMap={};(dp.nmf_monthly||[]).forEach(x=>{nmfMap[x.month]=x.value_cr;});
+  const shareSeries=sm.map(x=>nmfMap[x.month]!=null?100*nmfMap[x.month]/(nmfMap[x.month]+x.value_cr):null);
+  const revIdx=[...shareSeries].map((v,i2)=>v!=null?i2:-1).filter(i2=>i2>=0);
+  const li=revIdx.length?revIdx[revIdx.length-1]:-1;
+  const lastShare=li>=0?shareSeries[li]:null;
+  const prevShare=revIdx.length>1?shareSeries[revIdx[revIdx.length-2]]:null;
+  const shDv=(lastShare!=null&&prevShare!=null)?lastShare-prevShare:null;
   const ms=document.createElement("section");ms.id="p_mf";
+  const headline=lastShare!=null
+   ?`<div class="bignum" style="color:var(--nse)">${lastShare.toFixed(2)+"%"}</div>
+    <div class="delta ${shDv==null?"":(shDv>=0?"up":"down")}">NSE NMF II share of exchange MF value · ${sm[li].month}${shDv==null?"":" · "+(shDv>=0?"▲ +":"▼ ")+Math.abs(shDv).toFixed(2)+"pp MoM"}</div>`
+   :`<div class="bignum" style="color:var(--rival)">${mom==null?"—":(mom>=0?"+":"")+mom.toFixed(1)+"%"}</div>
+    <div class="delta ${mom!=null&&mom>=0?"up":"down"}">BSE StAR MF value growth MoM (${lm?lm.month:""}) — BSE metric, NOT NSE share</div>`;
   ms.innerHTML=`<div class="page-tag">Segment · Mutual Funds (exchange platforms) · monthly · in %</div>
    <h2>Mutual Funds <span class="r">— NSE vs BSE exchange platforms</span></h2>
    <div class="hero">
     <div>
-     <div class="bignum" style="color:var(--rival)">${mom==null?"—":(mom>=0?"+":"")+mom.toFixed(1)+"%"}</div>
-     <div class="delta ${mom!=null&&mom>=0?"up":"down"}">BSE StAR MF value, ${lm?lm.month:""} vs prev month</div>
-     <div class="metricval">${lm?lm.month+": ₹"+fmt(lm.value_cr)+" cr · "+fmt(lm.orders)+" orders · subscription "+subPct.toFixed(1)+"% / redemption "+(100-subPct).toFixed(1)+"%":""}</div>
-     <div class="actionable"><b>NSE vs BSE ›</b> ${lp?"NSE NMF II publishes no monthly numbers; last public split ("+lp.fy+"): NSE ₹"+fmt(lp.nse_cr)+" cr vs BSE ₹"+fmt(lp.bse_cr)+" cr → NSE ≈ "+lp.nse_share_pct+"% of exchange-routed MF value.":(dp.nmf_note||"")}</div>
+     ${headline}
+     <div class="metricval">${lm?"BSE StAR MF "+lm.month+": ₹"+fmt(lm.value_cr)+" cr · "+fmt(lm.orders)+" orders · subscription "+subPct.toFixed(1)+"% / redemption "+(100-subPct).toFixed(1)+"%":""}</div>
+     <div class="actionable"><b>NSE vs BSE ›</b> ${lastShare!=null?"Live share computed from nmf_monthly in debt_platforms.json.":"NSE NMF II publishes no public monthly turnover, so a live NSE share cannot be shown. The last public split (FY2016-17) put NSE at ~18% — NSE&rsquo;s value share is understood to be FAR higher today. Add nmf_monthly:[{month:'2026-06',value_cr:...}] to site/data/debt_platforms.json and this screen will compute the real share automatically."}</div>
     </div>
     <div class="chartbox"><canvas id="c_mf"></canvas></div>
    </div>`;
   main.appendChild(ms);
-  charts.mf=new Chart(ms.querySelector("#c_mf"),{data:{labels:sm.map(x=>x.month),
-   datasets:[{type:"bar",label:"StAR MF value ₹cr",data:sm.map(x=>x.value_cr),backgroundColor:"rgba(79,142,247,.5)",borderColor:"#4f8ef7",borderWidth:1,yAxisID:"y"},
-    {type:"line",label:"MoM %",data:momSeries,borderColor:"#22e58a",tension:.25,yAxisID:"y2"}]},
-   options:{maintainAspectRatio:false,plugins:{legend:{display:true}},scales:{y:{position:"left"},y2:{position:"right",grid:{drawOnChartArea:false},title:{display:true,text:"MoM %"}}}}});
+  const dsets=[{type:"bar",label:"BSE StAR MF ₹cr",data:sm.map(x=>x.value_cr),backgroundColor:"rgba(79,142,247,.5)",borderColor:"#4f8ef7",borderWidth:1,yAxisID:"y"}];
+  if(dp.nmf_monthly&&dp.nmf_monthly.length){dsets.push({type:"bar",label:"NSE NMF II ₹cr",data:sm.map(x=>nmfMap[x.month]??null),backgroundColor:"rgba(34,229,138,.5)",borderColor:"#22e58a",borderWidth:1,yAxisID:"y"});
+   dsets.push({type:"line",label:"NSE share %",data:shareSeries,borderColor:"#22e58a",tension:.25,yAxisID:"y2"});}
+  else{dsets.push({type:"line",label:"BSE MoM %",data:sm.map((x,i2)=>i2?100*(x.value_cr/sm[i2-1].value_cr-1):null),borderColor:"#8394bd",borderDash:[5,4],tension:.25,yAxisID:"y2"});}
+  charts.mf=new Chart(ms.querySelector("#c_mf"),{data:{labels:sm.map(x=>x.month),datasets:dsets},
+   options:{maintainAspectRatio:false,plugins:{legend:{display:true}},scales:{y:{position:"left"},y2:{position:"right",grid:{drawOnChartArea:false},title:{display:true,text:"%"}}}}});
  }
 
  // ---- circulars page
