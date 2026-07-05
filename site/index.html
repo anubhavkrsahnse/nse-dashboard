@@ -366,7 +366,8 @@ function renderInsights(el){
 function visibleSection(){const pages=[...document.querySelectorAll("main section")];const mid=window.innerHeight/2;
  const cur=pages.find(p=>{const r=p.getBoundingClientRect();return r.top<=mid&&r.bottom>=mid;});return cur?cur.id:null;}
 function rerenderKeepPos(){const id=visibleSection();render();
- if(id){const el=document.getElementById(id);if(el)el.scrollIntoView({behavior:"auto"});}}
+ if(id){requestAnimationFrame(()=>{requestAnimationFrame(()=>{const el=document.getElementById(id);
+  if(el)window.scrollTo({top:el.offsetTop,behavior:"instant"});});});}}
 document.getElementById("periodCtl").addEventListener("click",e=>{
  if(!e.target.dataset.p)return;PERIOD=e.target.dataset.p;
  [...e.currentTarget.children].forEach(b=>b.classList.toggle("on",b===e.target));rerenderKeepPos();});
