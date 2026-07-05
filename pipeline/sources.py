@@ -279,3 +279,115 @@ def fetch_day(d: date) -> tuple[dict, dict]:
             errors[name] = str(e)
             log.warning("%s %s: %s", name, d, e)
     return metrics, errors
+
+
+# ------------------------------------------------ India-only live feeds -----
+# The endpoints below (www.nseindia.com/api/*) are GEO-BLOCKED outside
+# India: they work from an India IP (self-hosted runner / local machine /
+# in-browser capture) but FAIL from GitHub's US-hosted Actions runners.
+# Schemas verified in-browser on 2026-07-05.
+
+RFQ_TRADE_INDEXES = ("rfqtrades_listed", "rfqtrades_un-listed",
+                     "rfqtrades_GSec", "rfqtrades_CP-CDs")
+
+
+def fetch_nse_rfq_obpp(d: date | None = None) -> dict:
+    """NSE RFQ debt-platform turnover (Rs. crore) for the current/last
+    trading day.
+
+    Endpoint (verified): /api/liveCorp-bonds?index=<idx>&marketType=CBM
+    Row schema: {isin, descriptor, ltp, lty, noOfTrades,
+                 tradeValue (Rs. LAKH, aggregated per ISIN), wap, way}
+    NOTE: /api/debt-rfq is the RFQ ORDER-BOOK view (records.data), not
+    trades. obpp_turnover is None because the trade feed aggregates per
+    ISIN, so sub-Rs-1-lakh (OBPP-style) trades cannot be isolated from it.
+    """
+    s = _session("https://www.nseindia.com/market-data/"
+                 "debt-market-request-for-quote-rfq")
+    s.get("https://www.nseindia.com/", timeout=30)  # warm Akamai cookies
+    total_lakh = 0.0
+    trades = 0
+    for idx in RFQ_TRADE_INDEXES:
+        r = s.get("https://www.nseindia.com/api/liveCorp-bonds",
+                  params={"index": idx, "marketType": "CBM"}, timeout=30)
+        if r.status_code != 200:
+            raise FetchError(f"NSE RFQ {idx}: HTTP {r.status_code}")
+        for row in r.json().get("data", []):
+            total_lakh += float(row.get("tradeValue") or 0)
+            trades += int(row.get("noOfTrades") or 0)
+    if total_lakh <= 0:
+        raise FetchError("NSE RFQ: zero turnover (holiday/weekend?)")
+    return {"rfq_turnover": round(total_lakh * CRORE_PER_LAKH, 2),
+            "rfq_trades": trades,
+            "obpp_turnover": None}
+
+
+def fetch_nse_egr(d: date | None = None) -> dict:
+    """NSE EGR (Electronic Gold Receipts) daily turnover in Rs. crore.
+    Endpoint (verified):
+      /api/NextApi/apiClient/egrApi?functionName=getEGRNMData
+    Row schema: {symbol, series:'EG', totalTurnover (Rs.),
+                 totalTradedVolume, lastPrice, orderBook{...}}."""
+    s = _session("https://www.nseindia.com/market-data/"
+                 "gold-electronic-gold-receipts")
+    s.get("https://www.nseindia.com/", timeout=30)
+    r = s.get("https://www.nseindia.com/api/NextApi/apiClient/egrApi",
+              params={"functionName": "getEGRNMData"}, timeout=30)
+    if r.status_code != 200:
+        raise FetchError(f"NSE EGR: HTTP {r.status_code}")
+    data = r.json().get("data", [])
+    if not data:
+        raise FetchError("NSE EGR: empty data")
+    total = sum(float(x.get("totalTurnover") or 0) for x in data)
+    return {"egr_turnover": round(total / 1e7, 4)}
+
+
+def fetch_nse_debt_bg_monthly(from_yr: int, to_yr: int) -> dict:
+    """NSE debt business-growth MONTHLY history, Rs. crore. Endpoints
+    (verified; yearly works without params):
+      /api/historicalOR/{rfq|cbrics|wdm|rdm|triparty}/tbg/yearly
+      /api/historicalOR/.../tbg/monthly?from=<FY-start>&to=<FY-end>
+    Row: {INSTRUMENT, BG_FOR:'JUL-2026', TRADING_DAYS, TOTAL_TRADES_COUNT,
+          TOTAL_TRADE_VALUE (Rs. crore), AVG_TRADE_VALUE, AVG_TRADE_SIZE}"""
+    s = _session("https://www.nseindia.com/debt/"
+                 "historical_debt_businessgrowth")
+    s.get("https://www.nseindia.com/", timeout=30)
+    out: dict = {}
+    for seg in ("rfq", "cbrics"):
+        r = s.get(f"https://www.nseindia.com/api/historicalOR/{seg}/tbg/"
+                  "monthly", params={"from": from_yr, "to": to_yr},
+                  timeout=30)
+        if r.status_code != 200:
+            raise FetchError(f"NSE {seg} tbg: HTTP {r.status_code}")
+        out[seg] = [x.get("data", {}) for x in r.json().get("data", [])]
+    return out
+
+
+def fetch_bse_starmf(d1: date, d2: date) -> dict:
+    """BSE StAR MF orders/turnover between two dates (inclusive). Endpoint
+    (verified; NOT geo-blocked):
+      api.bseindia.com/BseIndiaAPI/api/MfMarketTurnOver_Bata/w
+        ?fromdate=YYYY/MM/DD&todate=YYYY/MM/DD
+    Row: {Date, Subscription_order, Subscription_Value, Redemption_order,
+          Redemption_Value, Total_order, TotalVal (Rs.)}"""
+    r = _get("https://api.bseindia.com/BseIndiaAPI/api/"
+             "MfMarketTurnOver_Bata/w"
+             f"?fromdate={d1:%Y/%m/%d}&todate={d2:%Y/%m/%d}",
+             "https://www.bseindia.com/markets/MutualFund/TurnOverHLMF")
+    rows = r.json()
+    if not isinstance(rows, list) or not rows:
+        raise FetchError("BSE StAR MF: empty/unexpected response")
+    return {"bse_mf_orders": sum(int(x.get("Total_order") or 0)
+                                 for x in rows),
+            "bse_mf_value": round(sum(float(x.get("TotalVal") or 0)
+                                      for x in rows) / 1e7, 2)}
+
+
+# Registered separately: from GitHub's US-hosted runners these will only
+# record fetch errors (geo-block). Run pipeline/update.py from an India
+# machine or a self-hosted runner to fill them.
+INDIA_ONLY_FETCHERS = {
+    "nse_rfq": fetch_nse_rfq_obpp,
+    "nse_egr": fetch_nse_egr,
+}
+DAILY_FETCHERS.update(INDIA_ONLY_FETCHERS)
