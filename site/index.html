@@ -155,7 +155,7 @@ function render(){
  ov.innerHTML=`<div class="page-tag">Overview · latest ${periodName}: ${lastB?lastB.label:"—"}</div>
   <h2>NSE competitive position <span class="r">— share % vs BSE / MCX</span></h2>
   <div class="kpis" id="kpis"></div>
-  <div class="page-tag">AI actions · what to do next</div>
+  <div class="page-tag">AI actions · sorted by urgency · only segments needing action today</div>
   <div class="insights" id="insights"></div>`;
  main.appendChild(ov);
  const kEl=ov.querySelector("#kpis");
@@ -298,10 +298,12 @@ function insDetail(i){if(!i)return "";const nw=(i.news||[]).map(n=>`<a href="${n
 function renderInsights(el){
  if(!INS||!INS.insights||!INS.insights.length){el.innerHTML='<div class="empty">Insights arrive with the next pipeline run.</div>';return;}
  el.innerHTML="";
- for(const i of INS.insights.slice(0,6)){
-  const nw=(i.news||[]).map(n=>`<a href="${n.link}" target="_blank" rel="noopener">📰 ${n.title}</a>`).join("");
+ const rank={high:0,warn:1,medium:1,normal:2,low:3};
+ const urgent=INS.insights.slice().sort((a,b)=>(rank[a.severity]??2)-(rank[b.severity]??2)).filter(x=>(rank[x.severity]??2)<2);
+ if(!urgent.length){el.innerHTML='<div class="empty">No segment needs management action today — all shares steady. Details live in each segment screen.</div>';return;}
+ for(const i of urgent){
   el.insertAdjacentHTML("beforeend",`<div class="ins ${i.severity}">
-   <div class="ac"><b>Action ›</b> ${i.actionable}</div></div>`);
+   <div class="ac"><b>Action ›</b> ${i.actionable} <span style="color:var(--muted);font-size:11px">· ${(i.segment||"").toUpperCase()} · ${i.severity==="high"?"URGENT":"watch"}</span></div></div>`);
  }
 }
 
