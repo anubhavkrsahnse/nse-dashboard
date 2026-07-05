@@ -171,6 +171,51 @@ function render(){
    <div class="go">open segment →</div></div>`);}
  kEl.addEventListener("click",e=>{const c=e.target.closest(".kpi");
    if(c&&c.dataset.seg)document.getElementById("p_"+c.dataset.seg)?.scrollIntoView({behavior:"smooth"});});
+ // ---- platform & commodity tiles
+ (function(){
+  const lastD=DAYS[DAYS.length-1], prevD=DAYS[DAYS.length-2];
+  const lr=ROWS[lastD]||{}, pr=ROWS[prevD]||{};
+  const cxShare=(r,g)=>{const n=r.cx_nse?r.cx_nse[g]:null, m=r.cx_mcx?r.cx_mcx[g]:null; return (n!=null&&m!=null&&n+m>0)?100*n/(n+m):null;};
+  const groups=[["crude","Crude Oil"],["natgas","Natural Gas"],["gold10g","Gold 10g"],["electricity","Electricity"]];
+  for(const [g,label] of groups){
+   const s=cxShare(lr,g), p=cxShare(pr,g);
+   const dv=(s!=null&&p!=null)?s-p:null;
+   const nv=lr.cx_nse?lr.cx_nse[g]:null;
+   kEl.insertAdjacentHTML("beforeend",`<div class="card kpi" data-seg="com" title="Open Commodities">
+    <div class="lbl">${label} · vs MCX</div>
+    <div class="v" style="color:var(--nse)">${s!=null?s.toFixed(2)+"%":"—"}</div>
+    <div class="d ${dv==null?"":(dv>=0?"up":"down")}">${dv==null?"latest day: "+(lastD||"—"):(dv>=0?"▲ +":"▼ ")+Math.abs(dv).toFixed(2)+"pp vs prev day"}</div>
+    <div class="metricval" style="font-size:11px">NSE ₹cr: ${fmt(nv)}</div>
+    <div class="go">open segment →</div></div>`);
+  }
+  const dp=window.DEBTP;
+  if(dp){
+   const rm=(dp.rfq&&dp.rfq.monthly)||[]; const lm=rm.length>1?rm[rm.length-2]:null, pm2=rm.length>2?rm[rm.length-3]:null;
+   const dmo=(lm&&pm2)?100*(lm.value_cr/pm2.value_cr-1):null;
+   const cbm=(dp.cbrics&&dp.cbrics.monthly)||[];
+   kEl.insertAdjacentHTML("beforeend",`<div class="card kpi" data-seg="rfq" title="Open Debt RFQ">
+    <div class="lbl">Debt · RFQ platform</div>
+    <div class="v" style="color:var(--nse)">${lm?"₹"+fmt(lm.value_cr):"—"}</div>
+    <div class="d ${dmo==null?"":(dmo>=0?"up":"down")}">${dmo==null?"—":(dmo>=0?"▲ +":"▼ ")+Math.abs(dmo).toFixed(1)+"% MoM"} · ${lm?lm.m:""}</div>
+    <div class="metricval" style="font-size:11px">CBRICS ₹cr: ${cbm.length>1?fmt(cbm[cbm.length-2].value_cr):"—"}</div>
+    <div class="go">open segment →</div></div>`);
+   const sm=(dp.starmf||[]).filter(x=>x.days>=15); const l2=sm[sm.length-1], p2=sm[sm.length-2];
+   const mmo=(l2&&p2)?100*(l2.value_cr/p2.value_cr-1):null;
+   kEl.insertAdjacentHTML("beforeend",`<div class="card kpi" data-seg="mf" title="Open Mutual Funds">
+    <div class="lbl">Mutual Funds · BSE StAR MF</div>
+    <div class="v" style="color:var(--rival)">${mmo==null?"—":(mmo>=0?"+":"")+mmo.toFixed(1)+"%"}</div>
+    <div class="d ${mmo!=null&&mmo>=0?"up":"down"}">MoM · ${l2?l2.month:""}</div>
+    <div class="metricval" style="font-size:11px">value ₹cr: ${l2?fmt(l2.value_cr):"—"} · NSE NMF: n/a</div>
+    <div class="go">open segment →</div></div>`);
+   const eg=dp.egr||{};
+   kEl.insertAdjacentHTML("beforeend",`<div class="card kpi" data-seg="egr" title="Open EGR">
+    <div class="lbl">EGR · gold receipts</div>
+    <div class="v" style="color:var(--nse)">${eg.turnover_crore?"₹"+fmt(eg.turnover_crore)+" cr":"₹0"}</div>
+    <div class="d">as of ${eg.as_of||"—"}</div>
+    <div class="metricval" style="font-size:11px">${eg.symbols||0} symbols · needs India-IP capture</div>
+    <div class="go">open segment →</div></div>`);
+  }
+ })();
  renderInsights(ov.querySelector("#insights"));
 
  // ---- per-segment pages
