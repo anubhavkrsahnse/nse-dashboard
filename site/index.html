@@ -65,6 +65,17 @@ a.mx{color:var(--nse);text-decoration:none;font-size:13px;border:1px solid var(-
 .dot a{width:8px;height:8px;border-radius:50%;background:var(--border);display:block}
 .dot a.on{background:var(--nse)}
 .empty{color:var(--muted);padding:20px 0}
+.nwx summary{cursor:pointer;font-size:12px;color:var(--rival);margin-top:6px;list-style:none}
+.nwx summary::-webkit-details-marker{display:none}
+.nwx .nw a{display:block;margin-top:5px}
+@media(max-width:820px){
+ header{position:static}
+ html{scroll-snap-type:none;scroll-behavior:auto}
+ main{scroll-snap-type:none}
+ section{min-height:auto;scroll-snap-align:none;padding:24px 16px}
+ .dot,.hint{display:none}
+ .bignum{font-size:44px}
+}
 </style>
 </head>
 <body>
@@ -349,7 +360,7 @@ function render(){
 }
 
 function insDetail(i){if(!i)return "";const nw=(i.news||[]).map(n=>`<a href="${n.link}" target="_blank" rel="noopener">📰 ${n.title}</a>`).join("");
- return `<div class="ins ${i.severity||""}" style="margin-top:10px"><div class="h">${i.headline}</div><div class="im">${i.impact}</div><div class="re">Why: ${i.reason}</div><div class="nw">${nw}</div></div>`;}
+ return `<div class="ins ${i.severity||""}" style="margin-top:10px"><div class="h">${i.headline}</div><div class="im">${i.impact}</div><div class="re">Why: ${i.reason}</div>${nw?'<details class="nwx"><summary>📰 Related news ('+(i.news||[]).length+')</summary><div class="nw">'+nw+'</div></details>':""}</div>`;}
 
 function renderInsights(el){
  if(!INS||!INS.insights||!INS.insights.length){el.innerHTML='<div class="empty">Insights arrive with the next pipeline run.</div>';return;}
