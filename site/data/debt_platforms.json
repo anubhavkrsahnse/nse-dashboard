@@ -1,0 +1,435 @@
+{
+ "captured_utc": "2026-07-05T04:57:56Z",
+ "note": "Captured in-browser from NSE/BSE public endpoints on 2026-07-05 (weekend; live feeds show Fri 03-Jul data). Values in Rs crore unless stated. NSE endpoints are geo-blocked outside India.",
+ "sources": {
+  "rfq_cbrics_history": "www.nseindia.com/api/historicalOR/{rfq|cbrics}/tbg/yearly and .../monthly?from=YYYY&to=YYYY",
+  "rfq_live": "www.nseindia.com/api/liveCorp-bonds?index=rfqtrades_{listed|un-listed|GSec|CP-CDs}&marketType=CBM (tradeValue in Rs lakh)",
+  "egr": "www.nseindia.com/api/NextApi/apiClient/egrApi?functionName=getEGRNMData (totalTurnover in Rs)",
+  "starmf": "api.bseindia.com/BseIndiaAPI/api/MfMarketTurnOver_Bata/w?fromdate=YYYY/MM/DD&todate=YYYY/MM/DD (TotalVal in Rs)"
+ },
+ "rfq": {
+  "yearly": [
+   {
+    "m": "2026-2027",
+    "days": 62,
+    "trades": 728275,
+    "value_cr": 433536.87
+   },
+   {
+    "m": "2025-2026",
+    "days": 241,
+    "trades": 1620356,
+    "value_cr": 1417587.26
+   },
+   {
+    "m": "2024-2025",
+    "days": 242,
+    "trades": 195675,
+    "value_cr": 1016147.85
+   },
+   {
+    "m": "2023-2024",
+    "days": 240,
+    "trades": 37251,
+    "value_cr": 747233.23
+   },
+   {
+    "m": "2022-2023",
+    "days": 244,
+    "trades": 11441,
+    "value_cr": 610473.19
+   },
+   {
+    "m": "2021-2022",
+    "days": 241,
+    "trades": 9812,
+    "value_cr": 553276.53
+   },
+   {
+    "m": "2020-2021",
+    "days": 131,
+    "trades": 3580,
+    "value_cr": 180189.08
+   },
+   {
+    "m": "2019-2020",
+    "days": 5,
+    "trades": 5,
+    "value_cr": 26
+   }
+  ],
+  "monthly": [
+   {
+    "m": "APR-2025",
+    "days": 18,
+    "trades": 43167,
+    "value_cr": 80366.99
+   },
+   {
+    "m": "MAY-2025",
+    "days": 20,
+    "trades": 62557,
+    "value_cr": 123281.33
+   },
+   {
+    "m": "JUN-2025",
+    "days": 21,
+    "trades": 86298,
+    "value_cr": 145636.17
+   },
+   {
+    "m": "JUL-2025",
+    "days": 23,
+    "trades": 98090,
+    "value_cr": 105553.69
+   },
+   {
+    "m": "AUG-2025",
+    "days": 19,
+    "trades": 103609,
+    "value_cr": 101404.25
+   },
+   {
+    "m": "SEP-2025",
+    "days": 21,
+    "trades": 136098,
+    "value_cr": 165407.93
+   },
+   {
+    "m": "OCT-2025",
+    "days": 21,
+    "trades": 154751,
+    "value_cr": 87548.58
+   },
+   {
+    "m": "NOV-2025",
+    "days": 19,
+    "trades": 158202,
+    "value_cr": 108742.31
+   },
+   {
+    "m": "DEC-2025",
+    "days": 22,
+    "trades": 200718,
+    "value_cr": 141396.84
+   },
+   {
+    "m": "JAN-2026",
+    "days": 20,
+    "trades": 193560,
+    "value_cr": 85149.8
+   },
+   {
+    "m": "FEB-2026",
+    "days": 19,
+    "trades": 185211,
+    "value_cr": 120151.57
+   },
+   {
+    "m": "MAR-2026",
+    "days": 18,
+    "trades": 198095,
+    "value_cr": 152947.8
+   },
+   {
+    "m": "APR-2026",
+    "days": 19,
+    "trades": 212713,
+    "value_cr": 88115.66
+   },
+   {
+    "m": "MAY-2026",
+    "days": 19,
+    "trades": 209731,
+    "value_cr": 111418.77
+   },
+   {
+    "m": "JUN-2026",
+    "days": 21,
+    "trades": 257861,
+    "value_cr": 211418.82
+   },
+   {
+    "m": "JUL-2026",
+    "days": 3,
+    "trades": 47970,
+    "value_cr": 22583.62
+   }
+  ]
+ },
+ "cbrics": {
+  "yearly": [
+   {
+    "m": "2026-2027",
+    "days": 62,
+    "trades": 748452,
+    "value_cr": 692987.01
+   },
+   {
+    "m": "2025-2026",
+    "days": 241,
+    "trades": 1688389,
+    "value_cr": 2514568.16
+   },
+   {
+    "m": "2024-2025",
+    "days": 242,
+    "trades": 249876,
+    "value_cr": 1993154.36
+   },
+   {
+    "m": "2023-2024",
+    "days": 240,
+    "trades": 96804,
+    "value_cr": 1554770.26
+   },
+   {
+    "m": "2022-2023",
+    "days": 244,
+    "trades": 76650,
+    "value_cr": 1351174.25
+   },
+   {
+    "m": "2021-2022",
+    "days": 241,
+    "trades": 67003,
+    "value_cr": 1347271.51
+   },
+   {
+    "m": "2020-2021",
+    "days": 244,
+    "trades": 69664,
+    "value_cr": 1290676.7
+   },
+   {
+    "m": "2019-2020",
+    "days": 242,
+    "trades": 71703,
+    "value_cr": 1294225.28
+   },
+   {
+    "m": "2018-2019",
+    "days": 242,
+    "trades": 59760,
+    "value_cr": 1145262.12
+   },
+   {
+    "m": "2017-2018",
+    "days": 241,
+    "trades": 56357,
+    "value_cr": 1150109.8
+   },
+   {
+    "m": "2016-2017",
+    "days": 241,
+    "trades": 55977,
+    "value_cr": 974027.92
+   },
+   {
+    "m": "2015-2016",
+    "days": 241,
+    "trades": 45913,
+    "value_cr": 725683.75
+   },
+   {
+    "m": "2014-2015",
+    "days": 237,
+    "trades": 49622,
+    "value_cr": 691532.35
+   },
+   {
+    "m": "2013-2014",
+    "days": 243,
+    "trades": 10711,
+    "value_cr": 56354.2
+   },
+   {
+    "m": "2012-2013",
+    "days": 242,
+    "trades": 10296,
+    "value_cr": 47727.08
+   },
+   {
+    "m": "2011-2012",
+    "days": 239,
+    "trades": 70192,
+    "value_cr": 2185199.04
+   },
+   {
+    "m": "2010-2011",
+    "days": 249,
+    "trades": 65719,
+    "value_cr": 2090053.8
+   },
+   {
+    "m": "2009-2010",
+    "days": 241,
+    "trades": 18221,
+    "value_cr": 196207.32
+   },
+   {
+    "m": "2008-2009",
+    "days": 237,
+    "trades": 9542,
+    "value_cr": 61817.22
+   },
+   {
+    "m": "2007-2008",
+    "days": 144,
+    "trades": 4148,
+    "value_cr": 23852.42
+   }
+  ],
+  "monthly": [
+   {
+    "m": "APR-2025",
+    "days": 18,
+    "trades": 48928,
+    "value_cr": 201141.67
+   },
+   {
+    "m": "MAY-2025",
+    "days": 20,
+    "trades": 68059,
+    "value_cr": 256781.42
+   },
+   {
+    "m": "JUN-2025",
+    "days": 21,
+    "trades": 92233,
+    "value_cr": 269101.78
+   },
+   {
+    "m": "JUL-2025",
+    "days": 23,
+    "trades": 104128,
+    "value_cr": 206295.12
+   },
+   {
+    "m": "AUG-2025",
+    "days": 19,
+    "trades": 108631,
+    "value_cr": 181672.51
+   },
+   {
+    "m": "SEP-2025",
+    "days": 21,
+    "trades": 141649,
+    "value_cr": 247160.13
+   },
+   {
+    "m": "OCT-2025",
+    "days": 21,
+    "trades": 159683,
+    "value_cr": 158372.33
+   },
+   {
+    "m": "NOV-2025",
+    "days": 19,
+    "trades": 163125,
+    "value_cr": 184503.42
+   },
+   {
+    "m": "DEC-2025",
+    "days": 22,
+    "trades": 206530,
+    "value_cr": 218638.36
+   },
+   {
+    "m": "JAN-2026",
+    "days": 20,
+    "trades": 199355,
+    "value_cr": 155289.22
+   },
+   {
+    "m": "FEB-2026",
+    "days": 19,
+    "trades": 191006,
+    "value_cr": 192580.35
+   },
+   {
+    "m": "MAR-2026",
+    "days": 18,
+    "trades": 205062,
+    "value_cr": 243031.85
+   },
+   {
+    "m": "APR-2026",
+    "days": 19,
+    "trades": 219516,
+    "value_cr": 165792.67
+   },
+   {
+    "m": "MAY-2026",
+    "days": 19,
+    "trades": 215141,
+    "value_cr": 177761.77
+   },
+   {
+    "m": "JUN-2026",
+    "days": 21,
+    "trades": 264930,
+    "value_cr": 310387.81
+   },
+   {
+    "m": "JUL-2026",
+    "days": 3,
+    "trades": 48865,
+    "value_cr": 39044.76
+   }
+  ]
+ },
+ "rfq_live": {
+  "date": "2026-07-03",
+  "turnover_crore": 8540.67,
+  "trades": 12330,
+  "breakdown_lakh": {
+   "listed": 477932.04,
+   "unlisted": 15100,
+   "gsec": 534.76,
+   "cp_cd": 360500
+  },
+  "obpp_note": "OBPP (<Rs 1 lakh trades) not derivable: feed aggregates per ISIN, not per trade."
+ },
+ "egr": {
+  "note": "Weekend snapshot: all totals zero. Capture on a trading day from an India IP.",
+  "symbols": 11,
+  "as_of": "03-Jul-2026 23:30",
+  "turnover_crore": 0
+ },
+ "starmf": [
+  {
+   "month": "2026-04",
+   "days": 20,
+   "orders": 79014240,
+   "value_cr": 106674.68,
+   "subscription_cr": 74353.42,
+   "redemption_cr": 32321.26
+  },
+  {
+   "month": "2026-05",
+   "days": 19,
+   "orders": 76631436,
+   "value_cr": 91032.04,
+   "subscription_cr": 59733.44,
+   "redemption_cr": 31298.6
+  },
+  {
+   "month": "2026-06",
+   "days": 21,
+   "orders": 78732265,
+   "value_cr": 97903.17,
+   "subscription_cr": 62164.58,
+   "redemption_cr": 35738.59
+  },
+  {
+   "month": "2026-07",
+   "days": 3,
+   "orders": 12980893,
+   "value_cr": 14049.44,
+   "subscription_cr": 9672.43,
+   "redemption_cr": 4377.01
+  }
+ ],
+ "nmf_note": "NSE NMF II: no public turnover API found on www.nseindia.com (404 on historicalOR mfss/mf/nmf)."
+}
