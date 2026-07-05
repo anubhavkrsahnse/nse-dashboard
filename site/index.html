@@ -246,22 +246,28 @@ function render(){
  }
  if(dp&&dp.starmf&&dp.starmf.length){
   const sm=dp.starmf.filter(x=>x.days>=15);
-  const lm=sm[sm.length-1];
+  const lm=sm[sm.length-1],pm=sm[sm.length-2];
+  const mom=(lm&&pm)?100*(lm.value_cr/pm.value_cr-1):null;
+  const subPct=lm?100*lm.subscription_cr/(lm.subscription_cr+lm.redemption_cr):null;
+  const momSeries=sm.map((x,i2)=>i2?100*(x.value_cr/sm[i2-1].value_cr-1):null);
+  const lp=dp.nmf_last_public;
   const ms=document.createElement("section");ms.id="p_mf";
-  ms.innerHTML=`<div class="page-tag">Segment · Mutual Funds (exchange platforms) · monthly</div>
-   <h2>Mutual Funds <span class="r">— BSE StAR MF benchmark (NSE NMF: no public feed)</span></h2>
+  ms.innerHTML=`<div class="page-tag">Segment · Mutual Funds (exchange platforms) · monthly · in %</div>
+   <h2>Mutual Funds <span class="r">— NSE vs BSE exchange platforms</span></h2>
    <div class="hero">
     <div>
-     <div class="bignum" style="color:var(--rival)">${lm?"₹"+fmt(lm.value_cr):"—"}</div>
-     <div class="delta">${lm?lm.month+" · "+fmt(lm.orders)+" orders":""}</div>
-     <div class="actionable"><b>Note ›</b> ${dp.nmf_note||""}</div>
+     <div class="bignum" style="color:var(--rival)">${mom==null?"—":(mom>=0?"+":"")+mom.toFixed(1)+"%"}</div>
+     <div class="delta ${mom!=null&&mom>=0?"up":"down"}">BSE StAR MF value, ${lm?lm.month:""} vs prev month</div>
+     <div class="metricval">${lm?lm.month+": ₹"+fmt(lm.value_cr)+" cr · "+fmt(lm.orders)+" orders · subscription "+subPct.toFixed(1)+"% / redemption "+(100-subPct).toFixed(1)+"%":""}</div>
+     <div class="actionable"><b>NSE vs BSE ›</b> ${lp?"NSE NMF II publishes no monthly numbers; last public split ("+lp.fy+"): NSE ₹"+fmt(lp.nse_cr)+" cr vs BSE ₹"+fmt(lp.bse_cr)+" cr → NSE ≈ "+lp.nse_share_pct+"% of exchange-routed MF value.":(dp.nmf_note||"")}</div>
     </div>
     <div class="chartbox"><canvas id="c_mf"></canvas></div>
    </div>`;
   main.appendChild(ms);
-  charts.mf=new Chart(ms.querySelector("#c_mf"),{type:"bar",data:{labels:sm.map(x=>x.month),
-   datasets:[{label:"StAR MF total value ₹cr",data:sm.map(x=>x.value_cr),backgroundColor:"rgba(79,142,247,.5)",borderColor:"#4f8ef7",borderWidth:1}]},
-   options:{maintainAspectRatio:false,plugins:{legend:{display:true}}}});
+  charts.mf=new Chart(ms.querySelector("#c_mf"),{data:{labels:sm.map(x=>x.month),
+   datasets:[{type:"bar",label:"StAR MF value ₹cr",data:sm.map(x=>x.value_cr),backgroundColor:"rgba(79,142,247,.5)",borderColor:"#4f8ef7",borderWidth:1,yAxisID:"y"},
+    {type:"line",label:"MoM %",data:momSeries,borderColor:"#22e58a",tension:.25,yAxisID:"y2"}]},
+   options:{maintainAspectRatio:false,plugins:{legend:{display:true}},scales:{y:{position:"left"},y2:{position:"right",grid:{drawOnChartArea:false},title:{display:true,text:"MoM %"}}}}});
  }
 
  // ---- circulars page
