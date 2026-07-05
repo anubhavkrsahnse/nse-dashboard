@@ -155,7 +155,7 @@ function render(){
  ov.innerHTML=`<div class="page-tag">Overview · latest ${periodName}: ${lastB?lastB.label:"—"}</div>
   <h2>NSE competitive position <span class="r">— share % vs BSE / MCX</span></h2>
   <div class="kpis" id="kpis"></div>
-  <div class="page-tag">AI insights · impact · reason · action</div>
+  <div class="page-tag">AI actions · what to do next</div>
   <div class="insights" id="insights"></div>`;
  main.appendChild(ov);
  const kEl=ov.querySelector("#kpis");
@@ -188,6 +188,7 @@ function render(){
       <div class="delta ${dv==null?"":(dv>=0?"up":"down")}">${dv==null?"no prior "+periodName:(dv>=0?"▲ +":"▼ ")+Math.abs(dv).toFixed(2)+"pp vs prev "+periodName}</div>
       <div class="metricval">${metricLabel()}: <b style="color:var(--text)">${fmt(val)}</b> · ${seg.rival}: ${fmt(last?last.riv:null)} ₹cr</div>
       <div class="actionable"><b>Action ›</b> ${ins?ins.actionable:"—"}</div>
+      ${insDetail(ins)}
     </div>
     <div class="chartbox"><canvas id="c_${seg.k}"></canvas></div>
    </div>`;
@@ -208,6 +209,60 @@ function render(){
   <div class="actionable" style="max-width:640px"><b>Action ›</b> ${comIns?comIns.actionable:"Build depth in 1–2 contracts rather than spreading thin."}</div>
   <a class="mx" href="matrix.html">Open the full contract matrix →</a>`;
  main.appendChild(cx);
+
+ // ---- debt platforms & MF pages (data: site/data/debt_platforms.json)
+ const dp=window.DEBTP;
+ if(dp&&dp.rfq){
+  const rm=dp.rfq.monthly||[],cbm=(dp.cbrics&&dp.cbrics.monthly)||[];
+  const lastM=rm.length>1?rm[rm.length-2]:(rm[rm.length-1]||null);
+  const live=dp.rfq_live;
+  const rs=document.createElement("section");rs.id="p_rfq";
+  rs.innerHTML=`<div class="page-tag">Segment · Debt RFQ &amp; OBPP</div>
+   <h2>Debt RFQ Platform <span class="r">— NSE monthly turnover ₹cr (CBRICS overlay)</span></h2>
+   <div class="hero">
+    <div>
+     <div class="bignum" style="color:var(--nse)">${lastM?"₹"+fmt(lastM.value_cr):"—"}</div>
+     <div class="delta">${lastM?lastM.m+" · "+fmt(lastM.trades)+" trades":""}</div>
+     <div class="metricval">${live?"Last trading day ("+live.date+"): ₹"+fmt(live.turnover_crore)+" cr · "+fmt(live.trades)+" trades":""}</div>
+     <div class="actionable"><b>Note ›</b> OBPP (sub-₹1 lakh) turnover is not derivable from the public feed — trades are reported per ISIN. Live capture needs an India IP.</div>
+    </div>
+    <div class="chartbox"><canvas id="c_rfq"></canvas></div>
+   </div>`;
+  main.appendChild(rs);
+  charts.rfq=new Chart(rs.querySelector("#c_rfq"),{type:"line",data:{labels:rm.map(x=>x.m),
+   datasets:[{label:"RFQ ₹cr",data:rm.map(x=>x.value_cr),borderColor:"#22e58a",backgroundColor:"rgba(34,229,138,.14)",fill:true,tension:.25,pointRadius:0},
+    {label:"CBRICS ₹cr",data:cbm.map(x=>x.value_cr),borderColor:"#4f8ef7",tension:.25,pointRadius:0}]},
+   options:{maintainAspectRatio:false,interaction:{mode:"index",intersect:false},plugins:{legend:{display:true}}}});
+ }
+ if(dp&&dp.egr){
+  const eg=dp.egr;
+  const es=document.createElement("section");es.id="p_egr";
+  es.innerHTML=`<div class="page-tag">Segment · EGR</div>
+   <h2>Electronic Gold Receipts <span class="r">— NSE EGR turnover</span></h2>
+   <div class="bignum" style="color:var(--nse)">${eg.turnover_crore?"₹"+fmt(eg.turnover_crore)+" cr":"—"}</div>
+   <div class="metricval">as of ${eg.as_of||"—"} · ${eg.symbols||0} gold symbols</div>
+   <div class="actionable" style="max-width:640px"><b>Status ›</b> ${eg.note||""}</div>`;
+  main.appendChild(es);
+ }
+ if(dp&&dp.starmf&&dp.starmf.length){
+  const sm=dp.starmf.filter(x=>x.days>=15);
+  const lm=sm[sm.length-1];
+  const ms=document.createElement("section");ms.id="p_mf";
+  ms.innerHTML=`<div class="page-tag">Segment · Mutual Funds (exchange platforms) · monthly</div>
+   <h2>Mutual Funds <span class="r">— BSE StAR MF benchmark (NSE NMF: no public feed)</span></h2>
+   <div class="hero">
+    <div>
+     <div class="bignum" style="color:var(--rival)">${lm?"₹"+fmt(lm.value_cr):"—"}</div>
+     <div class="delta">${lm?lm.month+" · "+fmt(lm.orders)+" orders":""}</div>
+     <div class="actionable"><b>Note ›</b> ${dp.nmf_note||""}</div>
+    </div>
+    <div class="chartbox"><canvas id="c_mf"></canvas></div>
+   </div>`;
+  main.appendChild(ms);
+  charts.mf=new Chart(ms.querySelector("#c_mf"),{type:"bar",data:{labels:sm.map(x=>x.month),
+   datasets:[{label:"StAR MF total value ₹cr",data:sm.map(x=>x.value_cr),backgroundColor:"rgba(79,142,247,.5)",borderColor:"#4f8ef7",borderWidth:1}]},
+   options:{maintainAspectRatio:false,plugins:{legend:{display:true}}}});
+ }
 
  // ---- circulars page
  const cc=document.createElement("section");cc.id="p_circulars";
@@ -231,17 +286,16 @@ function render(){
  pages.forEach(p=>io.observe(p));
 }
 
+function insDetail(i){if(!i)return "";const nw=(i.news||[]).map(n=>`<a href="${n.link}" target="_blank" rel="noopener">📰 ${n.title}</a>`).join("");
+ return `<div class="ins ${i.severity||""}" style="margin-top:10px"><div class="h">${i.headline}</div><div class="im">${i.impact}</div><div class="re">Why: ${i.reason}</div><div class="nw">${nw}</div></div>`;}
+
 function renderInsights(el){
  if(!INS||!INS.insights||!INS.insights.length){el.innerHTML='<div class="empty">Insights arrive with the next pipeline run.</div>';return;}
  el.innerHTML="";
  for(const i of INS.insights.slice(0,6)){
   const nw=(i.news||[]).map(n=>`<a href="${n.link}" target="_blank" rel="noopener">📰 ${n.title}</a>`).join("");
   el.insertAdjacentHTML("beforeend",`<div class="ins ${i.severity}">
-   <div class="h">${i.headline}</div>
-   <div class="im">${i.impact}</div>
-   <div class="re">Why: ${i.reason}</div>
-   <div class="ac"><b>Action ›</b> ${i.actionable}</div>
-   <div class="nw">${nw}</div></div>`);
+   <div class="ac"><b>Action ›</b> ${i.actionable}</div></div>`);
  }
 }
 
@@ -264,7 +318,7 @@ document.addEventListener("keydown",e=>{
 });
 
 (async()=>{
- const daily=await j("data/daily.json");INS=await j("data/insights.json");META=await j("data/meta.json");
+ const daily=await j("data/daily.json");INS=await j("data/insights.json");META=await j("data/meta.json");window.DEBTP=await j("data/debt_platforms.json");
  ROWS=daily?daily.rows:{};DAYS=Object.keys(ROWS).sort();
  if(META){document.getElementById("fresh").textContent=
    `latest trading day: ${META.last_trading_day||"—"} · updated ${META.updated_utc||"—"}`+(META.sample_data?" · ⚠ synthetic preview data":"");}
