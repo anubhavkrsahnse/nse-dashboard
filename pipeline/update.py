@@ -45,6 +45,12 @@ SHARE_DEFS = {
     "optp": ("nse_optp", "bse_optp", "Total Options (vs BSE)"),
     "fo": ("nse_fo", "bse_fo", "Total F&O (vs BSE)"),
     "com": ("nse_com", "mcx_com", "Commodity Derivatives (vs MCX)"),
+    # New platforms (NSE-side feeds are geo-blocked outside India and the
+    # competitor metric may be absent -> share is computed only when both
+    # sides exist for a day/month):
+    "rfq": ("rfq_turnover", "bse_rfq_turnover", "Debt RFQ (vs BSE)"),
+    "egr": ("egr_turnover", "bse_egr_turnover", "EGR (vs BSE)"),
+    "mf": ("nse_mf_value", "bse_mf_value", "Mutual Funds (vs BSE StAR MF)"),
 }
 
 
