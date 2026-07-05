@@ -281,26 +281,38 @@ function render(){
  // ---- debt platforms & MF pages (data: site/data/debt_platforms.json)
  const dp=window.DEBTP;
  if(dp&&dp.rfq){
-  const rm=dp.rfq.monthly||[],cbm=(dp.cbrics&&dp.cbrics.monthly)||[];
-  const lastM=rm.length>1?rm[rm.length-2]:(rm[rm.length-1]||null);
+  const useY=PERIOD==="Y";
+  const rser=useY?[...(dp.rfq.yearly||[])].reverse():((dp.rfq.monthly||[]));
+  const cser=useY?[...((dp.cbrics&&dp.cbrics.yearly)||[])].reverse():(((dp.cbrics&&dp.cbrics.monthly)||[]));
+  const hi=useY?rser.length-1:rser.length-2;
+  const cur=rser[hi]||null, prev=rser[hi-1]||null;
+  const adt=x=>x&&x.days?x.value_cr/x.days:null;
+  const gro=useY?((cur&&prev&&adt(cur)&&adt(prev))?100*(adt(cur)/adt(prev)-1):null)
+             :((cur&&prev)?100*(cur.value_cr/prev.value_cr-1):null);
+  const groTxt=useY?"avg daily turnover, "+(cur?cur.m:"")+" vs prev FY":"turnover MoM, "+(cur?cur.m:"")+" (monthly metric)";
+  const cm2=cur?cser.find(x=>x.m===cur.m):null;
+  const mix=(cur&&cm2)?100*cur.value_cr/(cur.value_cr+cm2.value_cr):null;
+  const mixSeries=rser.map(x=>{const c=cser.find(y=>y.m===x.m); return c?100*x.value_cr/(x.value_cr+c.value_cr):null;});
   const live=dp.rfq_live;
   const rs=document.createElement("section");rs.id="p_rfq";
-  rs.innerHTML=`<div class="page-tag">Segment · Debt RFQ &amp; OBPP</div>
-   <h2>Debt RFQ Platform <span class="r">— NSE monthly turnover ₹cr (CBRICS overlay)</span></h2>
+  rs.innerHTML=`<div class="page-tag">Segment · Debt RFQ &amp; OBPP · ${useY?"yearly":"monthly"} · in %</div>
+   <h2>Debt RFQ Platform <span class="r">— growth &amp; share of NSE corp-bond turnover</span></h2>
    <div class="hero">
     <div>
-     <div class="bignum" style="color:var(--nse)">${lastM?"₹"+fmt(lastM.value_cr):"—"}</div>
-     <div class="delta">${lastM?lastM.m+" · "+fmt(lastM.trades)+" trades":""}</div>
+     <div class="bignum" style="color:var(--nse)">${gro==null?"—":(gro>=0?"+":"")+gro.toFixed(1)+"%"}</div>
+     <div class="delta ${gro!=null&&gro>=0?"up":"down"}">${groTxt}</div>
+     <div class="metricval">RFQ ${cur?cur.m:""}: <b style="color:var(--text)">₹${cur?fmt(cur.value_cr):"—"} cr</b> · ${mix!=null?"RFQ = "+mix.toFixed(1)+"% of NSE corp-bond turnover (vs CBRICS "+(100-mix).toFixed(1)+"%)":""}</div>
      <div class="metricval">${live?"Last trading day ("+live.date+"): ₹"+fmt(live.turnover_crore)+" cr · "+fmt(live.trades)+" trades":""}</div>
-     <div class="actionable"><b>Note ›</b> OBPP (sub-₹1 lakh) turnover is not derivable from the public feed — trades are reported per ISIN. Live capture needs an India IP.</div>
+     <div class="actionable"><b>Note ›</b> OBPP (sub-₹1 lakh) turnover is not derivable from the public feed — trades are reported per ISIN. BSE has no public debt-RFQ feed either, so cross-exchange share is not shown.</div>
     </div>
     <div class="chartbox"><canvas id="c_rfq"></canvas></div>
    </div>`;
   main.appendChild(rs);
-  charts.rfq=new Chart(rs.querySelector("#c_rfq"),{type:"line",data:{labels:rm.map(x=>x.m),
-   datasets:[{label:"RFQ ₹cr",data:rm.map(x=>x.value_cr),borderColor:"#22e58a",backgroundColor:"rgba(34,229,138,.14)",fill:true,tension:.25,pointRadius:0},
-    {label:"CBRICS ₹cr",data:cbm.map(x=>x.value_cr),borderColor:"#4f8ef7",tension:.25,pointRadius:0}]},
-   options:{maintainAspectRatio:false,interaction:{mode:"index",intersect:false},plugins:{legend:{display:true}}}});
+  charts.rfq=new Chart(rs.querySelector("#c_rfq"),{data:{labels:rser.map(x=>x.m),
+   datasets:[{type:"bar",label:"RFQ ₹cr",data:rser.map(x=>x.value_cr),backgroundColor:"rgba(34,229,138,.35)",borderColor:"#22e58a",borderWidth:1,yAxisID:"y"},
+    {type:"bar",label:"CBRICS ₹cr",data:rser.map(x=>{const c=cser.find(y=>y.m===x.m);return c?c.value_cr:null;}),backgroundColor:"rgba(79,142,247,.35)",borderColor:"#4f8ef7",borderWidth:1,yAxisID:"y"},
+    {type:"line",label:"RFQ share of NSE corp-bond %",data:mixSeries,borderColor:"#f5b942",tension:.25,yAxisID:"y2"}]},
+   options:{maintainAspectRatio:false,interaction:{mode:"index",intersect:false},plugins:{legend:{display:true}},scales:{y:{position:"left"},y2:{position:"right",grid:{drawOnChartArea:false},title:{display:true,text:"%"}}}}});
  }
  if(dp&&dp.egr){
   const eg=dp.egr;
