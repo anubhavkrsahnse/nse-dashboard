@@ -45,12 +45,6 @@ SHARE_DEFS = {
     "optp": ("nse_optp", "bse_optp", "Total Options (vs BSE)"),
     "fo": ("nse_fo", "bse_fo", "Total F&O (vs BSE)"),
     "com": ("nse_com", "mcx_com", "Commodity Derivatives (vs MCX)"),
-    # New platforms (NSE-side feeds are geo-blocked outside India and the
-    # competitor metric may be absent -> share is computed only when both
-    # sides exist for a day/month):
-    "rfq": ("rfq_turnover", "bse_rfq_turnover", "Debt RFQ (vs BSE)"),
-    "egr": ("egr_turnover", "bse_egr_turnover", "EGR (vs BSE)"),
-    "mf": ("nse_mf_value", "bse_mf_value", "Mutual Funds (vs BSE StAR MF)"),
 }
 
 
@@ -90,6 +84,27 @@ def is_weekend(d: date) -> bool:
     return d.weekday() >= 5
 
 
+def merge_mcx(rows: dict) -> None:
+    """Fold in browser-fed MCX data. MCX is geo-blocked from CI runners, so a
+    daily browser task on an India IP commits site/data/mcx.json of the form
+    {"YYYY-MM-DD": {"mcx_com": <crore>, "cx_mcx": {group: crore}}}. Here we
+    patch it into the daily rows and recompute the commodity share so the
+    Action's daily.json stays the single source the dashboard reads."""
+    mcx = load("mcx.json", {})
+    if not mcx:
+        return
+    for day, v in mcx.items():
+        row = rows.get(day)
+        if not row:
+            continue
+        if v.get("mcx_com") is not None:
+            row["mcx_com"] = v["mcx_com"]
+        if v.get("cx_mcx"):
+            row["cx_mcx"] = v["cx_mcx"]
+        derive_totals(row)
+        row.update(compute_shares(row))
+
+
 def run_dates(dates: list[date]) -> None:
     daily = load("daily.json", {"rows": {}})
     rows = daily["rows"]
@@ -122,6 +137,7 @@ def run_dates(dates: list[date]) -> None:
         quality[key] = errors
         time.sleep(1.5)  # be polite to exchange servers
 
+    merge_mcx(rows)
     daily["rows"] = dict(sorted(rows.items()))
     save("daily.json", daily)
 
