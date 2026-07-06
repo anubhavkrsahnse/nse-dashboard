@@ -1,5 +1,5 @@
 {
- "updated_utc": "2026-07-06T19:05:13Z",
+ "updated_utc": "2026-07-06T20:58:31Z",
  "last_trading_day": "2026-07-03",
  "recent_fetch_errors": {},
  "segments": {
@@ -11,9 +11,6 @@
   "idx_optp": "Index Options (vs BSE)",
   "optp": "Total Options (vs BSE)",
   "fo": "Total F&O (vs BSE)",
-  "com": "Commodity Derivatives (vs MCX)",
-  "rfq": "Debt RFQ (vs BSE)",
-  "egr": "EGR (vs BSE)",
-  "mf": "Mutual Funds (vs BSE StAR MF)"
+  "com": "Commodity Derivatives (vs MCX)"
  }
 }
