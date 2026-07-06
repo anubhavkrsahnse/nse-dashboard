@@ -2423,28 +2423,6 @@
    },
    "share_com": 0.66
   },
-  "2025-08-27": {
-   "nse_com": 1238.282078,
-   "cx_nse": {
-    "crude": 1186.46,
-    "electricity": 51.82,
-    "natgas": 0
-   },
-   "_errors": {
-    "nse_cm": "https://archives.nseindia.com/archives/equities/mkt/MA270825.csv -> HTTP 404",
-    "nse_fo": "https://archives.nseindia.com/content/fo/BhavCopy_NSE_FO_0_0_0_20250827_F_0000.csv.zip -> HTTP 404",
-    "bse_cm": "BSE CM bhavcopy 2025-08-27: zero total",
-    "bse_fo": "BSE FO bhavcopy 2025-08-27: zero total (holiday?)"
-   },
-   "mcx_com": 531380.55,
-   "cx_mcx": {
-    "crude": 43853.25,
-    "electricity": 7.28,
-    "gold10g": 110.67,
-    "natgas": 18870.34
-   },
-   "share_com": 0.23
-  },
   "2025-08-28": {
    "nse_cm": 102774.47,
    "nse_fut": 322738.660916694,
@@ -3965,28 +3943,6 @@
    },
    "share_com": 0.06
   },
-  "2025-10-22": {
-   "nse_com": 495.96439,
-   "cx_nse": {
-    "crude": 481.73,
-    "electricity": 14.24,
-    "natgas": 0
-   },
-   "_errors": {
-    "nse_cm": "https://archives.nseindia.com/archives/equities/mkt/MA221025.csv -> HTTP 404",
-    "nse_fo": "https://archives.nseindia.com/content/fo/BhavCopy_NSE_FO_0_0_0_20251022_F_0000.csv.zip -> HTTP 404",
-    "bse_cm": "BSE CM bhavcopy 2025-10-22: zero total",
-    "bse_fo": "BSE FO bhavcopy 2025-10-22: zero total (holiday?)"
-   },
-   "mcx_com": 469635.4,
-   "cx_mcx": {
-    "crude": 40759.26,
-    "electricity": 4.63,
-    "gold10g": 885.16,
-    "natgas": 94537.37
-   },
-   "share_com": 0.11
-  },
   "2025-10-23": {
    "nse_cm": 116842.34,
    "nse_fut": 381479.989865419,
@@ -4346,28 +4302,6 @@
     "natgas": 53042.44
    },
    "share_com": 0.44
-  },
-  "2025-11-05": {
-   "nse_com": 1379.297256,
-   "cx_nse": {
-    "crude": 1347.67,
-    "electricity": 29.01,
-    "natgas": 0
-   },
-   "_errors": {
-    "nse_cm": "https://archives.nseindia.com/archives/equities/mkt/MA051125.csv -> HTTP 404",
-    "nse_fo": "https://archives.nseindia.com/content/fo/BhavCopy_NSE_FO_0_0_0_20251105_F_0000.csv.zip -> HTTP 404",
-    "bse_cm": "BSE CM bhavcopy 2025-11-05: zero total",
-    "bse_fo": "BSE FO bhavcopy 2025-11-05: zero total (holiday?)"
-   },
-   "mcx_com": 231078.22,
-   "cx_mcx": {
-    "crude": 112562.24,
-    "electricity": 8.22,
-    "gold10g": 237.51,
-    "natgas": 41824.49
-   },
-   "share_com": 0.59
   },
   "2025-11-06": {
    "nse_cm": 114454.44,
@@ -6329,28 +6263,6 @@
    },
    "share_com": 0.15
   },
-  "2026-01-15": {
-   "nse_com": 761.59731225,
-   "cx_nse": {
-    "crude": 728.49,
-    "electricity": 31.38,
-    "natgas": 0.04
-   },
-   "_errors": {
-    "nse_cm": "https://archives.nseindia.com/archives/equities/mkt/MA150126.csv -> HTTP 404",
-    "nse_fo": "https://archives.nseindia.com/content/fo/BhavCopy_NSE_FO_0_0_0_20260115_F_0000.csv.zip -> HTTP 404",
-    "bse_cm": "BSE CM bhavcopy 2026-01-15: zero total",
-    "bse_fo": "BSE FO bhavcopy 2026-01-15: zero total (holiday?)"
-   },
-   "mcx_com": 336023.82,
-   "cx_mcx": {
-    "crude": 40989.86,
-    "electricity": 7.93,
-    "gold10g": 660.16,
-    "natgas": 82916.96
-   },
-   "share_com": 0.23
-  },
   "2026-01-16": {
    "nse_cm": 125067.43,
    "nse_fut": 145621.58683883998,
@@ -7591,28 +7503,6 @@
    },
    "share_com": 0.49
   },
-  "2026-03-03": {
-   "nse_com": 1300.513777,
-   "cx_nse": {
-    "crude": 1279.17,
-    "electricity": 21.35,
-    "natgas": 0
-   },
-   "_errors": {
-    "nse_cm": "https://archives.nseindia.com/archives/equities/mkt/MA030326.csv -> HTTP 404",
-    "nse_fo": "https://archives.nseindia.com/content/fo/BhavCopy_NSE_FO_0_0_0_20260303_F_0000.csv.zip -> HTTP 404",
-    "bse_cm": "BSE CM bhavcopy 2026-03-03: zero total",
-    "bse_fo": "BSE FO bhavcopy 2026-03-03: zero total (holiday?)"
-   },
-   "mcx_com": 389667.98,
-   "cx_mcx": {
-    "crude": 147510.15,
-    "electricity": 13.86,
-    "gold10g": 1805.08,
-    "natgas": 58268.78
-   },
-   "share_com": 0.33
-  },
   "2026-03-04": {
    "nse_cm": 140954.35,
    "nse_fut": 144978.76193346502,
@@ -8261,29 +8151,6 @@
    },
    "share_com": 0.12
   },
-  "2026-03-26": {
-   "nse_com": 251.0387706,
-   "cx_nse": {
-    "gold10g": 8.6,
-    "crude": 229.53,
-    "electricity": 12.91,
-    "natgas": 0
-   },
-   "_errors": {
-    "nse_cm": "https://archives.nseindia.com/archives/equities/mkt/MA260326.csv -> HTTP 404",
-    "nse_fo": "https://archives.nseindia.com/content/fo/BhavCopy_NSE_FO_0_0_0_20260326_F_0000.csv.zip -> HTTP 404",
-    "bse_cm": "BSE CM bhavcopy 2026-03-26: zero total",
-    "bse_fo": "BSE FO bhavcopy 2026-03-26: zero total (holiday?)"
-   },
-   "mcx_com": 1614289.1,
-   "cx_mcx": {
-    "crude": 48310.58,
-    "electricity": 8.33,
-    "gold10g": 789.62,
-    "natgas": 19333.27
-   },
-   "share_com": 0.02
-  },
   "2026-03-27": {
    "nse_cm": 157107.82,
    "nse_fut": 410362.00742000004,
@@ -8365,29 +8232,6 @@
     "natgas": 31055.42
    },
    "share_com": 4.22
-  },
-  "2026-03-31": {
-   "nse_com": 837.2464813,
-   "cx_nse": {
-    "gold10g": 7.44,
-    "crude": 768.23,
-    "electricity": 38.08,
-    "natgas": 0
-   },
-   "_errors": {
-    "nse_cm": "https://archives.nseindia.com/archives/equities/mkt/MA310326.csv -> HTTP 404",
-    "nse_fo": "https://archives.nseindia.com/content/fo/BhavCopy_NSE_FO_0_0_0_20260331_F_0000.csv.zip -> HTTP 404",
-    "bse_cm": "BSE CM bhavcopy 2026-03-31: zero total",
-    "bse_fo": "BSE FO bhavcopy 2026-03-31: zero total (holiday?)"
-   },
-   "mcx_com": 220876.66,
-   "cx_mcx": {
-    "crude": 100921.11,
-    "electricity": 29.03,
-    "gold10g": 720.14,
-    "natgas": 39138.28
-   },
-   "share_com": 0.38
   },
   "2026-04-01": {
    "nse_cm": 127242.24,
@@ -8716,29 +8560,6 @@
     "natgas": 37897.55
    },
    "share_com": 0.26
-  },
-  "2026-04-14": {
-   "nse_com": 436.8069332,
-   "cx_nse": {
-    "gold10g": 5.22,
-    "crude": 427.2,
-    "electricity": 2.87,
-    "natgas": 0
-   },
-   "_errors": {
-    "nse_cm": "https://archives.nseindia.com/archives/equities/mkt/MA140426.csv -> HTTP 404",
-    "nse_fo": "https://archives.nseindia.com/content/fo/BhavCopy_NSE_FO_0_0_0_20260414_F_0000.csv.zip -> HTTP 404",
-    "bse_cm": "BSE CM bhavcopy 2026-04-14: zero total",
-    "bse_fo": "BSE FO bhavcopy 2026-04-14: zero total (holiday?)"
-   },
-   "mcx_com": 487461.76,
-   "cx_mcx": {
-    "crude": 331601.52,
-    "electricity": 13.78,
-    "gold10g": 532.26,
-    "natgas": 35858.93
-   },
-   "share_com": 0.09
   },
   "2026-04-15": {
    "nse_cm": 145330.45,
@@ -9231,29 +9052,6 @@
     "natgas": 38426.76
    },
    "share_com": 0.1
-  },
-  "2026-05-01": {
-   "nse_com": 2116.8903393,
-   "cx_nse": {
-    "gold10g": 4.65,
-    "crude": 2100.83,
-    "electricity": 9.9,
-    "natgas": 0
-   },
-   "_errors": {
-    "nse_cm": "https://archives.nseindia.com/archives/equities/mkt/MA010526.csv -> HTTP 404",
-    "nse_fo": "https://archives.nseindia.com/content/fo/BhavCopy_NSE_FO_0_0_0_20260501_F_0000.csv.zip -> HTTP 404",
-    "bse_cm": "BSE CM bhavcopy 2026-05-01: zero total",
-    "bse_fo": "BSE FO bhavcopy 2026-05-01: zero total (holiday?)"
-   },
-   "mcx_com": 240023.67,
-   "cx_mcx": {
-    "crude": 110898.77,
-    "electricity": 25.41,
-    "gold10g": 485.14,
-    "natgas": 25748.04
-   },
-   "share_com": 0.87
   },
   "2026-05-04": {
    "nse_cm": 136831.09,
@@ -9992,29 +9790,6 @@
     "natgas": 36165.47
    },
    "share_com": 0.22
-  },
-  "2026-05-28": {
-   "nse_com": 1297.2857526,
-   "cx_nse": {
-    "gold10g": 2.33,
-    "crude": 1265.27,
-    "electricity": 10.36,
-    "natgas": 0.8
-   },
-   "_errors": {
-    "nse_cm": "https://archives.nseindia.com/archives/equities/mkt/MA280526.csv -> HTTP 404",
-    "nse_fo": "https://archives.nseindia.com/content/fo/BhavCopy_NSE_FO_0_0_0_20260528_F_0000.csv.zip -> HTTP 404",
-    "bse_cm": "BSE CM bhavcopy 2026-05-28: zero total",
-    "bse_fo": "BSE FO bhavcopy 2026-05-28: zero total (holiday?)"
-   },
-   "mcx_com": 1045221.56,
-   "cx_mcx": {
-    "crude": 86245.09,
-    "electricity": 25.3,
-    "gold10g": 735.27,
-    "natgas": 40204.84
-   },
-   "share_com": 0.12
   },
   "2026-05-29": {
    "nse_cm": 287452.34,
@@ -10835,29 +10610,6 @@
     "natgas": 34700.21
    },
    "share_com": 0.14
-  },
-  "2026-06-26": {
-   "nse_com": 1345.7758103,
-   "cx_nse": {
-    "gold10g": 4.69,
-    "crude": 1328.14,
-    "electricity": 11.6,
-    "natgas": 0
-   },
-   "_errors": {
-    "nse_cm": "https://archives.nseindia.com/archives/equities/mkt/MA260626.csv -> HTTP 404",
-    "nse_fo": "https://archives.nseindia.com/content/fo/BhavCopy_NSE_FO_0_0_0_20260626_F_0000.csv.zip -> HTTP 404",
-    "bse_cm": "BSE CM bhavcopy 2026-06-26: zero total",
-    "bse_fo": "BSE FO bhavcopy 2026-06-26: zero total (holiday?)"
-   },
-   "mcx_com": 2988769.3,
-   "cx_mcx": {
-    "crude": 74023.34,
-    "electricity": 47.38,
-    "gold10g": 620.14,
-    "natgas": 22637.48
-   },
-   "share_com": 0.05
   },
   "2026-06-29": {
    "nse_cm": 183491.87,
