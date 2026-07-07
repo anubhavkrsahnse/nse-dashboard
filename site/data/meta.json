@@ -1,7 +1,11 @@
 {
- "updated_utc": "2026-07-06T20:58:31Z",
- "last_trading_day": "2026-07-03",
- "recent_fetch_errors": {},
+ "updated_utc": "2026-07-07T20:32:06Z",
+ "last_trading_day": "2026-07-06",
+ "recent_fetch_errors": {
+  "2026-07-06": {
+   "mcx": "MCX 2026-07-06: HTTP 403"
+  }
+ },
  "segments": {
   "cm": "Cash Market (vs BSE)",
   "stk_fut": "Stock Futures (vs BSE)",
