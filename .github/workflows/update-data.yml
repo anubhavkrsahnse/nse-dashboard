@@ -2,8 +2,10 @@ name: Update market data
 
 on:
   schedule:
-    # 19:30 IST (14:00 UTC) Mon-Fri, after exchange EOD files publish
-    - cron: "0 14 * * 1-5"
+    # Mon-Fri, after exchange EOD files publish:
+    # 22:00 IST (16:30 UTC) primary + 00:30 IST next-day (19:00 UTC) safety net
+    - cron: "30 16 * * 1-5"
+    - cron: "0 19 * * 1-5"
   workflow_dispatch:
     inputs:
       backfill_days:
