@@ -10838,8 +10838,8 @@
     "electricity": 51.55,
     "natgas": 19.33
    },
-   "rfq_turnover": 28.84,
-   "rfq_trades": 3446,
+   "rfq_turnover": 6443.61,
+   "rfq_trades": 8493,
    "obpp_turnover": null,
    "egr_turnover": 0.0,
    "nse_fo": 20593542.99,
@@ -10853,8 +10853,7 @@
    "share_optp": 86.67,
    "share_fo": 86.71,
    "_errors": {
-    "mcx": "MCX 2026-07-06: HTTP 403",
-    "nse_egr": "NSE EGR: empty data"
+    "mcx": "MCX 2026-07-06: HTTP 403"
    }
   },
   "2026-07-07": {
@@ -10879,13 +10878,9 @@
     "electricity": 67.26,
     "natgas": 24.55
    },
-   "rfq_turnover": 28.84,
-   "rfq_trades": 3446,
+   "rfq_turnover": 6443.61,
+   "rfq_trades": 8493,
    "obpp_turnover": null,
-   "_errors": {
-    "mcx": "MCX 2026-07-07: HTTP 403",
-    "nse_egr": "NSE EGR: empty data"
-   },
    "nse_fo": 62257089.31,
    "bse_fo": 4669194.13,
    "share_cm": 93.04,
@@ -10895,7 +10890,11 @@
    "share_stk_optp": 100.0,
    "share_idx_optp": 92.97,
    "share_optp": 93.01,
-   "share_fo": 93.02
+   "share_fo": 93.02,
+   "egr_turnover": 0.0,
+   "_errors": {
+    "mcx": "MCX 2026-07-07: HTTP 403"
+   }
   }
  }
 }
