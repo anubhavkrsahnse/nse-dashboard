@@ -1,9 +1,14 @@
 {
- "updated_utc": "2026-07-07T20:32:06Z",
- "last_trading_day": "2026-07-06",
+ "updated_utc": "2026-07-08T04:17:14Z",
+ "last_trading_day": "2026-07-07",
  "recent_fetch_errors": {
   "2026-07-06": {
-   "mcx": "MCX 2026-07-06: HTTP 403"
+   "mcx": "MCX 2026-07-06: HTTP 403",
+   "nse_egr": "NSE EGR: empty data"
+  },
+  "2026-07-07": {
+   "mcx": "MCX 2026-07-07: HTTP 403",
+   "nse_egr": "NSE EGR: empty data"
   }
  },
  "segments": {
