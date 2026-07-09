@@ -10838,8 +10838,8 @@
     "electricity": 51.55,
     "natgas": 19.33
    },
-   "rfq_turnover": 6443.61,
-   "rfq_trades": 8493,
+   "rfq_turnover": 4089.2,
+   "rfq_trades": 8620,
    "obpp_turnover": null,
    "egr_turnover": 0.0,
    "nse_fo": 20593542.99,
@@ -10878,8 +10878,8 @@
     "electricity": 67.26,
     "natgas": 24.55
    },
-   "rfq_turnover": 6443.61,
-   "rfq_trades": 8493,
+   "rfq_turnover": 4089.2,
+   "rfq_trades": 8620,
    "obpp_turnover": null,
    "nse_fo": 62257089.31,
    "bse_fo": 4669194.13,
@@ -10895,6 +10895,46 @@
    "_errors": {
     "mcx": "MCX 2026-07-07: HTTP 403"
    }
+  },
+  "2026-07-08": {
+   "nse_cm": 138389.65,
+   "nse_stk_fut": 101634.411364995,
+   "nse_idx_fut": 30079.6945671,
+   "nse_fut": 131714.105932095,
+   "nse_stk_optp": 491385.18561036506,
+   "nse_idx_optp": 11212744.672148425,
+   "nse_optp": 11704129.85775879,
+   "bse_cm": 10854.7551745,
+   "bse_stk_fut": 0.098483,
+   "bse_idx_fut": 491.7644208,
+   "bse_fut": 491.86290379999997,
+   "bse_stk_optp": 1.493786,
+   "bse_idx_optp": 26705974.763932075,
+   "bse_optp": 26705976.257718075,
+   "nse_com": 131831.7128961,
+   "cx_nse": {
+    "gold10g": 5.77,
+    "crude": 131752.58,
+    "electricity": 39.55,
+    "natgas": 32.47
+   },
+   "rfq_turnover": 4089.2,
+   "rfq_trades": 8620,
+   "obpp_turnover": null,
+   "egr_turnover": 0.0,
+   "_errors": {
+    "mcx": "MCX 2026-07-08: HTTP 403"
+   },
+   "nse_fo": 11835843.96,
+   "bse_fo": 26706468.12,
+   "share_cm": 92.73,
+   "share_stk_fut": 100.0,
+   "share_idx_fut": 98.39,
+   "share_fut": 99.63,
+   "share_stk_optp": 100.0,
+   "share_idx_optp": 29.57,
+   "share_optp": 30.47,
+   "share_fo": 30.71
   }
  }
 }
