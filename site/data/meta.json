@@ -1,6 +1,6 @@
 {
- "updated_utc": "2026-07-09T22:59:55Z",
- "last_trading_day": "2026-07-08",
+ "updated_utc": "2026-07-10T20:52:37Z",
+ "last_trading_day": "2026-07-09",
  "recent_fetch_errors": {
   "2026-07-06": {
    "mcx": "MCX 2026-07-06: HTTP 403"
@@ -10,6 +10,9 @@
   },
   "2026-07-08": {
    "mcx": "MCX 2026-07-08: HTTP 403"
+  },
+  "2026-07-09": {
+   "mcx": "MCX 2026-07-09: HTTP 403"
   }
  },
  "segments": {
