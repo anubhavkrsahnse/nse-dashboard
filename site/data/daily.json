@@ -10878,8 +10878,8 @@
     "electricity": 67.26,
     "natgas": 24.55
    },
-   "rfq_turnover": 4984.05,
-   "rfq_trades": 20378,
+   "rfq_turnover": 4179.29,
+   "rfq_trades": 7485,
    "obpp_turnover": null,
    "nse_fo": 62257089.31,
    "bse_fo": 4669194.13,
@@ -10918,8 +10918,8 @@
     "electricity": 39.55,
     "natgas": 32.47
    },
-   "rfq_turnover": 4984.05,
-   "rfq_trades": 20378,
+   "rfq_turnover": 4179.29,
+   "rfq_trades": 7485,
    "obpp_turnover": null,
    "egr_turnover": 0.0,
    "nse_fo": 11835843.96,
@@ -10958,8 +10958,8 @@
     "electricity": 47.12,
     "natgas": 56.88
    },
-   "rfq_turnover": 4984.05,
-   "rfq_trades": 20378,
+   "rfq_turnover": 4179.29,
+   "rfq_trades": 7485,
    "obpp_turnover": null,
    "egr_turnover": 0.0,
    "nse_fo": 8977025.29,
@@ -10998,8 +10998,8 @@
     "electricity": 34.37,
     "natgas": 42.55
    },
-   "rfq_turnover": 4984.05,
-   "rfq_trades": 20378,
+   "rfq_turnover": 4179.29,
+   "rfq_trades": 7485,
    "obpp_turnover": null,
    "egr_turnover": 0.0,
    "nse_fo": 14447607.6,
@@ -11015,6 +11015,46 @@
    "_errors": {
     "mcx": "MCX 2026-07-10: HTTP 403"
    }
+  },
+  "2026-07-13": {
+   "nse_cm": 121684.26,
+   "nse_stk_fut": 71559.66998218499,
+   "nse_idx_fut": 13857.136704,
+   "nse_fut": 85416.806686185,
+   "nse_stk_optp": 436946.22792790004,
+   "nse_idx_optp": 25519191.115560524,
+   "nse_optp": 25956137.343488425,
+   "bse_cm": 9691.503341,
+   "bse_stk_fut": 2.027579,
+   "bse_idx_fut": 185.9871757,
+   "bse_fut": 188.0147547,
+   "bse_stk_optp": 0.26132475,
+   "bse_idx_optp": 4318786.335746725,
+   "bse_optp": 4318786.597071475,
+   "nse_com": 1694.9750028,
+   "cx_nse": {
+    "gold10g": 3.02,
+    "crude": 1574.61,
+    "electricity": 56.47,
+    "natgas": 59.57
+   },
+   "rfq_turnover": 4179.29,
+   "rfq_trades": 7485,
+   "obpp_turnover": null,
+   "egr_turnover": 0.0,
+   "_errors": {
+    "mcx": "MCX 2026-07-13: HTTP 403"
+   },
+   "nse_fo": 26041554.15,
+   "bse_fo": 4318974.61,
+   "share_cm": 92.62,
+   "share_stk_fut": 100.0,
+   "share_idx_fut": 98.68,
+   "share_fut": 99.78,
+   "share_stk_optp": 100.0,
+   "share_idx_optp": 85.53,
+   "share_optp": 85.73,
+   "share_fo": 85.77
   }
  }
 }
