@@ -11165,10 +11165,6 @@
    "rfq_trades": 10790,
    "obpp_turnover": null,
    "egr_turnover": 0.0,
-   "_errors": {
-    "nse_cm": "https://archives.nseindia.com/archives/equities/mkt/MA160726.csv -> HTTP 503",
-    "mcx": "MCX 2026-07-16: HTTP 403"
-   },
    "nse_fo": 7674937.95,
    "bse_fo": 74862340.67,
    "share_stk_fut": 100.0,
@@ -11177,7 +11173,11 @@
    "share_stk_optp": 100.0,
    "share_idx_optp": 8.64,
    "share_optp": 9.2,
-   "share_fo": 9.3
+   "share_fo": 9.3,
+   "_errors": {
+    "nse_cm": "https://archives.nseindia.com/archives/equities/mkt/MA160726.csv -> HTTP 503",
+    "mcx": "MCX 2026-07-16: HTTP 403"
+   }
   }
  }
 }
