@@ -1,26 +1,26 @@
 {
- "updated_utc": "2026-07-17T21:49:17Z",
- "last_trading_day": "2026-07-16",
+ "updated_utc": "2026-07-20T21:02:35Z",
+ "last_trading_day": "2026-07-17",
  "recent_fetch_errors": {
-  "2026-07-10": {
-   "nse_cm": "https://archives.nseindia.com/archives/equities/mkt/MA100726.csv -> HTTP 503",
-   "mcx": "MCX 2026-07-10: HTTP 403"
-  },
   "2026-07-13": {
-   "nse_cm": "https://archives.nseindia.com/archives/equities/mkt/MA130726.csv -> HTTP 503",
-   "mcx": "MCX 2026-07-13: HTTP 403"
+   "mcx": "MCX 2026-07-13: HTTP 403",
+   "nse_egr": "NSE EGR: empty data"
   },
   "2026-07-14": {
-   "nse_cm": "https://archives.nseindia.com/archives/equities/mkt/MA140726.csv -> HTTP 503",
-   "mcx": "MCX 2026-07-14: HTTP 403"
+   "mcx": "MCX 2026-07-14: HTTP 403",
+   "nse_egr": "NSE EGR: empty data"
   },
   "2026-07-15": {
-   "nse_cm": "https://archives.nseindia.com/archives/equities/mkt/MA150726.csv -> HTTP 503",
-   "mcx": "MCX 2026-07-15: HTTP 403"
+   "mcx": "MCX 2026-07-15: HTTP 403",
+   "nse_egr": "NSE EGR: empty data"
   },
   "2026-07-16": {
-   "nse_cm": "https://archives.nseindia.com/archives/equities/mkt/MA160726.csv -> HTTP 503",
-   "mcx": "MCX 2026-07-16: HTTP 403"
+   "mcx": "MCX 2026-07-16: HTTP 403",
+   "nse_egr": "NSE EGR: empty data"
+  },
+  "2026-07-17": {
+   "mcx": "MCX 2026-07-17: HTTP 403",
+   "nse_egr": "NSE EGR: empty data"
   }
  },
  "segments": {
