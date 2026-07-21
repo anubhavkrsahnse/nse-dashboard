@@ -1,12 +1,12 @@
 {
- "generated_utc": "2026-07-20T22:43:54Z",
+ "generated_utc": "2026-07-21T20:47:41Z",
  "insights": [
   {
    "segment": "stk_fut",
    "label": "Stock Futures",
    "rival": "BSE",
    "severity": "high",
-   "date": "2026-07-17",
+   "date": "2026-07-20",
    "headline": "NSE Stock Futures share 100.00% (+0.00pp DoD, +0.00pp WoW, +0.00pp MoM) vs BSE",
    "impact": "NSE stock futures share is at its highest in the tracked window - momentum is with NSE.",
    "reason": "Possible driver in the news below - verify before acting.",
@@ -19,10 +19,10 @@
      "date": "Thu, 16 Jul 2026 22:00:00 GMT"
     },
     {
-     "title": "BSE, MCX Shares Tumble 5% As Jefferies Says NSE Listing Threatens Market Positions - NDTV Profit",
-     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNUVgzaERFcHlRVXgtV3lHcGZ3bmVFRGlfWXptM2FIWVRjcHhUS05YVkFBbmNoNHpLelhXTW5rZExoOC1rNXVjSVRKaHY0ODhzQkJNUndLNEl1MlZFUjBobTg5Q3Z1Z1hEcG9aZzhzb05idWszUmhJVW5jdjVfTjlieVZSOEdUOGpXZUdlY2FzOEFONmF1ZkFIRG9TMWZodVQxWDE5YkFMMzR2Nk9GR0F3R0JKZXh4b2tEV2NOYy1TbHIwdEdzWmhfMnc5V2ZZdHFkVlk2StIB3AFBVV95cUxQQlFmcU56WDBtT05MMmpLdEUzaEtNN0VJeEo0ZjVtNVl2YmEwLXZrSFp5MmNvQTdwNnNSRndpNFVfUEFnNExjMnpBNG1QZHZtTElMRkZCRmRKTVkwZGhSYkl2czdRLWJ6RG9hMW9RcW9TWlpEV2lCeDQ5UVhsaDdSLTU5anI2RGRNcHo5M2VEcTl4QVBzNlZNdk5WbUE4WWNYSnBZeGx5ckpFOGRhMzFEd3lWMk9tN29mcmUwLVZqbWdaNTE2bDAySXFZajZMYWVmTzJPakpEM3lDbjNU?oc=5",
+     "title": "Market News: Share Market Today, NIFTY, BSE/NSE LIVE, Sensex Today, Latest Share Market News Live Updates - livemint.com",
+     "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFA2eURra0RNN0hZR0ZxYmMxV00ycGZkVS14M1JaTGFnc2lGeVdLS3NUaDQ0Q0pKSkpLbDcwMUhQN1lwcHJNbmc?oc=5",
      "source": "Google News",
-     "date": "Tue, 07 Jul 2026 07:00:00 GMT"
+     "date": "Fri, 17 Jul 2026 07:00:00 GMT"
     }
    ]
   },
@@ -31,23 +31,23 @@
    "label": "Stock Options",
    "rival": "BSE",
    "severity": "high",
-   "date": "2026-07-17",
+   "date": "2026-07-20",
    "headline": "NSE Stock Options share 100.00% (+0.00pp DoD, +0.00pp WoW, +0.00pp MoM) vs BSE",
    "impact": "NSE stock options share is at its highest in the tracked window - momentum is with NSE.",
    "reason": "Possible driver in the news below - verify before acting.",
    "actionable": "Stock-options lead solid; keep MM incentives funded.",
    "news": [
     {
-     "title": "Kusumgar Share Price: Textile company makes stellar debut, lists at 37% premium on NSE, BSE - Check market cap - ET Now",
-     "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNU1lSd2k2YlpGU2k2WnJuaG5xcWU1R05lODlpbmp3RWZLVFlTcm5MUXJ2YmlYTk5PMV9FVlEyTUxfQmotdHl2ODlvTkk3SU5jekxVMnJSTlpjMnMxU3dRNHVMUGhOZ1pkbHRRNWNUWFZPbFpmQ0JGeEJlMzhIdFFMZnZzTk53Vm1MZGd1Y1ZrRmxaU1luNWJxTkthRC1ESTNIM2duVjZRSS1TaXpQRXBFcmdPSkVhbzFtTDZYOS1VUXJXYWpzN2RqMkljOUt5dDZ1Y0NvSW1BSGI3cWplLVVnNWt1bURQM2dSdW45TdIB8gFBVV95cUxPOW9Da0gtWllKcVFLV2phdGxzX1k5MWlKWXVZTXN4LWRKUVRnTTYxVmlfajQ3YlJzcXFyNlJlSnRuVHlxRm45bmhjbVRkNm9VWTRIU2pXZ1NEVW82QmN2WnV4Zi1YeTdfYVNuY25xY3RpQkJnY1NZYnV5Qks4UHQ2MThHeUdJb3BsTWVQdGE4OGFPMVdxSUwtQVdLVlZCVWtFcExfS01BcHQ4bGV1b09mRUpqZkpzTndzLXNNd3QwSnZhakJuT0JMMHh4RkNYSHZHS0YwN0loY0hQaEhRUXRrLVNCblBLUG9sRnlxNDZUR0tnZw?oc=5",
+     "title": "SBI Funds Management IPO Lists At Premium On NSE And BSE - NDTV Profit",
+     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPU3Jja1E0MUNlX2llbFRDVXl0c21rRTZmaVlKNC1VNUh4a2ZwZF9BS0o1ZmJmbHA0Nml6UU5tZ25vYlhjZURxQy1XWEZkWk1sVUplZWJqRy00VVE5d0I3b29oNm1TdDl5b1dVQUdyWVpDRzY3YWpxY3FxQ1hLVFplb3M0N200OWZOUEJEdk83QlNlRm5aeXF1eWJlYkJhOGpZeEHSAaoBQVVfeXFMTjV3MjNoQXdOUHo2MFNnMGZiVzRaci1zNGxLV2V3dmk4SkRQenlSdkROZ3pwVk1PWGZKYm9hdXhUbE1FbU5JQURFMnBHc0Q0R2Yybmo4LVF4QkppTGF4OEVSSnFDcHNjREQwMHc4ak1veWVkcXlMcGpxZXh4VnZvbkZqOTJNbE54STZkczdNdWtDQ1p2WlF1RTdCOEh2YVlOTThrVHlnNUJKTGc?oc=5",
      "source": "Google News",
-     "date": "Wed, 15 Jul 2026 04:30:05 GMT"
+     "date": "Tue, 21 Jul 2026 04:03:04 GMT"
     },
     {
-     "title": "Laser Power shares make solid market debut on NSE, BSE; list at up to 26% premium after 39x-subscribed IPO - Zee Business",
-     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQdjZnLWJQc2I3WU50em1VYkhybHNzMGJINUVPRU14OThEMkZ4TXMtbm10dTBrOFB1VmlWV2ZIUDVNZ2R0cTFmanhWNG5lU3R0VGZ6OXJ3eHFCMEFGd2EwcWV2UjRuYk9DcWNiZTFoTHlyNm9DRGx4UjhnYzJ0WEk1NTRRb1MyY3JrR2VWWDBvcTM1bzJ0VXk4T0lCYmN1M3ZYTjFKcG1zaWRla1UxWTdIMFYwNWV4S0xMODFzWUhjUlF6VGJzUVl0WkdUMkNpZU56ZGc?oc=5",
-     "source": "Google News",
-     "date": "Thu, 16 Jul 2026 04:40:24 GMT"
+     "title": "NSE crude oil options hit record Rs 2,006 crore premium turnover in one day, volumes top 47 lakh - The Economic Times",
+     "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPU1RqZzNEWW5SZFNraTUxSTBpaXhIUE5YeUNTSl9NNkpxYlc5RXo2Ymd5SHphYTBfbjF5X2JScUdsSWdGbExJUG5LQVNkWnBvNUJzME9XZ3VoeHk2bUNYbnBIcWFrSFIydTNTUmI2SDVjaXFaRnVsbzNCOUlpWTAxMVZQVFJIOW9TZVg4emtrUVhaR2VFZndiM2VUWjdWWGFFWnVfM3pVVzBmZzBHcDJPSmNPYlJ3N2NPblZJS2dra1kwRm16MGdhUDFXalI0a1U0YXg0alljUlhpZmpsdi1aQ0VaWnJQZFRaVkQzcW5ERlR4WlRTc0k40gH8AUFVX3lxTE8zUGRBQ1hUWDdFalRqNjZrcE92bzd1TGJFZkJWMzdZcl9oaGo5VEViR3lUZzBJQkI1Y1NxZ2VGMmhmQWljOXYzUVFKelNZSlFicFNvdk0yaEFfMGJkbnVxOEFGck91TnFFeVFvU19mTnZlZG5fN0xhbm8zbFAxelI2TlR0N1U3M1BuRnU1RFdIdGpYYXRwVFlrRE56em95ZllubXVHTENzMkprTTZ5WXdLZlE3dzJEQVVMMXhVazY1STdZNWJlMjE1MHJ6SXRHSnBkcm51TVpVVUZwSF80d1RrelVHT0NCLVJmc3htbERCV2NremtNN0tKTlViTQ?oc=5",
+     "source": "Google News F&O",
+     "date": "Fri, 10 Jul 2026 07:00:00 GMT"
     }
    ]
   },
@@ -56,11 +56,11 @@
    "label": "Cash Market",
    "rival": "BSE",
    "severity": "normal",
-   "date": "2026-07-17",
-   "headline": "NSE Cash Market share 92.41% (+0.33pp DoD, -0.20pp WoW, -0.65pp MoM) vs BSE",
-   "impact": "NSE cash market share is broadly stable (±0.33pp on the day).",
+   "date": "2026-07-20",
+   "headline": "NSE Cash Market share 92.78% (+0.37pp DoD, +0.16pp WoW, -0.62pp MoM) vs BSE",
+   "impact": "NSE cash market share is broadly stable (±0.37pp on the day).",
    "reason": "Possible driver in the news below - verify before acting.",
-   "actionable": "Defend cash liquidity: review transaction-charge slabs and market-maker incentives on mid/small-caps where BSE is gaining.",
+   "actionable": "Cash lead intact: lock in flow with co-location and retail onboarding pushes before BSE responds.",
    "news": [
     {
      "title": "Top Losers Today - NSE Top Losers Stocks Live, BSE Top Losers Shares Today - The Economic Times",
@@ -69,10 +69,10 @@
      "date": "Thu, 16 Jul 2026 22:00:00 GMT"
     },
     {
-     "title": "BSE, MCX Shares Tumble 5% As Jefferies Says NSE Listing Threatens Market Positions - NDTV Profit",
-     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNUVgzaERFcHlRVXgtV3lHcGZ3bmVFRGlfWXptM2FIWVRjcHhUS05YVkFBbmNoNHpLelhXTW5rZExoOC1rNXVjSVRKaHY0ODhzQkJNUndLNEl1MlZFUjBobTg5Q3Z1Z1hEcG9aZzhzb05idWszUmhJVW5jdjVfTjlieVZSOEdUOGpXZUdlY2FzOEFONmF1ZkFIRG9TMWZodVQxWDE5YkFMMzR2Nk9GR0F3R0JKZXh4b2tEV2NOYy1TbHIwdEdzWmhfMnc5V2ZZdHFkVlk2StIB3AFBVV95cUxQQlFmcU56WDBtT05MMmpLdEUzaEtNN0VJeEo0ZjVtNVl2YmEwLXZrSFp5MmNvQTdwNnNSRndpNFVfUEFnNExjMnpBNG1QZHZtTElMRkZCRmRKTVkwZGhSYkl2czdRLWJ6RG9hMW9RcW9TWlpEV2lCeDQ5UVhsaDdSLTU5anI2RGRNcHo5M2VEcTl4QVBzNlZNdk5WbUE4WWNYSnBZeGx5ckpFOGRhMzFEd3lWMk9tN29mcmUwLVZqbWdaNTE2bDAySXFZajZMYWVmTzJPakpEM3lDbjNU?oc=5",
+     "title": "Market News: Share Market Today, NIFTY, BSE/NSE LIVE, Sensex Today, Latest Share Market News Live Updates - livemint.com",
+     "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFA2eURra0RNN0hZR0ZxYmMxV00ycGZkVS14M1JaTGFnc2lGeVdLS3NUaDQ0Q0pKSkpLbDcwMUhQN1lwcHJNbmc?oc=5",
      "source": "Google News",
-     "date": "Tue, 07 Jul 2026 07:00:00 GMT"
+     "date": "Fri, 17 Jul 2026 07:00:00 GMT"
     }
    ]
   },
@@ -81,11 +81,11 @@
    "label": "Index Futures",
    "rival": "BSE",
    "severity": "normal",
-   "date": "2026-07-17",
-   "headline": "NSE Index Futures share 98.72% (+1.12pp DoD, +0.18pp WoW, -0.16pp MoM) vs BSE",
-   "impact": "NSE index futures share is broadly stable (±1.12pp on the day).",
+   "date": "2026-07-20",
+   "headline": "NSE Index Futures share 98.66% (-0.06pp DoD, -0.02pp WoW, -0.13pp MoM) vs BSE",
+   "impact": "NSE index futures share is broadly stable (±0.06pp on the day).",
    "reason": "Possible driver in the news below - verify before acting.",
-   "actionable": "Index-futures lead holding: bundle with options to keep the hedging flow on NSE.",
+   "actionable": "Index-futures share slipping: benchmark Nifty vs Sensex futures costs and expiry-day mechanics against BSE.",
    "news": [
     {
      "title": "Top Losers Today - NSE Top Losers Stocks Live, BSE Top Losers Shares Today - The Economic Times",
@@ -94,10 +94,10 @@
      "date": "Thu, 16 Jul 2026 22:00:00 GMT"
     },
     {
-     "title": "BSE, MCX Shares Tumble 5% As Jefferies Says NSE Listing Threatens Market Positions - NDTV Profit",
-     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNUVgzaERFcHlRVXgtV3lHcGZ3bmVFRGlfWXptM2FIWVRjcHhUS05YVkFBbmNoNHpLelhXTW5rZExoOC1rNXVjSVRKaHY0ODhzQkJNUndLNEl1MlZFUjBobTg5Q3Z1Z1hEcG9aZzhzb05idWszUmhJVW5jdjVfTjlieVZSOEdUOGpXZUdlY2FzOEFONmF1ZkFIRG9TMWZodVQxWDE5YkFMMzR2Nk9GR0F3R0JKZXh4b2tEV2NOYy1TbHIwdEdzWmhfMnc5V2ZZdHFkVlk2StIB3AFBVV95cUxQQlFmcU56WDBtT05MMmpLdEUzaEtNN0VJeEo0ZjVtNVl2YmEwLXZrSFp5MmNvQTdwNnNSRndpNFVfUEFnNExjMnpBNG1QZHZtTElMRkZCRmRKTVkwZGhSYkl2czdRLWJ6RG9hMW9RcW9TWlpEV2lCeDQ5UVhsaDdSLTU5anI2RGRNcHo5M2VEcTl4QVBzNlZNdk5WbUE4WWNYSnBZeGx5ckpFOGRhMzFEd3lWMk9tN29mcmUwLVZqbWdaNTE2bDAySXFZajZMYWVmTzJPakpEM3lDbjNU?oc=5",
+     "title": "Market News: Share Market Today, NIFTY, BSE/NSE LIVE, Sensex Today, Latest Share Market News Live Updates - livemint.com",
+     "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFA2eURra0RNN0hZR0ZxYmMxV00ycGZkVS14M1JaTGFnc2lGeVdLS3NUaDQ0Q0pKSkpLbDcwMUhQN1lwcHJNbmc?oc=5",
      "source": "Google News",
-     "date": "Tue, 07 Jul 2026 07:00:00 GMT"
+     "date": "Fri, 17 Jul 2026 07:00:00 GMT"
     }
    ]
   },
@@ -106,11 +106,11 @@
    "label": "Total Futures",
    "rival": "BSE",
    "severity": "normal",
-   "date": "2026-07-17",
-   "headline": "NSE Total Futures share 99.74% (+0.05pp DoD, -0.04pp WoW, -0.04pp MoM) vs BSE",
-   "impact": "NSE total futures share is broadly stable (±0.05pp on the day).",
+   "date": "2026-07-20",
+   "headline": "NSE Total Futures share 99.78% (+0.04pp DoD, +0.00pp WoW, -0.03pp MoM) vs BSE",
+   "impact": "NSE total futures share is broadly stable (±0.04pp on the day).",
    "reason": "Possible driver in the news below - verify before acting.",
-   "actionable": "Total futures share under pressure - escalate a futures pricing and product review.",
+   "actionable": "Futures franchise strong; maintain.",
    "news": [
     {
      "title": "Top Losers Today - NSE Top Losers Stocks Live, BSE Top Losers Shares Today - The Economic Times",
@@ -119,10 +119,10 @@
      "date": "Thu, 16 Jul 2026 22:00:00 GMT"
     },
     {
-     "title": "BSE, MCX Shares Tumble 5% As Jefferies Says NSE Listing Threatens Market Positions - NDTV Profit",
-     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNUVgzaERFcHlRVXgtV3lHcGZ3bmVFRGlfWXptM2FIWVRjcHhUS05YVkFBbmNoNHpLelhXTW5rZExoOC1rNXVjSVRKaHY0ODhzQkJNUndLNEl1MlZFUjBobTg5Q3Z1Z1hEcG9aZzhzb05idWszUmhJVW5jdjVfTjlieVZSOEdUOGpXZUdlY2FzOEFONmF1ZkFIRG9TMWZodVQxWDE5YkFMMzR2Nk9GR0F3R0JKZXh4b2tEV2NOYy1TbHIwdEdzWmhfMnc5V2ZZdHFkVlk2StIB3AFBVV95cUxQQlFmcU56WDBtT05MMmpLdEUzaEtNN0VJeEo0ZjVtNVl2YmEwLXZrSFp5MmNvQTdwNnNSRndpNFVfUEFnNExjMnpBNG1QZHZtTElMRkZCRmRKTVkwZGhSYkl2czdRLWJ6RG9hMW9RcW9TWlpEV2lCeDQ5UVhsaDdSLTU5anI2RGRNcHo5M2VEcTl4QVBzNlZNdk5WbUE4WWNYSnBZeGx5ckpFOGRhMzFEd3lWMk9tN29mcmUwLVZqbWdaNTE2bDAySXFZajZMYWVmTzJPakpEM3lDbjNU?oc=5",
+     "title": "Market News: Share Market Today, NIFTY, BSE/NSE LIVE, Sensex Today, Latest Share Market News Live Updates - livemint.com",
+     "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFA2eURra0RNN0hZR0ZxYmMxV00ycGZkVS14M1JaTGFnc2lGeVdLS3NUaDQ0Q0pKSkpLbDcwMUhQN1lwcHJNbmc?oc=5",
      "source": "Google News",
-     "date": "Tue, 07 Jul 2026 07:00:00 GMT"
+     "date": "Fri, 17 Jul 2026 07:00:00 GMT"
     }
    ]
   },
@@ -131,23 +131,23 @@
    "label": "Index Options",
    "rival": "BSE",
    "severity": "normal",
-   "date": "2026-07-17",
-   "headline": "NSE Index Options share 84.50% (+75.86pp DoD, +0.52pp WoW, -11.66pp MoM) vs BSE",
-   "impact": "NSE index options share is broadly stable (±75.86pp on the day).",
+   "date": "2026-07-20",
+   "headline": "NSE Index Options share 86.22% (+1.72pp DoD, +0.69pp WoW, -9.88pp MoM) vs BSE",
+   "impact": "NSE index options share is broadly stable (±1.72pp on the day).",
    "reason": "Likely driven by expiry-day mix and the relative pull of BSE weekly index options - confirm against the linked headlines and the expiry calendar.",
    "actionable": "Index-options premium share rising: consolidate with liquidity incentives around weekly expiries.",
    "news": [
     {
-     "title": "Kusumgar Share Price: Textile company makes stellar debut, lists at 37% premium on NSE, BSE - Check market cap - ET Now",
-     "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNU1lSd2k2YlpGU2k2WnJuaG5xcWU1R05lODlpbmp3RWZLVFlTcm5MUXJ2YmlYTk5PMV9FVlEyTUxfQmotdHl2ODlvTkk3SU5jekxVMnJSTlpjMnMxU3dRNHVMUGhOZ1pkbHRRNWNUWFZPbFpmQ0JGeEJlMzhIdFFMZnZzTk53Vm1MZGd1Y1ZrRmxaU1luNWJxTkthRC1ESTNIM2duVjZRSS1TaXpQRXBFcmdPSkVhbzFtTDZYOS1VUXJXYWpzN2RqMkljOUt5dDZ1Y0NvSW1BSGI3cWplLVVnNWt1bURQM2dSdW45TdIB8gFBVV95cUxPOW9Da0gtWllKcVFLV2phdGxzX1k5MWlKWXVZTXN4LWRKUVRnTTYxVmlfajQ3YlJzcXFyNlJlSnRuVHlxRm45bmhjbVRkNm9VWTRIU2pXZ1NEVW82QmN2WnV4Zi1YeTdfYVNuY25xY3RpQkJnY1NZYnV5Qks4UHQ2MThHeUdJb3BsTWVQdGE4OGFPMVdxSUwtQVdLVlZCVWtFcExfS01BcHQ4bGV1b09mRUpqZkpzTndzLXNNd3QwSnZhakJuT0JMMHh4RkNYSHZHS0YwN0loY0hQaEhRUXRrLVNCblBLUG9sRnlxNDZUR0tnZw?oc=5",
+     "title": "SBI Funds Management IPO Lists At Premium On NSE And BSE - NDTV Profit",
+     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPU3Jja1E0MUNlX2llbFRDVXl0c21rRTZmaVlKNC1VNUh4a2ZwZF9BS0o1ZmJmbHA0Nml6UU5tZ25vYlhjZURxQy1XWEZkWk1sVUplZWJqRy00VVE5d0I3b29oNm1TdDl5b1dVQUdyWVpDRzY3YWpxY3FxQ1hLVFplb3M0N200OWZOUEJEdk83QlNlRm5aeXF1eWJlYkJhOGpZeEHSAaoBQVVfeXFMTjV3MjNoQXdOUHo2MFNnMGZiVzRaci1zNGxLV2V3dmk4SkRQenlSdkROZ3pwVk1PWGZKYm9hdXhUbE1FbU5JQURFMnBHc0Q0R2Yybmo4LVF4QkppTGF4OEVSSnFDcHNjREQwMHc4ak1veWVkcXlMcGpxZXh4VnZvbkZqOTJNbE54STZkczdNdWtDQ1p2WlF1RTdCOEh2YVlOTThrVHlnNUJKTGc?oc=5",
      "source": "Google News",
-     "date": "Wed, 15 Jul 2026 04:30:05 GMT"
+     "date": "Tue, 21 Jul 2026 04:03:04 GMT"
     },
     {
-     "title": "Laser Power shares make solid market debut on NSE, BSE; list at up to 26% premium after 39x-subscribed IPO - Zee Business",
-     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQdjZnLWJQc2I3WU50em1VYkhybHNzMGJINUVPRU14OThEMkZ4TXMtbm10dTBrOFB1VmlWV2ZIUDVNZ2R0cTFmanhWNG5lU3R0VGZ6OXJ3eHFCMEFGd2EwcWV2UjRuYk9DcWNiZTFoTHlyNm9DRGx4UjhnYzJ0WEk1NTRRb1MyY3JrR2VWWDBvcTM1bzJ0VXk4T0lCYmN1M3ZYTjFKcG1zaWRla1UxWTdIMFYwNWV4S0xMODFzWUhjUlF6VGJzUVl0WkdUMkNpZU56ZGc?oc=5",
-     "source": "Google News",
-     "date": "Thu, 16 Jul 2026 04:40:24 GMT"
+     "title": "NSE crude oil options hit record Rs 2,006 crore premium turnover in one day, volumes top 47 lakh - The Economic Times",
+     "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPU1RqZzNEWW5SZFNraTUxSTBpaXhIUE5YeUNTSl9NNkpxYlc5RXo2Ymd5SHphYTBfbjF5X2JScUdsSWdGbExJUG5LQVNkWnBvNUJzME9XZ3VoeHk2bUNYbnBIcWFrSFIydTNTUmI2SDVjaXFaRnVsbzNCOUlpWTAxMVZQVFJIOW9TZVg4emtrUVhaR2VFZndiM2VUWjdWWGFFWnVfM3pVVzBmZzBHcDJPSmNPYlJ3N2NPblZJS2dra1kwRm16MGdhUDFXalI0a1U0YXg0alljUlhpZmpsdi1aQ0VaWnJQZFRaVkQzcW5ERlR4WlRTc0k40gH8AUFVX3lxTE8zUGRBQ1hUWDdFalRqNjZrcE92bzd1TGJFZkJWMzdZcl9oaGo5VEViR3lUZzBJQkI1Y1NxZ2VGMmhmQWljOXYzUVFKelNZSlFicFNvdk0yaEFfMGJkbnVxOEFGck91TnFFeVFvU19mTnZlZG5fN0xhbm8zbFAxelI2TlR0N1U3M1BuRnU1RFdIdGpYYXRwVFlrRE56em95ZllubXVHTENzMkprTTZ5WXdLZlE3dzJEQVVMMXhVazY1STdZNWJlMjE1MHJ6SXRHSnBkcm51TVpVVUZwSF80d1RrelVHT0NCLVJmc3htbERCV2NremtNN0tKTlViTQ?oc=5",
+     "source": "Google News F&O",
+     "date": "Fri, 10 Jul 2026 07:00:00 GMT"
     }
    ]
   },
@@ -156,9 +156,9 @@
    "label": "Total Options",
    "rival": "BSE",
    "severity": "normal",
-   "date": "2026-07-17",
-   "headline": "NSE Total Options share 84.96% (+75.76pp DoD, +0.56pp WoW, -11.57pp MoM) vs BSE",
-   "impact": "NSE total options share is broadly stable (±75.76pp on the day).",
+   "date": "2026-07-20",
+   "headline": "NSE Total Options share 86.52% (+1.56pp DoD, +0.79pp WoW, -9.77pp MoM) vs BSE",
+   "impact": "NSE total options share is broadly stable (±1.56pp on the day).",
    "reason": "Likely driven by expiry-day mix and the relative pull of BSE weekly index options - confirm against the linked headlines and the expiry calendar.",
    "actionable": "Total options premium lead healthy; defend expiry liquidity.",
    "news": [
@@ -181,23 +181,23 @@
    "label": "Total F&O",
    "rival": "BSE",
    "severity": "normal",
-   "date": "2026-07-17",
-   "headline": "NSE Total F&O share 85.05% (+75.75pp DoD, +0.57pp WoW, -11.59pp MoM) vs BSE",
-   "impact": "NSE total f&o share is broadly stable (±75.75pp on the day).",
+   "date": "2026-07-20",
+   "headline": "NSE Total F&O share 86.57% (+1.52pp DoD, +0.80pp WoW, -9.79pp MoM) vs BSE",
+   "impact": "NSE total f&o share is broadly stable (±1.52pp on the day).",
    "reason": "Likely driven by expiry-day mix and the relative pull of BSE weekly index options - confirm against the linked headlines and the expiry calendar.",
    "actionable": "Overall F&O dominance intact.",
    "news": [
-    {
-     "title": "NSE Futures & F&O Data: Live Futures Market Tracker - NDTV Profit",
-     "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBxN2ZISEVPdm5oSzVFXzN0NDBlYzE1bmljN3VxU1R5STVxbkpobWcwZEVPdkMydy1TY1dUYzZ4eE1vYWluTjVqNUpVQ0IyTnZ3dTlyRXh6cFFLWERRMTViZDR6NmMwel9iRkw3QUpTa3RYVGRUc09oYw?oc=5",
-     "source": "Google News F&O",
-     "date": "Fri, 17 Jul 2026 05:38:44 GMT"
-    },
     {
      "title": "Top Losers Today - NSE Top Losers Stocks Live, BSE Top Losers Shares Today - The Economic Times",
      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1pdllieG9walJtZS01eEV5TXozT2d4aHZtby1TSEJ2WHM2ZDVCVG5kOEk2V3VDemRWd0tqajBYOGlILTJncTV4eU1XSUVUU3ljOXNzOFBXUkx6TTN3cTRrTHh3aS1BRE5SUWM5RGxqZTBQQlk0?oc=5",
      "source": "Google News",
      "date": "Thu, 16 Jul 2026 22:00:00 GMT"
+    },
+    {
+     "title": "Market News: Share Market Today, NIFTY, BSE/NSE LIVE, Sensex Today, Latest Share Market News Live Updates - livemint.com",
+     "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFA2eURra0RNN0hZR0ZxYmMxV00ycGZkVS14M1JaTGFnc2lGeVdLS3NUaDQ0Q0pKSkpLbDcwMUhQN1lwcHJNbmc?oc=5",
+     "source": "Google News",
+     "date": "Fri, 17 Jul 2026 07:00:00 GMT"
     }
    ]
   },
@@ -207,7 +207,7 @@
    "rival": "MCX",
    "severity": "normal",
    "date": "2026-07-03",
-   "headline": "NSE Commodity Derivatives share 1.87% (+0.72pp DoD, +1.73pp WoW, +31.36pp MoM) vs MCX",
+   "headline": "NSE Commodity Derivatives share 1.87% (+0.72pp DoD, +1.73pp WoW, +31.52pp MoM) vs MCX",
    "impact": "NSE added ~1.7pp of commodity derivatives share this week - competitive position strengthening.",
    "reason": "Commodity share swings track which contracts (crude, gold, electricity) saw volume that session - see the contract matrix for attribution.",
    "actionable": "Commodity foothold growing vs MCX: double down on the winning contract's liquidity scheme.",
@@ -235,52 +235,16 @@
    "date": "Thu, 16 Jul 2026 22:00:00 GMT"
   },
   {
-   "title": "BSE, MCX Shares Tumble 5% As Jefferies Says NSE Listing Threatens Market Positions - NDTV Profit",
-   "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNUVgzaERFcHlRVXgtV3lHcGZ3bmVFRGlfWXptM2FIWVRjcHhUS05YVkFBbmNoNHpLelhXTW5rZExoOC1rNXVjSVRKaHY0ODhzQkJNUndLNEl1MlZFUjBobTg5Q3Z1Z1hEcG9aZzhzb05idWszUmhJVW5jdjVfTjlieVZSOEdUOGpXZUdlY2FzOEFONmF1ZkFIRG9TMWZodVQxWDE5YkFMMzR2Nk9GR0F3R0JKZXh4b2tEV2NOYy1TbHIwdEdzWmhfMnc5V2ZZdHFkVlk2StIB3AFBVV95cUxQQlFmcU56WDBtT05MMmpLdEUzaEtNN0VJeEo0ZjVtNVl2YmEwLXZrSFp5MmNvQTdwNnNSRndpNFVfUEFnNExjMnpBNG1QZHZtTElMRkZCRmRKTVkwZGhSYkl2czdRLWJ6RG9hMW9RcW9TWlpEV2lCeDQ5UVhsaDdSLTU5anI2RGRNcHo5M2VEcTl4QVBzNlZNdk5WbUE4WWNYSnBZeGx5ckpFOGRhMzFEd3lWMk9tN29mcmUwLVZqbWdaNTE2bDAySXFZajZMYWVmTzJPakpEM3lDbjNU?oc=5",
-   "source": "Google News",
-   "date": "Tue, 07 Jul 2026 07:00:00 GMT"
-  },
-  {
-   "title": "BSE, MCX shares drop as Jefferies flags NSE’s edge - MSN",
-   "link": "https://news.google.com/rss/articles/CBMimAJBVV95cUxPMkF6TlMwVHVKUUtaNnVNUDlCenlJLXpYbllmenpKZWZaaThpTHpMVUxnV2pnNEF4SkpYS3RnME5jMWpFZGNqRTBsWmlyNmpDZGRGb29wT3FoTGJrY01HR0Z5cGYyY3RKN1NfTDhGT0hDWXFSU1AtOENYZ3BWSHFwQUI4R1ZUZDZKUEFZYXNsNHRXMVE4TkxVLXN5R3JBaEFqdm5lZlRESU5SQWw5bjRnQVZjVEJvVVl1dmUxOF9xeEFNbWZlRTFGWEsxT3pua0RqSXhIZW95bElCdmxWZ2p5dEEzMDVGQmxlWDBGXzYxYXlTYnJQTWFZTUFyZ1R2OVRHY09LQ0h5RFFscml5bENRNkNHVVFJWEhU?oc=5",
-   "source": "Google News",
-   "date": "Tue, 07 Jul 2026 07:00:00 GMT"
-  },
-  {
-   "title": "BSE, MCX shares fall up to 4% as Jefferies sees IPO-bound NSE as more diversified - Moneycontrol.com",
-   "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQMGctMFVGb08zb0kyUXFIaE1zUS1Ib2xZdzQ5OFlUSXQxRU4xQzE5RGF2cW5FckNoZ0I0eHBzaTcyOHc1SWNKNUxRWk14Y0ZjWVJ0c21FTGl6X205cU5uSlRrWWVyaEJYUVBaN2tQLXY2WUIwZ0I5RFk0ZnQ1OTlMMW5Nay16RTNKOFdXaFVjUWQzcXQ3anU5UHUtaUVtSk1QMnZSU0ZtaWI3aFJDQldBaEQxbTV4OGxPckZXdW5kdFBDMkRNWC15YzA1ZGJPdC1oWFpPZNIB2gFBVV95cUxNSjUxU1F3aE83ZUpqbF9CWjBvakF3X1NSaHFsM2JuV0NfR2RhbjBJbmFuRzRfYy1NMFFYV2hLUmJmTGhNWG9STENqOFR3UjdHNDRsQXBYZjNFdTR1TEhtWktfVlc4Y2FoVEdsZk5fVTRwR0RoalV1bndpTnJ0ZTZqc1hqRGg3TmhjYnNxZzZNWklTcFEwckxkUFBOaTFkbGxQY3NpUmFuM1NCMm42ODJMX04wUld2dF9zSDF1TTRhd2JUWFJHWU9MUjlfVl9FNjB6b19vdk9WblUtQQ?oc=5",
-   "source": "Google News",
-   "date": "Tue, 07 Jul 2026 07:00:00 GMT"
-  },
-  {
-   "title": "BSE Share Price - Live NSE: BSE Stock Price & Chart - Upstox",
-   "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1pTnN6TVlhQ29TZ05VSFcxRWpEeUY5TWpBNUhXTm1OYldOWGZqOUNlOWdpSDhJMFdISmdPQjcyV1FIalhzdHRYSzhMZGpVZDlGb3RjSVJPRDg3Tnhadm5r?oc=5",
+   "title": "Market News: Share Market Today, NIFTY, BSE/NSE LIVE, Sensex Today, Latest Share Market News Live Updates - livemint.com",
+   "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFA2eURra0RNN0hZR0ZxYmMxV00ycGZkVS14M1JaTGFnc2lGeVdLS3NUaDQ0Q0pKSkpLbDcwMUhQN1lwcHJNbmc?oc=5",
    "source": "Google News",
    "date": "Fri, 17 Jul 2026 07:00:00 GMT"
   },
   {
-   "title": "MCX, BSE shares fall up to 5.5%, extend losses to 4th day; here's why - Business Standard",
-   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQMkI0Q1QtWmR0UTJ5R0d4b3FfbHN5VFBYbEdQSTBwYmw4c3RjRXM5U2t5WkxBSFNXdmJ0YUVzNDZpaUFFdVJtLXFQbGJybXpCcHFjWlNHVVd6UkRjcWFGdFVsdkI2LWhfd3ZBMV8taUZ0MFRkQzNNSExKUUc0T3NzUTRRN1dQdjdIM1FCcDFfX0prLW9YcW5qdVdsT2hkSWY1Ui1IN3VHb01iT2dTM3JHeDJ2ZzJTM0ljY1praEczWXh6VjVDUXlBYl9OXzPSAdIBQVVfeXFMUEpxaklTempuQnBFRVJDQVNCSk9QMVAtUXg2ZHNWSmZWSHhpQXEyM25kR2NSblZSaG5nV3lmNkpJLU9fVFc2NUl2RGFnVXdYa2xWTGVDQjk5X3pWQ1VpbVVjSTBSSW9heFdrRm9SRlJvZFJkVnh1MUxrckVKOXRvcmFNMDNRdEdrMG14TFVEVnB4c1FuNjBCdnA5b3RMdnVzTF96RjZudlhZNFdyZlJLb3FtQWtFMHoyQ0NBdkNlVUhMdlVCandCQkNWaHllT1g0SVZB?oc=5",
+   "title": "Weekly Market Wrap: NIFTY50, SENSEX end in red; SMIDs outperform, Trent biggest loser - Upstox",
+   "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOd29TWkR4ekRfSXB6Y3Y4eEhDZVhaYWFfS1pNZjBGSDhJVzU0R3l0cVJqZlFEckRjT19YeE9xd1JiTjFpOTd5YzVkRDJMWnJkM2pfcnFNOTdYQ3NVdDlJY1ZUOVhlZGZxangwdC16a1NRc3FWWlh1MUoySVRiWHFQU2d6eThWczZ3S3NmN2FHRHd6ZGRKSUtSa3RtcHlIVTNPY2RiejNCM05YZ0ZHdlN5Ry1pbnZmb19Ld0FwT1k0T3hRWlllYlU0dXRGa0xfNndTRktsNzNsLXhTZw?oc=5",
    "source": "Google News",
-   "date": "Tue, 07 Jul 2026 07:00:00 GMT"
-  },
-  {
-   "title": "BSE, MCX Shares Fall Up To 4% As Jefferies Says IPO-Bound NSE Is Better Diversified - outlookbusiness.com",
-   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQTEFweUxoZmNCSHI4QjBZTWpMSlhkYkg0ZEJySnZsT2RQVUF2VU4ybnN2RVhZSWNpWVloQ0hxVmNLVXl2YWRGZDh2RzhRc0xPRXpjRmZ2aDJOaEt4ZmJQR0xjNkNPcTJDemc1WHlNdE1SWjRmSHJSdGtoRHU3em41NHJTSURsd2xKaXZNUkdzbmI4bWlRQzRJWGpidEp2b0xIZzlzaFpCdTNVODdOVlJvWm9RUWFEajVNRHNmVENB0gHLAUFVX3lxTFBsaHA3SFQwT2U1c3N0LUhUQ1UxNTlHRXNKd0hPWGFhV192SFdCbm15RGhpOElPQ0JPcVlLVDhPRjJBS1JLSUxZaU5BbnZNNkVGelRSWmJLNU1mQ2phRUpSZWszajN3a2s1NFNlX3hBWkNQUlJvamd5ZmRHZjluWGFLd3RVZUJlNGY4Ym5INHZ1WVhNS0IxaUlTVEhaS1EtS2ZlT001cDdzUlZTMnNEbnROVkItMkIxSU8xY05XbV9EenQ4NWdvRDdoelNn?oc=5",
-   "source": "Google News",
-   "date": "Tue, 07 Jul 2026 07:00:00 GMT"
-  },
-  {
-   "title": "MCX, BSE shares fall up to 5%; is the NSE IPO buzz behind the decline? - Business Today",
-   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOdk53c0VkLTZkUVhFUXNUa1FudExIWGRtc3Q4QVJaRjFpUVRtOXdKdkwxMHZULWFpR1VtTFkzMGZzd0ZIQ3dPbVZ3bFh3bE5qb1ZPaU53QUpZNFNvSVdsVEx3ZHJqLUxBZFpTTWtmNFMxYzB6bEdEQjZnamt4Q2VoblJRUVdvanRaR0ZQVXFnZGlmQV9HSUp4alVpYXF0Vmc0T3F1UjJTdG5VYjJmd0xHTV9wRUVjM3hhdDJrekpkbXVtc3BmeWdQQmlRbjcwZHPSAdQBQVVfeXFMT2JObmJFRzRQZ0lDeW0zRG9hbVlTZ1lnUmVGS2pDQ2pwaDdXd0w4dTVnZXlob1NmSW03X3czajZLWm1pV1JJRTdyVnYxMW41Y3lfSWJHTFhIOFlEdjJxVkJzZVhfc2JWcGNVQVFGTUttVzRMT0p1WF83TDVyWk1EdjB5YlpDV1ZKWXBqdWJzekpsSXlKbE9abzdhTmxZd3ctUE9KOWxYS3NRd1dDMDVLV2Y0YlF2dmhkS1RQUDlYZGhnVnp1aVNKRFJWMTAyY0hNMi1yZDU?oc=5",
-   "source": "Google News",
-   "date": "Tue, 07 Jul 2026 07:00:00 GMT"
-  },
-  {
-   "title": "HDFC Life Share Price Today, HDFC Life Stock Price Live NSE/BSE Updates - The Economic Times",
-   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNdVZhWi1vdFEtdXRnUjlqZG5HaW01NkJsTXBBUTRpWG1RSGxWQnhUUWttNUlfZEZKUllnWDQwLTNGSGpGWnNHbGZOdjRSVTUwaDV0a3BDdFhrUWxHQVphMXQ5NURSZWFBcEUzVGI0T0pORWpfSnZWSTVva2pWbW1yOThkWG5VM3FHS0FGY2JiZDRCOWhqajNIMGFB?oc=5",
-   "source": "Google News",
-   "date": "Thu, 16 Jul 2026 21:57:00 GMT"
+   "date": "Fri, 10 Jul 2026 07:00:00 GMT"
   },
   {
    "title": "Biocon share price climbs 5% after block deals on NSE, BSE; key details - Business Today",
@@ -289,22 +253,22 @@
    "date": "Tue, 14 Jul 2026 03:56:55 GMT"
   },
   {
-   "title": "Jefferies calls NSE IPO the final piece in India's exchange troika - Business Standard",
-   "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPNlhNOEltOGgwdjFGNlZsZ0dGbHRCUGotWFZUT0ZYb3JSRVpXclRlX0MtR2RPOXRTRERYZkxneG1ua3VZZ2VGM2Y2cEFONjZBUW5jVF9NUFdKdC1SemFpU0l4ZVVsY1FTQ3Y2QkVOWEg3ZURibmc4N3BDY2xvd2R0ZGNzRXdHLTRfZjNjTjd6YlhBZkdubjhuWjhiWGRjV3c4bVhwaFF3ZlgwY3BNZjQ4RFhNUFZsWl9hNUtqS2N2OUV1M0o0SHZsUGdR0gHPAUFVX3lxTFBSVlY2M2t6Z1o2VkFSaF9GSWFINzFrdDdXajBFUU4xaWttakRMZmlSdFBuVUF4bEQzel90SlVDVm9zYWN3UlhmRjZrMWRoallBcU4ydDJwRV8wVk0xeGIya21raGljY0Zpbk16QnhPOEhITzlwN1V4VmN2b0xmeFNRZHotR3RYWEN6RF9nVXBFNllKLXVJLWJzS2tWWGtGMUhQMXBJbUJCdHhjcFFUcldYRUtJdW9aOUtaZ0p4XzFYREJ6ajY4LWY5XzE4elZ1MA?oc=5",
+   "title": "Powerica Ltd. Share Price Today - Powerica Ltd. Stock Price Live NSE/BSE - CNBC TV18",
+   "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBDVk1kdGU2eElVcTV1dkpaQWNaUXFpVENacFd5ZHdsOGR3X191MnVVZFNDejVybTUtTXcyVUk0Q1dCdEg5alYtakZOaHZCMTlIWmllbnU3ZnVLNnduSTJXeF90SkFXYldUbnpaOXlyZm9CT0ZtZXNsNWhnOA?oc=5",
    "source": "Google News",
-   "date": "Tue, 07 Jul 2026 07:00:00 GMT"
+   "date": "Mon, 20 Jul 2026 10:13:00 GMT"
   },
   {
-   "title": "Canara Bank Share Price Today, Canara Bank Stock Price Live NSE/BSE Updates - The Economic Times",
-   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1vN1ltcXJpMGJtU0Y2UlMwc1dTaVpfbkVNaTZGcUY1WmR6R1JsZUl6VWtOem9BVFhKT0FwMFBhUnFBdnA0bzdhUG95ZElaa2ZtcGMtX1B2aFZVTjZaazcwLWkwS0dBVkFPVW0xN19PeHY1RTd5cVdaeklEVVQyS1E?oc=5",
+   "title": "Alpine Texworld shares list flat at IPO price on NSE, BSE - Moneycontrol.com",
+   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPRDB6S3FEUU9Ra1ZMZVl6NDVpRHlJUTVkVVFqc3k1dm00RmowcWZ1Q0Q4dExEdUVKYmpRbXRzaGVXY3hkRHc0MjFId2txSDl3ZWVQTkdhSXdCQkR2UXh3OTRQWUpCQnA4MGlYNzdaUXpEMFBSeUE2Nmw2LTZ3SmNSTEcxeVFnLUNvM1M5SWZlYnl3WVpPeF9fN3FaY2VDcHdyams5XzA2dExyWjdyenJYZkthVDV2b3c1NHIxa0xyLXV3dVJfb05LaDByajF6UdIB0wFBVV95cUxQaDlHdjJnTFA5ZG1NU3Q3anlsaVBMTDMtMVAwMGNsVTRucXc1MTBmdFFEdWhOUlp3dFVXeHd5VHhQeks4ck9aRHBQMUI0TWwtb0RPY0RRUjc0bEVFSDB5SllfcVVXV0JpN2xid2U3cUdORDhZNW54a3EtSXhyaDIxRGswdU5TUm5ua3hQVWlyMWQtQmNIRGoxZVU2eW9kUENZd3FCazVfVFk0MVB4U0V0V0JJUnZYazZYajcxUThfSWpzdzBHd3NGaWZEZzZiNVZVLUJv?oc=5",
    "source": "Google News",
-   "date": "Thu, 16 Jul 2026 22:00:00 GMT"
+   "date": "Tue, 21 Jul 2026 04:33:27 GMT"
   },
   {
-   "title": "ICICI Bank Share Price Today, ICICI Bank Stock Price Live NSE/BSE Updates - The Economic Times",
-   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQX203dWxrZzRtNEZVQVFkRUVXMVdIblBYdzRjQmw5em14S3g4MVlqQkZreTRzdUtfR2oxdEplVnQ3dW1WSWl3bjNPeG5EWVhwU3dBanNmT2RReDRoRWZnRkdOamNfdTdDMUJaYmFreW0tUEduS1NmRjFUX1dyelVSbXd5bw?oc=5",
+   "title": "SBI Funds Management IPO Lists At Premium On NSE And BSE - NDTV Profit",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPU3Jja1E0MUNlX2llbFRDVXl0c21rRTZmaVlKNC1VNUh4a2ZwZF9BS0o1ZmJmbHA0Nml6UU5tZ25vYlhjZURxQy1XWEZkWk1sVUplZWJqRy00VVE5d0I3b29oNm1TdDl5b1dVQUdyWVpDRzY3YWpxY3FxQ1hLVFplb3M0N200OWZOUEJEdk83QlNlRm5aeXF1eWJlYkJhOGpZeEHSAaoBQVVfeXFMTjV3MjNoQXdOUHo2MFNnMGZiVzRaci1zNGxLV2V3dmk4SkRQenlSdkROZ3pwVk1PWGZKYm9hdXhUbE1FbU5JQURFMnBHc0Q0R2Yybmo4LVF4QkppTGF4OEVSSnFDcHNjREQwMHc4ak1veWVkcXlMcGpxZXh4VnZvbkZqOTJNbE54STZkczdNdWtDQ1p2WlF1RTdCOEh2YVlOTThrVHlnNUJKTGc?oc=5",
    "source": "Google News",
-   "date": "Thu, 16 Jul 2026 21:59:00 GMT"
+   "date": "Tue, 21 Jul 2026 04:03:04 GMT"
   },
   {
    "title": "BHEL Share Price Today, BHEL Stock Price Live NSE/BSE Updates - The Economic Times",
@@ -313,10 +277,22 @@
    "date": "Thu, 16 Jul 2026 21:59:00 GMT"
   },
   {
-   "title": "IndusInd Bank Share Price Today, IndusInd Bank Stock Price Live NSE/BSE Updates - The Economic Times",
-   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQQ2Nka2tpSlI4TEs1dVRlOUpTNnA3M1p4YmpIcXdOeWZ2RVpHRVhxTE9MaWdHdDNDWmRQZWZPOVJ2d3pKV1RHRnltdGMzaExsNTZXS3I3ekV3Qm5LOElCWjdIZnc2NnhlY1ozalpfbXJXYjVjXzA4MzlfZFBhUHFJajBoS081c1k?oc=5",
+   "title": "Alpine Texworld shares list at par with IPO issue price on NSE, BSE - Upstox",
+   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOcDZ1X01VM2xzV00ySjRtUnRpa1VyOW5ZaUhwcGtfc1ZpMjZ5Smo5QVpZMXBncUhaNEdpUHJuRlYwek5CaC1kSnVaT2VrMlJsZkR3anZHYm5xUFNrLTBtUlV6eExaSTNCTDJGX09wbkdad0FOZ3VhQ3RvRHNzcUlRLWVHNURGTlFZSlFOYkU5VlFBdEtMSFJUY1hXY3pDVkZIZHJVanpqZVJ6M1VTUjFzYm9nXzBaNGRHR1lFR0llQQ?oc=5",
    "source": "Google News",
-   "date": "Thu, 16 Jul 2026 21:59:00 GMT"
+   "date": "Tue, 21 Jul 2026 04:19:31 GMT"
+  },
+  {
+   "title": "SBI Funds Management shares list at decent premium of 7% over IPO price on NSE - Moneycontrol.com",
+   "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQV0xkTkNuZ1p4aHZLZ3F0T2pBaGx0YmFHaWxBZlJ2SG96VWxXZlFjaF9qWkhOMTV0cTlYOFEwZDBOYUttREE5eE41ZkZIQzZWdVNoZzJYME11X3NrMEo2ZGV6RlpFNEdKS25lV2ZEMjdXZ3BPSFFoNDJTTEVXMjdHZE10dkVyM0w3ckZWaE0wcUlZSG1uLV9PbVlYekxlNHlZNm4xSkswOXFJUFpMZ3dmQ1NZeUJRNTEwWHFLYzBYMlpER3F1N0lBYnlRem1YSm94ZmRyZndsSnNpbXpKVnNr0gHkAUFVX3lxTFBENE9jemFnOTVSd2RnNkRZVGc1aWFzaEsyNUNWUlBGMG5PT0ZfTG5ld2pvaC1RRE9xS09DQUFtVFZMSDlYWUYwbW5SQ29yS2g2MUFjc2JjbDB5MTRZWDU0V3hkQXdERFhfbUQ0R0dLVWkzQlk0ZmlrRE00NzJUeHQyUHd5ajRnV3ktMVptaEhtcXV1bXp2ZlhVZUFLeHJwZ0VvVk5LZWhyUjgzX2M5VnF4WWg2bFI0WmlLcy1TOGNhdjBpU0l3Ymk2Z0RjUGVhdWJ5Znd2Tjc0QWwxY1dIX1Eya2xWWQ?oc=5",
+   "source": "Google News",
+   "date": "Tue, 21 Jul 2026 04:18:22 GMT"
+  },
+  {
+   "title": "The Rs 1.5 lakh crore bank guarantee link that could rattle NSE, BSE and MCX - The Economic Times",
+   "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPY01ENUtjNXZqeHh0XzhIMEVXa3VZbnpFOWJ5d2N1anRSa2xTOHF0ZFQycmdCNjk4djl5dlp1WGpzVzRlcG1UcmNnYUFvNTdZNy02dnFrMzNTM19zeHBUdzNMalpkSF82dk9iTUlEWXZpM1VvVzVicXJuU1U1N09UalZUWFZyaXpWcTNaN0ZNNXJfRlFPMloxbDFONEd5a0FQRzJUUGY2Z2NZR3Vub3ZkbnVBVFNhdFJoTFQ3djJTZjUxN1RxQ1N5bko5OHh2S1EyZUR3RWItV2hzUlpuWWRwUDRiRdIB6AFBVV95cUxPM1dDVXRVZDlWWVdQWW5kQU1ldkgzcmhZd0tIMXNlNWZVeV9wYnFlWGplMXRqajVXeFg1OGVwTV9JdXJUMlJJUDZhNjU4eEhDRnlRaEdOcERmamRUeGdpazVOUmZNek42S3pNbzNIRmZFcEJtcHE3dEhjd2liYXNCclI0bnNDeE15dlkyS2YtSk01TzA4N3hfbGdjekFuOVhYYkV2Z0ZaVWxyUURybVdFTEdrNVczTjV1YlRrTXNsLVd6Rk5hMU85UElyYkt0V0xSQmhkVXlHT2ZQVmJ6UU1QRTFTcWVFUmpN?oc=5",
+   "source": "Google News",
+   "date": "Thu, 16 Jul 2026 06:11:04 GMT"
   },
   {
    "title": "Lupin Share Price Today, Lupin Stock Price Live NSE/BSE Updates - The Economic Times",
@@ -325,16 +301,28 @@
    "date": "Thu, 16 Jul 2026 21:59:00 GMT"
   },
   {
+   "title": "SBI Funds Management IPO allotment: Status finalised; how to check online on NSE, BSE, KFin Technologies - Upstox",
+   "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNQUNPMnhDRk9GQUNoZ2U0SDlCQUJGOUktMU5iNzFoZTZibVZwamtrV2Jrajc2b0FMc2QwcEhpRm9jWWJOaXl2c2FaT21xUGhFMXFDaTVfSlJadGs3Mm5zRjk5SkxfNkIxZnE1SWdzRm0xbENacktHb1ZBVS1TY0thVzBQaGhWY1lzVVJfeHdUX0xvN2dBQmFoV3RBVEU1YkpoQkNXNXJtaGxlbGc1S1RjVWxfUDBNYnJWRTJGQjVOeXYtNXk5YjJMTDBxZnd4eGx6WmJtNGEtOE1pTXNvaDgzNXRFaWctTkJwZzJHU1Z5QmY0Wi1FOS01am1naEQ1R0k?oc=5",
+   "source": "Google News",
+   "date": "Sun, 19 Jul 2026 03:03:45 GMT"
+  },
+  {
+   "title": "Millworks Technologies shares list at 90% premium in bumper market debut on BSE SME platform - Moneycontrol.com",
+   "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNVkxUSkZ2eG9zVUV0M0VlX3R4Y1dZcXlLRDBJX3QyMzNYTVh0SW92RzVYNVlBdVMyY2pfalpzb0NiaUI0MVBPN0k4V1lxM3hWN3BPM0cwV2xGczFkSWtqRTN2VEhiZWFaZ01BN3VRNUI3QjVtZUtOU2dRako3Njc3UjNFaDhfZ1lpakxjdTNad2NYT0pHZEZvVEs2dVNoVTBLT3BEY2RTSmxFYUVhNFhINDNmUXlHTWw3Mms3bTRqNTdlaGp3MUs4SGwxc2hVNHpKbUtlRldCcFlMZXYweHRDdWdOODNrZTjSAewBQVVfeXFMUEo0RnY0bU53dUJiaU1odE05TVRyQ1B0N3p3UjZkU2lMclJEdm5JQXVpM1lYS3EzUklPSGNtLU9BWlZuMkdDSXFEbVNKWmFtY09TcmxMa2MxSlVJbk9NN2gxcGF3QXZ0ZUxGeUVDQUU0eFlPY05kaXpsVXVHYTR1b0N5c1RRUncyRTNGYmNNX3lxRVN0LVRRd3FsQ0xMNy1MX0tnRHllNS1aYlN0SjladFpCSHdIN1hiZmxQWG8zVmNaRkVSSEtxYnk2MlNDamFVUmhBX3dkMm03dVRBSGJJTkFoRFloTDZGbkVlMnk?oc=5",
+   "source": "Google News",
+   "date": "Tue, 21 Jul 2026 04:24:56 GMT"
+  },
+  {
    "title": "Bajaj Auto Share Price Today, Bajaj Auto Stock Price Live NSE/BSE Updates - The Economic Times",
    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNNXNaQnBWbW1YTVdvV3ZxOUlPUTZUUm4yV2xPMWpmb1ZvUzB5N09mNjlkSHY1dmp0VmlHUVhCenBOLUx6eGswWVFWN0VLSVBiLTZxSWtUT2JDN2ctTUJqZzFHRTQ3OGxjYXBaaHVRcVFLcnJMNl9KZGhZYW1zYVB4TW55NzQ?oc=5",
    "source": "Google News",
    "date": "Thu, 16 Jul 2026 21:58:00 GMT"
   },
   {
-   "title": "Natco Pharma Share Price Today, Natco Pharma Stock Price Live NSE/BSE Updates - The Economic Times",
-   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQWWkzM21VQXBvZklEUjg4eUZ0dVJtdloyc2FfejVhbFplcFhUU1A2VGNrY1YzcEgtMmRrMktWbUdLb3MtNndmV2ZCWXA3M2I2UkI5S2ZDZmdaTVN0eW5zdWdTTGdzUE5JeGNqYVBMYWswS0ZFMmtjT2h3anVOVkl2RG5zWVFxQQ?oc=5",
+   "title": "Kusumgar IPO allotment finalised: Check status online on Bigshare Services, NSE, BSE; listing date, time revealed - Upstox",
+   "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQSlBlQ2NLZTU1bFZIZWlLaWFfZXZ1OHVMWXA5TjdIdmF3RTlfMEF3ZHpxODdxaDdFdm5NSUo0Rnd3RVNfbUxlS1BwZ25mUncxVmFQWmxFd2tHR2M5Y21pMERuWllQNXMxVXM1aG02UzFpeVhza3hMZU9neFRuenM3T2drX05mREthSkM1U1pqVXlOZEVhbWVtU01fSzNPTGZLVWs0dnNlWWVhTUUzaDRyTkVFOFFZeG5Xa21fSXVjX2FYV1BuTl9kY1V5c2dncjVhR3MwT0VVLXZnOF94UnhsLXFxcEFOdXlmRlE?oc=5",
    "source": "Google News",
-   "date": "Thu, 16 Jul 2026 21:53:00 GMT"
+   "date": "Mon, 13 Jul 2026 02:44:40 GMT"
   },
   {
    "title": "Apollo Tyres Share Price Today, Apollo Tyres Stock Price Live NSE/BSE Updates - The Economic Times",
@@ -349,32 +337,26 @@
    "date": "Thu, 16 Jul 2026 21:59:00 GMT"
   },
   {
-   "title": "NSE IPO: More diversified than BSE, MCX; listing to complete troika, says Jefferies - Business Today",
-   "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPZjZhdHhteFZSNGRVd1hOeEp4MVNCaXlhcHNKekwyaEZnTW5hd0h5S3lQQnRzRXhQdXJtcFc1Rm0wbnZLLTZhMmc4QzQ1MXZtR0JJVkFoZzdlZi1DbkV1VjFaS3ZZdHZvd3VNdkVGdTdEUldzUl9GbjRJUGhjSlhxeXZFajhUcTZfaGhaWmhxVUpLU0phUEppaTBsSzhnS1AxTllLSjQwclg5VTM3WHN1UlpFc09CSDFWX1BiVWZoRFAyUVVpbXhNa1l0aXliaWZaaVhDR3QxZnJJbHVaMzRVSndIX2hOQdIB6wFBVV95cUxQOG1UcUY4Y0NfaFVlakFXNENFU0FJb0lFeEVwQ1RfWS1GZlVtYTRrZmZ2VGtwSnFkUnduNDVEaG53WDJZVWJYNHYtMTA4a0lKUmZyZ0hWajlpUEFva3RMdnEtd1JDX1RzX0E1QXlnM0FpV3JPcFp0VW8zQ25LZENzbG1kS2k3TWZfTVViTDktcHNWWWxNM1Q1aTBRc1ZLZno3OEllZzNaRk5mODdsMzlDQ2pWcE5YWWdsMVROcVZsemhwQmNoMk5xcVJqRUE1aV9TeDN4YlVVZkVCNW81MDhBb1ZWRzZ2MUNZdzFR?oc=5",
+   "title": "Jubilant Food Share Price Today, Jubilant Food Stock Price Live NSE/BSE Updates - The Economic Times",
+   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOV1ZuVHpEbVFzaDN4ZEllWDlDcXJLT2xJSVRRZ184cXV4Y2xFdjNIMVVON0ZSOGtHWWZGclJGTDE2aWNKeFR2SHZadV94eG91bEdDZXFFZ0RZMXc1YVZLbHdzaEh4R1pFM1NHUG44R1NTNnlrTnMwTk1EcEFsUU1xRzVFWl9VamdiZ2hsZEUydw?oc=5",
    "source": "Google News",
-   "date": "Tue, 07 Jul 2026 07:00:00 GMT"
+   "date": "Mon, 20 Jul 2026 12:14:24 GMT"
   },
   {
-   "title": "Kusumgar IPO: Textile Maker’s Shares Make Strong Debut, List With 37% Premium - Outlook Money",
-   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNQVBUVXJGM2I1eUdMdUZONXJvZXpJVDBuZEhDSDM2NWpIVHc0S2tXREVSTGZLb2tOenRTXzdFaXI2T0NFc0xCTlh4SHZxdFBsUmJaUHVtLTE1Q1NBN1h2ejFmMklBNU5xTFVaVXJBUjhuWWdUMW05bEcyT3hfalJjTUlPU3VvWXRONlE3Unp3UHJxTHVXTDlHM0xBSlJjYTVZYkZmMUlMMTdhMEpsNGfSAbsBQVVfeXFMTVhQenl1S1pWUzU3OUpLZllCTW1Bb0ZfVERaNnVpY0l5NXpqNHRTYndJSVpnOTdxakFBQ3A3djVwZ2tOZ2g1VUJLMlltWHgwbHQ4OGNhNE1XQ1pVMGlYTk1Ec2x0eEU4QTVJNmplZ3VyYlZ0OVdBMm1RSWJ2QTlyN29DUGtib2M0enZ2bkNneEtnUkpacVpzcUkxYTNKeVNQS0tVWXRTU1ZTQWlHVm9FcVJ2bmRrZzVJNmFZTQ?oc=5",
+   "title": "SBI Funds Management shares list with 7% premium at ₹613 on NSE - livemint.com",
+   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNUE1ONWpIU1RpYnFSdi1pVG94X2xKVnZVSGg5OVM5MWY3N1k0U05YRzlUYmF0Y3ZhY296dF80S3pwc2tXYU9iR0xFZFZhMFkzaFRHa2lYaFA1Q3VmSHNUeDlPZHJnbm9QZU80bXVSZnBnTGJEbFV2aWtZUzJJT1A4SGszLVE5YkxPbnI2Y3hRbVFOMTJJQWViaEJCaVE0M3lIQzh4ZVpqdG1TZ25aSnhQUHRNc1RmcVZKb0lLUktxcU9iUGw4czBOTEFsb9IB0AFBVV95cUxOemhEdVJIdldHQ3o4SDJ6UHZ1cGpKY2o3dlYwWk40OHN6azZxMDEtN2xhYXJIQ3VQS0VtcDRkcWNGYm1ISU9NcG9HOGVLdDZuNzFwZnZ3R0JFMlpmbzF2RmZrZW01eVNiVjUtVDJYYVRCdUZ3VURDTGp1TVVDNnBsNWhHLUx4Vnp6QUx1cmJzZm03YmZwQW11c016aUxrbGxQLWcwSHR4b2ExTXFLQkVpVHVsQk1URHAySndZVDZPbFJFNThHV0ZSYmYtZnJZbkZw?oc=5",
    "source": "Google News",
-   "date": "Wed, 15 Jul 2026 04:27:53 GMT"
+   "date": "Tue, 21 Jul 2026 04:28:47 GMT"
   },
   {
-   "title": "SBI Funds Management IPO allotment: Status finalised; how to check online on NSE, BSE, KFin Technologies - Upstox",
-   "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNQUNPMnhDRk9GQUNoZ2U0SDlCQUJGOUktMU5iNzFoZTZibVZwamtrV2Jrajc2b0FMc2QwcEhpRm9jWWJOaXl2c2FaT21xUGhFMXFDaTVfSlJadGs3Mm5zRjk5SkxfNkIxZnE1SWdzRm0xbENacktHb1ZBVS1TY0thVzBQaGhWY1lzVVJfeHdUX0xvN2dBQmFoV3RBVEU1YkpoQkNXNXJtaGxlbGc1S1RjVWxfUDBNYnJWRTJGQjVOeXYtNXk5YjJMTDBxZnd4eGx6WmJtNGEtOE1pTXNvaDgzNXRFaWctTkJwZzJHU1Z5QmY0Wi1FOS01am1naEQ1R0k?oc=5",
+   "title": "SBI Funds Management IPO listing date today. GMP, analysts signal strong debut of shares in Indian stock market - livemint.com",
+   "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOczR3VUEyek9WYm1WOFR1bEVLbW91QTJwQU83MGVVaHd1MUZBMXdwUWNhSEl4cDN0dDdqRlJCVk9SdHNYWGZPTnI2ZDNkLTkxT01CSUxwakpLQTJxbnNDcDJTcVEyU2pWN21odXJPTDQwTjZXekRHYXE3UkdDRUNwV3pmZmUzb2RyMjh0R3F4Y0pIbjlBY0JzZGVsSllybF83ZEtIUkZuMmNKSTFxOU9wV2oxY1VMV3U3emhrSjJsZnItc0NlUTR3aWlBWUR2R3FxRVcxbnlhb1Vpb3BLSkViUUFlanctWXJEdEE0TlpjcmQ2SFZCN1M3MNIB_gFBVV95cUxQZDlIYVA2MS1RVjJ3NmpvbzlYMGFDQUwxWUlXQ3VTd0hvYjJaZFBZQWxiOHk0U0JGVEhXcjNtd3B0TGc3ZlMzLVJCTFItZkNuLWh6eGcwUTZ5eV96bGJsU3Nsc0VrOUdUUFZTMi1BY3VHTFd6dUxGRFFUU3VEWTY3NEtWc1gwY05uWHowd0FiV3pPMjRvZHVvcm1HeTU1WFoyMU95R0RaaXFGRndpaDJMeF9scDljU3hHd2sySEJLOFRVZEdJNjdfNjVneURWWlRpcmQxc0hheURCWEZfVWhPOUcwSkVQRW5UUkRPNUVkUVVJQ1Q0YnJkcDNObDZadw?oc=5",
    "source": "Google News",
-   "date": "Sat, 18 Jul 2026 19:27:10 GMT"
+   "date": "Tue, 21 Jul 2026 00:54:19 GMT"
   },
   {
-   "title": "Kusumgar IPO allotment finalised: Check status online on Bigshare Services, NSE, BSE; listing date, time revealed - Upstox",
-   "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQSlBlQ2NLZTU1bFZIZWlLaWFfZXZ1OHVMWXA5TjdIdmF3RTlfMEF3ZHpxODdxaDdFdm5NSUo0Rnd3RVNfbUxlS1BwZ25mUncxVmFQWmxFd2tHR2M5Y21pMERuWllQNXMxVXM1aG02UzFpeVhza3hMZU9neFRuenM3T2drX05mREthSkM1U1pqVXlOZEVhbWVtU01fSzNPTGZLVWs0dnNlWWVhTUUzaDRyTkVFOFFZeG5Xa21fSXVjX2FYV1BuTl9kY1V5c2dncjVhR3MwT0VVLXZnOF94UnhsLXFxcEFOdXlmRlE?oc=5",
-   "source": "Google News",
-   "date": "Mon, 13 Jul 2026 02:44:40 GMT"
-  },
-  {
-   "title": "BSE Ltd Share Price Today,, BSE Share Price NSE, BSE - Business Today",
-   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5YVmdpdy1OaEVKZkFkM015bVZ1U0ZHdFo0aUN3U2E4Q1J3MURmdlhFODFXLXlHSGcxSnkxM0hQbGxTTjJTanJ1SGk1cWV0UDR3SDdhUm5jVTVqb29wS3ZBYU5JNm1ENVo2Zm5zNU9vcl9hbXdH?oc=5",
+   "title": "LTIMindtree Share Price Today, LTIMindtree Stock Price Live NSE/BSE Updates - The Economic Times",
+   "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9sem1MWkR5TGtaRmdGX2FlZW1DSVd5T3ctSEpfZ01aOGJSZEpJRHpncmxINlRqdDB3T0J4aG50eHh0eENpQ0dpVHhyMDlwcWVjU2dRZHJuUTRQTUQtajFJamZQSTgweWpHOGlrUnhZRUpsWThYcndGWFNB?oc=5",
    "source": "Google News",
    "date": "Fri, 17 Jul 2026 07:00:00 GMT"
   },
@@ -385,20 +367,8 @@
    "date": "Fri, 17 Jul 2026 07:00:00 GMT"
   },
   {
-   "title": "LTIMindtree Share Price Today, LTIMindtree Stock Price Live NSE/BSE Updates - The Economic Times",
-   "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9sem1MWkR5TGtaRmdGX2FlZW1DSVd5T3ctSEpfZ01aOGJSZEpJRHpncmxINlRqdDB3T0J4aG50eHh0eENpQ0dpVHhyMDlwcWVjU2dRZHJuUTRQTUQtajFJamZQSTgweWpHOGlrUnhZRUpsWThYcndGWFNB?oc=5",
-   "source": "Google News",
-   "date": "Fri, 17 Jul 2026 07:00:00 GMT"
-  },
-  {
    "title": "Century Texttiles Share Price Today, Century Texttiles Stock Price Live NSE/BSE Updates - The Economic Times",
    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNYVkzNFQyZzFQUWhrVGtlZXRsOXU1XzREMnhvYlIzWTVmNzYxd1hsamppdGRBVC1vN2d2ZHloeG1ua212Y3Y5TXRHekM3djhyNkc2Nk5pR1FDY3BLTDlUVkVsZC13TjEySUEtS2RpTnQtc3Nja2FicXlUVTV2N3NON3hwU2FaekNWUjRrQVI3eVotYWpjUjRF?oc=5",
-   "source": "Google News",
-   "date": "Fri, 17 Jul 2026 07:00:00 GMT"
-  },
-  {
-   "title": "International Gemmol Share Price Today, International Gemmol Stock Price Live NSE/BSE Updates - The Economic Times",
-   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQcTd3QWxrbDlvejVRd1FkTHFVS3VPQ2VYT3RsUjlBQ05NTUtIaEdhX2FndHo1LXdOQjhJVlk2Vm5QU2ZIUGVjd0V0Zm1xM29oTFZockVqSzlKdHRiOF9RTENUcEtMb1VIbVZQVzFET3lOLVFuLWdTYm9Dcm5hOEowN1BERUQtZ2JEQUtxVzAzamhHUFdmUXZtU1Z5bk9DdE9jN0dhZ2dHQVY?oc=5",
    "source": "Google News",
    "date": "Fri, 17 Jul 2026 07:00:00 GMT"
   },
@@ -407,6 +377,36 @@
    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFA1SFdEX0F0ZWZDQlRvYVJmMWEtOEtIelJYbExmS25hWHZ0RU9aaEY0cmV5UGc3bFdjRXdRa0ROaUc4dmtCSkNrU1hOWl91Qkc3a1Z4SkNmNnE1dDBabVp3Tk80Rkx0azJIWmU5TnE5dG9tUkE0MkhFMGF1dHRRQQ?oc=5",
    "source": "Google News",
    "date": "Fri, 17 Jul 2026 07:00:00 GMT"
+  },
+  {
+   "title": "Midwest Gold Share Price Today, Midwest Gold Stock Price Live NSE/BSE Updates - The Economic Times",
+   "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE95czJBUHg2TlB2QnAxcklQZkpwWGp2OGQzYURzSHNsazNlQ0lOZ0w5ZDhBeXVzclJRQkRsN2ZzTjVKNXloS0R1UVp0Unl1cUtrWXQyYTk5X1l5XzRoRDVmNXQ3N3NvcjVjdVdzQy12WUFPTkI0UEVJMmY1UlU?oc=5",
+   "source": "Google News",
+   "date": "Tue, 07 Jul 2026 22:38:11 GMT"
+  },
+  {
+   "title": "Adani Wilmar Share Price Today, Adani Wilmar Stock Price Live NSE/BSE Updates - The Economic Times",
+   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQRjN2RDhRaUNMTE9VNU90Mlg3WE1XNVBtb2FHRUllSW43aWV5ZF81cUsyX0FGMlNpcmt6M2pCcHVoUGZqSlc0VjZDYkRra0Mxc3V3bng4OTh5QlVwamJ2SmNhSnczbzc0ajdKOGJMWktZYnBGV3JhUkFmWVhzdmFfQUtERWk4UEI0WDJWcEZB?oc=5",
+   "source": "Google News",
+   "date": "Fri, 17 Jul 2026 07:00:00 GMT"
+  },
+  {
+   "title": "Ami Organics Share Price Today, Ami Organics Stock Price Live NSE/BSE Updates - The Economic Times",
+   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPM01jTlJVTDBiUW14bHI1VEJ2a1lyd1dmckctM0cyVXVoZjlncFZOeHVWc2FBMUJZRGM3UEZCRlhYRE1JWFdSTG0tNFROUjdlRXpybWs0RndlckVXaUxGVTBET3ZlYUhqNjlLUTJSUTM0WWI2U21CRmpQY3FkSGJjVGFRU3BUMVgtY3k4NUdzaVY?oc=5",
+   "source": "Google News",
+   "date": "Fri, 17 Jul 2026 07:00:00 GMT"
+  },
+  {
+   "title": "Macrotech Developers Share Price Today, Macrotech Developers Stock Price Live NSE/BSE Updates - The Economic Times",
+   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQZG1Za0cxYkFXd1Foa2xmckxiaDNZcTNNUWdFbnBGN1VlM09rZ25WWFdwcGFZSUQ5aXFaWElQaklXZmFvVjUxa3VFNTBBNGw4QmJDSGp1cm5TNXlMdWx1c0Y2MnBGRGFqdzMzaUs4dy1EaENsRzVQa2o3bllNdnQ3U2Q5akNNc1d0RlRfQQ?oc=5",
+   "source": "Google News",
+   "date": "Fri, 17 Jul 2026 07:00:00 GMT"
+  },
+  {
+   "title": "Alpine Texworld shares make muted market debut, list at issue price on NSE, BSE - Zee Business",
+   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQV3QxcHdDTF8tMUZEWW5hYTk0WUlQNWNrRnN2V1RIbmQtNjRTMWhOZEJGbGhlYzVhNU4tYkIwMjN5Q01jZFBRbGVqNF9VVkRIa0xHd1JZZUc1MjBRa1hXU3lpbFlvbVY2ZmNERktYOWdZRUMyTFZrb2hoOEdzRWw1TmRUOFVwYVZLc0hVYXJYRkQyWmhHRFVibVlGeWVwQUNpLWdpR1hUbk1OZ1JUU0haaDdSYlpxUFpnemNrMEtxMWcySWdlZ3c?oc=5",
+   "source": "Google News",
+   "date": "Tue, 21 Jul 2026 04:33:28 GMT"
   }
  ],
  "circulars": [
@@ -423,16 +423,16 @@
    "date": "Mon, 06 Jul 2026 07:00:00 GMT"
   },
   {
-   "title": "NFL board seeks waiver of NSE fine on director non-compliance - scanx.trade",
-   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOVG5Dc1JMUzNWaEVFXzJ6U3hUd0ZzN3BRVGZjVTRDNFlXTXdlN3ltaHEtdkhnYTBjQ2s2VjVud0xWTS16cUxmMTRKSGlEdmxYdVAxeDNDVlJKczBWbXZJckhXamVocGlUdTNnN21GOGQ5ZjlIOG1XdW9RZ1dMRE9wOFhpRTl6bVF5SmlQejNMNmJOMVA1cXlrRjdOQ20zcXpwS0dScWpLT2pNMjJONTd3bEhzLXFHR243MVE?oc=5",
-   "source": "NSE circulars",
-   "date": "Mon, 20 Jul 2026 19:45:05 GMT"
-  },
-  {
    "title": "NSE, BSE Tests Closing Auction Session Mechanism Ahead Of August Launch: Here’s How It Will Affect Closing Prices Of Stocks - Outlook Money",
    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNaWNUU2JYaHhmY20wY3JRaXh2aGtEOUdJRk9UYWJYZGIwZTh4VjZqdFNaR1NtSVNVS2ZKaGl5dW5OQ3FFZHVvaWZJN3M4UDRSeVZkM2NZYVFWNVhMbE9PcDNkdmh3S1FSTzktVloxV2c0ZmUwM0pqRC1qX2tyenM5U3NlekhQWFM2QjM0Z2lIN3dQVTlEWFI1bUY3SjFfbDdkVWtCbUFR0gGzAUFVX3lxTE4wU2pEWkxQUXRUdGRYS3hZQVB3YVZtR19Bd0hjUTI2Q1N4Q0J3aE8xVWREdnZmaTBQelQxVjU3ZVNweW5yVnJYQUJmdTNuYzZhVWc2MExiaGdGRm5LaGlVYWZLcmc4WUpsd01RVmJ6WXB0Y200OHVBbGhabFBHanpMQVdjQkRBU0lYVmZDTlk3QW1MNW5MREpFZ2x6a2hsWUgyaE41YVNOSTA2dzZTRE1GVWVF?oc=5",
    "source": "NSE circulars",
    "date": "Thu, 16 Jul 2026 09:30:33 GMT"
+  },
+  {
+   "title": "NSE imposes ₹2.07 lakh penalty on Steel City Securities for alleged violations - scanx.trade",
+   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPd1ZlWkk4am51VkVHV1ZETVl0cGlRV3ZDRi1WeUxoRUNLOGd3RE9OV0RtdDU1WEZJaFhKWTJZdGhYZGwyMGRwQUhZTlF2dVZVcEpJZlN3dEtNZkJfaWlHbzVKTWV5d0NiU1RJZTB3WGdILUw5ejd3LTloZl9VRERuWDRSc0JDZGNaSm13WVEwaVU4VllIaDVwbjBpaWJOQ0ZMd002a2JYRVZ2SXRuZThMaTNZWGVfZkYxeVFjVGNDejQ3R2QtYUJZYUlycF9Gcjg?oc=5",
+   "source": "NSE circulars",
+   "date": "Thu, 02 Jul 2026 07:00:00 GMT"
   },
   {
    "title": "Advit Jewels hits new high as stock exits T2T segment; up 61% from IPO price in 15 days - Moneycontrol.com",
@@ -459,10 +459,10 @@
    "date": "Thu, 02 Jul 2026 07:00:00 GMT"
   },
   {
-   "title": "NSE imposes ₹2.07 lakh penalty on Steel City Securities for alleged violations - scanx.trade",
-   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPd1ZlWkk4am51VkVHV1ZETVl0cGlRV3ZDRi1WeUxoRUNLOGd3RE9OV0RtdDU1WEZJaFhKWTJZdGhYZGwyMGRwQUhZTlF2dVZVcEpJZlN3dEtNZkJfaWlHbzVKTWV5d0NiU1RJZTB3WGdILUw5ejd3LTloZl9VRERuWDRSc0JDZGNaSm13WVEwaVU4VllIaDVwbjBpaWJOQ0ZMd002a2JYRVZ2SXRuZThMaTNZWGVfZkYxeVFjVGNDejQ3R2QtYUJZYUlycF9Gcjg?oc=5",
+   "title": "DCM Shriram International board ratifies ₹59,000 NSE fine - scanx.trade",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZ1gyVUVIcDlmcFJQNGxHOEU1cjJlbnZ6YjFVRFpBVHFPbXEtOVpCRWF0bk9GczdsYkY0LVhybVlUTDRhWHFQZkdzMDh6ZVEzSUVaUnZGUExQQ29jM0Fsbjc1SV9QclVwdTNzNERjS3N6N2F5YV9GdzZsR21aQkhYUURwNUcyZ2NabXhNS19lcmpYTnZvNVc2VVozQlZPX0dmMWpjR3R0RDFQNk82VEk5VkdLMA?oc=5",
    "source": "NSE circulars",
-   "date": "Thu, 02 Jul 2026 07:00:00 GMT"
+   "date": "Sun, 19 Jul 2026 10:24:26 GMT"
   },
   {
    "title": "Reits Could Soon Feature In Nifty Equity Indices As NSE Revises Eligibility Rules - Outlook Money",
@@ -471,10 +471,16 @@
    "date": "Tue, 14 Jul 2026 12:14:17 GMT"
   },
   {
-   "title": "DCM Shriram International board ratifies ₹59,000 NSE fine - scanx.trade",
-   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZ1gyVUVIcDlmcFJQNGxHOEU1cjJlbnZ6YjFVRFpBVHFPbXEtOVpCRWF0bk9GczdsYkY0LVhybVlUTDRhWHFQZkdzMDh6ZVEzSUVaUnZGUExQQ29jM0Fsbjc1SV9QclVwdTNzNERjS3N6N2F5YV9GdzZsR21aQkhYUURwNUcyZ2NabXhNS19lcmpYTnZvNVc2VVozQlZPX0dmMWpjR3R0RDFQNk82VEk5VkdLMA?oc=5",
+   "title": "NSE to launch India's first domestic natural gas futures on July 27 after SEBI approval - Moneycontrol.com",
+   "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQT0VLM0V3QXNxSFNBTGFYalJNLVl2a3c1RWFVRDZQNkxyOGJIb1FrZDVnWGY2VkhxVG1mSGZKMDFyYmxFcFlETlZRNFdWUmdEalh5YUF0bEpDai1jbmZSZzJjZVRWZGdSZXJVWTZGUzRvcXpPQVNZNUhXQkF5UzJyQU1RTHVSN0l6eTlwT05OM3Nma2c2RU9lQmlvd1NpNVB6cUstYllwZ3JEcmd1UzhteHNNdlAxcXE0a3JYSy0wb0U3SV9RYk1GY2NmU1FlOWt5QlNwWjBERjhFazFVUVVvdC1SRlg4R2PSAewBQVVfeXFMUEtRdmtKR1pFY0RVVUVOYXNXWjd5MF9YYklISXZmb05xS0pGUnI0eGdwSi1XWFFRUnRKSlhTRnBIM0hqdUp2R3pBQTdWWVhSRkVDUjlVQ29pOFZ5UG8xaUpZQWRGYThiYjdUZTM1anM5MTR3d1ptMk5NM1N5SWpsa2VSWlBnSTVkWlBuSERzSXNUbWo3WFJJSFpiRlNXeXRPZEpKNFp2dnlwRnRrc3JSMlA5Y2IwR1pSLUhNSnE5WnZEN0FDUDQ0YUJYT0FuQ3lOeTJRTVVtWTMwaUFXTmc2ME9YX1VPNDZmUVFaWEg?oc=5",
    "source": "NSE circulars",
-   "date": "Sun, 19 Jul 2026 10:24:26 GMT"
+   "date": "Wed, 08 Jul 2026 07:00:00 GMT"
+  },
+  {
+   "title": "NFL board seeks waiver of NSE fine on director non-compliance - scanx.trade",
+   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOVG5Dc1JMUzNWaEVFXzJ6U3hUd0ZzN3BRVGZjVTRDNFlXTXdlN3ltaHEtdkhnYTBjQ2s2VjVud0xWTS16cUxmMTRKSGlEdmxYdVAxeDNDVlJKczBWbXZJckhXamVocGlUdTNnN21GOGQ5ZjlIOG1XdW9RZ1dMRE9wOFhpRTl6bVF5SmlQejNMNmJOMVA1cXlrRjdOQ20zcXpwS0dScWpLT2pNMjJONTd3bEhzLXFHR243MVE?oc=5",
+   "source": "NSE circulars",
+   "date": "Mon, 20 Jul 2026 19:45:05 GMT"
   },
   {
    "title": "Kontor Space revises EGM notice for preferential issue disclosures - scanx.trade",
@@ -489,10 +495,10 @@
    "date": "Fri, 17 Jul 2026 11:34:38 GMT"
   },
   {
-   "title": "Actelis Networks Received Notice of Delisting - TradingView",
-   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZTh1Rllub3U3NHQ4Q0EzNmozWE1tbTR1V215WGdHeklQVi0tV3ZmVlpxaklCVTJEbmx3RGlmcUFwOFZmU1dQcHlYUXBXTHpUZTZUYktmbEdhVWNUQlU4Q3lQX1llb2tDYlVjTWJkLXRzOUxBb3c0UTJGVXd6cC11aThObmFVNFZ6eFpGRE9nWGlFc203d1JVWXpHMWZlWHRtWEE4b05NcDR1Y1E?oc=5",
+   "title": "REG - Axis Bank Ltd Axis Bank Ltd (144A) - Allotment of AT 1 Notes - TradingView",
+   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQd2NiUm8xbHZhR2JjdUxJcU13aHR6QW5uZE9mVUZ2WXlxWFFCLTkwWjlMRGhXWFdxNGZKTWFuQlN0V3RxOTRDR09PNUhDSXprTDJ2bVZZaFk0Vk9ibHZUa2t6eTRYVHN0cVE3dy1xZmtUU1lEeVVMVHJGVWNNdkpaVVk0UE94OUpwY1Z3WWphQmlVN2Z5ekJ0VkwzdXVQT3BmOVhsbU9hVGZmbzBfcFU3TTkyQjZvQkg3X3VGTlFrNUVhRGZOdXRNWWQ2U1JtejR0aHc?oc=5",
    "source": "NSE circulars",
-   "date": "Mon, 13 Jul 2026 21:03:00 GMT"
+   "date": "Wed, 15 Jul 2026 06:00:00 GMT"
   },
   {
    "title": "Curis Lifesciences fined Rs 5,900 by NSE for delayed compliance - scanx.trade",
@@ -501,22 +507,10 @@
    "date": "Fri, 03 Jul 2026 07:00:00 GMT"
   },
   {
-   "title": "REG - Axis Bank Ltd Axis Bank Ltd (144A) - Allotment of AT 1 Notes - TradingView",
-   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQd2NiUm8xbHZhR2JjdUxJcU13aHR6QW5uZE9mVUZ2WXlxWFFCLTkwWjlMRGhXWFdxNGZKTWFuQlN0V3RxOTRDR09PNUhDSXprTDJ2bVZZaFk0Vk9ibHZUa2t6eTRYVHN0cVE3dy1xZmtUU1lEeVVMVHJGVWNNdkpaVVk0UE94OUpwY1Z3WWphQmlVN2Z5ekJ0VkwzdXVQT3BmOVhsbU9hVGZmbzBfcFU3TTkyQjZvQkg3X3VGTlFrNUVhRGZOdXRNWWQ2U1JtejR0aHc?oc=5",
-   "source": "NSE circulars",
-   "date": "Wed, 15 Jul 2026 06:00:00 GMT"
-  },
-  {
    "title": "M Tek Copper pays ₹3.77 lakh penalty to NSE for board non-compliance - scanx.trade",
    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNNkVGQ0kzemMtSFdmY1NremkxRldST0Fvc3NMWm1lNzExUHR1azZ6QjFEbmlHekdZbFNwTXVncHRvQkxHVHYxVnBuV01XZ21FdG84dy1lcFYwOTBoWjZiZGRsRm9mWVp0LXphYjZQYVA5MUlNcWpMMUU3Wmlxd0p5Tm80NkZzYi1CRXN6dDYwa1lRVXFwRFlvUFh0amsxbTlPVjRSMGNZT1JfUklUVVVoYUEtNVB0RXRJaElPaU8zM1NaZw?oc=5",
    "source": "NSE circulars",
    "date": "Mon, 20 Jul 2026 19:55:08 GMT"
-  },
-  {
-   "title": "NSE to launch India's first domestic natural gas futures on July 27 after SEBI approval - Moneycontrol.com",
-   "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQT0VLM0V3QXNxSFNBTGFYalJNLVl2a3c1RWFVRDZQNkxyOGJIb1FrZDVnWGY2VkhxVG1mSGZKMDFyYmxFcFlETlZRNFdWUmdEalh5YUF0bEpDai1jbmZSZzJjZVRWZGdSZXJVWTZGUzRvcXpPQVNZNUhXQkF5UzJyQU1RTHVSN0l6eTlwT05OM3Nma2c2RU9lQmlvd1NpNVB6cUstYllwZ3JEcmd1UzhteHNNdlAxcXE0a3JYSy0wb0U3SV9RYk1GY2NmU1FlOWt5QlNwWjBERjhFazFVUVVvdC1SRlg4R2PSAewBQVVfeXFMUEtRdmtKR1pFY0RVVUVOYXNXWjd5MF9YYklISXZmb05xS0pGUnI0eGdwSi1XWFFRUnRKSlhTRnBIM0hqdUp2R3pBQTdWWVhSRkVDUjlVQ29pOFZ5UG8xaUpZQWRGYThiYjdUZTM1anM5MTR3d1ptMk5NM1N5SWpsa2VSWlBnSTVkWlBuSERzSXNUbWo3WFJJSFpiRlNXeXRPZEpKNFp2dnlwRnRrc3JSMlA5Y2IwR1pSLUhNSnE5WnZEN0FDUDQ0YUJYT0FuQ3lOeTJRTVVtWTMwaUFXTmc2ME9YX1VPNDZmUVFaWEg?oc=5",
-   "source": "NSE circulars",
-   "date": "Wed, 08 Jul 2026 07:00:00 GMT"
   },
   {
    "title": "REG - Axis Bank Ltd Axis Bank Ltd (144A) - Updates - TradingView",
@@ -525,16 +519,22 @@
    "date": "Tue, 07 Jul 2026 11:44:00 GMT"
   },
   {
-   "title": "Alpex Solar pays ₹7,080 fine for delayed compliance report - scanx.trade",
-   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQcjI1cEkwQTVCYTNvNWpyNjVqNzJHRmQzWjVaYzVLLU9yb25HcEtnckRLempaT1p1c0dJZWR2c080amc1ejNOZjJhY3JqZEJ3cFpibGJjN2plVEVWNDdZMzFnTEpyM0FJRkluVWI0WjR6aHdSdTIyQzFsclp2Y0ROVmYyN2NhcGk4Nm04OWVMVFhya2FITnBTbkl4QV9zenNtSkYxTXItM0FOS2hZVjJQLXdwOW0?oc=5",
+   "title": "Captain Polyplast shares list on NSE from July 23 - scanx.trade",
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPa3dQZTB6a1FucXlxOXhZXzJyY2haVnRMY25OcmZ2N0dHbmdaTjZJbVB2RWZKWGk5VEZadWhzVU5yWG5zdzBrMFRVT3ZRaDM5U193dmcydFJydTVORjZSTUlSUnBtX3kxdjBiaXFmdmNSQnpTUENTeTl0WG0yNF9MRERCaGl4bmlTRktpZWJhZFRESlYwTEhING5SbGpyV013OHBaRllzV2lWdGxYc2JDWA?oc=5",
    "source": "NSE circulars",
-   "date": "Mon, 20 Jul 2026 17:26:16 GMT"
+   "date": "Tue, 21 Jul 2026 12:23:17 GMT"
   },
   {
    "title": "SPAR Group Received Notice of Delisting - TradingView",
    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPM2M4UWxHNmRBQVpzV1VYQTkyekZWRUUtdWd0dE1jc3Y5a3Q2UWxrUDc3WFpRbGdzNktLTElTTjAzOGdkUmdBTWpTREZwVGFJZm1VWWl5eG44V2dzWjBCTXNPSm0yOGlQN2lHeVBERklCcldmcDVSd2c5SmM5UjhzWFNIZTRfT0xDWEE4MjRlMm9kdUxFMmFNbkFRZDNqcEdob01n?oc=5",
    "source": "NSE circulars",
    "date": "Wed, 15 Jul 2026 20:43:01 GMT"
+  },
+  {
+   "title": "Weekly Recap: Q1 revenue and profit growth and scaling agentic AI platform - TradingView",
+   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNR3cxRVFYQnhlT016dTlyT3puTkRjU1NPYy1KcHpnYVI3TDRmbjk2Nm9FQmV6NWR0a2V0YWhPVmgtU2hPdWpwTWI2UEgzSTl2dWNaTU04bDVtTEM1UE9sTlFnd3lxdUJZd3pEQkZaN0dzekNyb09vdXRQSGtVMzg0OFdVUHptUE1Gb3BRZ1N0OVdUQ1lRMi11dUZ5RmJqbGJWQTZaOUlZUktpdTFiaEtXLW14Z0pUSjlOTmhESjdTb2FBeEM1b0J1ZGUwWEdQYWVf?oc=5",
+   "source": "NSE circulars",
+   "date": "Mon, 20 Jul 2026 01:13:00 GMT"
   },
   {
    "title": "Caring Brands Received Notice of Delisting - TradingView",
@@ -555,28 +555,22 @@
    "date": "Thu, 16 Jul 2026 05:20:47 GMT"
   },
   {
-   "title": "Weekly Recap: Q1 revenue and profit growth and scaling agentic AI platform - TradingView",
-   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNR3cxRVFYQnhlT016dTlyT3puTkRjU1NPYy1KcHpnYVI3TDRmbjk2Nm9FQmV6NWR0a2V0YWhPVmgtU2hPdWpwTWI2UEgzSTl2dWNaTU04bDVtTEM1UE9sTlFnd3lxdUJZd3pEQkZaN0dzekNyb09vdXRQSGtVMzg0OFdVUHptUE1Gb3BRZ1N0OVdUQ1lRMi11dUZ5RmJqbGJWQTZaOUlZUktpdTFiaEtXLW14Z0pUSjlOTmhESjdTb2FBeEM1b0J1ZGUwWEdQYWVf?oc=5",
-   "source": "NSE circulars",
-   "date": "Mon, 20 Jul 2026 01:13:00 GMT"
-  },
-  {
-   "title": "Belding board approves proposal for direct listing on NSE Main Board - scanx.trade",
-   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQMjJjN0N5LVdHRUhDSnhDSXFYSmw3UFZjTUlqeWlhLW1RSjRwVms3T3NWaHRQUHVJMU9XVVM1RUp1QUcwcERUZDIzeTVRS3ZQQklDRDZSZFdrMWxOM2lqZnp5dldrRWpLcW1Pekw0dGo1QzBaT2c5WkRXRmRPSFgzcjZ5cXFjZ2M5YmJQY21qS1RrOVBmZlllTEdyVEtzc0VQajk0aV9uak51cjhyWm5TUFNaa25FdkJIdWhv?oc=5",
-   "source": "NSE circulars",
-   "date": "Fri, 17 Jul 2026 16:32:43 GMT"
-  },
-  {
    "title": "NSE To Launch India's First Domestic Natural Gas Futures - Construction World",
    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQYzBjbU9ycDJwUjVPc0hQb0dWcEpvT1IyUDRUZ2FqR1JWYUxnRFQtNFFzenRxSnZtS3ZNVXRXS2hOd29rbVpEcHBtNHRpQmVOMlFiS01Md3ZwZno1cUM3dzUtN2F0RmlrTGRMb1oxNFF3dlVHTEREY2tjNENHRFRleUxNYUVzakVoaWlJNTI3aFNhTHAzYmVkZHg1cHhuZ1hWSE5VREx5QmtQaUNYNEgtVWtmS1RaRGMwTnVMcGNfMWY3cFVKdDFv?oc=5",
    "source": "NSE circulars",
    "date": "Thu, 16 Jul 2026 11:59:44 GMT"
   },
   {
-   "title": "Caliber Mining and Logistics IPO fully subscribed on Day 1; check price band, lot size and key dates - Upstox",
-   "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOUUZmd2ZIOGNUcTM3bWZvYzhSNFRWenpjQ2lYMWJveUZjNVZWTF9OZzRwUGdMSGt0QWp2UVFzcUdqclpBUEhqeHVqcDZKd3g2SGU2amdPUGdqa0dXY2NBeDRlQjdWeWUzUmZzeHZ2UVA1MmRBdWNmeFBvVjFZRlJEbzlBRXlUMEhJZW44aDl3MUpETjh3STRtMUY2VE03VWNHUTlBdjhpamZDc2F6UUFBX2JGYWljYXplRmRNSUpmMy13clNsckd0UU5RcGNjRXo0S1hsNVVYcmt3djB0SEFXTDNYMHNpXzB4MlE?oc=5",
+   "title": "Alpex Solar pays ₹7,080 fine for delayed compliance report - scanx.trade",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQcjI1cEkwQTVCYTNvNWpyNjVqNzJHRmQzWjVaYzVLLU9yb25HcEtnckRLempaT1p1c0dJZWR2c080amc1ejNOZjJhY3JqZEJ3cFpibGJjN2plVEVWNDdZMzFnTEpyM0FJRkluVWI0WjR6aHdSdTIyQzFsclp2Y0ROVmYyN2NhcGk4Nm04OWVMVFhya2FITnBTbkl4QV9zenNtSkYxTXItM0FOS2hZVjJQLXdwOW0?oc=5",
    "source": "NSE circulars",
-   "date": "Fri, 17 Jul 2026 09:39:37 GMT"
+   "date": "Mon, 20 Jul 2026 17:26:16 GMT"
+  },
+  {
+   "title": "Mono Pharmacare FY26 net profit falls 89% to ₹35.28 lakh - scanx.trade",
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOSE9lVkE3SHoxVmNuUkNZR0JicnJtbk1KcHpmRnhLWHotTmVMRWROUXlNbm9SVGZwbVMtMlRmQzlBbzE2czBOWVRnMm83bEg0UEgxQ0daVDlURVIxNkZKSTVhQWxuSXctQVhXVWh3WWFhUnVFTFZZa0dZV2I4bTBtX3d4VlRvNTBkTFE5SlpBN0FTSF8wQWZSRVU4eTZXbWFKel9FVGxFdWxiSHJ0QnVXag?oc=5",
+   "source": "NSE circulars",
+   "date": "Fri, 17 Jul 2026 09:58:54 GMT"
   },
   {
    "title": "Globe Enterprises gets NSE observations for Morabia demerger - scanx.trade",
@@ -606,7 +600,13 @@
    "title": "Volumes spurt at Canara HSBC Life Insurance Company Ltd counter - Business Standard",
    "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPRjN5TkxkaHlld3BKbkJnYUh6Qy1mM0ZNR3VWUjJLLTJaYXczeGpWN0M5N3JBYWhUZmJvOUhwMEN1VXItazNfWW44Z1AwMzZjN0tvTEdLMTZOLU9sbTNXVUtiWDUxbGRIVXdLc0VtNEZDLXYyYjRDSlpYaWR1dS1fMm5aYXc0RThicURoN3VKX1ZvTmdJQ2pRODBJbnRvNkhtR2V2ZnZXWDU5MC0wRWtadzRDc3ViRktUdzVUTTZPN2NTX3psNmRoajl3RUJxT0ROR2xyTWcxaXVWV1lDU0HSAeMBQVVfeXFMT3JUekhyM3AtMVp5TFRZWnowMmRmeUVVZ1hiWW1NWkctV2txN1hvVmFWMEEycmpiYllBVzVBTjZOYXJlLXF3TTJLX0V1N3psSTJmUnZTVFVDVnFHcnRUSFZLbkozTjZoWi01VjJDQ2dodzA5cFFKUVc1TC14N1poZFJNSTY3T2tIZzc5YUxwbHA3dzRoT0N6SW1TR0J0aGVsRVNXQ1N1ZDcybVdkZjRXM2lETGlvU2dlNlZSdGU2RzBmb3VOMlBHcmgzYkR1YVd2anZkZXNCQ1BqTXZEUmtacWpoQ0k?oc=5",
    "source": "NSE circulars",
-   "date": "Mon, 13 Jul 2026 09:20:02 GMT"
+   "date": "Mon, 13 Jul 2026 07:00:00 GMT"
+  },
+  {
+   "title": "Ugro Capital files NCLT application for amalgamation with Profectus Capital - scanx.trade",
+   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQa3R1aENJVGlTWkxqUm9pX2tqZUFDb3Z2VHZqM0dqanA0SWdtcDZLSmZBbHdSTVlZWTJING5nR2plajhJMi1WUnp0V1p2aG9WdTV2SWx4SWZwSXNHbDJhV096b1g1NGg4RnFaYzZ4Z0duMlpfNm9mMTBUdHhFbWZzYnhDRi1JVE9DdmpkamJPOUFKQjRGSHVZR29pNGpncjM2b01FeHZMN3ZyQUw4WTlWSU5CeWpjdFRpUkNvMXZUZ0Q?oc=5",
+   "source": "NSE circulars",
+   "date": "Fri, 17 Jul 2026 07:00:00 GMT"
   },
   {
    "title": "NSE IPO: Roadshows Next Week, September Listing On The Cards - Business Today",
@@ -615,16 +615,16 @@
    "date": "Tue, 07 Jul 2026 07:00:00 GMT"
   },
   {
-   "title": "Sanginita Chemicals independent director resigns - scanx.trade",
-   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNcFJ5ZjJhSVU0VUd4dHNWTjF4cW1Fdk1Kd0pRLS1rVEMwdS10bTgxbDZhQV9rRWZUX0JjZVptQURCeXdVeUpxNUFhRnNPSkUyTHNnaG1kb28ybHhIYlRhMmlkQVVPeWhxRnpDZ3BGTkpWdGl4eGR1RVd4OENEWHA4eHBJT0w3WC04VkJwd0x3U0dMZUN6UXk2ZGtaNmJTSkR4MEdBZ3hxNzE?oc=5",
-   "source": "NSE circulars",
-   "date": "Mon, 20 Jul 2026 19:50:06 GMT"
-  },
-  {
    "title": "Sanstar shares begin trading on NSE after preferential allotment - scanx.trade",
    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNaFFnQmhMVTdicTJ0ZkJkeTJhWFpOekxHTEZwSFRUYlJpbHh0OXdHaGF6SzNLb242Z25GUW1FV2lFcXRyNlZIVjZpYW1TQjdyRllLUTNhMGRXNzM0QzNpRG8xOU1vRFdzN25vYXZwbWV6QXFkMTROUzNVUkdiYVZDZVdUOTVaYmd3NHA5V3dMZS1aTjQ5ZXBjajZwVzVuSVZ0MmNCREVBWEtySUExUUV1cF9VcGhGYnlt?oc=5",
    "source": "NSE circulars",
    "date": "Thu, 09 Jul 2026 07:00:00 GMT"
+  },
+  {
+   "title": "SBI Funds Management IPO listing date today. GMP, analysts signal strong debut of shares in Indian stock market - livemint.com",
+   "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOczR3VUEyek9WYm1WOFR1bEVLbW91QTJwQU83MGVVaHd1MUZBMXdwUWNhSEl4cDN0dDdqRlJCVk9SdHNYWGZPTnI2ZDNkLTkxT01CSUxwakpLQTJxbnNDcDJTcVEyU2pWN21odXJPTDQwTjZXekRHYXE3UkdDRUNwV3pmZmUzb2RyMjh0R3F4Y0pIbjlBY0JzZGVsSllybF83ZEtIUkZuMmNKSTFxOU9wV2oxY1VMV3U3emhrSjJsZnItc0NlUTR3aWlBWUR2R3FxRVcxbnlhb1Vpb3BLSkViUUFlanctWXJEdEE0TlpjcmQ2SFZCN1M3MNIB_gFBVV95cUxQZDlIYVA2MS1RVjJ3NmpvbzlYMGFDQUwxWUlXQ3VTd0hvYjJaZFBZQWxiOHk0U0JGVEhXcjNtd3B0TGc3ZlMzLVJCTFItZkNuLWh6eGcwUTZ5eV96bGJsU3Nsc0VrOUdUUFZTMi1BY3VHTFd6dUxGRFFUU3VEWTY3NEtWc1gwY05uWHowd0FiV3pPMjRvZHVvcm1HeTU1WFoyMU95R0RaaXFGRndpaDJMeF9scDljU3hHd2sySEJLOFRVZEdJNjdfNjVneURWWlRpcmQxc0hheURCWEZfVWhPOUcwSkVQRW5UUkRPNUVkUVVJQ1Q0YnJkcDNObDZadw?oc=5",
+   "source": "NSE circulars",
+   "date": "Tue, 21 Jul 2026 00:54:19 GMT"
   },
   {
    "title": "Delhi High Court Issues Notice On Google's Appeal Against Order Holding It Liable For Trademark Infringement Through Keyword Advertising - IndiaIPO",
@@ -633,22 +633,22 @@
    "date": "Fri, 10 Jul 2026 12:13:46 GMT"
   },
   {
-   "title": "Karnataka Bank appoints Dr. M Aruna Shyam as Independent Director - scanx.trade",
-   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQWkduUHVaU1NjQ202ZWd2di1sN2Q4NVZMRjBwV3VtclFpZTh1S2NCWDdROXV4S1pBNmdzUnlsaEEzYjd1Y21FTnZGUnczWG81TFhjWmpUQy1BbENST3dBdnRaQnVvX242bjBSdzY2N19vajZ0SjI1LUlZQnJORGg2Rnkzbk44VlFnNm5EVTlWYzhhWjNyWHBDcWVMak9JYk0yNWI3Q3BXSDFDTWZDeV9FWHd5emhqbmxoNXdQd1FB?oc=5",
+   "title": "Bhagyanagar India discloses beneficial owners for EGM - scanx.trade",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPOUh3WVF1Z2ZFVUVMd3AxanE4cnhMQ0MyeUtyTF9PM0VvWkowbU40S0c2N09yZVV1S04tVEJrMmRKMF9HMGdMTjlsQUFIdHFNeVJjRlRuWFhfWHg3dGgwOHc0VV9GNGVyM2pXOWhLWV8xcDVFQUJBSFhhLWF1eHpmTnRyLWxwMVJ0RVh6NzdpRF9DYzkxY0tHeXU5YjVBcTdVMW8waWU0Ykxnd3FwNHE0?oc=5",
    "source": "NSE circulars",
-   "date": "Mon, 20 Jul 2026 13:40:56 GMT"
-  },
-  {
-   "title": "Olaplex (NASDAQ: OLPX) removed from Nasdaq listing via Form 25 - Stock Titan",
-   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQSTJTWmpVTWtua3J4dTBKOHVPcXQweVprX0FBVVkxOU4zSng2alBkOFl1SlFvUDVOTXZUS3JrOFl4dDRwazdUeDZFMlJtOE8yN2xYQXpLQWhOUGtzT25rcjFpLUtHVXUxTWJRS0FGRlJBQ1gxVXJhcmh4Tk5CRHVsTnc3aEhwa2JFRHpNdFdDaXVReGNRNGNHRmRkWEVxY2ZmYmc?oc=5",
-   "source": "NSE circulars",
-   "date": "Tue, 07 Jul 2026 13:04:05 GMT"
+   "date": "Tue, 14 Jul 2026 18:01:05 GMT"
   },
   {
    "title": "REE Automotive to be delisted from Nasdaq on July 7 - Stock Titan",
    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQNzh0aTdVZFpmSDBJTk50TDRNMDhNLV9xZWM5cTNFUlh4cVZfek5hZnA5WjR1RzJ0MjFIb1NXTXQwaXFPVGFkY0NEX2FPS0owcjFPa1ZWYWx1Wk9MUEdKTEVOcmRwLTJ6ZmxJdTBGQWJUQ2lsMlc2UmZIemNhWEtBNTljSmpYbzgyUi1Nbm82NWhSMFUycHEtTFdTNGQ1Vzk4ZURpRm5xdVVTdw?oc=5",
    "source": "NSE circulars",
    "date": "Fri, 03 Jul 2026 07:00:00 GMT"
+  },
+  {
+   "title": "Olaplex (NASDAQ: OLPX) removed from Nasdaq listing via Form 25 - Stock Titan",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQSTJTWmpVTWtua3J4dTBKOHVPcXQweVprX0FBVVkxOU4zSng2alBkOFl1SlFvUDVOTXZUS3JrOFl4dDRwazdUeDZFMlJtOE8yN2xYQXpLQWhOUGtzT25rcjFpLUtHVXUxTWJRS0FGRlJBQ1gxVXJhcmh4Tk5CRHVsTnc3aEhwa2JFRHpNdFdDaXVReGNRNGNHRmRkWEVxY2ZmYmc?oc=5",
+   "source": "NSE circulars",
+   "date": "Tue, 07 Jul 2026 07:00:00 GMT"
   }
  ]
 }
