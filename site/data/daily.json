@@ -12123,7 +12123,7 @@
    "rfq_turnover": 4394.08,
    "rfq_trades": 9439,
    "obpp_turnover": null,
-   "egr_turnover": 2.0561,
+   "egr_turnover": 2.256,
    "nse_fo": 7954869.62,
    "bse_fo": 16577320.69,
    "share_cm": 92.2,
@@ -12163,7 +12163,7 @@
    "rfq_turnover": 4394.08,
    "rfq_trades": 9439,
    "obpp_turnover": null,
-   "egr_turnover": 2.0561,
+   "egr_turnover": 2.256,
    "nse_fo": 8640674.96,
    "bse_fo": 48497753.4,
    "share_cm": 92.16,
@@ -12203,7 +12203,7 @@
    "rfq_turnover": 4394.08,
    "rfq_trades": 9439,
    "obpp_turnover": null,
-   "egr_turnover": 2.0561,
+   "egr_turnover": 2.256,
    "nse_fo": 11170428.26,
    "bse_fo": 1791974.08,
    "share_cm": 91.74,
@@ -12243,7 +12243,7 @@
    "rfq_turnover": 4394.08,
    "rfq_trades": 9439,
    "obpp_turnover": null,
-   "egr_turnover": 2.0561,
+   "egr_turnover": 2.256,
    "nse_fo": 21305499.5,
    "bse_fo": 2835860.8,
    "share_cm": 90.55,
@@ -12257,6 +12257,46 @@
    "_errors": {
     "mcx": "MCX 2026-08-24: HTTP 403"
    }
+  },
+  "2026-08-25": {
+   "nse_cm": 106655.03,
+   "nse_stk_fut": 220647.74156603502,
+   "nse_idx_fut": 37709.71110545,
+   "nse_fut": 258357.45267148502,
+   "nse_stk_optp": 504657.050585495,
+   "nse_idx_optp": 56147875.0605544,
+   "nse_optp": 56652532.11113989,
+   "bse_cm": 7978.7129087,
+   "bse_stk_fut": 0.751320375,
+   "bse_idx_fut": 228.7560115,
+   "bse_fut": 229.507331875,
+   "bse_stk_optp": 1.2134745,
+   "bse_idx_optp": 4282571.317215125,
+   "bse_optp": 4282572.530689625,
+   "nse_com": 6525.7461154,
+   "cx_nse": {
+    "gold10g": 3.37,
+    "crude": 2084.88,
+    "electricity": 53.67,
+    "natgas": 25.54
+   },
+   "rfq_turnover": 4394.08,
+   "rfq_trades": 9439,
+   "obpp_turnover": null,
+   "egr_turnover": 2.256,
+   "_errors": {
+    "mcx": "MCX 2026-08-25: HTTP 403"
+   },
+   "nse_fo": 56910889.56,
+   "bse_fo": 4282802.04,
+   "share_cm": 93.04,
+   "share_stk_fut": 100.0,
+   "share_idx_fut": 99.4,
+   "share_fut": 99.91,
+   "share_stk_optp": 100.0,
+   "share_idx_optp": 92.91,
+   "share_optp": 92.97,
+   "share_fo": 93.0
   }
  }
 }
