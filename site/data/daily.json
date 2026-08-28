@@ -12324,9 +12324,6 @@
    "rfq_trades": 17086,
    "obpp_turnover": null,
    "egr_turnover": 2.0235,
-   "_errors": {
-    "mcx": "MCX 2026-08-26: HTTP 403"
-   },
    "nse_fo": 7840047.43,
    "bse_fo": 18055602.53,
    "share_cm": 89.78,
@@ -12336,7 +12333,10 @@
    "share_stk_optp": 100.0,
    "share_idx_optp": 29.16,
    "share_optp": 30.08,
-   "share_fo": 30.28
+   "share_fo": 30.28,
+   "_errors": {
+    "mcx": "MCX 2026-08-26: HTTP 403"
+   }
   },
   "2026-08-27": {
    "nse_cm": 115071.41,
@@ -12364,9 +12364,6 @@
    "rfq_trades": 17086,
    "obpp_turnover": null,
    "egr_turnover": 2.0235,
-   "_errors": {
-    "mcx": "MCX 2026-08-27: HTTP 403"
-   },
    "nse_fo": 8124661.71,
    "bse_fo": 64371001.71,
    "share_cm": 89.6,
@@ -12376,7 +12373,10 @@
    "share_stk_optp": 100.0,
    "share_idx_optp": 10.72,
    "share_optp": 11.13,
-   "share_fo": 11.21
+   "share_fo": 11.21,
+   "_errors": {
+    "mcx": "MCX 2026-08-27: HTTP 403"
+   }
   }
  }
 }
