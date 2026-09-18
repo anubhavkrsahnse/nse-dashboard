@@ -12800,10 +12800,10 @@
     "electricity": 18.77,
     "natgas": 75.96
    },
-   "rfq_turnover": 11934.69,
-   "rfq_trades": 9650,
+   "rfq_turnover": 10153.93,
+   "rfq_trades": 12152,
    "obpp_turnover": null,
-   "egr_turnover": 1.0169,
+   "egr_turnover": 0.9375,
    "nse_fo": 20623137.93,
    "bse_fo": 2797114.35,
    "share_cm": 92.52,
@@ -12826,13 +12826,13 @@
     "electricity": 7.7,
     "natgas": 110.26
    },
-   "rfq_turnover": 11934.69,
-   "rfq_trades": 9650,
+   "rfq_turnover": 8747.97,
+   "rfq_trades": 14654,
    "obpp_turnover": null,
    "egr_turnover": 1.0169,
    "_errors": {
     "nse_cm": "https://archives.nseindia.com/archives/equities/mkt/MA140926.csv -> HTTP 404",
-    "nse_fo": "https://archives.nseindia.com/content/fo/BhavCopy_NSE_FO_0_0_0_20260914_F_0000.csv.zip -> HTTP 404",
+    "nse_fo": "HTTPSConnectionPool(host='nsearchives.nseindia.com', port=443): Read timed out. (read timeout=30)",
     "bse_cm": "BSE CM bhavcopy 2026-09-14: zero total",
     "bse_fo": "BSE FO bhavcopy 2026-09-14: zero total (holiday?)",
     "mcx": "MCX 2026-09-14: HTTP 403"
@@ -12860,10 +12860,10 @@
     "electricity": 25.91,
     "natgas": 160.43
    },
-   "rfq_turnover": 11934.69,
-   "rfq_trades": 9650,
+   "rfq_turnover": 10153.93,
+   "rfq_trades": 12152,
    "obpp_turnover": null,
-   "egr_turnover": 1.0169,
+   "egr_turnover": 0.9375,
    "nse_fo": 49125107.5,
    "bse_fo": 4198682.0,
    "share_cm": 92.84,
@@ -12900,8 +12900,8 @@
     "electricity": 13.93,
     "natgas": 237.51
    },
-   "rfq_turnover": 11934.69,
-   "rfq_trades": 9650,
+   "rfq_turnover": 10153.93,
+   "rfq_trades": 12152,
    "obpp_turnover": null,
    "egr_turnover": 1.0169,
    "nse_fo": 8762452.16,
@@ -12940,13 +12940,10 @@
     "electricity": 71.56,
     "natgas": 332.2
    },
-   "rfq_turnover": 11934.69,
-   "rfq_trades": 9650,
+   "rfq_turnover": 8747.97,
+   "rfq_trades": 14654,
    "obpp_turnover": null,
    "egr_turnover": 1.0169,
-   "_errors": {
-    "mcx": "MCX 2026-09-17: HTTP 403"
-   },
    "nse_fo": 10231626.6,
    "bse_fo": 52503090.97,
    "share_cm": 92.72,
@@ -12956,7 +12953,10 @@
    "share_stk_optp": 100.0,
    "share_idx_optp": 15.58,
    "share_optp": 16.23,
-   "share_fo": 16.31
+   "share_fo": 16.31,
+   "_errors": {
+    "mcx": "MCX 2026-09-17: HTTP 403"
+   }
   }
  }
 }
