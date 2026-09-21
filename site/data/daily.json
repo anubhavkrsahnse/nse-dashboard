@@ -12984,9 +12984,6 @@
    "rfq_trades": 22428,
    "obpp_turnover": null,
    "egr_turnover": 1.0126,
-   "_errors": {
-    "mcx": "MCX 2026-09-18: HTTP 403"
-   },
    "nse_fo": 13795041.99,
    "bse_fo": 2172813.27,
    "share_cm": 93.39,
@@ -12996,7 +12993,10 @@
    "share_stk_optp": 100.0,
    "share_idx_optp": 85.85,
    "share_optp": 86.33,
-   "share_fo": 86.39
+   "share_fo": 86.39,
+   "_errors": {
+    "mcx": "MCX 2026-09-18: HTTP 403"
+   }
   }
  }
 }
