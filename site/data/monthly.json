@@ -691,5 +691,42 @@
   "share_idx_optp": 57.34,
   "share_optp": 57.87,
   "share_fo": 58.0
+ },
+ "2026-10": {
+  "days": 1,
+  "nse_cm": 131806.96,
+  "nse_stk_fut": 70006.53,
+  "nse_idx_fut": 20764.24,
+  "nse_fut": 90770.77,
+  "nse_stk_optp": 396501.42,
+  "nse_idx_optp": 12758708.76,
+  "nse_optp": 13155210.18,
+  "bse_cm": 12096.99,
+  "bse_stk_fut": 0.2,
+  "bse_idx_fut": 539.63,
+  "bse_fut": 539.83,
+  "bse_stk_optp": 0.25,
+  "bse_idx_optp": 73943774.65,
+  "bse_optp": 73943774.9,
+  "nse_com": 10459.0,
+  "cx_nse": {
+   "gold10g": 0.49,
+   "crude": 10308.98,
+   "electricity": 80.9,
+   "natgas": 67.92
+  },
+  "rfq_turnover": 4233.99,
+  "rfq_trades": 20013.0,
+  "egr_turnover": 1.65,
+  "nse_fo": 13245980.95,
+  "bse_fo": 73944314.73,
+  "share_cm": 91.59,
+  "share_stk_fut": 100.0,
+  "share_idx_fut": 97.47,
+  "share_fut": 99.41,
+  "share_stk_optp": 100.0,
+  "share_idx_optp": 14.72,
+  "share_optp": 15.1,
+  "share_fo": 15.19
  }
 }
