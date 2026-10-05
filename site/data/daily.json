@@ -13200,10 +13200,10 @@
     "electricity": 104.71,
     "natgas": 81.47
    },
-   "rfq_turnover": 4233.99,
-   "rfq_trades": 20013,
+   "rfq_turnover": 6271.33,
+   "rfq_trades": 44423,
    "obpp_turnover": null,
-   "egr_turnover": 1.6547,
+   "egr_turnover": 1.8582,
    "nse_fo": 25115470.98,
    "bse_fo": 2788854.83,
    "share_cm": 91.46,
@@ -13240,10 +13240,10 @@
     "electricity": 93.89,
     "natgas": 68.73
    },
-   "rfq_turnover": 4233.99,
-   "rfq_trades": 20013,
+   "rfq_turnover": 6271.33,
+   "rfq_trades": 44423,
    "obpp_turnover": null,
-   "egr_turnover": 1.6547,
+   "egr_turnover": 1.8582,
    "nse_fo": 58014876.48,
    "bse_fo": 3977072.89,
    "share_cm": 93.86,
@@ -13280,10 +13280,10 @@
     "electricity": 37.18,
     "natgas": 71.27
    },
-   "rfq_turnover": 4233.99,
-   "rfq_trades": 20013,
+   "rfq_turnover": 6271.33,
+   "rfq_trades": 44423,
    "obpp_turnover": null,
-   "egr_turnover": 1.6547,
+   "egr_turnover": 1.8582,
    "nse_fo": 10032348.74,
    "bse_fo": 22263248.38,
    "share_cm": 91.49,
@@ -13320,10 +13320,10 @@
     "electricity": 80.9,
     "natgas": 67.92
    },
-   "rfq_turnover": 4233.99,
-   "rfq_trades": 20013,
+   "rfq_turnover": 6271.33,
+   "rfq_trades": 44423,
    "obpp_turnover": null,
-   "egr_turnover": 1.6547,
+   "egr_turnover": 1.8582,
    "nse_fo": 13245980.95,
    "bse_fo": 73944314.73,
    "share_cm": 91.59,
@@ -13336,6 +13336,20 @@
    "share_fo": 15.19,
    "_errors": {
     "mcx": "MCX 2026-10-01: HTTP 403"
+   }
+  },
+  "2026-10-02": {
+   "rfq_turnover": 6271.33,
+   "rfq_trades": 44423,
+   "obpp_turnover": null,
+   "egr_turnover": 1.8582,
+   "_errors": {
+    "nse_cm": "https://archives.nseindia.com/archives/equities/mkt/MA021026.csv -> HTTP 404",
+    "nse_fo": "https://archives.nseindia.com/content/fo/BhavCopy_NSE_FO_0_0_0_20261002_F_0000.csv.zip -> HTTP 404",
+    "bse_cm": "BSE CM bhavcopy 2026-10-02: zero total",
+    "bse_fo": "BSE FO bhavcopy 2026-10-02: zero total (holiday?)",
+    "nse_com": "NSE COM 2026-10-02: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_CO_0_0_0_20261002_F_0000.csv.zip -> HTTP 404",
+    "mcx": "MCX 2026-10-02: HTTP 403"
    }
   }
  }
