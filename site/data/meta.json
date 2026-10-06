@@ -1,10 +1,7 @@
 {
- "updated_utc": "2026-10-05T22:49:50Z",
- "last_trading_day": "2026-10-02",
+ "updated_utc": "2026-10-06T00:35:38Z",
+ "last_trading_day": "2026-10-05",
  "recent_fetch_errors": {
-  "2026-09-28": {
-   "mcx": "MCX 2026-09-28: HTTP 403"
-  },
   "2026-09-29": {
    "mcx": "MCX 2026-09-29: HTTP 403"
   },
@@ -21,6 +18,9 @@
    "bse_fo": "BSE FO bhavcopy 2026-10-02: zero total (holiday?)",
    "nse_com": "NSE COM 2026-10-02: https://nsearchives.nseindia.com/content/com/BhavCopy_NSE_CO_0_0_0_20261002_F_0000.csv.zip -> HTTP 404",
    "mcx": "MCX 2026-10-02: HTTP 403"
+  },
+  "2026-10-05": {
+   "mcx": "MCX 2026-10-05: HTTP 403"
   }
  },
  "segments": {
