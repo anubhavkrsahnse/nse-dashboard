@@ -13240,10 +13240,10 @@
     "electricity": 93.89,
     "natgas": 68.73
    },
-   "rfq_turnover": 6271.33,
-   "rfq_trades": 44423,
+   "rfq_turnover": 4579.14,
+   "rfq_trades": 15609,
    "obpp_turnover": null,
-   "egr_turnover": 1.8582,
+   "egr_turnover": 1.8862,
    "nse_fo": 58014876.48,
    "bse_fo": 3977072.89,
    "share_cm": 93.86,
@@ -13280,10 +13280,10 @@
     "electricity": 37.18,
     "natgas": 71.27
    },
-   "rfq_turnover": 6271.33,
-   "rfq_trades": 44423,
+   "rfq_turnover": 4579.14,
+   "rfq_trades": 15609,
    "obpp_turnover": null,
-   "egr_turnover": 1.8582,
+   "egr_turnover": 1.8862,
    "nse_fo": 10032348.74,
    "bse_fo": 22263248.38,
    "share_cm": 91.49,
@@ -13320,10 +13320,10 @@
     "electricity": 80.9,
     "natgas": 67.92
    },
-   "rfq_turnover": 6271.33,
-   "rfq_trades": 44423,
+   "rfq_turnover": 4579.14,
+   "rfq_trades": 15609,
    "obpp_turnover": null,
-   "egr_turnover": 1.8582,
+   "egr_turnover": 1.8862,
    "nse_fo": 13245980.95,
    "bse_fo": 73944314.73,
    "share_cm": 91.59,
@@ -13339,10 +13339,10 @@
    }
   },
   "2026-10-02": {
-   "rfq_turnover": 6271.33,
-   "rfq_trades": 44423,
+   "rfq_turnover": 4579.14,
+   "rfq_trades": 15609,
    "obpp_turnover": null,
-   "egr_turnover": 1.8582,
+   "egr_turnover": 1.8862,
    "_errors": {
     "nse_cm": "https://archives.nseindia.com/archives/equities/mkt/MA021026.csv -> HTTP 404",
     "nse_fo": "https://archives.nseindia.com/content/fo/BhavCopy_NSE_FO_0_0_0_20261002_F_0000.csv.zip -> HTTP 404",
@@ -13374,13 +13374,10 @@
     "electricity": 69.59,
     "natgas": 157.55
    },
-   "rfq_turnover": 6271.33,
-   "rfq_trades": 44423,
+   "rfq_turnover": 4579.14,
+   "rfq_trades": 15609,
    "obpp_turnover": null,
-   "egr_turnover": 1.8582,
-   "_errors": {
-    "mcx": "MCX 2026-10-05: HTTP 403"
-   },
+   "egr_turnover": 1.8862,
    "nse_fo": 28899375.72,
    "bse_fo": 3890335.3,
    "share_cm": 91.67,
@@ -13390,7 +13387,10 @@
    "share_stk_optp": 100.0,
    "share_idx_optp": 87.99,
    "share_optp": 88.11,
-   "share_fo": 88.14
+   "share_fo": 88.14,
+   "_errors": {
+    "mcx": "MCX 2026-10-05: HTTP 403"
+   }
   }
  }
 }
