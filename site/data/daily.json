@@ -13320,10 +13320,10 @@
     "electricity": 80.9,
     "natgas": 67.92
    },
-   "rfq_turnover": 2932.84,
-   "rfq_trades": 14425,
+   "rfq_turnover": 5412.66,
+   "rfq_trades": 13566,
    "obpp_turnover": null,
-   "egr_turnover": 1.7104,
+   "egr_turnover": 0.9775,
    "nse_fo": 13245980.95,
    "bse_fo": 73944314.73,
    "share_cm": 91.59,
@@ -13339,10 +13339,10 @@
    }
   },
   "2026-10-02": {
-   "rfq_turnover": 2932.84,
-   "rfq_trades": 14425,
+   "rfq_turnover": 5412.66,
+   "rfq_trades": 13566,
    "obpp_turnover": null,
-   "egr_turnover": 1.7104,
+   "egr_turnover": 0.9775,
    "_errors": {
     "nse_cm": "https://archives.nseindia.com/archives/equities/mkt/MA021026.csv -> HTTP 404",
     "nse_fo": "https://archives.nseindia.com/content/fo/BhavCopy_NSE_FO_0_0_0_20261002_F_0000.csv.zip -> HTTP 404",
@@ -13374,10 +13374,10 @@
     "electricity": 69.59,
     "natgas": 157.55
    },
-   "rfq_turnover": 2932.84,
-   "rfq_trades": 14425,
+   "rfq_turnover": 5412.66,
+   "rfq_trades": 13566,
    "obpp_turnover": null,
-   "egr_turnover": 1.7104,
+   "egr_turnover": 0.9775,
    "nse_fo": 28899375.72,
    "bse_fo": 3890335.3,
    "share_cm": 91.67,
@@ -13414,10 +13414,10 @@
     "electricity": 62.61,
     "natgas": 116.18
    },
-   "rfq_turnover": 2932.84,
-   "rfq_trades": 14425,
+   "rfq_turnover": 5412.66,
+   "rfq_trades": 13566,
    "obpp_turnover": null,
-   "egr_turnover": 1.7104,
+   "egr_turnover": 0.9775,
    "nse_fo": 47395553.58,
    "bse_fo": 3927434.39,
    "share_cm": 92.03,
@@ -13431,6 +13431,46 @@
    "_errors": {
     "mcx": "MCX 2026-10-06: HTTP 403"
    }
+  },
+  "2026-10-07": {
+   "nse_cm": 115268.61,
+   "nse_stk_fut": 61095.714460145,
+   "nse_idx_fut": 14011.72484035,
+   "nse_fut": 75107.439300495,
+   "nse_stk_optp": 391955.80066885514,
+   "nse_idx_optp": 9906116.75875365,
+   "nse_optp": 10298072.559422504,
+   "bse_cm": 11076.5566611,
+   "bse_stk_fut": 0.224005875,
+   "bse_idx_fut": 265.8545858,
+   "bse_fut": 266.078591675,
+   "bse_stk_optp": 0.476435,
+   "bse_idx_optp": 23623908.7253866,
+   "bse_optp": 23623909.2018216,
+   "nse_com": 210129.1229128,
+   "cx_nse": {
+    "gold10g": 1.81,
+    "crude": 209895.08,
+    "electricity": 45.08,
+    "natgas": 185.82
+   },
+   "rfq_turnover": 5412.66,
+   "rfq_trades": 13566,
+   "obpp_turnover": null,
+   "egr_turnover": 0.9775,
+   "_errors": {
+    "mcx": "MCX 2026-10-07: HTTP 403"
+   },
+   "nse_fo": 10373180.0,
+   "bse_fo": 23624175.28,
+   "share_cm": 91.23,
+   "share_stk_fut": 100.0,
+   "share_idx_fut": 98.14,
+   "share_fut": 99.65,
+   "share_stk_optp": 100.0,
+   "share_idx_optp": 29.54,
+   "share_optp": 30.36,
+   "share_fo": 30.51
   }
  }
 }
