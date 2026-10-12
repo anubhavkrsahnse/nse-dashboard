@@ -1,15 +1,7 @@
 {
- "updated_utc": "2026-10-09T23:12:23Z",
- "last_trading_day": "2026-10-08",
+ "updated_utc": "2026-10-12T23:08:09Z",
+ "last_trading_day": "2026-10-09",
  "recent_fetch_errors": {
-  "2026-10-02": {
-   "nse_cm": "https://archives.nseindia.com/archives/equities/mkt/MA021026.csv -> HTTP 404",
-   "nse_fo": "HTTPSConnectionPool(host='nsearchives.nseindia.com', port=443): Read timed out. (read timeout=30)",
-   "bse_cm": "BSE CM bhavcopy 2026-10-02: zero total",
-   "bse_fo": "BSE FO bhavcopy 2026-10-02: zero total (holiday?)",
-   "nse_com": "HTTPSConnectionPool(host='nsearchives.nseindia.com', port=443): Read timed out. (read timeout=30)",
-   "mcx": "MCX 2026-10-02: HTTP 403"
-  },
   "2026-10-05": {
    "mcx": "MCX 2026-10-05: HTTP 403"
   },
@@ -21,6 +13,9 @@
   },
   "2026-10-08": {
    "mcx": "MCX 2026-10-08: HTTP 403"
+  },
+  "2026-10-09": {
+   "mcx": "MCX 2026-10-09: HTTP 403"
   }
  },
  "segments": {
