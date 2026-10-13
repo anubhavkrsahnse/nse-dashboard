@@ -13400,10 +13400,10 @@
     "electricity": 62.61,
     "natgas": 116.18
    },
-   "rfq_turnover": 3044.15,
-   "rfq_trades": 24129,
+   "rfq_turnover": 3903.86,
+   "rfq_trades": 10223,
    "obpp_turnover": null,
-   "egr_turnover": 0.8006,
+   "egr_turnover": 0.8106,
    "nse_fo": 47395553.58,
    "bse_fo": 3927434.39,
    "share_cm": 92.03,
@@ -13440,10 +13440,10 @@
     "electricity": 45.08,
     "natgas": 185.82
    },
-   "rfq_turnover": 3044.15,
-   "rfq_trades": 24129,
+   "rfq_turnover": 3903.86,
+   "rfq_trades": 10223,
    "obpp_turnover": null,
-   "egr_turnover": 0.8006,
+   "egr_turnover": 0.8106,
    "nse_fo": 10373180.0,
    "bse_fo": 23624175.28,
    "share_cm": 91.23,
@@ -13480,10 +13480,10 @@
     "electricity": 57.6,
     "natgas": 237.0
    },
-   "rfq_turnover": 3044.15,
-   "rfq_trades": 24129,
+   "rfq_turnover": 3903.86,
+   "rfq_trades": 10223,
    "obpp_turnover": null,
-   "egr_turnover": 0.8006,
+   "egr_turnover": 0.8106,
    "nse_fo": 11400526.84,
    "bse_fo": 66177355.21,
    "share_cm": 85.14,
@@ -13520,10 +13520,10 @@
     "electricity": 59.66,
     "natgas": 115.82
    },
-   "rfq_turnover": 3044.15,
-   "rfq_trades": 24129,
+   "rfq_turnover": 3903.86,
+   "rfq_trades": 10223,
    "obpp_turnover": null,
-   "egr_turnover": 0.8006,
+   "egr_turnover": 0.8106,
    "nse_fo": 18677620.31,
    "bse_fo": 2724332.43,
    "share_cm": 91.28,
@@ -13560,13 +13560,10 @@
     "electricity": 63.14,
     "natgas": 160.81
    },
-   "rfq_turnover": 3044.15,
-   "rfq_trades": 24129,
+   "rfq_turnover": 3903.86,
+   "rfq_trades": 10223,
    "obpp_turnover": null,
-   "egr_turnover": 0.8006,
-   "_errors": {
-    "mcx": "MCX 2026-10-12: HTTP 403"
-   },
+   "egr_turnover": 0.8106,
    "nse_fo": 27030964.14,
    "bse_fo": 3768016.77,
    "share_cm": 90.24,
@@ -13576,7 +13573,10 @@
    "share_stk_optp": 100.0,
    "share_idx_optp": 87.6,
    "share_optp": 87.74,
-   "share_fo": 87.77
+   "share_fo": 87.77,
+   "_errors": {
+    "mcx": "MCX 2026-10-12: HTTP 403"
+   }
   }
  }
 }
