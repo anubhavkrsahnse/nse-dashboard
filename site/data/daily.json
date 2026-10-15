@@ -13480,10 +13480,10 @@
     "electricity": 57.6,
     "natgas": 237.0
    },
-   "rfq_turnover": 2881.99,
-   "rfq_trades": 10289,
+   "rfq_turnover": 5466.33,
+   "rfq_trades": 12347,
    "obpp_turnover": null,
-   "egr_turnover": 0.5448,
+   "egr_turnover": 0.5425,
    "nse_fo": 11400526.84,
    "bse_fo": 66177355.21,
    "share_cm": 85.14,
@@ -13520,10 +13520,10 @@
     "electricity": 59.66,
     "natgas": 115.82
    },
-   "rfq_turnover": 2881.99,
-   "rfq_trades": 10289,
+   "rfq_turnover": 5466.33,
+   "rfq_trades": 12347,
    "obpp_turnover": null,
-   "egr_turnover": 0.5448,
+   "egr_turnover": 0.5425,
    "nse_fo": 18677620.31,
    "bse_fo": 2724332.43,
    "share_cm": 91.28,
@@ -13560,10 +13560,10 @@
     "electricity": 63.14,
     "natgas": 160.81
    },
-   "rfq_turnover": 2881.99,
-   "rfq_trades": 10289,
+   "rfq_turnover": 5466.33,
+   "rfq_trades": 12347,
    "obpp_turnover": null,
-   "egr_turnover": 0.5448,
+   "egr_turnover": 0.5425,
    "nse_fo": 27030964.14,
    "bse_fo": 3768016.77,
    "share_cm": 90.24,
@@ -13600,10 +13600,10 @@
     "electricity": 54.71,
     "natgas": 263.29
    },
-   "rfq_turnover": 2881.99,
-   "rfq_trades": 10289,
+   "rfq_turnover": 5466.33,
+   "rfq_trades": 12347,
    "obpp_turnover": null,
-   "egr_turnover": 0.5448,
+   "egr_turnover": 0.5425,
    "nse_fo": 63590868.75,
    "bse_fo": 5845631.54,
    "share_cm": 91.45,
@@ -13617,6 +13617,46 @@
    "_errors": {
     "mcx": "MCX 2026-10-13: HTTP 403"
    }
+  },
+  "2026-10-14": {
+   "nse_cm": 116560.35,
+   "nse_stk_fut": 71870.03622398,
+   "nse_idx_fut": 11992.45807415,
+   "nse_fut": 83862.49429813,
+   "nse_stk_optp": 503549.7994816199,
+   "nse_idx_optp": 11407623.22060755,
+   "nse_optp": 11911173.02008917,
+   "bse_cm": 9965.2240038,
+   "bse_stk_fut": 0.059405,
+   "bse_idx_fut": 396.6578808,
+   "bse_fut": 396.7172858,
+   "bse_stk_optp": 0.18285,
+   "bse_idx_optp": 25461846.631262474,
+   "bse_optp": 25461846.814112473,
+   "nse_com": 1280.9483122,
+   "cx_nse": {
+    "gold10g": 1.67,
+    "crude": 649.76,
+    "electricity": 67.34,
+    "natgas": 560.93
+   },
+   "rfq_turnover": 5466.33,
+   "rfq_trades": 12347,
+   "obpp_turnover": null,
+   "egr_turnover": 0.5425,
+   "_errors": {
+    "mcx": "MCX 2026-10-14: HTTP 403"
+   },
+   "nse_fo": 11995035.51,
+   "bse_fo": 25462243.53,
+   "share_cm": 92.12,
+   "share_stk_fut": 100.0,
+   "share_idx_fut": 96.8,
+   "share_fut": 99.53,
+   "share_stk_optp": 100.0,
+   "share_idx_optp": 30.94,
+   "share_optp": 31.87,
+   "share_fo": 32.02
   }
  }
 }
