@@ -13640,10 +13640,10 @@
     "electricity": 67.34,
     "natgas": 560.93
    },
-   "rfq_turnover": 1900.9,
-   "rfq_trades": 22919,
+   "rfq_turnover": 9074.6,
+   "rfq_trades": 17845,
    "obpp_turnover": null,
-   "egr_turnover": 0.0,
+   "egr_turnover": 0.3574,
    "nse_fo": 11995035.51,
    "bse_fo": 25462243.53,
    "share_cm": 92.12,
@@ -13680,10 +13680,10 @@
     "electricity": 80.08,
     "natgas": 543.41
    },
-   "rfq_turnover": 1900.9,
-   "rfq_trades": 22919,
+   "rfq_turnover": 9074.6,
+   "rfq_trades": 17845,
    "obpp_turnover": null,
-   "egr_turnover": 0.0,
+   "egr_turnover": 0.3574,
    "nse_fo": 13595573.43,
    "bse_fo": 72832461.91,
    "share_cm": 92.22,
@@ -13720,10 +13720,10 @@
     "electricity": 67.01,
     "natgas": 1130.71
    },
-   "rfq_turnover": 1900.9,
-   "rfq_trades": 22919,
+   "rfq_turnover": 9074.6,
+   "rfq_trades": 17845,
    "obpp_turnover": null,
-   "egr_turnover": 0.0,
+   "egr_turnover": 0.3574,
    "nse_fo": 25452298.87,
    "bse_fo": 3700013.13,
    "share_cm": 92.95,
@@ -13760,10 +13760,10 @@
     "electricity": 67.84,
     "natgas": 2506.14
    },
-   "rfq_turnover": 1900.9,
-   "rfq_trades": 22919,
+   "rfq_turnover": 9074.6,
+   "rfq_trades": 17845,
    "obpp_turnover": null,
-   "egr_turnover": 0.0,
+   "egr_turnover": 0.3574,
    "nse_fo": 63644779.1,
    "bse_fo": 4853230.27,
    "share_cm": 92.8,
@@ -13776,6 +13776,26 @@
    "share_fo": 92.91,
    "_errors": {
     "mcx": "MCX 2026-10-19: HTTP 403"
+   }
+  },
+  "2026-10-20": {
+   "nse_com": 6060.8416687,
+   "cx_nse": {
+    "gold10g": 0.17,
+    "crude": 2480.54,
+    "electricity": 31.77,
+    "natgas": 3548.35
+   },
+   "rfq_turnover": 9074.6,
+   "rfq_trades": 17845,
+   "obpp_turnover": null,
+   "egr_turnover": 0.3574,
+   "_errors": {
+    "nse_cm": "https://archives.nseindia.com/archives/equities/mkt/MA201026.csv -> HTTP 404",
+    "nse_fo": "https://archives.nseindia.com/content/fo/BhavCopy_NSE_FO_0_0_0_20261020_F_0000.csv.zip -> HTTP 404",
+    "bse_cm": "BSE CM bhavcopy 2026-10-20: zero total",
+    "bse_fo": "BSE FO bhavcopy 2026-10-20: zero total (holiday?)",
+    "mcx": "MCX 2026-10-20: HTTP 403"
    }
   }
  }
