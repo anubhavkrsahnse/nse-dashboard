@@ -13735,6 +13735,7 @@
    "share_optp": 87.27,
    "share_fo": 87.31,
    "_errors": {
+    "nse_com": "NSE COM 2026-10-16: File is not a zip file",
     "mcx": "MCX 2026-10-16: HTTP 403"
    }
   },
@@ -13775,6 +13776,7 @@
    "share_optp": 92.91,
    "share_fo": 92.91,
    "_errors": {
+    "nse_com": "NSE COM 2026-10-19: File is not a zip file",
     "mcx": "MCX 2026-10-19: HTTP 403"
    }
   },
@@ -13792,7 +13794,7 @@
    "egr_turnover": 0.6406,
    "_errors": {
     "nse_cm": "https://archives.nseindia.com/archives/equities/mkt/MA201026.csv -> HTTP 404",
-    "nse_fo": "https://archives.nseindia.com/content/fo/BhavCopy_NSE_FO_0_0_0_20261020_F_0000.csv.zip -> HTTP 404",
+    "nse_fo": "File is not a zip file",
     "bse_cm": "BSE CM bhavcopy 2026-10-20: zero total",
     "bse_fo": "BSE FO bhavcopy 2026-10-20: zero total (holiday?)",
     "mcx": "MCX 2026-10-20: HTTP 403"
@@ -13864,9 +13866,6 @@
    "rfq_trades": 12082,
    "obpp_turnover": null,
    "egr_turnover": 0.6406,
-   "_errors": {
-    "mcx": "MCX 2026-10-22: HTTP 403"
-   },
    "nse_fo": 12214686.57,
    "bse_fo": 78711410.46,
    "share_cm": 92.63,
@@ -13876,7 +13875,10 @@
    "share_stk_optp": 100.0,
    "share_idx_optp": 12.48,
    "share_optp": 13.13,
-   "share_fo": 13.43
+   "share_fo": 13.43,
+   "_errors": {
+    "mcx": "MCX 2026-10-22: HTTP 403"
+   }
   }
  }
 }
