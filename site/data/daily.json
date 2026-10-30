@@ -13881,8 +13881,8 @@
     "electricity": 2.96,
     "natgas": 64.98
    },
-   "rfq_turnover": 6466.37,
-   "rfq_trades": 16185,
+   "rfq_turnover": 3516.37,
+   "rfq_trades": 16172,
    "obpp_turnover": null,
    "egr_turnover": 0.1473,
    "nse_fo": 24444598.51,
@@ -13896,6 +13896,7 @@
    "share_optp": 88.01,
    "share_fo": 88.16,
    "_errors": {
+    "nse_com": "HTTPSConnectionPool(host='nsearchives.nseindia.com', port=443): Read timed out. (read timeout=30)",
     "mcx": "MCX 2026-10-23: HTTP 403"
    }
   },
@@ -13921,8 +13922,8 @@
     "electricity": 3.67,
     "natgas": 194.44
    },
-   "rfq_turnover": 6466.37,
-   "rfq_trades": 16185,
+   "rfq_turnover": 3516.37,
+   "rfq_trades": 16172,
    "obpp_turnover": null,
    "egr_turnover": 0.1473,
    "nse_fo": 31833214.66,
@@ -13961,8 +13962,8 @@
     "electricity": 5.29,
     "natgas": 79.92
    },
-   "rfq_turnover": 6466.37,
-   "rfq_trades": 16185,
+   "rfq_turnover": 3516.37,
+   "rfq_trades": 16172,
    "obpp_turnover": null,
    "egr_turnover": 0.1473,
    "nse_fo": 68332427.79,
@@ -14001,8 +14002,8 @@
     "electricity": 2.67,
     "natgas": 70.71
    },
-   "rfq_turnover": 6466.37,
-   "rfq_trades": 16185,
+   "rfq_turnover": 3516.37,
+   "rfq_trades": 16172,
    "obpp_turnover": null,
    "egr_turnover": 0.1473,
    "nse_fo": 9708760.98,
@@ -14018,6 +14019,46 @@
    "_errors": {
     "mcx": "MCX 2026-10-28: HTTP 403"
    }
+  },
+  "2026-10-29": {
+   "nse_cm": 117989.2,
+   "nse_stk_fut": 61156.809572344995,
+   "nse_idx_fut": 12891.59820015,
+   "nse_fut": 74048.40777249499,
+   "nse_stk_optp": 373885.39929291996,
+   "nse_idx_optp": 8701980.7199592,
+   "nse_optp": 9075866.11925212,
+   "bse_cm": 10389.283222,
+   "bse_stk_fut": 0.5114875,
+   "bse_idx_fut": 649.56504705,
+   "bse_fut": 650.07653455,
+   "bse_stk_optp": 0.983250875,
+   "bse_idx_optp": 61424883.1192446,
+   "bse_optp": 61424884.10249547,
+   "nse_com": 3360.5074099,
+   "cx_nse": {
+    "gold10g": 0.5,
+    "crude": 3310.97,
+    "electricity": 4.4,
+    "natgas": 43.5
+   },
+   "rfq_turnover": 3516.37,
+   "rfq_trades": 16172,
+   "obpp_turnover": null,
+   "egr_turnover": 0.1473,
+   "_errors": {
+    "mcx": "MCX 2026-10-29: HTTP 403"
+   },
+   "nse_fo": 9149914.53,
+   "bse_fo": 61425534.18,
+   "share_cm": 91.91,
+   "share_stk_fut": 100.0,
+   "share_idx_fut": 95.2,
+   "share_fut": 99.13,
+   "share_stk_optp": 100.0,
+   "share_idx_optp": 12.41,
+   "share_optp": 12.87,
+   "share_fo": 12.96
   }
  }
 }

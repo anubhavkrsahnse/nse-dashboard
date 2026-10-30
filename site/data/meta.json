@@ -1,11 +1,9 @@
 {
- "updated_utc": "2026-10-29T23:05:55Z",
- "last_trading_day": "2026-10-28",
+ "updated_utc": "2026-10-30T21:08:07Z",
+ "last_trading_day": "2026-10-29",
  "recent_fetch_errors": {
-  "2026-10-22": {
-   "mcx": "MCX 2026-10-22: HTTP 403"
-  },
   "2026-10-23": {
+   "nse_com": "HTTPSConnectionPool(host='nsearchives.nseindia.com', port=443): Read timed out. (read timeout=30)",
    "mcx": "MCX 2026-10-23: HTTP 403"
   },
   "2026-10-26": {
@@ -16,6 +14,9 @@
   },
   "2026-10-28": {
    "mcx": "MCX 2026-10-28: HTTP 403"
+  },
+  "2026-10-29": {
+   "mcx": "MCX 2026-10-29: HTTP 403"
   }
  },
  "segments": {
