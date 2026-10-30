@@ -13881,10 +13881,10 @@
     "electricity": 2.96,
     "natgas": 64.98
    },
-   "rfq_turnover": 3516.37,
-   "rfq_trades": 16172,
+   "rfq_turnover": 4195.35,
+   "rfq_trades": 17351,
    "obpp_turnover": null,
-   "egr_turnover": 0.1473,
+   "egr_turnover": 0.0145,
    "nse_fo": 24444598.51,
    "bse_fo": 3283144.69,
    "share_cm": 92.13,
@@ -13896,7 +13896,6 @@
    "share_optp": 88.01,
    "share_fo": 88.16,
    "_errors": {
-    "nse_com": "HTTPSConnectionPool(host='nsearchives.nseindia.com', port=443): Read timed out. (read timeout=30)",
     "mcx": "MCX 2026-10-23: HTTP 403"
    }
   },
@@ -13922,10 +13921,10 @@
     "electricity": 3.67,
     "natgas": 194.44
    },
-   "rfq_turnover": 3516.37,
-   "rfq_trades": 16172,
+   "rfq_turnover": 4195.35,
+   "rfq_trades": 17351,
    "obpp_turnover": null,
-   "egr_turnover": 0.1473,
+   "egr_turnover": 0.0145,
    "nse_fo": 31833214.66,
    "bse_fo": 3531603.08,
    "share_cm": 92.27,
@@ -13962,10 +13961,10 @@
     "electricity": 5.29,
     "natgas": 79.92
    },
-   "rfq_turnover": 3516.37,
-   "rfq_trades": 16172,
+   "rfq_turnover": 4195.35,
+   "rfq_trades": 17351,
    "obpp_turnover": null,
-   "egr_turnover": 0.1473,
+   "egr_turnover": 0.0145,
    "nse_fo": 68332427.79,
    "bse_fo": 3860007.81,
    "share_cm": 92.66,
@@ -14002,10 +14001,10 @@
     "electricity": 2.67,
     "natgas": 70.71
    },
-   "rfq_turnover": 3516.37,
-   "rfq_trades": 16172,
+   "rfq_turnover": 4195.35,
+   "rfq_trades": 17351,
    "obpp_turnover": null,
-   "egr_turnover": 0.1473,
+   "egr_turnover": 0.0145,
    "nse_fo": 9708760.98,
    "bse_fo": 21710021.22,
    "share_cm": 92.94,
@@ -14042,13 +14041,10 @@
     "electricity": 4.4,
     "natgas": 43.5
    },
-   "rfq_turnover": 3516.37,
-   "rfq_trades": 16172,
+   "rfq_turnover": 4195.35,
+   "rfq_trades": 17351,
    "obpp_turnover": null,
-   "egr_turnover": 0.1473,
-   "_errors": {
-    "mcx": "MCX 2026-10-29: HTTP 403"
-   },
+   "egr_turnover": 0.0145,
    "nse_fo": 9149914.53,
    "bse_fo": 61425534.18,
    "share_cm": 91.91,
@@ -14058,7 +14054,10 @@
    "share_stk_optp": 100.0,
    "share_idx_optp": 12.41,
    "share_optp": 12.87,
-   "share_fo": 12.96
+   "share_fo": 12.96,
+   "_errors": {
+    "mcx": "MCX 2026-10-29: HTTP 403"
+   }
   }
  }
 }

@@ -1,9 +1,8 @@
 {
- "updated_utc": "2026-10-30T21:08:07Z",
+ "updated_utc": "2026-10-30T22:47:04Z",
  "last_trading_day": "2026-10-29",
  "recent_fetch_errors": {
   "2026-10-23": {
-   "nse_com": "HTTPSConnectionPool(host='nsearchives.nseindia.com', port=443): Read timed out. (read timeout=30)",
    "mcx": "MCX 2026-10-23: HTTP 403"
   },
   "2026-10-26": {
