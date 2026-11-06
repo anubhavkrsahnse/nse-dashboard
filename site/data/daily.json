@@ -14096,7 +14096,6 @@
    "share_optp": 87.72,
    "share_fo": 87.76,
    "_errors": {
-    "nse_com": "NSE COM 2026-10-30: File is not a zip file",
     "mcx": "MCX 2026-10-30: HTTP 403"
    }
   },
@@ -14246,9 +14245,6 @@
    "rfq_trades": 19721,
    "obpp_turnover": null,
    "egr_turnover": 33.1506,
-   "_errors": {
-    "mcx": "MCX 2026-11-05: HTTP 403"
-   },
    "nse_fo": 13543719.55,
    "bse_fo": 73742924.56,
    "share_cm": 92.26,
@@ -14258,7 +14254,10 @@
    "share_stk_optp": 100.0,
    "share_idx_optp": 14.63,
    "share_optp": 15.38,
-   "share_fo": 15.52
+   "share_fo": 15.52,
+   "_errors": {
+    "mcx": "MCX 2026-11-05: HTTP 403"
+   }
   }
  }
 }
