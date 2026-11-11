@@ -14201,8 +14201,8 @@
     "electricity": 10.87,
     "natgas": 128.64
    },
-   "rfq_turnover": 2665.54,
-   "rfq_trades": 30677,
+   "rfq_turnover": 8499.56,
+   "rfq_trades": 22575,
    "obpp_turnover": null,
    "egr_turnover": 0.0,
    "nse_fo": 12241595.95,
@@ -14241,8 +14241,8 @@
     "electricity": 3.63,
     "natgas": 90.45
    },
-   "rfq_turnover": 2665.54,
-   "rfq_trades": 30677,
+   "rfq_turnover": 8499.56,
+   "rfq_trades": 22575,
    "obpp_turnover": null,
    "egr_turnover": 0.0,
    "nse_fo": 13543719.55,
@@ -14281,8 +14281,8 @@
     "electricity": 2.46,
     "natgas": 93.12
    },
-   "rfq_turnover": 2665.54,
-   "rfq_trades": 30677,
+   "rfq_turnover": 8499.56,
+   "rfq_trades": 22575,
    "obpp_turnover": null,
    "egr_turnover": 0.0,
    "nse_fo": 28068458.91,
@@ -14321,8 +14321,8 @@
     "electricity": 2.18,
     "natgas": 118.36
    },
-   "rfq_turnover": 2665.54,
-   "rfq_trades": 30677,
+   "rfq_turnover": 8499.56,
+   "rfq_trades": 22575,
    "obpp_turnover": null,
    "egr_turnover": 0.0,
    "nse_fo": 71051336.39,
@@ -14337,6 +14337,26 @@
    "share_fo": 93.75,
    "_errors": {
     "mcx": "MCX 2026-11-09: HTTP 403"
+   }
+  },
+  "2026-11-10": {
+   "nse_com": 924588.93284865,
+   "cx_nse": {
+    "gold10g": 0.64,
+    "crude": 924495.58,
+    "electricity": 1.69,
+    "natgas": 89.93
+   },
+   "rfq_turnover": 8499.56,
+   "rfq_trades": 22575,
+   "obpp_turnover": null,
+   "egr_turnover": 0.0,
+   "_errors": {
+    "nse_cm": "https://archives.nseindia.com/archives/equities/mkt/MA101126.csv -> HTTP 404",
+    "nse_fo": "https://archives.nseindia.com/content/fo/BhavCopy_NSE_FO_0_0_0_20261110_F_0000.csv.zip -> HTTP 404",
+    "bse_cm": "BSE CM bhavcopy 2026-11-10: zero total",
+    "bse_fo": "BSE FO bhavcopy 2026-11-10: zero total (holiday?)",
+    "mcx": "MCX 2026-11-10: HTTP 403"
    }
   }
  }
