@@ -1,10 +1,7 @@
 {
- "updated_utc": "2026-11-11T22:54:43Z",
- "last_trading_day": "2026-11-10",
+ "updated_utc": "2026-11-12T01:19:17Z",
+ "last_trading_day": "2026-11-11",
  "recent_fetch_errors": {
-  "2026-11-04": {
-   "mcx": "MCX 2026-11-04: HTTP 403"
-  },
   "2026-11-05": {
    "mcx": "MCX 2026-11-05: HTTP 403"
   },
@@ -20,6 +17,9 @@
    "bse_cm": "BSE CM bhavcopy 2026-11-10: zero total",
    "bse_fo": "BSE FO bhavcopy 2026-11-10: zero total (holiday?)",
    "mcx": "MCX 2026-11-10: HTTP 403"
+  },
+  "2026-11-11": {
+   "mcx": "MCX 2026-11-11: HTTP 403"
   }
  },
  "segments": {
