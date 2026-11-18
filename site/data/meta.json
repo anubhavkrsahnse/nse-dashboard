@@ -1,14 +1,7 @@
 {
- "updated_utc": "2026-11-17T23:36:07Z",
- "last_trading_day": "2026-11-16",
+ "updated_utc": "2026-11-18T01:29:26Z",
+ "last_trading_day": "2026-11-17",
  "recent_fetch_errors": {
-  "2026-11-10": {
-   "nse_cm": "https://archives.nseindia.com/archives/equities/mkt/MA101126.csv -> HTTP 404",
-   "nse_fo": "https://archives.nseindia.com/content/fo/BhavCopy_NSE_FO_0_0_0_20261110_F_0000.csv.zip -> HTTP 404",
-   "bse_cm": "BSE CM bhavcopy 2026-11-10: zero total",
-   "bse_fo": "BSE FO bhavcopy 2026-11-10: zero total (holiday?)",
-   "mcx": "MCX 2026-11-10: HTTP 403"
-  },
   "2026-11-11": {
    "mcx": "MCX 2026-11-11: HTTP 403"
   },
@@ -20,6 +13,9 @@
   },
   "2026-11-16": {
    "mcx": "MCX 2026-11-16: HTTP 403"
+  },
+  "2026-11-17": {
+   "mcx": "MCX 2026-11-17: HTTP 403"
   }
  },
  "segments": {
