@@ -1,12 +1,37 @@
 {
- "generated_utc": "2026-11-18T23:00:24Z",
+ "generated_utc": "2026-11-19T00:58:00Z",
  "insights": [
+  {
+   "segment": "cm",
+   "label": "Cash Market",
+   "rival": "BSE",
+   "severity": "high",
+   "date": "2026-11-18",
+   "headline": "NSE Cash Market share 89.39% (-2.44pp DoD, -3.41pp WoW, +0.28pp MoM) vs BSE",
+   "impact": "BSE has gained ~3.4pp of cash market share over the past week - a sustained trend, not noise.",
+   "reason": "Possible driver in the news below - verify before acting.",
+   "actionable": "Defend cash liquidity: review transaction-charge slabs and market-maker incentives on mid/small-caps where BSE is gaining.",
+   "news": [
+    {
+     "title": "BSE Stock Price and Chart — NSE:BSE - TradingView",
+     "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5fYjlrOHhIOVpmSnBmS0h3ZmFsaFNVRXlJcEw3NFl0c29TYnpPMjdHcGp6OC1JdTYwRTVpb0tWaHgtMVhqLWRzWFFjcTJxV05nWVhBbk9VWQ?oc=5",
+     "source": "Google News",
+     "date": "Thu, 05 Nov 2026 08:00:00 GMT"
+    },
+    {
+     "title": "NSE, BSE, Groww stocks pare gains as report says SEBI may limit MTF bets to curb volatility - Moneycontrol.com",
+     "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQSGRHN2ZESjVZUzhmZE1RVGQ5eUVhZkZBZmhMMGktd3NtUUhpM2FFSlN4aEhsSEFCcERmbU1DcjM5bmxsdDN5d2VVN0RTUEN3Q1hNWEZsVnRWS2JpWVNFek1lR19kY1ZEZThIUWh5YzZHOTNzM3NVc0U3UDVHSmxyNXc2TkZ4RDhCWng5SW94Uktyc1FYUXktOVA4THJpbmd1ZEVWREJJa1dpRDJQUTVOOTBDazJ6a3V6OUkxMDVnYW9QaVNFS0tmWHRBdTBZZ1pEV0JyWXY2el94eklxZDh0S05sNC1PZkZVUnfSAe8BQVVfeXFMTXFjLW52RHl6VkgtQklBaXczaVdlS0ZtZnhpSzNRVW9FdHRZN3Q3cTZTbFplMXFpeklIV2VQYzZHSEg1SmUzNi1oUTcyRktja2RZRG9TRjlhZkQxOE5pdFRZRXlBVDdKenIzNWNlMjFSWlNZU3VpQ3lzTm83VWpQNFpFN01kWndfdDQ3WjRRRVNmSUdGSHhHZUNmQ3Z1V3Jic2dNemlBMnoycm12dDN6NEhYUkVuTFNPenF0TkVQdlo2NTZjSk5ZbENHLS01aGNidUxmRUdUTFY1VXY1a3VQNkRuUkJDemgxbklPVjlqTjQ?oc=5",
+     "source": "Google News",
+     "date": "Tue, 17 Nov 2026 07:20:32 GMT"
+    }
+   ]
+  },
   {
    "segment": "stk_fut",
    "label": "Stock Futures",
    "rival": "BSE",
    "severity": "high",
-   "date": "2026-11-17",
+   "date": "2026-11-18",
    "headline": "NSE Stock Futures share 100.00% (+0.00pp DoD, +0.00pp WoW, +0.00pp MoM) vs BSE",
    "impact": "NSE stock futures share is at its highest in the tracked window - momentum is with NSE.",
    "reason": "Possible driver in the news below - verify before acting.",
@@ -31,7 +56,7 @@
    "label": "Stock Options",
    "rival": "BSE",
    "severity": "high",
-   "date": "2026-11-17",
+   "date": "2026-11-18",
    "headline": "NSE Stock Options share 100.00% (+0.00pp DoD, +0.00pp WoW, +0.00pp MoM) vs BSE",
    "impact": "NSE stock options share is at its highest in the tracked window - momentum is with NSE.",
    "reason": "Possible driver in the news below - verify before acting.",
@@ -52,40 +77,15 @@
    ]
   },
   {
-   "segment": "cm",
-   "label": "Cash Market",
-   "rival": "BSE",
-   "severity": "normal",
-   "date": "2026-11-17",
-   "headline": "NSE Cash Market share 91.83% (+0.12pp DoD, -0.95pp WoW, +0.48pp MoM) vs BSE",
-   "impact": "NSE cash market share is broadly stable (±0.12pp on the day).",
-   "reason": "Possible driver in the news below - verify before acting.",
-   "actionable": "Defend cash liquidity: review transaction-charge slabs and market-maker incentives on mid/small-caps where BSE is gaining.",
-   "news": [
-    {
-     "title": "BSE Stock Price and Chart — NSE:BSE - TradingView",
-     "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5fYjlrOHhIOVpmSnBmS0h3ZmFsaFNVRXlJcEw3NFl0c29TYnpPMjdHcGp6OC1JdTYwRTVpb0tWaHgtMVhqLWRzWFFjcTJxV05nWVhBbk9VWQ?oc=5",
-     "source": "Google News",
-     "date": "Thu, 05 Nov 2026 08:00:00 GMT"
-    },
-    {
-     "title": "NSE, BSE, Groww stocks pare gains as report says SEBI may limit MTF bets to curb volatility - Moneycontrol.com",
-     "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQSGRHN2ZESjVZUzhmZE1RVGQ5eUVhZkZBZmhMMGktd3NtUUhpM2FFSlN4aEhsSEFCcERmbU1DcjM5bmxsdDN5d2VVN0RTUEN3Q1hNWEZsVnRWS2JpWVNFek1lR19kY1ZEZThIUWh5YzZHOTNzM3NVc0U3UDVHSmxyNXc2TkZ4RDhCWng5SW94Uktyc1FYUXktOVA4THJpbmd1ZEVWREJJa1dpRDJQUTVOOTBDazJ6a3V6OUkxMDVnYW9QaVNFS0tmWHRBdTBZZ1pEV0JyWXY2el94eklxZDh0S05sNC1PZkZVUnfSAe8BQVVfeXFMTXFjLW52RHl6VkgtQklBaXczaVdlS0ZtZnhpSzNRVW9FdHRZN3Q3cTZTbFplMXFpeklIV2VQYzZHSEg1SmUzNi1oUTcyRktja2RZRG9TRjlhZkQxOE5pdFRZRXlBVDdKenIzNWNlMjFSWlNZU3VpQ3lzTm83VWpQNFpFN01kWndfdDQ3WjRRRVNmSUdGSHhHZUNmQ3Z1V3Jic2dNemlBMnoycm12dDN6NEhYUkVuTFNPenF0TkVQdlo2NTZjSk5ZbENHLS01aGNidUxmRUdUTFY1VXY1a3VQNkRuUkJDemgxbklPVjlqTjQ?oc=5",
-     "source": "Google News",
-     "date": "Tue, 17 Nov 2026 07:20:32 GMT"
-    }
-   ]
-  },
-  {
    "segment": "idx_fut",
    "label": "Index Futures",
    "rival": "BSE",
    "severity": "normal",
-   "date": "2026-11-17",
-   "headline": "NSE Index Futures share 98.83% (+0.14pp DoD, +0.04pp WoW, +0.24pp MoM) vs BSE",
-   "impact": "NSE index futures share is broadly stable (±0.14pp on the day).",
+   "date": "2026-11-18",
+   "headline": "NSE Index Futures share 98.62% (-0.21pp DoD, +0.28pp WoW, +0.27pp MoM) vs BSE",
+   "impact": "NSE index futures share is broadly stable (±0.21pp on the day).",
    "reason": "Possible driver in the news below - verify before acting.",
-   "actionable": "Index-futures lead holding: bundle with options to keep the hedging flow on NSE.",
+   "actionable": "Index-futures share slipping: benchmark Nifty vs Sensex futures costs and expiry-day mechanics against BSE.",
    "news": [
     {
      "title": "BSE Stock Price and Chart — NSE:BSE - TradingView",
@@ -106,9 +106,9 @@
    "label": "Total Futures",
    "rival": "BSE",
    "severity": "normal",
-   "date": "2026-11-17",
-   "headline": "NSE Total Futures share 99.81% (+0.01pp DoD, +0.08pp WoW, -0.06pp MoM) vs BSE",
-   "impact": "NSE total futures share is broadly stable (±0.01pp on the day).",
+   "date": "2026-11-18",
+   "headline": "NSE Total Futures share 99.89% (+0.08pp DoD, +0.29pp WoW, -0.01pp MoM) vs BSE",
+   "impact": "NSE total futures share is broadly stable (±0.08pp on the day).",
    "reason": "Possible driver in the news below - verify before acting.",
    "actionable": "Futures franchise strong; maintain.",
    "news": [
@@ -131,9 +131,9 @@
    "label": "Index Options",
    "rival": "BSE",
    "severity": "normal",
-   "date": "2026-11-17",
-   "headline": "NSE Index Options share 93.23% (+4.11pp DoD, -0.46pp WoW, +10.44pp MoM) vs BSE",
-   "impact": "NSE index options share is broadly stable (±4.11pp on the day).",
+   "date": "2026-11-18",
+   "headline": "NSE Index Options share 33.03% (-60.20pp DoD, +0.35pp WoW, +8.85pp MoM) vs BSE",
+   "impact": "NSE index options share is broadly stable (±60.20pp on the day).",
    "reason": "Likely driven by expiry-day mix and the relative pull of BSE weekly index options - confirm against the linked headlines and the expiry calendar.",
    "actionable": "Index-options premium is the key battleground - BSE's Sensex/Bankex weeklies are pulling premium share. Review expiry-day calendar and contract specs urgently.",
    "news": [
@@ -156,9 +156,9 @@
    "label": "Total Options",
    "rival": "BSE",
    "severity": "normal",
-   "date": "2026-11-17",
-   "headline": "NSE Total Options share 93.31% (+3.92pp DoD, -0.43pp WoW, +10.47pp MoM) vs BSE",
-   "impact": "NSE total options share is broadly stable (±3.92pp on the day).",
+   "date": "2026-11-18",
+   "headline": "NSE Total Options share 34.58% (-58.73pp DoD, +0.40pp WoW, +8.92pp MoM) vs BSE",
+   "impact": "NSE total options share is broadly stable (±58.73pp on the day).",
    "reason": "Likely driven by expiry-day mix and the relative pull of BSE weekly index options - confirm against the linked headlines and the expiry calendar.",
    "actionable": "Total options premium share is the headline metric BSE is chasing - treat any sustained decline as strategic.",
    "news": [
@@ -181,9 +181,9 @@
    "label": "Total F&O",
    "rival": "BSE",
    "severity": "normal",
-   "date": "2026-11-17",
-   "headline": "NSE Total F&O share 93.32% (+3.90pp DoD, -0.43pp WoW, +10.42pp MoM) vs BSE",
-   "impact": "NSE total f&o share is broadly stable (±3.90pp on the day).",
+   "date": "2026-11-18",
+   "headline": "NSE Total F&O share 35.13% (-58.19pp DoD, +0.72pp WoW, +8.89pp MoM) vs BSE",
+   "impact": "NSE total f&o share is broadly stable (±58.19pp on the day).",
    "reason": "Likely driven by expiry-day mix and the relative pull of BSE weekly index options - confirm against the linked headlines and the expiry calendar.",
    "actionable": "Overall F&O share eroding - board-level competitive review warranted.",
    "news": [
@@ -271,12 +271,6 @@
    "date": "Tue, 17 Nov 2026 10:40:51 GMT"
   },
   {
-   "title": "Stock Markets Today: Sensex, Nifty Down on Profit-taking - Rediff",
-   "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxORkE3UWlyb0VrWmdfZy1IamtIemhZQU9YTjRfMGpnV3pNSVpRblc1SUZJWlAxRGNyNkJDMFpCWld3ekJSaDdpVWsyZ3lCQXY4SUdCSzc4bzJ3V1RjRFoxdkxwREdLTjFIUXlsWGtJQjM0VHlCR1ZuTnpaQk5VZENfelplNEZUejB2RUxKVXNtZFo3V1JiNFJQOVhHYW42UC15SzhDYmJOWG03M2xvLXN4MURiWWcxcExtLVJVaWhvWENyLUFScU9VRTR6Q1p5ZGhzN3Z2ZXM0c0prZUQ1bkRMcNIB4wFBVV95cUxPZjRrX3ZvejZibE9UU3NXMlVzZGNUcV9IMTM4SmRsTG5YM0FWazBwMXUwdG1MZHRhS1MtbFByZDJpY0cySzhPRzkyV3FPczJjTUltTm5fYVhMYlZCWGRQc3plUjIza2tfdWtpVTJYNnZzS0NqcndqdnJaTjJsUS1UbUg4VExnTW1TTEhtRXRET0k5RklfQlpBd3ZiZGNkOWhlckk5YVRZQ0pDVG41RVdZRWx3ZFZoeFNiS1pSTjl4TmFIdVd3Tk56LWJ1V2JnX01yZEwwb190ay1iU2JLaWh6bTU5WQ?oc=5",
-   "source": "Google News",
-   "date": "Wed, 18 Nov 2026 05:31:42 GMT"
-  },
-  {
    "title": "Shares of NSE surge to all-time high, market capitalisation crosses ₹5 trn - Business Standard",
    "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPQmx1WF9OVG5INGRFWWRpNDBjbEhaWGJZcWp4bHBQdkw5cWlPSGRrV3RDRHM3bGt4RDRnX1Q3OThtaDFzV1VNX2FxZzNxMjJjQjFIUGVmZXFuU2JkQjFoUlBIMnkzWDlYUlRiVWw1bWVrT1o5bVRkTTY2b25iQUdPMF9CYkh4OXFzZWRpRlkzWmt6SG4yXzBFMml6bGhyWnQzQjRDZVBUTWZXc1NSS1lCVzZDOGFQM0d0Mk1WWkF3YVlZT1RTOXpvb2pnSVhFOFV4ZzBQLUZ30gHbAUFVX3lxTE5wZm1lLTVacWt4bzRVOTY4VDVPa2U0OTAtbWhxamxXRS02WERkN000b3pqZUZMMHFubGllT0J2ZnIzUk5FWV9tY1gzU2cyeDBsbWlaY1czS3B3NTAwNmY3V3JqQTJYQjN0UWd0S2s2clpEZmdVQm1tNXlVUG9kMm5WT0ZuX3RNSjZrMTFvQUNKUXpsMHpWQ0c2NURBZkU1VkdNSVIyRDZXYndPUkRBOUI1aUVkVHdrb1hPTEJuOTU0SHNYQW5KVU1IdW1rWGNwUXJCRVNoUUR0WDlxOA?oc=5",
    "source": "Google News",
@@ -289,10 +283,10 @@
    "date": "Wed, 18 Nov 2026 15:22:38 GMT"
   },
   {
-   "title": "JK Shah Commerce Education shares list at ₹218 on NSE, ₹219 on BSE - BusinessLine",
-   "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOVHUzUXZKbHdOWF9LcUp3MFliVnRpNC1XZ2VCMmEzOGtnbko1VVVZNE9iaGVmSThCT2JEMGsxM1dVa05LbHNWWmFvWDdKbEFMaXlDRGptSzZqWWcxQ1dpN3ZCTEZLZk9BbXFCYlFoQjdTc0tueHZ1WTBsZlA5dHBsRll6RFcxZUc0WDhSUm9pa3dPLWZ5SXZyYjk0VzRKZU1BalNkQ0VTSTdIMEU4clhNUWQ3a1c5bnFNdzJPTVNmWXRncGQ2RERnTmFR0gHQAUFVX3lxTFBPT0FkOWZjZ05acW5GZld5RURVRVdkVk9aYU1VUVlGckYzeWNfNDVjeS1fRUN4VkZDamJNcGJPU1VaZ1pSS3U3SmhlZklBc2djZ3dkUkFGanJWX1phTlUxWk5VTVB0Y1pjT245QjJOMmFXZkpMYWRnNk5UUG9BdS05SlZzUUEwT250SnpGYko1UmtjM2hPeEItUzNfOHpnX0xUMzY3WnlrblNwejM0bFJ5U3hFd1BrYUJYY2ptX052c01iT1dWMDFSSzJMdGgyNC0?oc=5",
+   "title": "Green Energy Stocks Witness Mixed Trading as Battery and Gas Shares Gain While Solar and Wind Stocks Decline (18 November 2026) - SolarQuarter",
+   "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNT0JVeXlGOUpBbGJVLVhfYm0zbFE3ZklnSTVIZWUzV3dYQ2VCcTBkZWZVbThvXzk3bjlyRkpxZWI3TGx6dmQzaGxwRFRoQm9jOWoyR29jdms5N0tlcTF0WHRycVZmeDRaTEhXNGxhaUFPYjRrUGV0bHItMUxXcVh4Ujc2YVZaQlBkaUV3dklBQkhTWV9RU3I4OW44YXpwWktyQU40cURjVDhfMFlnUTgzWVhlVnNwbEdLVEtpQjlXZElkampOYVM2MWtuSlFIY3F0bks1V2hqVldsU0k5LWUyS2NrM0Z5QnlRM29fR284VWprNlpM?oc=5",
    "source": "Google News",
-   "date": "Wed, 18 Nov 2026 07:35:48 GMT"
+   "date": "Wed, 18 Nov 2026 12:21:11 GMT"
   },
   {
    "title": "NSE shares hit 52-week-high, m-cap crosses Rs 5 lakh crore for first time; should investors buy now? What... - Moneycontrol.com",
@@ -313,6 +307,12 @@
    "date": "Tue, 17 Nov 2026 02:08:36 GMT"
   },
   {
+   "title": "JK Shah Commerce Education shares list at ₹218 on NSE, ₹219 on BSE - BusinessLine",
+   "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOVHUzUXZKbHdOWF9LcUp3MFliVnRpNC1XZ2VCMmEzOGtnbko1VVVZNE9iaGVmSThCT2JEMGsxM1dVa05LbHNWWmFvWDdKbEFMaXlDRGptSzZqWWcxQ1dpN3ZCTEZLZk9BbXFCYlFoQjdTc0tueHZ1WTBsZlA5dHBsRll6RFcxZUc0WDhSUm9pa3dPLWZ5SXZyYjk0VzRKZU1BalNkQ0VTSTdIMEU4clhNUWQ3a1c5bnFNdzJPTVNmWXRncGQ2RERnTmFR0gHQAUFVX3lxTFBPT0FkOWZjZ05acW5GZld5RURVRVdkVk9aYU1VUVlGckYzeWNfNDVjeS1fRUN4VkZDamJNcGJPU1VaZ1pSS3U3SmhlZklBc2djZ3dkUkFGanJWX1phTlUxWk5VTVB0Y1pjT245QjJOMmFXZkpMYWRnNk5UUG9BdS05SlZzUUEwT250SnpGYko1UmtjM2hPeEItUzNfOHpnX0xUMzY3WnlrblNwejM0bFJ5U3hFd1BrYUJYY2ptX052c01iT1dWMDFSSzJMdGgyNC0?oc=5",
+   "source": "Google News",
+   "date": "Wed, 18 Nov 2026 07:35:48 GMT"
+  },
+  {
    "title": "NSE shares surge 17% since listing in September; Anand Rathi sees 15% more upside - Check target - Moneycontrol.com",
    "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOWkYxXzNhVkM3LVN2bDJoZ2dBckpHOVpSaEVha09iWVNDU0ZtdkxGUHN3c3FLQmR5Y0JBR01rU3B5NDA3NlZaUWhGTkF4X1k0Rk1NTTRYWld2cmZjaE01cmNXendIODVaeTZPMHNjOW1pTmdFNGFNeHhTNmdDWmM4RHB2Qmx5bGVzejB0ajdMQnNidEs5U0dvbFg0WHJBQS1Xdkg1a09ES19xY3ZOdWVCNG8yYWkyTFFjMmQwOTRYMFEtaUVmV2RjNzFwV2FYdmhYT0lkSnZxLTVUa2RCcjB6eUo5Q21Hdko0ckVHTdIB8gFBVV95cUxPLWxscjhJeHIxUUNKMnN6WTFSRHRpQXpkNWxocXlrSW5aR0Q5WFhCTDVrRkR5STNaeHhmTXhKUGc0Y2NlcEw1T2x2Wmk3ZDdEVFNjV0lTeWpTYThaTXNsdzZLZlRRZmlqRUhLU2tyb1lIU1dpbk8wclplSmk3OE5PeEo2b194eXNJSm9ZUXZyVENCQnNFQjAxVFZ0dWh5VzJpbXpIOF9kNFc1ZW5QbkNTR2ZES3hONFpJVGxOLVV2VXZyTm9aRlotM2VUdDZIcXRDVTRmcVpwenRJd2JUR3hsQmRlbDVvZWI2V2JYRXpfLWotUQ?oc=5",
    "source": "Google News",
@@ -325,16 +325,10 @@
    "date": "Wed, 18 Nov 2026 06:38:16 GMT"
   },
   {
-   "title": "FirstCry shares surge 11%, top BSE midcap gainer as management signals stronger Q3 growth, margin recovery - Moneycontrol.com",
-   "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNWEFXN3NHX1FsYlNaVmxfZXpWRTctUjVBSi16dFlhb3VmY2lmU1VwTmVqMllXOEN0VU5fSHJ4UEhVQ0FpVDNzN1ZHQ0VZTVE3OGthMUtNNUdtQkE1VkRRcjhkQl9POWlGeTdNb1QzTlY0MkY4MGlRM1NyN2hTbnR3Q21aQllnd2o0ZkdkWFR1UWxKZ3ZWSzVDNTRRUTVRNXoyeFVGX1F5WlVCU1JvYnJzS284emRmb2pUcWJSNnplUU05cUhnbkIyVTlMTzBGQWZXSzhDUmV0QjBQUDk5Y0VOelJHaVdOa2FoZ3lYa0lNb0JRVl9rWGFpOW9wZDnSAYICQVVfeXFMTXctcmdrUFRtdHlPX1JadmZOSlluaWpPTlZzekMya2tQY1hfZXJtN0hWYmtpWWhIQXN6OEJqdEt0bnRReU9RcVMwcXZwZ1I4RzA4YnMxT20yZjBEVzZ2WEF3a29iRWxnSGFlME9TU0VHcXM4ZnNpTU1DNlkzeTU2QnlsVDlHUEhOaXpvNFVZSjBmTWFPQU9Yc2x3bmpQcjVYOHE1MGIxZG9iYU5zRnJTR3FBdnp4RVgwTW5YMW5NVVgyMEV2Vklvc2ZDcUFHQ3BGRm1heGE0NmEtdUZZcldpUWRlNDhlbWx0SVItcVdDVnl4Yklob1dlbWdzWEUxdEpiTk93?oc=5",
+   "title": "Market News: Share Market Today, NIFTY, BSE/NSE LIVE, Sensex Today, Latest Share Market News Live Updates - Livemint",
+   "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFA2eURra0RNN0hZR0ZxYmMxV00ycGZkVS14M1JaTGFnc2lGeVdLS3NUaDQ0Q0pKSkpLbDcwMUhQN1lwcHJNbmc?oc=5",
    "source": "Google News",
-   "date": "Tue, 17 Nov 2026 07:05:58 GMT"
-  },
-  {
-   "title": "Green Energy Stocks Witness Mixed Trading as Battery and Gas Shares Gain While Solar and Wind Stocks Decline (18 November 2026) - SolarQuarter",
-   "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNT0JVeXlGOUpBbGJVLVhfYm0zbFE3ZklnSTVIZWUzV3dYQ2VCcTBkZWZVbThvXzk3bjlyRkpxZWI3TGx6dmQzaGxwRFRoQm9jOWoyR29jdms5N0tlcTF0WHRycVZmeDRaTEhXNGxhaUFPYjRrUGV0bHItMUxXcVh4Ujc2YVZaQlBkaUV3dklBQkhTWV9RU3I4OW44YXpwWktyQU40cURjVDhfMFlnUTgzWVhlVnNwbEdLVEtpQjlXZElkampOYVM2MWtuSlFIY3F0bks1V2hqVldsU0k5LWUyS2NrM0Z5QnlRM29fR284VWprNlpM?oc=5",
-   "source": "Google News",
-   "date": "Wed, 18 Nov 2026 12:21:11 GMT"
+   "date": "Mon, 16 Nov 2026 08:00:00 GMT"
   },
   {
    "title": "NSE uses equity option script to up ante in commodity F&O - Livemint",
@@ -407,15 +401,15 @@
    "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOSEVPeHdXNW1mZHpkdXA1TGlkTmhnQjIyZWdJMGhpYzJHaTVRNFQtQkRHNjEwY3RZTnhReFgyMllPVlh5VDZrRHBiaGp0Z2Q3RmlGeExrWkNIUjA5MGZPWmZqdkZJOVJ2Y3ZQSGQzTmRxd2VRQnlFOGFsSHQ5SU54SkRQWEx5cXI2S3loR1pWU0VSZmVPOV9pUENUdmpsTkdrS0ZRanlQaExXbWhGdlN1ZzZYN2x0VEFKa1A0ck1Uc0dsbkd2YjNHQWl5OXZVS2s1VDdRR19FZURVTXF6S21jcmNB0gHnAUFVX3lxTFBmZzFIWGpsUFM2dzczd0lXMWMxOVRuTGtCRlJxdW5SSDNKX3hwZHV1bzVISE9LaUdqR3NWc3phWnhKRHlBNjh1ODNLQ0kzVnktb0hOQkNFTUtLcU9WcU9aUXQwOFNlLTNwcWdTTzE5cE00ZVE4S0FGR0g0RHN0QmtvQ3IycjVxemViR1IyeGw1c3M5WnVqd25tb1Zlb01DajVDc2w5Q29TT1JYRGI3ZVoySTh2ZEJqZG44a29aU0tFZGR2NmItdl9PdGhGd2ROeUpJVldXUDJsSkZaT1dVUkdRcDY3TW41QQ?oc=5",
    "source": "Google News MCX",
    "date": "Sun, 08 Nov 2026 08:00:00 GMT"
+  },
+  {
+   "title": "Multi Commodity Exchange of India Ltd. Share Price Live Today - CNBC TV18",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNQmpjdWsxX1l2QUg1WHhyUTBmTXJ1aGt0OWdIZjR0bHRWY0ZnLXJnSFd4RGtkQkNOODFWa0xuQ1ZsM1VZVF9pVXBqR1prNXU2dnhWNHFrU0c1am5hMGhlcmg0T0pycmFZWUhjcGZBblpobW9ERHYxR21xbm40NTJQSmZJTVZCN1V2NWt1R05OSkQ5X3lQUkxXcA?oc=5",
+   "source": "Google News MCX",
+   "date": "Fri, 13 Nov 2026 09:58:00 GMT"
   }
  ],
  "circulars": [
-  {
-   "title": "Alufluoride declares ₹2.50 per share interim dividend for FY26 - scanx.trade",
-   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZVdzT0YydGNuSWZuUTUwX3ZRV2JHR3BHZDhxLVRrZXBjT3R3Vm5ZTENlLWxkb0R3djhhbFkyVmhyYWRDS0tRTmo5bmRsNEVLQzNIN1kyejVBXzFCc2pOMEtXd19FOWFLdV9Rb1B6WWxSeF9JdGk3UmJuNGpQQ1Ztb3h1b0EtQjlrVlVoNThuMUpOdVB1TzNFWV8xZTFPVkdWUjM3VE5vbkJvSzRSTWEteUZXZ0k?oc=5",
-   "source": "NSE circulars",
-   "date": "Wed, 18 Nov 2026 09:01:00 GMT"
-  },
   {
    "title": "NSE Share Price Hits Record High of ₹2,134; Market Capitalisation Crosses ₹5 Lakh Crore - India Infoline",
    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOclJRdmx6eDMxRExOd2JWOFh6M0hSaFdiQzZRT0o3RTFYS1ZYNWtoR2EyR18yM3owWE9BZ3VjamJyb2h5dFBZTzAwVW5YZGptaGlUa3ZVU3JMcVQ4c1lTZGNhZXE3OU9POFM5TUFxZ2luVUJPRm94YTBSWHhQc3hhX1llQk85WDA3SGZLNTlVNkhFSGpFb2YzSUNOVVp6dk1xcmhRaHlkNzh5VXYzeFlSOG1WSDh1M0VGZVk0TGk3MGVldGdjelJZ?oc=5",
@@ -441,16 +435,16 @@
    "date": "Wed, 18 Nov 2026 08:18:00 GMT"
   },
   {
-   "title": "Vishal Mega Mart NSE:VMM Independent Director Appointment 2026 - Kalkine India",
-   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQQmpQNk04NVYta2JuYXB6bElpUzlJMmtJdUtwMEVmeEE3ZzlqVzUwMFlmNDVfSm1XZXBRQk9XdDdYNk1BcWJaX05Tc0UwTWZJYWlfdlpFWWEwaU1hWnIxWmhpaHJtcE9XRmNpalhkdjlyMmNzVF92aDFRVm03VFhHa29LM3JaRWJVT2h2eWotRWF4VkQ4NFhwWnNIeGV0U2xWN1VjSC05S25LTy1KbTVuNVMxQ2tGc0tuaHFOX2JTeDg?oc=5",
-   "source": "NSE circulars",
-   "date": "Tue, 17 Nov 2026 05:51:00 GMT"
-  },
-  {
    "title": "Brokers Are Upgrading Their Views On TD Power Systems Limited (NSE:TDPOWERSYS) With These New Forecasts - Simply Wall St",
    "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNNDRuSEk5M3hwYUdHZ1ByVUxXZlg3bTlJNW9iTmVqSzNZVkZQeFdfakdoRm9kV19GU2pDQ3dvMk54V2kzMjZpVkZ4SkxaZFN4elZVZjQ0cjVhTzJLNkE0YVhnSm5uRmN0NW5XUEhoU3JVenkwSTZDMXlHMWtrVElNT05BcGFpb3lnTFVqTXVkRUpLZndDRDNvQ1ExVEMzZnUwWDFaSTNTNVNEN3JocFI3WncyNlUtb0lxcEhCcUFFMmVhbzVscHRPUDZBbFVZWWt2OXFRcmpULUlTbUg2OXVObTF3Wk03NzDSAewBQVVfeXFMTVdPWjRWVlVvNmxTUXVhVXVjZDgyZ3JJNjRXTjU4TkwzZEl4YTlxQ3I3RW43SmFIVzFrRXQwSnpTTlk2OTRCeVNyaGFWcGRqZzlJY3cwVXVibU1HNGs5cmY3OXVWWjd0dXZPTFVRMmRTdEkxelM5SlEtNzBwNElGdEM5NE1NNFdYQkZwVWdMWEx4QkdYZy1LVG9yUWJBd3p6YjBPOFduMmM5LW82WDF1dlEzTmttS1lFR2x5WHlfRDdmTHFKbEFieERoWFRZazJlUnpIWnQ5clo4NUlxcGtJTUtNMjBSQW9TVU4xM1g?oc=5",
    "source": "NSE circulars",
    "date": "Wed, 18 Nov 2026 00:08:30 GMT"
+  },
+  {
+   "title": "Vishal Mega Mart NSE:VMM Independent Director Appointment 2026 - Kalkine India",
+   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQQmpQNk04NVYta2JuYXB6bElpUzlJMmtJdUtwMEVmeEE3ZzlqVzUwMFlmNDVfSm1XZXBRQk9XdDdYNk1BcWJaX05Tc0UwTWZJYWlfdlpFWWEwaU1hWnIxWmhpaHJtcE9XRmNpalhkdjlyMmNzVF92aDFRVm03VFhHa29LM3JaRWJVT2h2eWotRWF4VkQ4NFhwWnNIeGV0U2xWN1VjSC05S25LTy1KbTVuNVMxQ2tGc0tuaHFOX2JTeDg?oc=5",
+   "source": "NSE circulars",
+   "date": "Tue, 17 Nov 2026 05:51:00 GMT"
   },
   {
    "title": "Meganet Technologies, an AI infrastructure provider, files DRHP with SEBI for IPO - Upstox",
@@ -471,10 +465,10 @@
    "date": "Tue, 17 Nov 2026 11:18:00 GMT"
   },
   {
-   "title": "There May Be Underlying Issues With The Quality Of Patil Automation's (NSE:PATILAUTOM) Earnings - Simply Wall St",
-   "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQbGJJQkRnb2JWRnhtWU9PUjloaGsxb1VFbV9JZy1zOTlEQWdzSXBvNTNGdHZZdTJIQUlXRG01NzY5UzBPN2JjTnFIZ2RDOFlRQ3ItbVN6dXpzYzJScFdUaHBMMGtUWjBKT3lhcS1PSksySkFpSW1VTEVHRlQwMk82NFl2S0ViQzJGaUNQWnFzQW1sQ0lMY2FQWDZfWlgyVnJSRF9DNllfSnQ1ODFHaExDUFVfR1ZNR2M3ZzVidjhMTEJSOTFSZjNaMWwtSDdNbVUxSWxmbkpQUzFaUWZycG5VUFNQNDZ0U03SAewBQVVfeXFMT2o3XzBkWWpQMlF1THhaaTB2OUZ1eGVEeFFKbjN3NWNXX0tudVBYbkV4bEdYVU4zRlBaSmtrWU93bW9XV0pKYnRJTGItcWNMMi1RQi1OTnZTdzJXMnpBVlJ0UWVSVm9EVEo3QVg1OFJaVVRWd1hqbkdsa2prWXl4TnRlWFlWS1hnTG1yNHlYYURWamIzVEZlVzRxS2ZNX3cwZGg1VVMxaWlJQlZPM0hVX1JMbVhzVnZkZHRHNENCZ1haS1dnUEJmNF83ajV3WXJYdzF6eG82U2dGZE8zU1NrZzR4dV9BMmd2cEtzbHU?oc=5",
+   "title": "Inspirisys Solutions' (NSE:INSPIRISYS) Earnings Seem To Be Promising - Simply Wall St",
+   "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPdmZjR0h0aGVROTlmY0hzWThfa2syQzh0NjJxUEdpQVFSOUJwOVd0blZQOFlkTFM4LXlJY0x6Q2RfaHNWbkNwekh5UjNpVE50LWdNUEF2a1RraXpqN0dtS2EwY2lIZ1FUSDNXWW9zOTdXREcwUlJScFBmTEhuQ2tNMlppcGNPbVp4QmQyR21fbVkwT3R4c1Fjck5oMnN6ZzJkOTRkQkNkVzc4eFpEZjJfN21NQXpyc2Z2MDRadXVuNzJvVWR3VzhjZHVRdkJia1c4aEhDMWtHSXE3LVhDNFlnVmNZNNIB6AFBVV95cUxPMHdfSDdsR2ZlX1hFNHFmWTRIemZ2VWJEajJMQ0FIS0llbXJ0WnYxbE1zcGNZVlFwNFQ3VmJfVG16OUFwRXhNR01BMTc2TDNGWi1sYXhJc0FNblpJVXM2amZDOFY0Wl9nT0pna0NmLWVnbUdvalNNSUg1U0dIWjZWVG9NTDhqSGhJWHdPM09adFhxY2JCNkZRN3dtWkZEZVpCSkdFQUZIYnhvUDExU2FNWDBRX0o4Ynp5RFpGWjk0MGxFQVNXbjF1dnlaVkJRWjhiLXBCN0ZPZ0piNXA4TVVxczNiTlVBUlhO?oc=5",
    "source": "NSE circulars",
-   "date": "Wed, 18 Nov 2026 00:03:20 GMT"
+   "date": "Thu, 19 Nov 2026 00:10:12 GMT"
   },
   {
    "title": "Bharat Petroleum BPCL: Dividend Entitlement and the Dates - Kalkine India",
@@ -489,10 +483,22 @@
    "date": "Wed, 18 Nov 2026 14:36:02 GMT"
   },
   {
-   "title": "Karnataka Bank Names Udaya Kumar Hebbar as New MD and CEO for Three-Year Term - Kalkine Media",
-   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxONVA2RHp0aU1DaG04SFhTNUFBNEc4OHV3cXNwNE83TGJPUjVpQXA0U2R1bkFwdWRkb1Z1NTRSZzhfeDQtOHNkdGQ0S21hOHQxRDRJd1BOZVpNcGVCUExBS0drTkpiVHBFOS15SGVRSGpoejItUlBzSHFKMzRxbndPVWFUdjZQSk12aVV1RFRXbHJSZ2lLZGVlYzFSRDZWMHJDd0lqcU9UdVQ3SmZ1MEhOSzkweUh5VmpDNWN6WW1TNGQ2QQ?oc=5",
+   "title": "Oracle Financial Services Software (NSE:OFSS) Announces Relocation of Share Transfer Agent's Corporate Office - Kalkine Media",
+   "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQUzR4N0NHVlpqMkRxOFJXWTJ4TUswb09rVVRQcFlQQnJaNUVVUUZjWjhJbDYzc29BaDAyc2xLekZuVkdjZW5IOS1USW43T2ZrU2QyZ3NjekE0eGQ5QS1aeUFvSEo1ZFZGZjdoemtNblluYkpXSFNCNGx3SV9wcTJUb25GQmQtcHFhWHJGcHR1VjVtYzNtZ0lGMmlmdUhJXzdGd3hVTU1BWmFidFpJNkpISVZsSkEybkpSZXhuQ0RHaXVMUVBQM3lvVGotb3B0aDQzRzJ4dURGVW5CZ0d0NkNUc1JsUXdUY2c?oc=5",
    "source": "NSE circulars",
-   "date": "Wed, 18 Nov 2026 05:51:00 GMT"
+   "date": "Tue, 17 Nov 2026 07:41:00 GMT"
+  },
+  {
+   "title": "There May Be Underlying Issues With The Quality Of Patil Automation's (NSE:PATILAUTOM) Earnings - Simply Wall St",
+   "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQbGJJQkRnb2JWRnhtWU9PUjloaGsxb1VFbV9JZy1zOTlEQWdzSXBvNTNGdHZZdTJIQUlXRG01NzY5UzBPN2JjTnFIZ2RDOFlRQ3ItbVN6dXpzYzJScFdUaHBMMGtUWjBKT3lhcS1PSksySkFpSW1VTEVHRlQwMk82NFl2S0ViQzJGaUNQWnFzQW1sQ0lMY2FQWDZfWlgyVnJSRF9DNllfSnQ1ODFHaExDUFVfR1ZNR2M3ZzVidjhMTEJSOTFSZjNaMWwtSDdNbVUxSWxmbkpQUzFaUWZycG5VUFNQNDZ0U03SAewBQVVfeXFMT2o3XzBkWWpQMlF1THhaaTB2OUZ1eGVEeFFKbjN3NWNXX0tudVBYbkV4bEdYVU4zRlBaSmtrWU93bW9XV0pKYnRJTGItcWNMMi1RQi1OTnZTdzJXMnpBVlJ0UWVSVm9EVEo3QVg1OFJaVVRWd1hqbkdsa2prWXl4TnRlWFlWS1hnTG1yNHlYYURWamIzVEZlVzRxS2ZNX3cwZGg1VVMxaWlJQlZPM0hVX1JMbVhzVnZkZHRHNENCZ1haS1dnUEJmNF83ajV3WXJYdzF6eG82U2dGZE8zU1NrZzR4dV9BMmd2cEtzbHU?oc=5",
+   "source": "NSE circulars",
+   "date": "Wed, 18 Nov 2026 00:03:20 GMT"
+  },
+  {
+   "title": "We Think That There Are Some Issues For Kataria Industries (NSE:KATARIA) Beyond Its Promising Earnings - Simply Wall St",
+   "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPY2dxUlJzZGhKTng1LTBtemVmZ3NXLU9SMVhvWUN6S2t3S09QeWs5U0pyMHJaV0RKTm9kYWVubjRFTEtBQndnbEMxS0JBVEM1QjJIcVpiS0RWazBHNGlFeUNocExqQnl2TlFlNThTN2Z6ZWtnamg5YmVfckpLbFk5NFBFdXhmOF9XeWlSM0NYWkxfWXBzcjRkVUx5UGZPakRlQ1Fra053Y080VW14aWZGVGhERk91NEFsSEZOWll1b3Rrem5vSGtPYlc5WWhiQVljNTUyam5mckhfTk9aZEHSAeMBQVVfeXFMTnZtOEJSTEFBWkJTbGhHbUw0Q0VKdDFidFNFRHdzZng4NTE5OHF5LTB4T2kyTkFacFdIV2V1c015czBvVUExd3Brb0J2SkZiMHZ3UUktTHVSUkxMM29vWjdYVkx4czRYcDBxQVJfVU5TTElmRU94MXEzWktqV21nX2JMaDBoYlBvUUpPaDlmVjVCNjhYX0Y1b2hCd04zWWZNeVljVzdJdVlEQ0FQYjRGcWpZX0FPZ1l3b0loTVNvZWRtM2dySTcxU3BadXpUenIyb3pMeERBeFV4dHlzRTlFQnVwc1k?oc=5",
+   "source": "NSE circulars",
+   "date": "Thu, 19 Nov 2026 00:08:05 GMT"
   },
   {
    "title": "NYSE Texas filed to remove Texas Pacific Land (TPL) stock from listing, registration or both. - Stock Titan",
@@ -501,10 +507,10 @@
    "date": "Wed, 18 Nov 2026 17:16:28 GMT"
   },
   {
-   "title": "Oracle Financial Services Software (NSE:OFSS) Announces Relocation of Share Transfer Agent's Corporate Office - Kalkine Media",
-   "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQUzR4N0NHVlpqMkRxOFJXWTJ4TUswb09rVVRQcFlQQnJaNUVVUUZjWjhJbDYzc29BaDAyc2xLekZuVkdjZW5IOS1USW43T2ZrU2QyZ3NjekE0eGQ5QS1aeUFvSEo1ZFZGZjdoemtNblluYkpXSFNCNGx3SV9wcTJUb25GQmQtcHFhWHJGcHR1VjVtYzNtZ0lGMmlmdUhJXzdGd3hVTU1BWmFidFpJNkpISVZsSkEybkpSZXhuQ0RHaXVMUVBQM3lvVGotb3B0aDQzRzJ4dURGVW5CZ0d0NkNUc1JsUXdUY2c?oc=5",
+   "title": "Karnataka Bank Names Udaya Kumar Hebbar as New MD and CEO for Three-Year Term - Kalkine Media",
+   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxONVA2RHp0aU1DaG04SFhTNUFBNEc4OHV3cXNwNE83TGJPUjVpQXA0U2R1bkFwdWRkb1Z1NTRSZzhfeDQtOHNkdGQ0S21hOHQxRDRJd1BOZVpNcGVCUExBS0drTkpiVHBFOS15SGVRSGpoejItUlBzSHFKMzRxbndPVWFUdjZQSk12aVV1RFRXbHJSZ2lLZGVlYzFSRDZWMHJDd0lqcU9UdVQ3SmZ1MEhOSzkweUh5VmpDNWN6WW1TNGQ2QQ?oc=5",
    "source": "NSE circulars",
-   "date": "Tue, 17 Nov 2026 07:41:00 GMT"
+   "date": "Wed, 18 Nov 2026 05:51:00 GMT"
   },
   {
    "title": "Bharat Forge (NSE:BHARATFORG) Finalizes Rs 290.5 Crore Equity Investment in Kalyani Strategic Systems Limited - Kalkine Media",
@@ -603,16 +609,16 @@
    "date": "Tue, 17 Nov 2026 15:22:19 GMT"
   },
   {
-   "title": "NRIs can complete investment KYC from abroad starting Dec 3: What changes? - Business Standard",
-   "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNaXhsSm1fZWE2dE12VUZYdTZKTnBnOEVFMURQZk5JWHk3OWh3Yy1VTWphb3pldzFjSHJCMnZlLVcxWDRqSXdyc2VPaXNnSWxtRGhaM2RnaTNZemJYbEl0R3hFdnE1V1hDSW5JbVlCdHBrYUhleUN4SUhsejBJUDdwTEFFNk9YTXc3UDRLTFlEUTRSMmVVN2JtUnZKaGpoc0xTVWRzOEJDMDNwMG0tRHZkZ3ZBTEFLeWlvOUlaMFRFT3dpaWdnN2NxTks0Zl8zcG1HcXExU1NB0gHbAUFVX3lxTE9obk9ZWTR4anNaMGJaSGJJbGJGMmRsSFkxd1VGaHpPT2V5ZTBjNm1rbS0yb01fN3NwenhnSXRlZFRiX3FJc25vY1Y0dkRxNDI4bF92aGpPOEZLRm1Rd3lBSU84NGotZ3BFYnViU1dmYjJsN1QxdnJTaWxRYnJfdl9wMGdjQ3FuanRZak04dUpOWXpMLVhvZzRreFdheW90WUZtY3dUb0RuRXgxZGNMMmdVdTY3SFBVdnNOVm9zeEZWVWJWNWMtZU50WmlxMkFmdVVyVDNpQkdydlZjVQ?oc=5",
-   "source": "SEBI circulars",
-   "date": "Wed, 11 Nov 2026 12:08:09 GMT"
-  },
-  {
    "title": "SEBI allows mutual funds to net cash market fund settlements from April 2027 - ETLegalWorld.com",
    "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPeFg0eXh3SmJPQ2ZnODdtQW1FLUVmc0ptc3Y4eEpyU0VpYURUZE1ZUEcwUzh6aF95NjRfMVFJeURBQk1oVGhaRGt2a3hDc3dQUkR4SXpSY0Riem4tT3BnZVpTYllaU3kxVUxxcU1meFNxcXl1TUMzN3hQc2Z2X0NfLV81NElIZ1NFMTIzWXJjMS1wck1sR3dHMU1aYlNKSWl2YVVRZVNVRXJQNXFFTk5Xc3A5akxLTTBqcEgySzZjTEJMaF9Db0lyempId0R4aExWU0hNWVBzR01BcEc1RVHSAeIBQVVfeXFMT05VcDlKQmdMX0RzM2VYbm1YLWJUUXlObVFfRXlOcGUyU1dWb21NQ2VPenB6V2gxRW82XzV5YjBMelJ1TDBUWW5LV2k2dHYwdm90SEc4N3FuZ0E4enByT3BlX04tcm1tZ0E2SGR6bWdYd0RyajRYRnJ3QWV5N2JCZGxEcUZKUHhzekZqbHZPWjh5Wmt3VExrRFZZMWV5UG51WGdzb3BQaWFuX2NTT0RBc0ZBejRrdjNsU2N2R2d2ZHIyR0g1dDhheUlMZjNWNjRWWDk4ZnZQWjFVdXR0MVFuOGVkZw?oc=5",
    "source": "SEBI circulars",
    "date": "Fri, 06 Nov 2026 14:48:45 GMT"
+  },
+  {
+   "title": "NRIs can complete investment KYC from abroad starting Dec 3: What changes? - Business Standard",
+   "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNaXhsSm1fZWE2dE12VUZYdTZKTnBnOEVFMURQZk5JWHk3OWh3Yy1VTWphb3pldzFjSHJCMnZlLVcxWDRqSXdyc2VPaXNnSWxtRGhaM2RnaTNZemJYbEl0R3hFdnE1V1hDSW5JbVlCdHBrYUhleUN4SUhsejBJUDdwTEFFNk9YTXc3UDRLTFlEUTRSMmVVN2JtUnZKaGpoc0xTVWRzOEJDMDNwMG0tRHZkZ3ZBTEFLeWlvOUlaMFRFT3dpaWdnN2NxTks0Zl8zcG1HcXExU1NB0gHbAUFVX3lxTE9obk9ZWTR4anNaMGJaSGJJbGJGMmRsSFkxd1VGaHpPT2V5ZTBjNm1rbS0yb01fN3NwenhnSXRlZFRiX3FJc25vY1Y0dkRxNDI4bF92aGpPOEZLRm1Rd3lBSU84NGotZ3BFYnViU1dmYjJsN1QxdnJTaWxRYnJfdl9wMGdjQ3FuanRZak04dUpOWXpMLVhvZzRreFdheW90WUZtY3dUb0RuRXgxZGNMMmdVdTY3SFBVdnNOVm9zeEZWVWJWNWMtZU50WmlxMkFmdVVyVDNpQkdydlZjVQ?oc=5",
+   "source": "SEBI circulars",
+   "date": "Wed, 11 Nov 2026 12:08:09 GMT"
   },
   {
    "title": "SEBI allows REITs, InvITs to issue depository receipts on GIFT City exchanges; sets 75 percent approval... - Moneycontrol.com",
@@ -643,12 +649,6 @@
    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPbld0MEV6aFRxSVl2bUZMeXpFMHZ1MUFQQjZOc3dPUmpaLW1jYzFHMl9wZDhhTlN2dWJobzBHd3VGMjNUNVBzRFF2QmdMN2p2NlRWNFdBaGxKMmJqd05hOGRicWZDMlN1bUhJSkRTekFNWjNjMGptc1dBTXVPMW5sazBURWlMNk1fMU9FY25Mb3BIQ0s1TFhHSFd5NHFvZnh3MWFQTTlsR2Z5ekF0TXFFZkl6dHNicm8zZ1dnNm5DRElfMXJkNVZtTThxSjR6M0hw0gHWAUFVX3lxTE1HSHREUTFvN0t5Ry1Rak5XWDl3NUN3WHBqeklZOGc5akNnOUx1WFNtYzFzQnRQbmhVcW03S2h0OFRwdVd5R1BFYXV1N3FMWGdDU2VqdTl2Ml8zbjVfbjhqU2lKT2pncFBWcThtV1gwVjlUUGNJdGZ5YUZKb29lYVFFVTZtOW43Ykh2UzZuelhBSGRwVVlNOXNBQ1J0MER6VVN0ZHprUEdWVmQyOFpZZ3c1ZGtWOVdPMUtEX3B0OW80b0JWbXBEVXl0QlR2MllIcHhDaUtJTWc?oc=5",
    "source": "SEBI circulars",
    "date": "Fri, 06 Nov 2026 08:00:00 GMT"
-  },
-  {
-   "title": "No 24x7 trading in immediate future, Sebi chief flags cyber risks, liquidity concerns - The Times of India",
-   "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOVHpKTENDcTJxQUxZcFdYdDRkUUhJbUVINy1nSHlGcDR0eWl0Vk1tTzJzd2p3SF9YdGRxc3drX1ZFRXFteVBZazlfaWxMbEs4RXdIT21GRnNkZnk5SmZlMUxXRUEtRC1YMDcxWGJrdzZXRmI1YWxHdkJlNEFfbUVWMVNPNTdYejd3MlVZbXpDN3dwaC03Z2w0dldrM25zUFBYZWphYTdhYzdPXy0xYnp6aUpFTldaN2tOWXlidG1kTkU4SjRlTUU1U0EydGVrRG8wMjN4Y3VjVnZ5VXliTnBNTVNrTVc3UXJhTUhiZlNSZEJaNW0yTHk3c0VXNGJJUdIBgwJBVV95cUxQU25Pc0tHemtXSnM0ejN0U0kyRFNNbE1TanZwUG5BWTRFa09WNGZqTUhrcjdaaEhRNUxuZC1FYnpqcEoxQ1NQUmZIRTE4R1FlM2xyU0w1OEJZTXBvN2hQVWoxWDNKX3QzTElrRUVxYTFHNjNtVlhrMEc0d2Q5bGNIZ2hPVjVtVTJ2QzdFVmhYWWdHdUpZdEgtcUowekxyRXdsa0xieU05SEV2OGo0RzhhaWxqODRfSVZ2b0VIV0d0S1NLTFZGWVVuT2NyQUYzdGwzRWdzN3JGN1RSSTJOdHFvOGllX01sU1Y2V0JsWHVoRmZuQ1RlTXlIT0pkX3BZd3hNU1Q4?oc=5",
-   "source": "SEBI circulars",
-   "date": "Wed, 18 Nov 2026 08:54:00 GMT"
   }
  ]
 }
