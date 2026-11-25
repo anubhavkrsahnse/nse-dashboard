@@ -14698,6 +14698,26 @@
    "_errors": {
     "mcx": "MCX 2026-11-23: HTTP 403"
    }
+  },
+  "2026-11-24": {
+   "nse_com": 2101.296575,
+   "cx_nse": {
+    "gold10g": 0.71,
+    "crude": 2076.03,
+    "electricity": 0.97,
+    "natgas": 22.69
+   },
+   "rfq_turnover": 3459.99,
+   "rfq_trades": 27132,
+   "obpp_turnover": null,
+   "egr_turnover": 0.0,
+   "_errors": {
+    "nse_cm": "https://archives.nseindia.com/archives/equities/mkt/MA241126.csv -> HTTP 404",
+    "nse_fo": "https://archives.nseindia.com/content/fo/BhavCopy_NSE_FO_0_0_0_20261124_F_0000.csv.zip -> HTTP 404",
+    "bse_cm": "BSE CM bhavcopy 2026-11-24: zero total",
+    "bse_fo": "BSE FO bhavcopy 2026-11-24: zero total (holiday?)",
+    "mcx": "MCX 2026-11-24: HTTP 403"
+   }
   }
  }
 }
